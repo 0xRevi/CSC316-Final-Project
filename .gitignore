@@ -1,0 +1,15 @@
+
+precompute
+tests
+
+# VSCode Editor 
+.vscode
+
+# MacOS Garbage Collection
+.DS_Store
+
+
+.env
+env
+.venv
+venv
