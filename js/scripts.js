@@ -47,11 +47,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Initialize fullPage.js with `onLeave` and `afterLoad` to handle graph state
+    debugger;
     new fullpage('#fullpage', {
         autoScrolling: true,
         navigation: true,
         scrollHorizontally: true,
-
         // Handles cleanup when leaving a section
         onLeave: function(origin, destination, direction) {
             console.log(`Leaving section: ${origin.index}`);
@@ -71,17 +71,18 @@ document.addEventListener("DOMContentLoaded", () => {
             //  TODO: Work in progress. Unsure if this generalizes well enough.
             if (destination.item.id === "network-graph") {
                 loadComponent(
-                  "artist-network",
-                  "components/artist-network.html",
-                  ["js/ArtistNetworkGraph.js"],
-                  () => {
-                    // Create a new instance with the container and an initial year (or other options)
-                    const artistNetwork = new ArtistNetworkGraph(d3.select("#artist-network-container"), { initialYear: "2024" });
-                    artistNetwork.init();
-                  }
-                );
-              }
-
+                    "artist-network",
+                    "components/artist-network.html",
+                    ["js/artistNetworkGraph.js"],
+                    () => {
+                      const artistNetwork = new ArtistNetworkGraph(
+                        d3.select("#artist-network-container"),
+                        { initialYear: "2024" }
+                      );
+                      artistNetwork.init();
+                    }
+                  );
+            }
             if (destination.item.id === "scrolly-chart") {
                 console.log("Loading bar chart race...");
                 loadComponent(
@@ -96,15 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 );
             }
         }
-    });
-
-    window.addEventListener("resize", () => {
-        console.log("Window resized, updating graph...");
-
-        d3.select("#artist-network-container").select("svg").remove();
-
-        initializeGraph(d3.select("#artist-network-container"));
-    });
+    })
 
 
 });

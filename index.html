@@ -6,6 +6,9 @@
     <title>Spotify Global 200 Analysis</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css">
+    <script>
+        console.log("index.html: Head section loaded.");
+    </script>
 </head>
 <body>
 
@@ -23,6 +26,9 @@
 
         <!-- Bar Chart Race & Timeline Section -->
         <section class="section" id="scrolly-chart">
+            <script>
+                console.log("index.html: barchart section loaded.");
+            </script>
             <div id="visualization-container"></div>
         </section>
     </div>
@@ -32,6 +38,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
 
-    <script src="js/scripts.js"></script>
+    <!-- Webpage conditional logic endpoint -->
+    <script src="./js/scripts.js"></script>
+
 </body>
 </html>
