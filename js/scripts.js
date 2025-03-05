@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Initialize fullPage.js with `onLeave` and `afterLoad` to handle graph state
-    debugger;
     new fullpage('#fullpage', {
         autoScrolling: true,
         navigation: true,
