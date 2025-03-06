@@ -60,6 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.log("Removing existing graph...");
                 d3.select("#artist-network-container").select("svg").remove();
             }
+
+
         },
 
         // Handles initialization when entering a section
@@ -95,8 +97,42 @@ document.addEventListener("DOMContentLoaded", () => {
                     ]
                 );
             }
+
+            if (destination.item.id === "bubble-chart") {
+                console.log("Loading the bubble chart...");
+                loadComponent(
+                    "chart",
+                    "components/bubble-chart.html",
+                    ["js/bubbleChart.js"],
+                    () => {
+                        const bubbleChart = new BubbleChart({
+                            container: "#chart",
+                            dataPath: "data/intro_genre/vis1.csv"
+                        });
+                        bubbleChart.render();
+                    }
+                );
+            }
+
+            if (destination.item.id === "bar-chart") {
+                console.log("Loading the bar chart...");
+                loadComponent(
+                    "barChart",
+                    "components/genre-chart.html",
+                    ["js/barChart.js"],
+                    () => {
+                        const barChart = new BarChart({
+                            dataPath: "data/intro_genre/vis2.csv",
+                            container: "#barChart"
+                        });
+                        barChart.render();
+                    }
+                );
+            }
+
+
         }
-    })
+    });
 
 
 });
