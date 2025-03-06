@@ -1,0 +1,800 @@
+Artist,Genres,num_hits,num_collab_hits
+Post Malone,"big room, dance, edm, electronic, hip hop, house, hyphy, trance, trap",34,16
+21 Savage,"hip hop, rap, southern hip hop, trap",32,16
+Camila Cabello,"hip hop, latin, melodic rap, pop, rap, reggaeton, trap",18,6
+Young Thug,"emo rap, hip hop, melodic rap, pop, rap, trap",15,15
+Dua Lipa,"edm, electronic, electronica, k-pop, moombahton, pop, progressive house",8,4
+Selena Gomez,"edm, electronic, latin, pop, reggaeton, soft pop, trap latino, tropical house, urbano latino",7,5
+Marshmello,"cloud rap, crunk, edm, electronic, emo rap, hip hop, melodic rap, memphis rap, pop, soft pop",10,10
+Ed Sheeran,"hip hop, pop, rap, soft pop",12,4
+Eminem,"g-funk, gangster rap, hip hop, pop, rap, soft pop, west coast hip hop",20,10
+Luis Fonsi,"dancehall, latin, reggaeton, traditional music, trap latino, urbano latino",9,9
+Demi Lovato,latin,10,6
+Maroon 5,"hip hop, melodic rap, pop, r&b",10,8
+SZA,"edm, electronic, hip hop, pop, r&b, rap, west coast hip hop",12,12
+Lil Pump,"electronic, emo rap, hip hop, latin, melodic rap, moombahton, rap, reggaeton, southern hip hop, trap, urbano latino",14,9
+G-Eazy,"hip hop, hyphy, memphis rap, pop, rap, soft pop, southern hip hop",6,6
+Halsey,"modern rock, rock",7,5
+Daddy Yankee,"bachata, bachata pop, dembow, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",13,11
+Justin Bieber,"alternative hip hop, dance, edm, electronic, hip hop, latin, r&b, rap, reggaeton",12,10
+NF,"christian hip hop, hip hop",3,0
+Maluma,"brazilian funk, brazilian pop, emo rap, funk, funk carioca, funk pop, hip hop, latin, latin pop, pop, r&b, reggaeton, trap latino, urbano latino",14,9
+Nego do Borel,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pop, r&b, reggaeton, urbano latino",2,2
+Khalid,"edm, electronic, electronica, hip hop, pop, progressive house, trap",25,15
+NATTI NATASHA,"latin, latin pop, pop, reggaeton, trap latino, urbano latino",7,7
+Ozuna,"bachata, bachata pop, colombian pop, dembow, hip hop, latin, latin pop, pop, reggaeton, trap, trap latino, urbano latino",31,22
+Sam Smith,"edm, electronic, pop, soft pop",6,2
+J Balvin,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, bachata, bachata pop, brazilian funk, brazilian pop, dance, dancehall, edm, electronic, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, rap, reggaeton, traditional music, trap latino, urbano latino",24,19
+Willy William,"dance, edm, electronic, latin, reggaeton",4,4
+A$AP Rocky,"alternative r&b, art pop, crunk, downtempo, electronic, grime, hip hop, hyphy, memphis rap, pop, r&b, rap, southern hip hop, trap, trip hop",23,14
+Cardi B,"art pop, hip hop, hyperpop, hyphy, latin, pop, r&b, rap, reggaeton, trap, trap latino, urbano latino",33,24
+Beyoncé,"east coast hip hop, hip hop, latin, pop, rap, reggaeton, soft pop",5,4
+Portugal. The Man,,1,0
+Danny Ocean,"latin, reggaeton",2,0
+Bad Bunny,"argentine trap, bachata, bachata pop, dembow, electronic, hip hop, latin, latin hip hop, latin pop, merengue, moombahton, pop, rap, reggaeton, salsa, salsa romantica, trap, trap latino, turreo, urbano latino",25,16
+Prince Royce,"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",3,2
+Mambo Kingz,"bachata, bachata pop, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",4,4
+DJ Luian,"bachata, bachata pop, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",4,4
+Hailee Steinfeld,"acoustic country, country, edm, electronic, pop country",6,5
+Alesso,"acoustic country, country, edm, electronic, pop country",3,2
+Florida Georgia Line,"acoustic country, country, edm, electronic, pop country",6,4
+WATT,"acoustic country, country, edm, electronic, pop country",2,2
+Anitta,"agronejo, arrocha, brazilian funk, brazilian pop, country, forró, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, piseiro, pop, r&b, reggaeton, sertanejo, sertanejo universitário",9,6
+Imagine Dragons,"electronic, tropical house",31,2
+ZAYN,,9,4
+Sia,"big room, dance, edm, electronic, moombahton",12,9
+Lil Uzi Vert,"emo rap, hip hop, melodic rap, rage rap, rap, trap",11,9
+Becky G,"argentine trap, bachata, bachata pop, dance, dancehall, edm, electronic, hip hop, latin, latin pop, pop, reggaeton, traditional music, trap latino, urbano latino",9,9
+Logic,"boom bap, east coast hip hop, edm, electronic, hardcore hip hop, hip hop, pop, rap, soft pop, southern hip hop",33,17
+Alessia Cara,"edm, electronic",4,2
+French Montana,"art pop, big room, dance, edm, electronic, hip hop, hyperpop, latin, moombahton, pop, rap, reggaeton, trap latino",10,10
+Swae Lee,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, crunk, dancehall, electronic, emo rap, hip hop, latin, memphis rap, moombahton, pop, r&b, rap, reggaeton, traditional music, urbano latino",25,25
+Bebe Rexha,"acoustic country, art pop, country, dance, edm, electronic, hyperpop, latin, pop, pop country, reggaeton",9,6
+Charlie Puth,"new jack swing, pop, quiet storm, r&b, soft pop",12,5
+ZAAC,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+Maejor,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+Tropkillaz,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+DJ Yuri Martins,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+Quavo,"hip hop, italian trap, melodic rap, rap, southern hip hop, trap",28,22
+Kendrick Lamar,"hip hop, r&b, rap, trap, west coast hip hop",20,16
+Big Shaq,,1,0
+Kygo,"electronic, pop, r&b, soft pop, tropical house",7,7
+Justin Jesso,"electronic, tropical house",1,1
+Piso 21,"argentine trap, colombian pop, hip hop, latin, pop, pop urbano, reggaeton, trap latino",4,3
+Manuel Turizo,"colombian pop, latin, latin pop, pop, pop urbano, reggaeton, trap latino, urbano latino",9,6
+Offset,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, hip hop, latin, melodic rap, pop, r&b, rap, reggaeton, southern hip hop, traditional music, trap",17,17
+Metro Boomin,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, hip hop, latin, melodic rap, pop, r&b, rap, reggaeton, southern hip hop, traditional music, trap",18,18
+Clean Bandit,"dancehall, latin, traditional music",7,7
+Julia Michaels,"hip hop, melodic rap, pop",7,4
+The Chainsmokers,"bass house, country, edm trap, electronic, hip hop",23,13
+Coldplay,,3,1
+Drake,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, east coast hip hop, hip hop, latin, melodic rap, memphis rap, pop, r&b, rap, reggaeton, southern hip hop, traditional music, trap, trap latino, urbano latino",63,20
+Wizkid,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, edm, electronic, hip hop, latin, pop, r&b, rap, reggaeton, traditional music",5,5
+Kyla,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, hip hop, pop, r&b, rap, traditional music",2,2
+Shakira,"latin, latin pop, pop, reggaeton, urbano latino",4,4
+Nicky Jam,"bachata, bachata pop, dembow, latin, latin pop, pop, reggaeton, trap latino, urbano latino",7,7
+Alex Sensation,"latin, reggaeton, trap latino, urbano latino",1,1
+Axwell /\ Ingrosso,,4,0
+Migos,"edm, electronic, hip hop, melodic rap, rap, southern hip hop, trap",39,18
+Nicki Minaj,"afro house, dance, edm, electronic, hip hop, hyphy, k-pop, latin, melodic rap, memphis rap, pop, rap, reggaeton, southern hip hop, trap, trap latino, urbano latino",44,35
+Nacho,"latin, reggaeton, trap latino, urbano latino",2,1
+Yandel,"latin, latin pop, pop, reggaeton, trap latino, urbano latino",6,6
+Shawn Mendes,"edm, electronic, pop",25,5
+Martin Garrix,"dance, edm, electronic, electronica, future house, pop, progressive house",9,9
+David Guetta,"art pop, big room, dance, dancehall, edm, electronic, electronica, future house, hardstyle, hyperpop, latin, pop, progressive house, reggaeton, traditional music",15,15
+Jamie Scott,"dance, edm, electronic, electronica, progressive house",1,1
+Romy Dya,"dance, edm, electronic, electronica, progressive house",1,1
+Michael Jackson,"hip hop, rap",5,2
+MC Fioti,"brazilian funk, dancehall, funk, hip hop, latin, r&b, rap, reggaeton, traditional music",1,1
+Future,"brazilian funk, cloud rap, dancehall, east coast hip hop, emo rap, funk, hip hop, latin, melodic rap, pop, r&b, rap, reggaeton, soft pop, traditional music, trap, west coast hip hop",28,23
+Stefflon Don,"brazilian funk, dancehall, funk, hip hop, latin, r&b, rap, reggaeton, traditional music",2,2
+Juan Magán,"brazilian funk, colombian pop, dancehall, funk, hip hop, latin, latin hip hop, latin pop, pop, r&b, rap, reggaeton, traditional music",3,3
+Wisin,"hip hop, latin, latin pop, pop, reggaeton, trap, trap latino, urbano latino",6,6
+A$AP Ferg,"hip hop, rap",2,1
+Carlos Vives,"colombian pop, latin, latin pop, pop, reggaeton, vallenato",1,1
+Sebastian Yatra,"colombian pop, dembow, hip hop, latin, latin pop, pop, reggaeton, salsa, salsa romantica, trap, trap latino, vallenato",8,6
+Zara Larsson,,2,1
+Rita Ora,"art pop, edm, electronic, hyperpop, pop",9,4
+Famous Dex,"hip hop, rap",4,2
+Joey Montana,"colombian pop, latin, pop, reggaeton",1,1
+Kodak Black,"emo rap, hip hop, melodic rap, rap, southern hip hop, trap",16,12
+Lil Wayne,"emo rap, g-funk, gangster rap, hip hop, r&b, rap, trap, west coast hip hop",31,18
+Avicii,"big room, edm, electro house, electronic, progressive house",20,7
+Lauv,,8,2
+DJ Khaled,"east coast hip hop, hip hop, r&b, rap",5,5
+Chance the Rapper,"hip hop, rap",7,4
+Alan Walker,,5,5
+Noah Cyrus,"emo rap, hip hop",3,3
+Digital Farm Animals,,3,3
+Juliander,,2,2
+Rihanna,"hip hop, r&b, rap, west coast hip hop",4,3
+Bryson Tiller,"hip hop, r&b, rage rap",2,2
+Travis Scott,"dubstep, edm, electro, electronic, hip hop, melodic rap, r&b, rage rap, rap, trap, west coast hip hop",42,23
+Liam Payne,"electronic, latin, reggaeton, tropical house",7,7
+Calvin Harris,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, edm, electronic, hip hop, pop, r&b, soft pop, traditional music, trap",8,8
+Pharrell Williams,"edm, electronic, hip hop, pop, west coast hip hop",5,4
+Katy Perry,"edm, electronic, pop",1,1
+Big Sean,"edm, electronic, hip hop, hyphy, pop, rap, southern hip hop, trap",5,5
+Funk Wav,"edm, electronic, hip hop, pop, r&b, trap",3,3
+Bruno Mars,"hip hop, rap, southern hip hop, trap",6,4
+Jowell & Randy,"latin, reggaeton, urbano latino",1,1
+Macklemore,,4,4
+Ryan Lewis,,1,1
+Macklemore & Ryan Lewis,,1,1
+Ray Dalton,,1,1
+Jason Derulo,"dance, edm, electronic, latin, latin pop, pop, reggaeton, trap latino, urbano latino",4,4
+XXXTENTACION,"christian hip hop, cloud rap, dark trap, emo rap, hip hop, horrorcore, latin, melodic rap, rage rap, rap, rap rock, reggaeton, rock, urbano latino",57,17
+Zacari,"gqom, hip hop, traditional music, west coast hip hop",5,3
+mgk,,3,1
+X Ambassadors,,1,1
+BloodPop®,"neo soul, pop, r&b, soft pop",4,4
+Outkast,"hip hop, southern hip hop",1,0
+Miguel,"electronic, hip hop, r&b, rap, tropical house",3,3
+Ty Dolla $ign,"emo rap, hip hop, rap, southern hip hop, trap",13,13
+Lil Xan,"cloud rap, electronic, hip hop, moombahton",3,1
+Zedd,"country, edm, electronic, pop",5,5
+Gucci Mane,"hip hop, rap, southern hip hop, trap",13,13
+Frank Ocean,"edm, electronic, hip hop, rap, trap",3,2
+Daya,,1,1
+Foster The People,,1,0
+Romeo Santos,"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",4,4
+BTS,"edm, electro house, electronic, k-pop, pop",26,5
+Desiigner,"edm, electro house, electronic, k-pop, pop",1,1
+Steve Aoki,"big room, edm, electro house, electronic, k-pop, pop, progressive house",5,5
+Dalmata,"colombian pop, latin, pop, reggaeton",1,1
+James Arthur,"crunk, edm, electronic, hip hop, memphis rap, pop, soft pop",6,2
+Marvin Gaye,"motown, northern soul, quiet storm, r&b, soul",2,2
+Tammi Terrell,"motown, northern soul, quiet storm, r&b, soul",2,2
+Skylar Grey,,1,1
+Wolfine,"latin, reggaeton, urbano latino",3,1
+Jonas Blue,"electronic, tropical house",6,6
+William Singe,"electronic, tropical house",1,1
+Taylor Swift,"hip hop, pop, rap, soft pop",8,2
+MC Kevinho,"arrocha, brazilian funk, brazilian pop, country, forró, funk, funk carioca, funk melody, funk pop, hip hop, latin, piseiro, pop, r&b, sertanejo, sertanejo universitário",5,4
+The Jackson 5,"christmas, jazz, motown, r&b",4,0
+The Weeknd,"electro, electronic, french house, hip hop, west coast hip hop",13,9
+Daft Punk,"electro, electronic, french house, hip hop",3,3
+Queen,"art rock, classic rock, glam rock, rock",15,1
+Bee Gees,"disco, r&b",1,0
+Chris Jedi,"hip hop, latin, reggaeton, trap, trap latino, urbano latino",2,2
+Arcángel,"latin, reggaeton, trap latino, urbano latino",2,2
+Earth,"disco, r&b",1,1
+Wind & Fire,"disco, r&b",1,1
+Maggie Lindemann,,1,1
+Cheat Codes,,5,5
+CADE,,1,1
+Jesse & Joy,"latin, latin dance, latin pop, pop",1,1
+Gente De Zona,"latin, latin dance, latin pop, pop",1,1
+NAV,"drill, hip hop, melodic rap, rap",5,5
+P!nk,,2,0
+AFROJACK,"art pop, big room, dance, edm, electronic, hyperpop, pop",2,2
+Charli xcx,"art pop, big room, dance, edm, electronic, hyperpop, pop",4,3
+Sean Paul,"dance, dancehall, edm, electronic, latin, reggaeton, traditional music",3,3
+Anne-Marie,"afrobeat, afrobeats, afropop, afroswing, azonto, dance, dancehall, edm, electronic, hiplife, moombahton, pop, r&b, soft pop, traditional music",9,6
+Childish Gambino,,4,0
+Daryl Hall & John Oates,"rock, soft rock",2,0
+MC's Jhowzinho & Kadinho,"brazilian funk, brega funk, funk, hip hop, pop, r&b",1,0
+Trippie Redd,"electronic, emo rap, hip hop, melodic rap, moombahton, rap, trap",26,11
+Shaggy,"dancehall, electronic, hip hop, lovers rock, r&b, ragga, reggae, riddim, rock, traditional music",1,1
+Rik Rok,"dancehall, electronic, hip hop, lovers rock, r&b, ragga, reggae, riddim, rock, traditional music",1,1
+CNCO,"latin, reggaeton, urbano latino",3,2
+Little Mix,"latin, reggaeton",5,5
+The Clash,"punk, rock",1,0
+Sandro Cavazza,"edm, electronic, tropical house",3,3
+Oh Wonder,"hip hop, melodic rap",1,1
+Huncho Jack,"hip hop, rap",2,2
+Mark Ronson,"electronic, moombahton, pop",4,4
+Niall Horan,,2,0
+Zac Efron,"classical, musicals",3,3
+Zendaya,"classical, musicals",3,3
+Major Lazer,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, electronic, hiplife, moombahton, pop, r&b, traditional music",6,6
+Nyla,"afrobeats, azonto, dancehall, electronic, hiplife, moombahton, r&b, traditional music",1,1
+Fuse ODG,"afrobeats, azonto, dancehall, electronic, hiplife, moombahton, r&b, traditional music",1,1
+Justin Timberlake,"country, neo soul, r&b",15,3
+Stevie Wonder,"motown, r&b, soul",2,0
+Keala Settle,"classical, musicals",3,3
+The Greatest Showman Ensemble,"classical, musicals",4,4
+Louis Tomlinson,,1,1
+TOTO,"rock, soft rock",1,0
+Yo Gotti,"hip hop, memphis rap, southern hip hop",2,2
+6ix9ine,"german hip hop, hip hop, latin, melodic rap, pop urbaine, rap, reggaeton, trap, trap latino, urbano latino",29,21
+Journey,"album rock, classic rock, rock",1,0
+Wyclef Jean,"latin, latin pop, pop",1,1
+KYLE,,3,3
+Lil Yachty,"electronic, emo rap, hip hop, melodic rap, moombahton, rage rap, rap, southern hip hop",16,15
+AC/DC,"classic rock, hard rock, rock, rock and roll",2,0
+Hugh Jackman,"classical, musicals",6,6
+DJ Snake,"latin, pop, reggaeton, trap latino, urbano latino",5,5
+Loren Allred,,1,0
+Ziv Zaifman,"classical, musicals",1,1
+Michelle Williams,"classical, musicals",2,1
+Kesha,,2,1
+Harry Styles,,1,0
+Troye Sivan,"art pop, edm, electronic, electronica, hyperpop, pop, progressive house",11,4
+Matt Terry,,1,0
+The Killers,"alternative rock, rock",1,0
+OneRepublic,"electronic, pop, soft pop, tropical house",5,3
+Abraham Mateo,"bachata, latin, reggaeton, trap latino",1,1
+Farruko,"bachata, latin, latin pop, pop, reggaeton, trap latino",3,3
+Christian Daniel,"bachata, latin, reggaeton, trap latino",1,1
+A Boogie Wit da Hoodie,"emo rap, hip hop, melodic rap, pop",10,9
+Oasis,"britpop, madchester, pop, rock",1,0
+Sam Hunt,"country, pop country",1,0
+Belinda,"colombian pop, latin, latin pop, pop, reggaeton",1,1
+Snova,"colombian pop, latin, latin pop, pop, reggaeton",1,1
+B-Case,"colombian pop, latin, latin pop, pop, reggaeton",1,1
+Daniel Everidge,"classical, musicals",1,1
+Fetty Wap,"hip hop, melodic rap",4,4
+CVBZ,,1,1
+Boyz II Men,"new jack swing, pop, quiet storm, r&b, soft pop",1,1
+Lil Skies,"hip hop, melodic rap, rap, trap",7,6
+Landon Cube,"hip hop, melodic rap",3,3
+YBN Nahmir,"hip hop, memphis rap, southern hip hop",4,1
+Austyn Johnson,"classical, musicals",1,1
+Cameron Seely,"classical, musicals",1,1
+Jax Jones,"norwegian pop, pop",1,1
+Ina Wroldsen,"norwegian pop, pop",1,1
+Nate Dogg,"g-funk, gangster rap, hip hop, rap, west coast hip hop",2,2
+Lil Peep,"cloud rap, edm, electronic, emo rap, hip hop",14,3
+Enrique Iglesias,"latin, latin pop, pop, reggaeton, trap latino, urbano latino",2,2
+Jay Rock,"hip hop, rap, west coast hip hop",1,1
+James Blake,"hip hop, rap, west coast hip hop",3,3
+The Cranberries,,5,0
+Lean Trap,,0,0
+Jeon,"brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton",2,2
+Sfera Ebbasta,"hip hop, italian trap, latin, trap, trap latino",13,8
+Rudimental,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, electronic, hiplife, moombahton, pop, r&b, traditional music",2,2
+Jess Glynne,,5,1
+Dan Caplen,,1,1
+Cashmere Cat,"electronic, moombahton",2,2
+Tory Lanez,"electronic, hip hop, melodic rap, moombahton, rap, trap",8,7
+DrefGold,"hip hop, italian trap, trap",3,3
+Ramz,"afroswing, electronic, grime, traditional music",1,0
+Carnage,,1,1
+Jojo Maronttinni,"brazilian funk, funk, funk pop, hip hop, latin, pagode, pop, r&b",1,0
+Bazzi,pop,7,1
+Fall Out Boy,"emo, emo pop, pop, pop punk, rock",3,0
+Almighty,"hip hop, latin, reggaeton, trap, trap latino, urbano latino",1,1
+Chris Stapleton,country,2,2
+Maren Morris,"country, edm, electronic",2,2
+Grey,"country, edm, electronic",2,2
+2 Chainz,"hip hop, hyphy, rap, southern hip hop, trap",10,10
+Ghali,"hip hop, italian trap, trap",2,1
+Dj Kass,,4,0
+Rich The Kid,"hip hop, melodic rap, rap, trap, west coast hip hop",12,7
+CHVRCHES,"pop, synthpop",1,0
+Alicia Keys,"neo soul, r&b",1,1
+Rich Brian,,1,1
+Red Velvet,"k-pop, pop",1,0
+Simone & Simaria,"arrocha, brazilian funk, brazilian pop, country, forró, funk, funk pop, hip hop, latin, piseiro, pop, r&b, sertanejo, sertanejo universitário",2,2
+Rae Sremmurd,"crunk, hip hop, memphis rap, rap",11,11
+John Legend,"jazz, neo soul, pop, r&b, soft pop, vocal jazz",4,2
+ScHoolboy Q,"hip hop, rap, southern hip hop",2,2
+Saudi,"hip hop, rap, southern hip hop",2,2
+BlocBoy JB,"hip hop, memphis rap, rap",3,3
+Vince Staples,,2,2
+Yugen Blakrok,,2,2
+SOB X RBE,"hip hop, hyphy",1,0
+Jorja Smith,,1,0
+PARTYNEXTDOOR,"edm, electronic, hip hop, r&b, rap",3,3
+Ab-Soul,,2,2
+Anderson .Paak,"hip hop, west coast hip hop",6,5
+James Bay,,1,0
+Babes Wodumo,"gqom, traditional music",2,2
+Mozzy,"afro soul, afropop, pop, r&b",1,1
+Sjava,"afro soul, afropop, pop, r&b",1,1
+REASON,"afro soul, afropop, pop, r&b",1,1
+MC Loma e As Gêmeas Lacração,"brazilian funk, brega funk, funk, funk pop, hip hop, pop, r&b",1,0
+Adele,"pop, soft pop",1,0
+Christina Perri,"pop, soft pop",1,0
+Hozier,"r&b, soul",2,1
+Ellie Goulding,"electronic, moombahton",3,2
+Passenger,"folk pop, pop",1,0
+The Goo Goo Dolls,,1,0
+Lord Huron,,2,0
+Normani,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, edm, electronic, pop, r&b, traditional music",2,2
+Muse,"alternative rock, rock",2,0
+Sofía Reyes,"latin, latin pop, pop, reggaeton, trap latino, urbano latino",1,1
+De La Ghetto,"latin, latin pop, pop, reggaeton, trap latino, urbano latino",1,1
+Reik,"latin, latin pop, pop, reggaeton, trap latino, urbano latino",2,2
+Tom Walker,,1,0
+London On Da Track,"hip hop, rap, southern hip hop, trap",1,1
+Glades,,1,0
+5 Seconds of Summer,,9,0
+Brooks,"dance, edm, electronic, electronica, future house, progressive house",2,2
+Janelle Monáe,"alternative r&b, r&b",1,0
+Mau y Ricky,"bachata, colombian pop, latin, latin pop, pop, reggaeton, urbano latino",3,3
+KAROL G,"bachata, latin, latin pop, pop, reggaeton, trap latino, urbano latino",6,4
+Leslie Grace,"bachata, dembow, hip hop, latin, latin pop, pop, reggaeton, trap, trap latino, urbano latino",2,2
+Lali,"bachata, latin, latin pop, pop, reggaeton, urbano latino",1,1
+Jason Mraz,"acoustic pop, pop, soft pop",1,0
+JAY-Z,"east coast hip hop, hip hop, rap, southern hip hop",3,3
+Slim Jxmmi,"crunk, hip hop, memphis rap, rap",11,11
+Juicy J,"crunk, edm, electronic, hip hop, memphis rap, pop, rap, soft pop",4,4
+Kiiara,"big room, edm, electro house, electronic, progressive house",2,2
+j-hope,"hip hop, k-pop, k-rap, pop",1,0
+Meghan Trainor,"christmas, country, jazz",4,2
+Wiz Khalifa,"hip hop, melodic rap, rap, southern hip hop, trap",7,4
+Young Sinatra,,1,1
+Ugly God,,1,1
+Olly Alexander (Years & Years),,4,0
+PnB Rock,"emo rap, hip hop, melodic rap",2,2
+YoungBoy Never Broke Again,"hip hop, melodic rap",2,2
+K$upreme,"hip hop, rap, southern hip hop",1,1
+Tee Grizzley,,2,2
+HRVY,,1,0
+Dennis Lloyd,,1,0
+DJ A1,,0,0
+King Princess,,1,0
+Thomas Rhett,"acoustic country, country, pop country",1,0
+Lil Dicky,r&b,1,1
+Chris Brown,r&b,1,1
+Joey Bada$$,"emo rap, hip hop, rap",1,1
+Rio Santana,"christian hip hop, emo rap, hip hop",1,1
+Judah,"christian hip hop, emo rap, hip hop",1,1
+Andrez Babii,"christian hip hop, emo rap, hip hop",1,1
+Matt OX,"emo rap, hip hop, rage rap",1,1
+Travis Barker,"emo rap, hip hop, rap, rap rock, rock",2,2
+Kehlani,"pop, soft pop",6,6
+Sabrina Carpenter,"electronic, tropical house",1,1
+Zion & Lennox,"latin, reggaeton",3,2
+KHEA,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",1,1
+Duki,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",1,1
+Cazzu,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",2,2
+N.E.R.D,"hip hop, rap",1,1
+Paulo Londra,"argentine trap, colombian pop, hip hop, latin, pop, pop urbano, reggaeton, trap latino, urbano latino",5,3
+Panic! At The Disco,"emo, rock",15,0
+Diplo,"cloud rap, electronic, hip hop, latin, melodic rap, moombahton, pop, reggaeton, trap latino, urbano latino",13,13
+George Ezra,,3,0
+Santigold,"electronic, moombahton",1,1
+Calum Scott,"pop, soft pop",1,0
+Madison Beer,"k-pop, pop",3,2
+Dan + Shay,country,1,0
+Gesaffelstein,,2,2
+Tyler,,1,1
+The Creator,,1,1
+Boef,,1,0
+Hayley Kiyoko,,1,1
+Ricky Martin,"latin, latin pop, pop, reggaeton, urbano latino",1,1
+Zé Neto & Cristiano,"agronejo, arrocha, country, latin, sertanejo, sertanejo universitário",3,0
+AJR,,1,1
+Rivers Cuomo,,1,1
+Moby,"downtempo, electronic, hip hop, pop, rap, southern hip hop, trip hop",2,2
+YG,"hip hop, hyphy, rap, southern hip hop",6,6
+Poo Bear,"alternative hip hop, hip hop",1,1
+Jay Electronica,"alternative hip hop, hip hop",1,1
+Thirty Seconds To Mars,"modern rock, rock",1,1
+Bomba Estéreo,"latin, latin alternative, reggaeton",1,1
+Tainy,"latin, latin alternative, reggaeton",1,1
+NOTD,,2,2
+Bea Miller,,2,2
+Florence + The Machine,"baroque pop, pop",7,0
+Nio Garcia,"dembow, latin, reggaeton, trap latino, urbano latino",1,1
+Casper Magico,"dembow, latin, reggaeton, trap latino, urbano latino",1,1
+Darell,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",5,5
+Jorge & Mateus,"agronejo, arrocha, country, latin, sertanejo, sertanejo universitário",1,0
+Sigala,,2,2
+Paloma Faith,,1,1
+MC Kekel,"brazilian funk, funk, funk pop, hip hop, pop, r&b",2,2
+MC Rita,"brazilian funk, funk, hip hop, r&b",1,1
+Noriel,"bachata, dembow, hip hop, latin, reggaeton, trap, trap latino",1,1
+Cosculluela,"hip hop, latin, latin hip hop, reggaeton, trap latino, urbano latino",1,1
+Luis Figueroa,"colombian pop, dembow, hip hop, latin, pop, reggaeton, salsa, salsa romantica, trap, trap latino",2,2
+Lary Over,"colombian pop, dembow, hip hop, latin, pop, reggaeton, salsa, salsa romantica, trap, trap latino",2,2
+J. Cole,"hip hop, rap",16,4
+Ariana Grande,"christmas, hip hop, jazz, pop",31,13
+kiLL edward,"hip hop, rap",2,2
+Drew Love,,1,1
+6LACK,"hip hop, rap",6,4
+Billie Eilish,,10,2
+Capo Plaza,"hip hop, italian trap, trap",2,2
+Seeb,"norwegian pop, pop",1,1
+Dagny,"norwegian pop, pop",1,1
+Billy Raffoul,"edm, electronic",1,1
+Nicky Romero,"big room, edm, electro house, electronic, progressive house",2,2
+Tim Berg,"edm, electronic",1,1
+Leona Lewis,"edm, electronic",2,1
+Banx & Ranx,"afroswing, electronic, grime, traditional music",1,1
+Ella Eyre,"afroswing, electronic, grime, traditional music",2,2
+Yxng Bane,"afroswing, electronic, grime, traditional music",1,1
+Mason Ramsey,country,1,0
+Capital Bra,"german hip hop, hip hop, turkish hip hop",12,7
+Ufo361,"german hip hop, hip hop, turkish hip hop",2,2
+Gzuz,"german hip hop, hip hop, turkish hip hop",6,6
+Bonez MC,"german hip hop, hip hop",12,12
+MC MM,"brazilian funk, brega funk, funk, hip hop, pop, r&b",1,1
+DJ RD,"brazilian funk, brega funk, funk, hip hop, pop, r&b",1,1
+MC WM,"brazilian funk, brega funk, funk, hip hop, pop, r&b",1,0
+Kanye West,"east coast hip hop, emo rap, hip hop, melodic rap, r&b, rap, rap rock, rock",17,10
+Lenny Tavárez,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",2,2
+Charlie Charles,"hip hop, italian trap, trap",1,1
+Labrinth,"electronic, hip hop, moombahton, rap",6,6
+LSD,"electronic, moombahton",5,5
+Christina Aguilera,"hip hop, rap, southern hip hop",4,2
+J-AX,,1,1
+Fedez,,2,1
+Pitbull,"latin, latin pop, pop",1,1
+Alvaro Soler,"latin pop, pop",4,1
+Arctic Monkeys,"garage rock, indie, rock",12,0
+John Mayer,"folk/acoustic, singer-songwriter",2,0
+Playboi Carti,"hip hop, melodic rap, r&b, rage rap, rap",6,5
+Bastille,"edm, electronic",2,1
+Dark Polo Gang,"hip hop, italian trap, trap",1,0
+Pi’erre Bourne,"hip hop, melodic rap, rage rap",1,1
+Juice WRLD,"cloud rap, emo rap, hip hop, melodic rap, rap, trap",34,21
+Netta,,1,0
+Eleni Foureira,laïko,1,0
+MIKOLAS,,1,0
+Michael Schulte,,1,0
+Kane Brown,"country, pop country",1,0
+Benjamin Ingrosso,,1,0
+Lil Baby,"drill, hip hop, melodic rap, rap, southern hip hop, trap",27,20
+Luis Miguel,"bolero, latin, latin pop, mariachi, pop",1,0
+Tiësto,"big room, dance, edm, electronic, house, trance",1,1
+Dzeko,"big room, dance, edm, electronic, house, trance",1,1
+Preme,"big room, dance, edm, electronic, house, trance",1,1
+Zhavia,"electronic, moombahton",1,1
+Tyga,"hip hop, melodic rap",4,3
+Jennifer Lopez,,2,1
+Aldair Playboy,"arrocha, brega, brega funk, country, forró, funk, latin, pagode baiano, piseiro, pop, r&b, sertanejo, tecnobrega",1,0
+Loud Luxury,,3,3
+Brando,,2,2
+Brytiago,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",5,5
+Skepta,"electronic, grime, hip hop, rap",1,1
+T.I.,"downtempo, electronic, hip hop, pop, rap, southern hip hop, trip hop",1,1
+Kid Cudi,"downtempo, electronic, hip hop, pop, rap, southern hip hop, trip hop",2,2
+FKA twigs,"alternative r&b, art pop, hip hop, pop, r&b, rap",1,1
+Pusha T,"hip hop, rap, southern hip hop",9,4
+Rick Ross,"east coast hip hop, hip hop, rap, southern hip hop",2,2
+Will Smith,"bachata, latin, latin pop, merengue, pop, reggaeton, salsa, salsa romantica, trap latino, urbano latino",2,2
+Era Istrefi,"latin, reggaeton",1,1
+Matheus & Kauan,"agronejo, arrocha, brazilian pop, country, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, sertanejo, sertanejo universitário",1,1
+DJ SpinKing,,1,1
+Wesley Safadão,"arrocha, brazilian pop, country, forró, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, piseiro, pop, r&b, sertanejo, sertanejo universitário",2,1
+The 1975,,9,0
+Gorillaz,"acid house, chicago house, electronic, g-funk, gangster rap, hip hop, hip house, jazz, jazz funk, rap, smooth jazz, soul jazz, west coast hip hop",6,3
+George Benson,"jazz, jazz funk, smooth jazz, soul jazz",2,2
+Jack & Jack,"electronic, tropical house",2,2
+KIDS SEE GHOSTS,"big band, easy listening, jazz, swing music",13,7
+Louis Prima,"big band, easy listening, jazz, swing music",2,2
+Summer Cem,"german hip hop, hip hop",1,1
+Bausa,"german hip hop, hip hop",1,1
+Yasiin Bey,,2,2
+MC Bruninho,"brega, brega funk, country, funk, pop, r&b",1,0
+Louis The Child,,1,1
+Wafia,,1,1
+Damso,"hip hop, pop urbaine",5,2
+BLACKPINK,"k-pop, pop",4,1
+Mr Eazi,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, electronic, hiplife, moombahton, pop, r&b, traditional music",2,2
+Showtek,"big room, dance, edm, electronic, electronica, hardstyle",1,1
+Nas,"east coast hip hop, hip hop, r&b, rap",6,5
+Diddy,"east coast hip hop, hip hop",1,1
+070 Shake,"east coast hip hop, hip hop",1,1
+The-Dream,"east coast hip hop, hip hop, r&b, rap",2,2
+The WRLDFMS Tony Williams,"east coast hip hop, hip hop",1,1
+Ella Mai,r&b,3,0
+The Carters,,2,0
+Kin$oul,"cloud rap, dark trap, emo rap, hip hop, horrorcore",1,1
+Killstation,"cloud rap, dark trap, emo rap, hip hop, horrorcore",1,1
+Ski Mask The Slump God,"emo rap, hip hop, melodic rap",8,4
+King Khalil,"german hip hop, hip hop",1,1
+Blac Youngsta,"hip hop, memphis rap",1,1
+PNL,"hip hop, pop urbaine",2,0
+LUDMILLA,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode, pagode baiano, pop, r&b, samba",1,1
+Mc Doguinha,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode, pagode baiano, pop, r&b, samba",1,1
+MC Pupio,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode, pagode baiano, pop, r&b, samba",1,1
+Alec Benjamin,,1,0
+Yung Pinch,"hip hop, melodic rap",1,1
+Static Major,"hip hop, rap",2,2
+Snoop Dogg,"acid house, chicago house, electronic, g-funk, gangster rap, hip hop, hip house, rap, west coast hip hop",2,2
+Jamie Principle,"acid house, chicago house, electronic, g-funk, gangster rap, hip hop, hip house, rap, west coast hip hop",1,1
+Mala Rodríguez,"hip hop, latin, latin hip hop, reggaeton",1,1
+Miley Cyrus,,3,2
+Twenty One Pilots,,19,0
+OMI,"electronic, tropical house",1,1
+Felix Jaehn,"electronic, tropical house",1,1
+Dynoro,"eurodance, italo dance, pop",1,1
+Gigi D'Agostino,"eurodance, italo dance, pop",1,1
+Bushido,"german hip hop, hip hop",1,1
+Samra,"german hip hop, hip hop",3,2
+Baddiel,,1,1
+Skinner & Lightning Seeds,,1,1
+Meek Mill,"east coast hip hop, hip hop, latin, melodic rap, rap, reggaeton, southern hip hop, trap, trap latino, urbano latino",12,9
+Swizz Beatz,"hip hop, rap",2,2
+Justin Quiles,"latin, reggaeton",1,1
+Street Rappers,,1,0
+benny blanco,"edm, electronic, emo rap, hip hop, melodic rap",5,5
+MØ,"electronic, moombahton",1,1
+R.K.M & Ken-Y,"latin, reggaeton, trap latino, urbano latino",1,1
+Vance Joy,"folk pop, pop",1,0
+Thalia,"latin, latin pop, pop, reggaeton, urbano latino",2,2
+Alex Rose,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",1,1
+Rauw Alejandro,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",1,1
+Supa Bwe,,1,1
+Forever Band,,1,1
+Elley Duhé,"edm, electronic, future bass, melodic bass",2,2
+Rvssian,"hip hop, italian trap, latin, trap, trap latino",1,1
+LANY,,1,0
+El Profesor,"afro house, electronic, latin house, tech house",1,1
+HUGEL,"afro house, electronic, latin house, tech house",1,1
+Murda Beatz,,2,2
+Dean Lewis,,1,0
+Anuel AA,"afro house, bachata, bachata pop, dembow, electronic, hip hop, latin, pop, rap, reggaeton, trap, trap latino, urbano latino",13,12
+Zion,"latin, reggaeton, trap latino, urbano latino",1,1
+Ryan Tedder,,2,2
+Emily Warren,,3,3
+Au/Ra,,1,1
+Tomine Harket,,1,1
+Aitana,,2,0
+Kris Kross Amsterdam,,1,1
+The Boy Next Door,,1,1
+Conor Maynard,,1,1
+DJ Durel,"hip hop, trap",1,1
+Don Khuma,,1,0
+Trío Los Josefinos,,0,0
+Tropijazz,,0,0
+Flo Rida,"latin pop, pop",1,1
+TINI,"latin pop, pop",1,1
+Juju,"german hip hop, hip hop",1,1
+Bonn,"edm, electronic, electronica, progressive house",1,1
+RAF Camora,"german hip hop, hip hop",10,10
+Timbaland,,1,1
+Robyn,,1,0
+Mac Miller,"pop, r&b",14,3
+Jay 305,"hip hop, hyphy",1,1
+Smokepurpp,,1,1
+Reese LAFLARE,"hip hop, melodic rap, rap, trap",1,1
+Gryffin,"edm, electronic, future bass, melodic bass",1,1
+Sheck Wes,,2,0
+Armin van Buuren,"edm, electronic, electronica, progressive house, trance",1,0
+Aretha Franklin,"blues, jazz blues, motown, r&b, soul",6,0
+Jessie Reyez,"edm, electronic, hip hop, pop, rap, soft pop",3,3
+Missy Elliott,"hip hop, pop",1,1
+Young Stoner Life,"hip hop, melodic rap, rap, trap",2,2
+Gunna,"drill, emo rap, hip hop, melodic rap, rap, trap",18,17
+Lele Pons,,1,0
+a-ha,"new wave, pop, rock, synthpop",1,0
+Bring Me The Horizon,"emo, metal, metalcore, post-hardcore, rock, screamo",1,0
+Nick Jonas,"electronic, tropical house",1,1
+Robin Schulz,"electronic, tropical house",1,1
+Bas,"hip hop, rap",1,1
+Arthur Hanlon,"bachata pop, latin, pop, reggaeton, trap latino, urbano latino",1,1
+Bryce Vine,,1,0
+Why Don't We,,3,0
+Joyner Lucas,"hip hop, rap",1,1
+Royce Da 5'9,"hip hop, rap",0,0
+Paul Rosenberg,,1,0
+Lil Mosey,"hip hop, melodic rap",3,0
+Social House,,1,1
+Silk City,"electronic, moombahton, pop",1,1
+Mavis Staples,"r&b, soul",1,1
+Russ,,2,0
+Frenna,,1,1
+Lil Kleine,,1,1
+Lukas Graham,,4,0
+Flipp Dinero,"hip hop, melodic rap",1,0
+Guè,"hip hop, italian trap, trap",2,2
+Joji,"cloud rap, electronic, hip hop, witch house",6,1
+Lana Del Rey,,2,0
+Justin Mylo,"edm, electronic, electronica, future house, progressive house",1,1
+Dewain Whitmore,"edm, electronic, electronica, future house, progressive house",1,1
+Loredana,"german hip hop, hip hop",1,1
+Mozzik,"german hip hop, hip hop",1,1
+Marília Mendonça,"arrocha, country, forró, latin, sertanejo, sertanejo universitário",1,0
+GASHI,,1,1
+Aminé,,1,0
+Kelsea Ballerini,country,4,4
+Salmo,"hip hop, indie, italian trap, rock, trap",9,5
+Mumford & Sons,"folk, folk rock, folk/acoustic, indie folk, rock",3,0
+Farid Bang,"german hip hop, hip hop, pop urbaine",1,1
+CAPO,"german hip hop, hip hop, pop urbaine",1,1
+SCH,"german hip hop, hip hop, pop urbaine",1,1
+BROCKHAMPTON,,4,0
+Avril Lavigne,,1,0
+Veysel,"german hip hop, hip hop",1,1
+Jaden,"hip hop, melodic rap, rap, trap",2,2
+Elton John,"hip hop, melodic rap, rap, trap",2,1
+Ava Max,,1,0
+Sosamann,"hip hop, rap",1,1
+Reginae Carter,"hip hop, rap",1,1
+Lady Gaga,"art pop, pop",6,3
+Bradley Cooper,"art pop, pop",3,3
+Ashanti,"hip hop, r&b, rap",1,1
+Mack Maine,"hip hop, r&b, rap",1,1
+Nivea,"hip hop, rap",1,1
+Ghostface Killah,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Raekwon,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+RZA,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Method Man,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Inspectah Deck,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Cappadonna,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Jackpot Scotty Wotty,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+U-God,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Masta Killa,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+GZA,"boom bap, east coast hip hop, hardcore hip hop, hip hop",1,1
+Wale,,1,1
+John Lindahl,,1,1
+Lucy Rose,,1,1
+The RattPack,,1,1
+Sophia Somajo,,1,1
+RAYE,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, electronic, hiplife, moombahton, pop, r&b, traditional music",1,1
+Jake Gosling,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, electronic, hiplife, moombahton, pop, r&b, traditional music",1,1
+anders,,1,1
+Lauren Daigle,"ccm, christian, hip hop, pop, pop worship, worship",1,0
+Bobby Shmurda,,1,1
+Lil Durk,"drill, hip hop, melodic rap",1,1
+Lennon Stella,"electronic, tropical house",2,2
+Hanybal,"german hip hop, hip hop",1,1
+Bryant Myers,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",1,0
+Marc Anthony,"bachata, latin, latin pop, merengue, pop, reggaeton, salsa, salsa romantica, trap latino, urbano latino",1,1
+KEVIN ROLDAN,"latin, reggaeton, trap latino, urbano latino",1,0
+Saweetie,,1,1
+Madonna,,1,1
+Takeoff,,6,1
+AK AUSSERKONTROLLE,"german hip hop, hip hop",1,1
+teddy<3,pop,1,1
+Empress Of,,1,1
+Young Scooter,"emo rap, hip hop, melodic rap, rap, trap",1,1
+Luciano,"german hip hop, hip hop",2,1
+Eno,"german hip hop, hip hop",1,1
+Yung Bans,"cloud rap, emo rap, hip hop, melodic rap, rap",1,1
+Tove Lo,"electronic, moombahton",1,1
+KITSCHKRIEG,"german hip hop, hip hop, turkish hip hop",1,1
+Trettmann,"german hip hop, hip hop, turkish hip hop",1,1
+GRiNGO,"german hip hop, hip hop, turkish hip hop",1,1
+RM,"hip hop, k-pop, k-rap, pop",1,0
+Lauren Jauregui,,1,0
+Aazar,"bass house, edm trap, electronic, hip hop",1,1
+Felipe Araújo,"arrocha, country, latin, pagode, samba, sertanejo, sertanejo universitário",1,1
+Ferrugem,"arrocha, country, latin, pagode, samba, sertanejo, sertanejo universitário",1,1
+Clams Casino,"cloud rap, electronic, hip hop, witch house",1,1
+Morat,"colombian pop, latin pop, pop",1,0
+Arevi,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",0,0
+Ray Parker Jr.,,1,0
+Bobby  Boris  Pickett,,0,0
+The Crypt-Kickers,,1,1
+The Citizens of Halloween,,1,0
+Blue Öyster Cult,"classic rock, hard rock, rock",1,0
+Marilyn Manson,"industrial, industrial metal, industrial rock, metal, nu metal, rock",1,0
+DJ Jazzy Jeff & The Fresh Prince,,1,0
+David Bowie,"art rock, classic rock, glam rock, rock",1,1
+MARINA,latin,1,1
+Mike Yung,"edm, electronic, electronica, progressive house",1,1
+Carly Rae Jepsen,,1,0
+XATAR,"german hip hop, hip hop",1,1
+SAMY,"german hip hop, hip hop",1,1
+EXO,"k-pop, pop",1,0
+Mariah Carey,"christmas, jazz",3,0
+K/DA,"k-pop, pop",1,1
+(G)I-DLE,"k-pop, pop",1,1
+Jaira Burns,"k-pop, pop",1,1
+League of Legends,"k-pop, pop",1,1
+Fabri Fibra,"hip hop, italian trap",1,1
+Kodie Shane,"hip hop, melodic rap",1,1
+NSTASIA,"hip hop, italian trap",1,1
+Emani 22,"hip hop, melodic rap",1,1
+Nitro,"hip hop, italian trap",1,1
+Coez,"hip hop, indie, italian trap, rock",1,1
+Baby Goth,"hip hop, melodic rap",1,1
+Nel-Denarro,"hip hop, melodic rap",1,1
+Barloe Team,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",0,0
+Camilo,"colombian pop, latin, latin pop, pop, reggaeton",1,1
+Pedro Capó,"latin, latin pop, pop, reggaeton, trap latino",1,1
+JENNIE,"k-pop, pop",1,0
+Orelsan,"hip hop, pop urbaine",2,2
+Sharaya J,,1,1
+Mike WiLL Made-It,"hip hop, west coast hip hop",1,1
+Wham!,"christmas, jazz",1,0
+Wisin & Yandel,"latin, reggaeton, urbano latino",2,0
+Brenda Lee,"christmas, jazz",3,0
+Michael Bublé,"christmas, classical, country, easy listening, electro swing, jazz, musicals, swing music",12,3
+Bobby Helms,"christmas, jazz",1,0
+Andy Williams,"christmas, jazz",2,0
+Band Aid,"christmas, jazz",1,0
+Frank Sinatra,"adult standards, big band, christmas, easy listening, jazz, swing music, vocal jazz",4,1
+B. Swanson Quartet,"adult standards, big band, christmas, easy listening, jazz, swing music, vocal jazz",1,1
+MC L da Vinte,"brazilian funk, funk, funk carioca, funk de bh, hip hop, r&b",1,1
+MC Gury,"brazilian funk, funk, funk carioca, funk de bh, hip hop, r&b",1,1
+MERO,"german hip hop, hip hop, turkish hip hop",1,0
+Bing Crosby,"big band, christmas, easy listening, jazz, swing music",8,2
+Ken Darby Singers,"christmas, jazz",1,1
+John Scott Trotter & His Orchestra,"christmas, jazz",1,1
+Paul McCartney,,1,0
+John Lennon,"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",1,1
+The Harlem Community Choir,"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",0,0
+The Plastic Ono Band,"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",0,0
+Yoko Ono,"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",1,1
+Chris Rea,"christmas, jazz",1,0
+Nat King Cole,"adult standards, christmas, easy listening, jazz, vocal jazz",3,0
+Kelly Clarkson,"christmas, jazz",1,0
+José Feliciano,"bolero, christmas, jazz, latin",1,0
+Burl Ives,"christmas, jazz",1,0
+TrifeDrew,,1,1
+Fabolous,"hip hop, latin, rap, reggaeton, trap latino, urbano latino",1,1
+Jesse®,,1,1
+Roddy Ricch,"edm, electronic, hip hop, melodic rap, rap, trap",2,2
+Skrillex,"dubstep, edm, electro, electronic, hip hop, rap",1,1
+Dean Martin,"adult standards, big band, christmas, easy listening, jazz, swing music",4,0
+The Pogues,"celtic, celtic rock, christmas, folk punk, folk/acoustic, jazz, rock, traditional music",1,1
+Kirsty MacColl,"celtic, celtic rock, christmas, folk punk, folk/acoustic, jazz, rock, traditional music",1,1
+Liz Gillies,"christmas, jazz, pop",1,1
+Brett Eldredge,"christmas, country, jazz",1,1
+Britney Spears,pop,2,0
+Stan Kenton,"big band, cool jazz, easy listening, jazz",1,0
+The Ronettes,"christmas, jazz",2,0
+Elvis Presley,"rock, rock and roll, rockabilly",2,0
+Shakin' Stevens,"christmas, jazz, rock, rockabilly",1,0
+Eartha Kitt,"christmas, easy listening, exotica, jazz",1,1
+Henri René and His Orchestra,"christmas, easy listening, exotica, jazz",1,1
+Pentatonix,"christmas, jazz",1,0
+Kylie Minogue,"dance pop, pop",1,0
+Tony Bennett,"adult standards, big band, christmas, easy listening, jazz, vocal jazz",1,0
+Chuck Berry,"rock, rock and roll, rockabilly",1,0
+John Williams,"easy listening, soundtrack",1,0
+*NSYNC,,1,0
+Brendon Urie,"emo rap, hip hop, melodic rap",1,1
+Bruce Springsteen,,1,1
+Gwen Stefani,country,1,1
+Blake Shelton,country,1,1
+Shania Twain,"christmas, country, jazz",1,1
+Perry Como,"adult standards, christmas, easy listening, jazz",2,1
+The Fontane Sisters,"adult standards, christmas, easy listening, jazz",1,1
+Mitchell Ayres & His Orchestra,"adult standards, christmas, easy listening, jazz",1,1
+Daniel Caesar,r&b,1,1
+H.E.R.,r&b,1,1
+Winona Oak,,1,1
+Bantu,"afro house, electronic, latin, reggaeton, trap latino, urbano latino",1,1
+Sorana,,1,1
+Haze,"latin, reggaeton, trap latino, urbano latino",1,1
+Peter Manos,,1,0
+Azet,"german hip hop, hip hop",1,1
+Zuna,"german hip hop, hip hop",1,1
+Darlene Love,"christmas, jazz",1,0
+The Puppini Sisters,"christmas, easy listening, electro swing, jazz, swing music",1,1
+Sean Ono Lennon,,1,1
+Judy Garland,"christmas, jazz",1,0
+The Beach Boys,"baroque pop, pop",1,0
+Gene Autry,"christmas, jazz",1,0
+Backstreet Boys,,1,0
+Bryan Adams,,1,0
+Melanie Thornton,"christmas, jazz",1,0
+Boney M.,"disco, r&b",1,0
+Idina Menzel,"christmas, classical, jazz, musicals",1,1
+Slade,"christmas, glam rock, jazz, rock",1,0
+Ella Fitzgerald,"big band, blues, christmas, easy listening, jazz, jazz blues, swing music, vocal jazz",2,0
+Train,"pop, soft pop",1,0
+Nina Nesbitt,,1,0
+Jessie J,,1,0
+Céline Dion,variété française,1,0
+Carpenters,"adult standards, christmas, easy listening, jazz",3,0
+The Andrews Sisters,"big band, christmas, easy listening, jazz, swing music",1,1
+Donny Hathaway,"r&b, soul",1,0
+Eagles,"classic rock, rock, soft rock",0,0
+Band Aid 30,"christmas, jazz",1,0
+Devin Dawson,country,1,0
+Tom Petty and the Heartbreakers,"classic rock, rock",1,0
+Esperanza Spalding,"jazz, neo soul, pop, r&b, soft pop, vocal jazz",1,1
+Johnny Mathis,"christmas, classical, easy listening, jazz, orchestra",1,1
+Percy Faith & His Orchestra,"christmas, classical, easy listening, jazz, orchestra",1,1
+Thurl Ravenscroft,"christmas, jazz",1,0
+Jona Lewie,"christmas, jazz",1,0
+USHER,r&b,1,1
+Destiny's Child,,1,0
+Vince Guaraldi Trio,"christmas, jazz",1,0
+Pretenders,,1,0
+Kay Starr,"christmas, jazz, vocal jazz",1,0
+Mel & Kim,"christmas, jazz",1,0
+Nat King Cole Trio,"christmas, jazz, vocal jazz",1,0
+Wizzard,"christmas, glam rock, jazz, rock",1,0
+Hannah Kerr,"ccm, christian, christmas, hip hop, jazz, pop, pop worship",1,0
+LX,"german hip hop, hip hop",1,1
+Maxwell,"german hip hop, hip hop",1,1
+Sa4,"german hip hop, hip hop",1,1
+DENNIS,"brazilian funk, country, funk, funk carioca, funk melody, funk pop, hip hop, pop, r&b",1,1
+Márcia Fellipe,"arrocha, brazilian funk, brega, brega funk, country, forró, funk, hip hop, latin, piseiro, pop, r&b, sertanejo, sertanejo universitário",1,1
+Jerry Smith,"arrocha, brazilian funk, brega, brega funk, country, forró, funk, hip hop, latin, piseiro, pop, r&b, sertanejo, sertanejo universitário",2,2
+Humberto & Ronaldo,"arrocha, brazilian funk, brega funk, country, funk, hip hop, latin, pop, r&b, sertanejo, sertanejo universitário",1,1
+Eurythmics,"new wave, pop, rock, synthpop",1,1
+Annie Lennox,"new wave, pop, rock, synthpop",1,1
+Dave Stewart,"new wave, pop, rock, synthpop",1,1
+Whitney Houston,,1,0

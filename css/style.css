@@ -1,6 +1,19 @@
+/* Spotify Colour Theme: https://www.color-hex.com/color-palette/53188 */
+:root {
+    --spotify-green: #1db954;
+    --spotify-black: #121212;
+    --spotify-gray-dark: #212121;
+    --spotify-gray-mid: #535353;
+    --spotify-gray-light: #b3b3b3;
+}
+
+
 body {
-    background-color: #131313;
-    color: #ffffff;
+    color: #b3b3b3;           /* Light grey text */
+    background: 	#121212;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #bar-chart-race-container {
@@ -105,9 +118,531 @@ body {
 #timeline-container .timeline-dot {
     fill: #4287f5;
     r: 5;
+    transition: none;
+    stroke: none;
 }
 
 #timeline-container .grid-line-x {
     stroke: rgba(255, 255, 255, 0.15);
     stroke-width: 2;
+}
+/* Random ChatGPT Styling*/
+/* Artist Network */
+/* Artist Network Container */
+#artist-network-container {
+  width: 60vmin;
+  height: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #121212;
+  border: 2px solid #1db954;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #artist-network-container {
+    width: 90vw;
+    height: 90vw;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+}
+
+/* SVG and its contents */
+#artist-network-container svg {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: transparent;
+}
+#artist-network-container svg rect {
+  fill: transparent;
+}
+
+/* Node styling */
+circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+  transition: all 1s ease-in-out;
+}
+circle:hover {
+  stroke: #ff4500;
+  stroke-width: 3px;
+}
+
+/* Highlighted links */
+.highlighted-link {
+  stroke: #e63946 !important;
+  stroke-width: 2px !important;
+}
+
+/* Tooltip styling */
+.tooltip {
+  position: absolute;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 12px;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Node label styling */
+.artist-label {
+  font-size: 10px;
+  pointer-events: none;
+  opacity: 0;
+  fill: white;
+}
+
+/* Overlay for highlighting */
+.overlay {
+  fill: none;
+  stroke: gold;
+  stroke-width: 2px;
+  opacity: 0;
+}
+
+/* Table styling for artist details and top-K tables */
+.artist-details-table,
+.topk-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.artist-details-table th,
+.artist-details-table td,
+.topk-table th,
+.topk-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.artist-details-table th,
+.topk-table th {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Pagination controls */
+.pagination-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+.pagination-controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+/* Info panel styling */
+#info-panel {
+  padding: 10px;
+  margin-right: 3em; /* Adjustments for fullPages.js horizontal page adjustments */
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+/* Utility classes */
+.collaborator,
+.clickable-artist,
+.sortable {
+  cursor: pointer;
+}
+
+/* Fallback styling for node circles if needed */
+.node-circle {
+  fill: steelblue;
+}
+
+/* Fallback link styling if used */
+.link-line {
+  stroke: #aaa;
+  opacity: 0;
+}
+
+/* Extra SVG container class if applicable */
+.artist-network-svg {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+/* Example "info-card" styling for the detailed info panel */
+.info-card {
+    background-color: var(--spotify-black) #2a2a2a;
+    color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+/* Headings inside the card */
+.info-card h3,
+.info-card h4 {
+    margin-top: 0;
+    color: var(--spotify-green)
+}
+
+/* Table within the info card */
+.info-card table {
+    width: 100%;
+    margin-top: 8px;
+    border-collapse: collapse;
+}
+
+/* Table header styling */
+.info-card thead {
+    background-color: #333;
+}
+.info-card th {
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+}
+.info-card td {
+    padding: 8px;
+    color: #ccc;
+    border-bottom: 1px solid #444;
+}
+
+/* Pagination controls at bottom of the info card */
+.info-card .pagination-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+.info-card .pagination-controls button {
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.info-card .pagination-controls button:hover {
+    background-color: #1ed760;
+}
+
+/* Year Buttons */
+.year-button {
+    background-color: var(--spotify-gray-dark);
+    color: var(--spotify-gray-light);
+    border: 1px solid var(--spotify-gray-mid);
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.year-button:hover {
+    background-color: var(--spotify-gray-mid);
+}
+
+.year-button.active {
+    background-color: var(--spotify-green);
+    color: #fff;
+    border: none;
+}
+
+/* Search Input */
+#search-container label,
+#year-container label,
+#filter-container label,
+#topk-filter-container label {
+    color: var(--spotify-gray-light);
+    font-weight: 500;
+  }
+  
+#search-input {
+    background-color: var(--spotify-black);
+    color: var(--spotify-gray-light);
+    border: 1px solid var(--spotify-gray-mid);
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  #search-input:focus {
+    outline: none;
+    border-color: var(--spotify-green);
+  }
+  
+/* Slider and Number Input */
+  #weight-slider {
+    -webkit-appearance: none;
+    appearance: var(--spotify-green);
+    width: 120px;
+    height: 4px;
+    background: var(--spotify-gray-mid);
+    outline: none;
+    border-radius: 2px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  #weight-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    background: var(--spotify-green);
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  
+  #weight-slider::-moz-range-thumb {
+    height: 16px;
+    width: 16px;
+    background: var(--spotify-green);
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
+  
+  #topk-input {
+    width: 60px;
+    background-color: var(--spotify-black);
+    color: var(--spotify-gray-light);
+    border: 1px solid var(--spotify-gray-mid);
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  #topk-input:focus {
+    outline: none;
+    border-color: var(--spotify-green);
+  }
+  
+/* Artist Network Container */
+  #artist-network-container {
+    width: 60vmin;
+    height: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: var(--spotify-black);
+    border: 2px solid var(--spotify-green);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* SVG fills entire container */
+  #artist-network-container svg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+  
+/* Nodes and Edges */
+  circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+    transition: all 0.4s ease-in-out;
+  }
+  circle:hover {
+    stroke: #ff4500;
+    stroke-width: 3px;
+  }
+  
+  /* Links */
+  line {
+    stroke: #aaa;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+  }
+  
+/* Labels */
+  .artist-label {
+    font-size: 10px;
+    pointer-events: none;
+    fill: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+/* Tooltip */
+  .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border: 1px solid #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  }
+  
+/* Info Panel and Info Card */
+  #info-panel {
+    padding: 16px;
+    border: 1px solid var(--spotify-gray-mid);
+    background-color: var(--spotify-gray-dark);
+    color: var(--spotify-gray-light);
+    border-radius: 6px;
+    margin-left: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  #info-panel h3,
+  #info-panel h4 {
+    color: var(--spotify-green);
+    margin-top: 0;
+  }
+  
+/* Tables */
+  .artist-details-table,
+  .topk-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: var(--spotify-black);
+  }
+  
+  .artist-details-table th,
+  .topk-table th {
+    background-color: var(--spotify-gray-mid);
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--spotify-gray-dark);
+    cursor: pointer;
+  }
+  
+  .artist-details-table td,
+  .topk-table td {
+    color: var(--spotify-gray-light);
+    border-bottom: 1px solid var(--spotify-gray-mid);
+    padding: 8px;
+  }
+  
+/* Table Pagination */
+  .pagination-controls {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .pagination-controls button {
+    background-color: var(--spotify-green);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .pagination-controls button:hover {
+    background-color: #1ed760; /* Slightly lighter green */
+  }
+  
+
+  .collaborator,
+  .clickable-artist,
+  .sortable {
+    cursor: pointer;
+  }
+  
+  /* Highlighted link example */
+  .highlighted-link {
+    stroke: var(--spotify-green) !important;
+    stroke-width: 2px !important;
+  }
+  
+
+  /* Container for all controls */
+#controls-container {
+  display: flex;
+  flex-wrap: wrap;         /* Allow wrapping on smaller screens */
+  align-items: center;
+  gap: 1em;                /* Space between each block of controls */
+  margin-bottom: 1em;      /* Spacing before the chart container */
+  padding: 0 1em;          /* Horizontal padding if desired */
+}
+
+/* Each group (year, search, filter, topK) can also be a small flex row */
+#year-container,
+#search-container,
+#filter-container,
+#topk-filter-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+#year-container label,
+#search-container label,
+#filter-container label,
+#topk-filter-container label {
+  color: var(--spotify-gray-light, #b3b3b3);
+  font-weight: 500;
+  margin-right: 0.25em;
+}
+
+.year-button,
+#search-input,
+#weight-slider,
+#topk-input {
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--spotify-gray-mid, #535353);
+  background-color: var(--spotify-gray-dark, #212121);
+  color: var(--spotify-gray-light, #b3b3b3);
+  padding: 6px 8px;
+  transition: background-color 0.2s ease;
+}
+
+.year-button:hover {
+  background-color: var(--spotify-gray-mid, #535353);
+}
+
+#weight-slider {
+  -webkit-appearance: none;
+  appearance: var(--spotify-green);
+  width: 120px;
+  height: 4px;
+  background: var(--spotify-gray-mid, #535353);
+  outline: none;
+  cursor: pointer;
+}
+
+
+#chart {
+    width: 100%;
+    height: 600px;
+}
+
+#chart svg {
+    opacity: 1 !important;
+}
+
+#chart {
+    position: relative;
+    z-index: 10;
+}
+
+#chart {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: 600px;
 }

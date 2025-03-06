@@ -1,62 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-            crossorigin="anonymous"
-        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify Global 200 Analysis</title>
         <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
+        />
     </head>
     <body>
-        <!-- WRAPPER -->
-        <div class="container-fluid wrapper">
-            <div class="row">
-                <div class="col-10 offset-1 main-container">
-                    <!-- Visualizations -->
-                    <div class="row viz-container">
-                        <div id="visualization-container">
-                            <div id="bar-chart-race-container"></div>
-                            <div id="timeline-controls-container">
-                                <div id="control-container"></div>
-                                <div id="timeline-container"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="fullpage">
+            <!-- Intro Section -->
+            <section class="section" id="intro">
+                <h1>Spotify Global 200 Analysis</h1>
+                <p>An exploration of solo versus collaborative artists.</p>
+            </section>
+
+            <!-- Bubble Chart Section -->
+            <section class="section" id="bubble-chart">
+                <div id="chart"></div>
+            </section>
+
+            <!-- Network Graph Section -->
+            <section class="section" id="network-graph">
+                <div id="artist-network"></div>
+            </section>
+
+            <!-- Bar Chart Race & Timeline Section -->
+            <section class="section" id="scrolly-chart">
+                <div id="visualization-container"></div>
+            </section>
+
+            <!-- Bar Chart Section -->
+            <section class="section" id="bar-chart">
+                <div id="barChart"></div>
+            </section>
         </div>
 
-        <!-- - - - - - - - - - - - >
-<    Load JS libraries     >
-<- - - - - - - - - - - - -->
+        <!-- JavaScript Libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/msgpack-lite/0.1.26/msgpack.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
 
-        <!-- BOOTSTRAP -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-            crossorigin="anonymous"
-        ></script>
-        <!-- Bootstrap Font Icon CSS -->
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-        />
+        <!-- Webpage conditional logic endpoint -->
+        <script src="./js/scripts.js"></script>
+        <!-- <script src="./js/main.js"></script> -->
 
-        <!-- d3 -->
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-
-        <!-- <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-        <script src="https://d3js.org/topojson.v2.min.js"></script>
-        <script src="https://d3js.org/d3-geo.v1.min.js"></script> -->
-
-        <!-- OWN JS -->
-
-        <script src="js/barChartRace.js"></script>
-        <script src="js/lineChartTimeline.js"></script>
-        <script src="js/timeController.js"></script>
-        <script src="js/main.js"></script>
     </body>
 </html>
