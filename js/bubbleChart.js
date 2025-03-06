@@ -1,5 +1,3 @@
-
-
 class BubbleChart {
     constructor(config) {
         // config: { container, dataPath, margin }
@@ -18,7 +16,8 @@ class BubbleChart {
         const height = containerEl.clientHeight;
 
         // Create SVG
-        const svg = d3.select(this.container)
+        const svg = d3
+            .select(this.container)
             .append("svg")
             .attr("width", width)
             .attr("height", height);
@@ -28,10 +27,11 @@ class BubbleChart {
 
         console.log("BubbleChart render() called!");
         // Load data
-        d3.csv(this.dataPath).then(data => {
+        d3.csv(this.dataPath).then((data) => {
             console.log("Data loaded for bubble chart:", data);
             // Filter
-            data = data.filter(d => +d.chart_days >= 7);
+            data = data.filter((d) => +d.chart_days >= 7);
+            data = data.slice(0, 100);
 
             // Convert numeric
             data.forEach((d, i) => {
@@ -39,34 +39,38 @@ class BubbleChart {
                 d.best_date_decimal = +d.best_date_decimal;
                 d.chart_days = +d.chart_days;
                 d.total_streams = +d.total_streams;
-                d.release_year = d.release_date ? new Date(d.release_date).getFullYear() : "Unknown";
+                d.release_year = d.release_date
+                    ? new Date(d.release_date).getFullYear()
+                    : "Unknown";
             });
 
             // Count categories
-            const soloCount = data.filter(d => d.song_type === "Solo").length;
-            const collabCount = data.filter(d => d.song_type === "Collaboration").length;
+            const soloCount = data.filter((d) => d.song_type === "Solo").length;
+            const collabCount = data.filter(
+                (d) => d.song_type === "Collaboration"
+            ).length;
             const total = soloCount + collabCount;
             const boundary = (soloCount / total) * height;
 
             // xScale
-            const xExtent = d3.extent(data, d => d.best_date_decimal);
-            const xScale = d3.scaleLinear()
+            const xExtent = d3.extent(data, (d) => d.best_date_decimal);
+            const xScale = d3
+                .scaleLinear()
                 .domain(xExtent)
                 .range([this.margin, width - this.margin]);
 
             // radiusScale
-            const rExtent = d3.extent(data, d => d.total_streams);
-            const radiusScale = d3.scaleSqrt()
-                .domain(rExtent)
-                .range([3, 20]);
+            const rExtent = d3.extent(data, (d) => d.total_streams);
+            const radiusScale = d3.scaleSqrt().domain(rExtent).range([3, 20]);
 
             // colorScale
-            const colorScale = d3.scaleOrdinal()
+            const colorScale = d3
+                .scaleOrdinal()
                 .domain(["Solo", "Collaboration"])
                 .range(["#FF6961", "#77DD77"]);
 
             // Randomize initial positions
-            data.forEach(d => {
+            data.forEach((d) => {
                 if (d.song_type === "Solo") {
                     d.x = Math.random() * width;
                     d.y = Math.random() * boundary;
@@ -77,35 +81,55 @@ class BubbleChart {
             });
 
             // Force simulation
-            const simulation = d3.forceSimulation(data)
+            const simulation = d3
+                .forceSimulation(data)
                 .alpha(1)
                 .alphaMin(0.001)
                 .alphaDecay(0.02)
                 .velocityDecay(0.2)
-                .force("x", d3.forceX(d => xScale(d.best_date_decimal)).strength(0.3))
+                .force(
+                    "x",
+                    d3.forceX((d) => xScale(d.best_date_decimal)).strength(0.3)
+                )
                 .force("y", d3.forceY(height / 2).strength(0.05))
-                .force("collide", d3.forceCollide(d => radiusScale(d.total_streams))
-                    .strength(0.9)
-                    .iterations(3))
-                .force("xBoundary", xBoundaryForce(this.margin, width - this.margin, radiusScale));
+                .force(
+                    "collide",
+                    d3
+                        .forceCollide((d) => radiusScale(d.total_streams))
+                        .strength(0.9)
+                        .iterations(3)
+                )
+                .force(
+                    "xBoundary",
+                    xBoundaryForce(
+                        this.margin,
+                        width - this.margin,
+                        radiusScale
+                    )
+                );
 
             // Circles
-            const circles = svg.selectAll(".bubble")
+            const circles = svg
+                .selectAll(".bubble")
                 .data(data)
                 .join("circle")
                 .attr("class", "bubble")
-                .attr("r", d => radiusScale(d.total_streams))
-                .attr("fill", d => colorScale(d.song_type))
-                .attr("cx", d => d.x)
-                .attr("cy", d => d.y)
+                .attr("r", (d) => radiusScale(d.total_streams))
+                .attr("fill", (d) => colorScale(d.song_type))
+                .attr("cx", (d) => d.x)
+                .attr("cy", (d) => d.y)
                 .attr("stroke", "#fff")
                 .attr("stroke-width", 1)
                 .on("mouseover", (event, d) => {
-                    tooltip.style("opacity", 1)
-                        .html(`<strong>${d.song_name}</strong><br/>${d.Artist} [${d.release_year}]<br/>#${d.chart_days} days in Top 200`);
+                    tooltip
+                        .style("opacity", 1)
+                        .html(
+                            `<strong>${d.song_name}</strong><br/>${d.Artist} [${d.release_year}]<br/>#${d.chart_days} days in Top 200`
+                        );
                 })
                 .on("mousemove", (event) => {
-                    tooltip.style("left", event.pageX + 10 + "px")
+                    tooltip
+                        .style("left", event.pageX + 10 + "px")
                         .style("top", event.pageY + 10 + "px");
                 })
                 .on("mouseout", () => {
@@ -113,22 +137,37 @@ class BubbleChart {
                 });
 
             simulation.on("tick", () => {
-                circles.attr("cx", d => d.x).attr("cy", d => d.y);
+                circles.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
             });
 
             // Immediately re-group by song_type
-            simulation.force("x", d3.forceX(d => xScale(d.best_date_decimal)).strength(0.3))
-                .force("y", d3.forceY(d =>
-                    d.song_type === "Solo" ? height * 0.35 : height * 0.65
-                ).strength(1))
-                .force("collide", d3.forceCollide(d => radiusScale(d.total_streams))
-                    .strength(1)
-                    .iterations(10))
+            simulation
+                .force(
+                    "x",
+                    d3.forceX((d) => xScale(d.best_date_decimal)).strength(0.3)
+                )
+                .force(
+                    "y",
+                    d3
+                        .forceY((d) =>
+                            d.song_type === "Solo"
+                                ? height * 0.35
+                                : height * 0.65
+                        )
+                        .strength(1)
+                )
+                .force(
+                    "collide",
+                    d3
+                        .forceCollide((d) => radiusScale(d.total_streams))
+                        .strength(1)
+                        .iterations(10)
+                )
                 .alpha(1)
                 .restart();
 
             simulation.on("tick", () => {
-                circles.attr("cx", d => d.x).attr("cy", d => d.y);
+                circles.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
             });
         });
     }
@@ -145,7 +184,7 @@ function xBoundaryForce(minX, maxX, radiusScale) {
             else if (d.x > maxX - r) d.x = maxX - r;
         }
     }
-    force.initialize = function(_nodes) {
+    force.initialize = function (_nodes) {
         nodes = _nodes;
     };
     return force;

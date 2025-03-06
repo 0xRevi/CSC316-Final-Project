@@ -119,6 +119,8 @@ body {
 #timeline-container .timeline-dot {
     fill: #4287f5;
     r: 5;
+    transition: none;
+    stroke: none;
 }
 
 #timeline-container .grid-line-x {

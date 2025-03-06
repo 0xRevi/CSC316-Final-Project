@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Initialize fullPage.js with `onLeave` and `afterLoad` to handle graph state
-    new fullpage('#fullpage', {
+    new fullpage("#fullpage", {
         autoScrolling: true,
         navigation: true,
         scrollHorizontally: true,
         // Handles cleanup when leaving a section
-        onLeave: function(origin, destination, direction) {
+        onLeave: function (origin, destination, direction) {
             console.log(`Leaving section: ${origin.index}`);
 
             // Remove the graph when leaving the "network-graph" section
@@ -61,11 +61,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 d3.select("#artist-network-container").select("svg").remove();
             }
 
-
+            // if (origin.item.id === "bubble-chart") {
+            //     console.log("Cleaning up bubble chart...");
+            //     d3.select("#chart").select("svg").remove();
+            // }
         },
 
         // Handles initialization when entering a section
-        afterLoad: function(origin, destination, direction) {
+        afterLoad: function (origin, destination, direction) {
             console.log(`Entering section: ${destination.index}`);
 
             //! INCLUDE REFERENCES TO YOUR PAGES HERE AND CALL LOAD WITH THE APPROPRIATE FORMATTING YOU WROTE
@@ -76,13 +79,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     "components/artist-network.html",
                     ["js/artistNetworkGraph.js"],
                     () => {
-                      const artistNetwork = new ArtistNetworkGraph(
-                        d3.select("#artist-network-container"),
-                        { initialYear: "2024" }
-                      );
-                      artistNetwork.init();
+                        const artistNetwork = new ArtistNetworkGraph(
+                            d3.select("#artist-network-container"),
+                            { initialYear: "2024" }
+                        );
+                        artistNetwork.init();
                     }
-                  );
+                );
             }
             if (destination.item.id === "scrolly-chart") {
                 console.log("Loading bar chart race...");
@@ -93,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         "js/barChartRace.js",
                         "js/lineChartTimeline.js",
                         "js/timeController.js",
-                        "js/main.js"
+                        "js/main.js",
                     ]
                 );
             }
@@ -107,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     () => {
                         const bubbleChart = new BubbleChart({
                             container: "#chart",
-                            dataPath: "data/intro_genre/vis1.csv"
+                            dataPath: "data/intro_genre/vis1.csv",
                         });
                         bubbleChart.render();
                     }
@@ -123,16 +126,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     () => {
                         const barChart = new BarChart({
                             dataPath: "data/intro_genre/vis2.csv",
-                            container: "#barChart"
+                            container: "#barChart",
+                            width: 1000,
+                            height: 600,
                         });
                         barChart.render();
                     }
                 );
             }
-
-
-        }
+        },
     });
-
-
 });

@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Global 200 Analysis</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Spotify Global 200 Analysis</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css"
+        />
+    </head>
+    <body>
+        <div id="fullpage">
+            <!-- Intro Section -->
+            <section class="section" id="intro">
+                <h1>Spotify Global 200 Analysis</h1>
+                <p>An exploration of solo versus collaborative artists.</p>
+            </section>
 
-    <div id="fullpage">
-        <!-- Intro Section -->
-        <section class="section" id="intro">
-            <h1>Spotify Global 200 Analysis</h1>
-            <p>An exploration of solo versus collaborative artists.</p>
-        </section>
+            <!-- Bubble Chart Section -->
+            <section class="section" id="bubble-chart">
+                <div id="chart"></div>
+            </section>
 
-        <!-- Bubble Chart Section -->
-        <section class="section" id="bubble-chart">
-            <div id="chart"></div>
-        </section>
+            <!-- Network Graph Section -->
+            <section class="section" id="network-graph">
+                <div id="artist-network"></div>
+            </section>
 
-        <!-- Network Graph Section -->
-        <section class="section" id="network-graph">
-            <div id="artist-network"></div>
-        </section>
+            <!-- Bar Chart Race & Timeline Section -->
+            <section class="section" id="scrolly-chart">
+                <div id="visualization-container"></div>
+            </section>
 
-        <!-- Bar Chart Race & Timeline Section -->
-        <section class="section" id="scrolly-chart">
-            <div id="visualization-container"></div>
-        </section>
+            <!-- Bar Chart Section -->
+            <section class="section" id="bar-chart">
+                <div id="barChart"></div>
+            </section>
+        </div>
 
-        <!-- Bar Chart Section -->
-        <section class="section" id="bar-chart">
-            <div id="barChart"></div>
-        </section>
-    </div>
+        <!-- JavaScript Libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/msgpack-lite/0.1.26/msgpack.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/msgpack-lite/0.1.26/msgpack.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.2/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
-
-    <!-- Webpage conditional logic endpoint -->
-    <script src="./js/scripts.js"></script>
-    <script src="./js/main.js"></script>
-
-</body>
+        <!-- Webpage conditional logic endpoint -->
+        <script src="./js/scripts.js"></script>
+        <!-- <script src="./js/main.js"></script> -->
+    </body>
 </html>
