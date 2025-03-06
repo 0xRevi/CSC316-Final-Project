@@ -1,4 +1,3 @@
-
 /* Spotify Colour Theme: https://www.color-hex.com/color-palette/53188 */
 :root {
     --spotify-green: #1db954;
@@ -127,7 +126,6 @@ body {
     stroke: rgba(255, 255, 255, 0.15);
     stroke-width: 2;
 }
-
 /* Random ChatGPT Styling*/
 /* Artist Network */
 /* Artist Network Container */
