@@ -124,6 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     "components/genre-chart.html",
                     ["js/barChart.js"],
                     () => {
+                        d3.select("#barChart").select("svg").remove(); // TODO
+                        // re-rendering every time when returning to this section
                         const barChart = new BarChart({
                             dataPath: "data/intro_genre/vis2.csv",
                             container: "#barChart",
