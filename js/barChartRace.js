@@ -10,7 +10,7 @@ class BarChartRace {
     initVis() {
         let vis = this;
         // margin conventions
-        vis.margin = { top: 30, right: 20, bottom: 20, left: 30 };
+        vis.margin = { top: 40, right: 30, bottom: 30, left: 30 };
         vis.width =
             document.getElementById(vis.parentElement).getBoundingClientRect()
                 .width -
@@ -61,7 +61,62 @@ class BarChartRace {
             .attr("fill", "white")
             .attr("font-size", "20px");
 
-        this.wrangleData(0); // Initialize with first frame
+        this.createLegend();
+        this.wrangleData(0);
+    }
+
+    createLegend() {
+        let vis = this;
+        // Add legend as a group
+        let legendSize = 13;
+        let legendTextOffset = 5;
+        let legendSpacing = 105;
+
+        // Create a group for the entire legend
+        let legendGroup = vis.svg
+            .append("g")
+            .attr("class", "legend-group")
+            .attr("transform", "translate(0, -40)");
+
+        // create solo square
+        legendGroup
+            .append("rect")
+            .attr("width", legendSize)
+            .attr("height", legendSize)
+            .attr("fill", "#ff5e7c");
+
+        // create solo text
+        legendGroup
+            .append("text")
+            .attr("class", "legend-text")
+            .attr("x", legendSize + legendTextOffset)
+            .attr("y", legendSize / 2)
+            .attr("dominant-baseline", "central")
+            .text("Solo Song");
+
+        // create collaboration square
+        legendGroup
+            .append("rect")
+            .attr("x", legendSize + legendTextOffset + legendSpacing)
+            .attr("width", legendSize)
+            .attr("height", legendSize)
+            .attr("fill", "#4cc764");
+
+        // create collaboration text
+        legendGroup
+            .append("text")
+            .attr("class", "legend-text")
+            .attr(
+                "x",
+                legendSize +
+                    legendTextOffset +
+                    legendSpacing +
+                    legendSize +
+                    legendTextOffset
+            )
+            .attr("y", legendSize / 2)
+            .attr("dominant-baseline", "central")
+            .text("Collaboration Song");
     }
 
     wrangleData(index) {
