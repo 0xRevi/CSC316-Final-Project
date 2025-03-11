@@ -44,6 +44,12 @@ body {
     opacity: 0.7;
 }
 
+#bar-chart-race-container .legend-text {
+    fill: white;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
 #timeline-controls-container {
     width: 100%;
     margin-top: 20px;
@@ -76,9 +82,10 @@ body {
     justify-content: center;
 }
 
-/* .play-pause-btn:hover {
+.play-pause-btn:hover {
     background-color: rgba(255, 255, 255, 0.3);
-} */
+    cursor: pointer;
+}
 
 .play-pause-btn.paused {
     background-color: rgba(76, 199, 100, 1);
@@ -90,6 +97,15 @@ body {
 
 #visualization-container {
     width: 100%;
+    max-width: 1500px;  
+    margin: 0 auto;     
+    padding: 0 15px;    
+}
+
+@media screen and (max-width: 1500px) {  
+    #visualization-container {
+        max-width: 95%;  
+    }
 }
 
 #timeline-container .axis text {
@@ -126,6 +142,14 @@ body {
     stroke: rgba(255, 255, 255, 0.15);
     stroke-width: 2;
 }
+
+.grid-line {
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 1;
+}
+
+
+
 /* Random ChatGPT Styling*/
 /* Artist Network */
 /* Artist Network Container */
