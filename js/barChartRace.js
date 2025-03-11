@@ -94,9 +94,7 @@ class BarChartRace {
             .attr("x1", (d) => vis.xScale(d))
             .attr("x2", (d) => vis.xScale(d))
             .attr("y1", 0)
-            .attr("y2", vis.height)
-            .attr("stroke", "rgba(255, 255, 255, 0.1)")
-            .attr("stroke-width", 1);
+            .attr("y2", vis.height);
 
         gridLines.exit().remove();
 

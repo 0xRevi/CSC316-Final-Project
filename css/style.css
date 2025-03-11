@@ -126,6 +126,14 @@ body {
     stroke: rgba(255, 255, 255, 0.15);
     stroke-width: 2;
 }
+
+.grid-line {
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 1;
+}
+
+
+
 /* Random ChatGPT Styling*/
 /* Artist Network */
 /* Artist Network Container */
