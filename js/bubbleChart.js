@@ -19,8 +19,10 @@ class BubbleChart {
         const svg = d3
             .select(this.container)
             .append("svg")
-            .attr("width", width)
-            .attr("height", height);
+            .attr("width", "100%")
+            .attr("height", "100%")
+            .attr("viewBox", `0 0 ${width} ${height}`)
+            .style("display", "block");
 
         // Tooltip
         const tooltip = d3.select("#tooltip");
@@ -31,7 +33,7 @@ class BubbleChart {
             console.log("Data loaded for bubble chart:", data);
             // Filter
             data = data.filter((d) => +d.chart_days >= 7);
-            data = data.slice(0, 100);
+            // data = data.slice(0, 1000);
 
             // Convert numeric
             data.forEach((d, i) => {
@@ -61,7 +63,7 @@ class BubbleChart {
 
             // radiusScale
             const rExtent = d3.extent(data, (d) => d.total_streams);
-            const radiusScale = d3.scaleSqrt().domain(rExtent).range([3, 20]);
+            const radiusScale = d3.scaleSqrt().domain(rExtent).range([3, 23]);
 
             // colorScale
             const colorScale = d3
@@ -69,44 +71,17 @@ class BubbleChart {
                 .domain(["Solo", "Collaboration"])
                 .range(["#FF6961", "#77DD77"]);
 
-            // Randomize initial positions
+            // randomize initial positions
             data.forEach((d) => {
+                d.x = xScale(d.best_date_decimal);
+
+                // start closer to the target y position based on song type
                 if (d.song_type === "Solo") {
-                    d.x = Math.random() * width;
-                    d.y = Math.random() * boundary;
+                    d.y = height * 0.35 + (Math.random() - 0.5) * height * 0.3;
                 } else {
-                    d.x = Math.random() * width;
-                    d.y = boundary + Math.random() * (height - boundary);
+                    d.y = height * 0.65 + (Math.random() - 0.5) * height * 0.3;
                 }
             });
-
-            // Force simulation
-            const simulation = d3
-                .forceSimulation(data)
-                .alpha(1)
-                .alphaMin(0.001)
-                .alphaDecay(0.02)
-                .velocityDecay(0.2)
-                .force(
-                    "x",
-                    d3.forceX((d) => xScale(d.best_date_decimal)).strength(0.3)
-                )
-                .force("y", d3.forceY(height / 2).strength(0.05))
-                .force(
-                    "collide",
-                    d3
-                        .forceCollide((d) => radiusScale(d.total_streams))
-                        .strength(0.9)
-                        .iterations(3)
-                )
-                .force(
-                    "xBoundary",
-                    xBoundaryForce(
-                        this.margin,
-                        width - this.margin,
-                        radiusScale
-                    )
-                );
 
             // Circles
             const circles = svg
@@ -136,9 +111,21 @@ class BubbleChart {
                     tooltip.style("opacity", 0);
                 });
 
-            simulation.on("tick", () => {
-                circles.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
-            });
+            // Force simulation
+            const simulation = d3
+                .forceSimulation(data)
+                .alpha(1)
+                .alphaMin(0.001)
+                .alphaDecay(0.1)
+                .velocityDecay(0.23)
+                .force(
+                    "xBoundary",
+                    xBoundaryForce(
+                        this.margin,
+                        width - this.margin,
+                        radiusScale
+                    )
+                );
 
             // Immediately re-group by song_type
             simulation
@@ -150,23 +137,25 @@ class BubbleChart {
                     "y",
                     d3
                         .forceY((d) =>
-                            d.song_type === "Solo"
-                                ? height * 0.35
-                                : height * 0.65
+                            d.song_type === "Solo" ? height * 0.3 : height * 0.7
                         )
-                        .strength(1)
+                        .strength(0.01)
                 )
                 .force(
                     "collide",
                     d3
                         .forceCollide((d) => radiusScale(d.total_streams))
-                        .strength(1)
-                        .iterations(10)
+                        .strength(1.3)
+                        .iterations(1)
                 )
-                .alpha(1)
                 .restart();
 
+            let tickCounter = 0;
             simulation.on("tick", () => {
+                tickCounter++;
+                // update positions less frequently during high-energy phase
+                if (simulation.alpha() > 0.3 && tickCounter % 3 !== 0) return;
+
                 circles.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
             });
         });
