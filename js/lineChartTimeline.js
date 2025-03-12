@@ -37,7 +37,7 @@ class LineChartTimeline {
         vis.yScale = d3.scaleLinear().domain([0, 1]).range([vis.height, 0]);
         vis.colorScale = d3
             .scaleOrdinal()
-            .range(["#FF6961", "#77DD77"])
+            .range([window.SOLO_COLOR, window.COLLAB_COLOR])
             .domain([false, true]);
 
         this.createBackgroundIntervals();

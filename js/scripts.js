@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+    // global color variables
+    window.SOLO_COLOR = "#FF6961";
+    // window.COLLAB_COLOR = "#77DD77";
+    // window.SOLO_COLOR = "#ff5e7c";
+    window.COLLAB_COLOR = "#4cc764";
+
     async function loadComponent(id, file, scriptFiles = [], callback = null) {
         const container = document.getElementById(id);
 

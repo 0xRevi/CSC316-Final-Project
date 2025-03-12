@@ -48,7 +48,7 @@ class BarChartRace {
         vis.yScale = d3.scaleBand().range([0, vis.height]).padding(0.1);
         vis.colorScale = d3
             .scaleOrdinal()
-            .range(["#FF6961", "#77DD77"])
+            .range([window.SOLO_COLOR, window.COLLAB_COLOR])
             .domain([true, false]);
         vis.xAxis = vis.svg.append("g").attr("transform", "translate(0,0)");
 
@@ -86,7 +86,7 @@ class BarChartRace {
             .append("rect")
             .attr("width", legendSize)
             .attr("height", legendSize)
-            .attr("fill", "#ff5e7c");
+            .attr("fill", window.SOLO_COLOR);
 
         // create solo text
         legendGroup
@@ -103,7 +103,7 @@ class BarChartRace {
             .attr("x", legendSize + legendTextOffset + legendSpacing)
             .attr("width", legendSize)
             .attr("height", legendSize)
-            .attr("fill", "#4cc764");
+            .attr("fill", window.COLLAB_COLOR);
 
         // create collaboration text
         legendGroup
@@ -141,7 +141,6 @@ class BarChartRace {
         let gridLines = vis.gridLines
             .selectAll(".grid-line")
             .data(vis.xScale.ticks(10));
-
         gridLines
             .enter()
             .append("line")
@@ -152,7 +151,8 @@ class BarChartRace {
             .attr("x1", (d) => vis.xScale(d))
             .attr("x2", (d) => vis.xScale(d))
             .attr("y1", 0)
-            .attr("y2", vis.height);
+            .attr("y2", vis.height)
+            .style("stroke-dasharray", "4,4");
 
         gridLines.exit().remove();
 
@@ -177,6 +177,7 @@ class BarChartRace {
             .attr("y", vis.height)
             .attr("width", 0)
             .attr("fill", (d) => vis.colorScale(d.is_solo))
+            .attr("opacity", 1)
             .merge(bars)
             .transition()
             .duration(vis.duration)
