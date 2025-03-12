@@ -3,14 +3,14 @@ class BarChartRace {
         this.parentElement = parentElement;
         this.data = data;
         this.topN = 15;
-        this.duration = 100;
+        this.duration = 120;
         this.initVis();
     }
 
     initVis() {
         let vis = this;
         // margin conventions
-        vis.margin = { top: 40, right: 30, bottom: 30, left: 30 };
+        vis.margin = { top: 20, right: 30, bottom: 30, left: 30 };
         vis.width =
             document.getElementById(vis.parentElement).getBoundingClientRect()
                 .width -
@@ -61,7 +61,7 @@ class BarChartRace {
             .attr("fill", "white")
             .attr("font-size", "20px");
 
-        this.createLegend();
+        // this.createLegend();
         this.wrangleData(0);
     }
 

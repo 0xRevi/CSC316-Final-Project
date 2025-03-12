@@ -31,6 +31,7 @@ body {
 #bar-chart-race-container .song-label {
     font-size: 14px;
     font-weight: 500;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
 
 #bar-chart-race-container .stream-label {
@@ -144,7 +145,7 @@ body {
     stroke-width: 2;
 }
 
-.grid-line {
+#visualization-container .grid-line {
   stroke: rgba(255, 255, 255, 0.1);
   stroke-width: 1;
 }
@@ -654,7 +655,7 @@ circle:hover {
 #chart {
   width: 100%;
   max-width: 1800px;
-  height: 800px;
+  height: 650px;
   margin: 0 auto;     
   padding: 0 15px;    
 }

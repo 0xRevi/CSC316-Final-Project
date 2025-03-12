@@ -3,7 +3,7 @@ class TimeController {
         this.data = data;
         this.currentIndex = 0;
         this.isPlaying = false;
-        this.duration = 100; // ms per frame
+        this.duration = 120; // ms per frame
 
         this.init();
     }
@@ -23,7 +23,7 @@ class TimeController {
 
         // handle interactive behavior on timeline
         let dragBehavior = d3.drag().on("start drag", (event) => {
-            const xPos = d3.pointer(event, this.timeline.svg.node())[0] - 20;
+            const xPos = d3.pointer(event, this.timeline.svg.node())[0];
             const date = this.timeline.xScale.invert(xPos);
             const index = d3
                 .bisector((d) => new Date(d.date))
