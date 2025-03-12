@@ -36,6 +36,11 @@ class LineChartTimeline {
 
         vis.yScale = d3.scaleLinear().domain([0, 1]).range([vis.height, 0]);
 
+        this.createBackgroundIntervals();
+        vis.backgroundIntervalGroup = vis.svg
+            .append("g")
+            .attr("class", "background-intervals");
+
         vis.lineGenerator = d3
             .line()
             .x((d) => vis.xScale(new Date(d.date)))
@@ -89,14 +94,13 @@ class LineChartTimeline {
         // dot at end of line path
         vis.dot = vis.svg.append("circle").attr("class", "timeline-dot");
 
-        this.createBackgroundIntervals();
         this.wrangleData(0);
     }
 
     createBackgroundIntervals() {
         let vis = this;
 
-        const intervals = [];
+        vis.intervals = [];
         let currentInterval = null;
 
         vis.data.forEach((d, i) => {
@@ -114,31 +118,12 @@ class LineChartTimeline {
                     isCollab,
                     isLast: i === vis.data.length - 1,
                 };
-                intervals.push(currentInterval);
+                vis.intervals.push(currentInterval);
             } else {
                 currentInterval.endDate = endDate;
                 currentInterval.isLast = i === vis.data.length - 1;
             }
         });
-
-        // add background intervals
-        vis.svg
-            .append("g")
-            .attr("class", "background-intervals")
-            .selectAll("rect")
-            .data(intervals)
-            .enter()
-            .append("rect")
-            .attr("x", (d) => vis.xScale(d.startDate))
-            .attr("width", (d) =>
-                d.isLast
-                    ? vis.width - vis.xScale(d.startDate)
-                    : vis.xScale(d.endDate) - vis.xScale(d.startDate)
-            )
-            .attr("y", 0)
-            .attr("height", vis.height)
-            .attr("fill", (d) => (d.isCollab ? "#4cc764" : "#ff5e7c"))
-            .attr("opacity", 0.1);
     }
 
     wrangleData(currentIndex) {
@@ -159,15 +144,40 @@ class LineChartTimeline {
         let vis = this;
 
         // update indicator line
-        if (vis.currentIndex < vis.data.length) {
-            const currentDate = new Date(vis.data[vis.currentIndex].date);
-            vis.indicatorLine
-                .attr("x1", vis.xScale(currentDate))
-                .attr("x2", vis.xScale(currentDate))
-                .style("visibility", "visible");
-        } else {
-            vis.indicatorLine.style("visibility", "hidden");
-        }
+        const currentDate = new Date(vis.data[vis.currentIndex].date);
+
+        // add background intervals
+        let backgroundIntervals = vis.backgroundIntervalGroup
+            .selectAll("rect")
+            .data(vis.intervals);
+
+        backgroundIntervals
+            .enter()
+            .append("rect")
+            .merge(backgroundIntervals)
+            .attr("x", (d) => vis.xScale(d.startDate))
+            .attr("width", (d) =>
+                d.isLast
+                    ? vis.width - vis.xScale(d.startDate)
+                    : vis.xScale(d.endDate) - vis.xScale(d.startDate)
+            )
+            .attr("y", 0)
+            .attr("height", vis.height)
+            .attr("fill", (d) => (d.isCollab ? "#4cc764" : "#ff5e7c"))
+            .transition()
+            .duration(100)
+            .attr("opacity", (d) => {
+                return currentDate >= d.startDate && currentDate <= d.endDate
+                    ? 0.5
+                    : 0.1;
+            });
+
+        backgroundIntervals.exit().remove();
+
+        vis.indicatorLine
+            .attr("x1", vis.xScale(currentDate))
+            .attr("x2", vis.xScale(currentDate))
+            .style("visibility", "visible");
 
         // update line path and dot
         vis.path.datum(vis.timelineData).attr("d", vis.lineGenerator);
