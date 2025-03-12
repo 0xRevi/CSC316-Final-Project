@@ -9,9 +9,10 @@
 
 
 body {
-    color: #b3b3b3;           /* Light grey text */
+    color: #f1eeee;           /* Light grey text */
     background: 	#121212;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -632,6 +633,8 @@ circle:hover {
 }
 
 section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     max-width: 800px;
     margin: 1em auto;
     padding: 0 15px;
@@ -645,3 +648,18 @@ section p {
     padding: 0 15px;
     line-height: 1.6;
 }
+
+section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 1em auto;
+    padding: 0 15px;
+}
+
+#bar-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
