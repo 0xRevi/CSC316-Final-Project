@@ -108,11 +108,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     "components/bubble-chart.html",
                     ["js/bubbleChart.js"],
                     () => {
-                        const bubbleChart = new BubbleChart({
-                            container: "#chart",
-                            dataPath: "data/intro_genre/vis1.csv",
-                        });
-                        bubbleChart.render();
+                        if (!window.bubbleChartInstance) {
+                            console.log("Creating new bubble chart instance");
+                            window.bubbleChartInstance = new BubbleChart({
+                                // container: "#chart",
+                                parentElement: "chart",
+                                dataPath: "data/intro_genre/vis1.csv",
+                            });
+                        } else {
+                            console.log("Using existing bubble chart instance");
+                        }
                     }
                 );
             }
