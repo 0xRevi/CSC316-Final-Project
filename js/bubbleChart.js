@@ -51,7 +51,7 @@ class BubbleChart {
         vis.colorScale = d3
             .scaleOrdinal()
             .domain(["Solo", "Collaboration"])
-            .range(["#FF6961", "#77DD77"]);
+            .range([window.SOLO_COLOR, window.COLLAB_COLOR]);
 
         vis.renderLegendPage();
     }
@@ -127,7 +127,7 @@ class BubbleChart {
             .attr("cx", centerX - circleSpacing / 2)
             .attr("cy", centerY)
             .attr("r", 0)
-            .attr("fill", "#FF6961")
+            .attr("fill", window.SOLO_COLOR)
             .attr("stroke", "white")
             .attr("stroke-width", 1)
             .attr("opacity", 0.9);
@@ -155,7 +155,7 @@ class BubbleChart {
             .attr("cx", centerX + circleSpacing / 2)
             .attr("cy", centerY)
             .attr("r", 0)
-            .attr("fill", "#77DD77")
+            .attr("fill", window.COLLAB_COLOR)
             .attr("stroke", "white")
             .attr("stroke-width", 1)
             .attr("opacity", 0.9);

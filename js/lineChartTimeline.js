@@ -35,6 +35,10 @@ class LineChartTimeline {
             .range([0, vis.width]);
 
         vis.yScale = d3.scaleLinear().domain([0, 1]).range([vis.height, 0]);
+        vis.colorScale = d3
+            .scaleOrdinal()
+            .range([window.SOLO_COLOR, window.COLLAB_COLOR])
+            .domain([false, true]);
 
         this.createBackgroundIntervals();
         vis.backgroundIntervalGroup = vis.svg
@@ -163,7 +167,7 @@ class LineChartTimeline {
             )
             .attr("y", 0)
             .attr("height", vis.height)
-            .attr("fill", (d) => (d.isCollab ? "#4cc764" : "#ff5e7c"))
+            .attr("fill", (d) => vis.colorScale(d.isCollab))
             .transition()
             .duration(100)
             .attr("opacity", (d) => {

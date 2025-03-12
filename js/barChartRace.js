@@ -46,7 +46,10 @@ class BarChartRace {
 
         vis.xScale = d3.scaleLinear().range([0, vis.width]);
         vis.yScale = d3.scaleBand().range([0, vis.height]).padding(0.1);
-
+        vis.colorScale = d3
+            .scaleOrdinal()
+            .range([window.SOLO_COLOR, window.COLLAB_COLOR])
+            .domain([true, false]);
         vis.xAxis = vis.svg.append("g").attr("transform", "translate(0,0)");
 
         vis.gridLines = vis.chartArea.append("g").attr("class", "grid-lines");
@@ -83,7 +86,7 @@ class BarChartRace {
             .append("rect")
             .attr("width", legendSize)
             .attr("height", legendSize)
-            .attr("fill", "#ff5e7c");
+            .attr("fill", window.SOLO_COLOR);
 
         // create solo text
         legendGroup
@@ -100,7 +103,7 @@ class BarChartRace {
             .attr("x", legendSize + legendTextOffset + legendSpacing)
             .attr("width", legendSize)
             .attr("height", legendSize)
-            .attr("fill", "#4cc764");
+            .attr("fill", window.COLLAB_COLOR);
 
         // create collaboration text
         legendGroup
@@ -138,7 +141,6 @@ class BarChartRace {
         let gridLines = vis.gridLines
             .selectAll(".grid-line")
             .data(vis.xScale.ticks(10));
-
         gridLines
             .enter()
             .append("line")
@@ -149,7 +151,8 @@ class BarChartRace {
             .attr("x1", (d) => vis.xScale(d))
             .attr("x2", (d) => vis.xScale(d))
             .attr("y1", 0)
-            .attr("y2", vis.height);
+            .attr("y2", vis.height)
+            .style("stroke-dasharray", "4,4");
 
         gridLines.exit().remove();
 
@@ -173,13 +176,8 @@ class BarChartRace {
             .attr("x", 0)
             .attr("y", vis.height)
             .attr("width", 0)
-            .attr("fill", (d) => {
-                if (d.is_solo) {
-                    return "#ff5e7c";
-                } else {
-                    return "#4cc764";
-                }
-            })
+            .attr("fill", (d) => vis.colorScale(d.is_solo))
+            .attr("opacity", 1)
             .merge(bars)
             .transition()
             .duration(vis.duration)
