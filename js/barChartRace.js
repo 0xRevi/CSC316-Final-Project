@@ -46,7 +46,10 @@ class BarChartRace {
 
         vis.xScale = d3.scaleLinear().range([0, vis.width]);
         vis.yScale = d3.scaleBand().range([0, vis.height]).padding(0.1);
-
+        vis.colorScale = d3
+            .scaleOrdinal()
+            .range(["#FF6961", "#77DD77"])
+            .domain([true, false]);
         vis.xAxis = vis.svg.append("g").attr("transform", "translate(0,0)");
 
         vis.gridLines = vis.chartArea.append("g").attr("class", "grid-lines");
@@ -173,13 +176,7 @@ class BarChartRace {
             .attr("x", 0)
             .attr("y", vis.height)
             .attr("width", 0)
-            .attr("fill", (d) => {
-                if (d.is_solo) {
-                    return "#ff5e7c";
-                } else {
-                    return "#4cc764";
-                }
-            })
+            .attr("fill", (d) => vis.colorScale(d.is_solo))
             .merge(bars)
             .transition()
             .duration(vis.duration)
