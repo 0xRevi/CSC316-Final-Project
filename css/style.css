@@ -697,3 +697,68 @@ section h2 {
     width: 100%;
 }
 
+
+
+.artist-card {
+  background-color: #2f2f2f; /* or your lighter grey */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.artist-card-top {
+  display: flex;
+  align-items: center;
+  /* etc. */
+}
+
+.artist-photo-container img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  /* etc. */
+}
+
+.artist-text-container {
+  margin-left: 16px;
+}
+
+.artist-text-container h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.artist-text-container p {
+  margin: 4px 0 0 0;
+  color: #fff;
+}
+
+.artist-meta-info {
+  margin-top: 8px;
+}
+
+.artist-meta-info p {
+  color: #fff;
+  margin: 4px 0 0 0;
+}
+
+.card-top-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  margin-right: 16px;
+}
+
+.artist-name-container h2 {
+  color: #fff;
+  margin: 0;
+}
+
+.dynamic-labels text:hover {
+  fill: #ff4500;        /* distinct highlight color */
+  font-weight: bold;     /* optionally, make it bold */
+}
