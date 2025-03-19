@@ -1,159 +1,464 @@
 /* Spotify Colour Theme: https://www.color-hex.com/color-palette/53188 */
 :root {
-    --spotify-green: #1db954;
-    --spotify-black: #121212;
-    --spotify-gray-dark: #212121;
-    --spotify-gray-mid: #535353;
-    --spotify-gray-light: #b3b3b3;
+  --spotify-green: #1db954;
+  --spotify-black: #121212;
+  --spotify-gray-dark: #212121;
+  --spotify-gray-mid: #535353;
+  --spotify-gray-light: #b3b3b3;
 }
 
 
 body {
-    color: #f1eeee;           /* Light grey text */
-    background: 	#121212;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
+  color: #f1eeee;           /* Light grey text */
+  background: 	var(--spotify-black);
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 #bar-chart-race-container {
-    width: 100%;
-    height: 600px;
-    margin-top: 50px;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
 }
 
 #bar-chart-race-container .date-label {
-    font-weight: 600;
-    font-size: 20px;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 #bar-chart-race-container .song-label {
-    font-size: 14px;
-    font-weight: 500;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
 
 #bar-chart-race-container .stream-label {
-    font-size: 13px;
-    font-weight: 400;
-    opacity: 0.8;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.8;
 }
 
 #bar-chart-race-container .tick text {
-    font-size: 12px;
-    font-weight: 400;
-    opacity: 0.7;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 #bar-chart-race-container .legend-text {
-    fill: white;
-    opacity: 0.5;
-    font-size: 14px;
+  fill: white;
+  opacity: 0.5;
+  font-size: 14px;
 }
 
 #timeline-controls-container {
-    width: 100%;
-    margin-top: 20px;
-    position: relative;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
 }
 
 #timeline-container {
-    width: 100%;
+  width: 100%;
 }
 
 #control-container {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    z-index: 10;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 10;
 }
 
 .play-pause-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 5px 5px 5px 5px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    transition: background-color 0.3s ease;
-    font-size: 20px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .play-pause-btn:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 .play-pause-btn.paused {
-    background-color: rgba(76, 199, 100, 1);
+  background-color: rgba(76, 199, 100, 1);
 }
 
 .play-pause-btn.playing {
-    background-color: rgb(255, 69, 69);
+  background-color: rgb(255, 69, 69);
 }
 
 #visualization-container {
-    width: 100%;
-    max-width: 1500px;  
-    margin: 0 auto;     
-    padding: 0 15px;    
+  width: 100%;
+  max-width: 1500px;  
+  margin: 0 auto;     
+  padding: 0 15px;    
 }
 
 @media screen and (max-width: 1500px) {  
-    #visualization-container {
-        max-width: 95%;  
-    }
+  #visualization-container {
+      max-width: 95%;  
+  }
 }
 
 #timeline-container .axis text {
-    font-size: 12px;
-    font-weight: 400;
-    opacity: 0.7;
-    fill: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  fill: #ffffff;
 }
 
 #timeline-container .axis line,
 #timeline-container .axis path {
-    stroke: rgba(255, 255, 255, 0.3);
+  stroke: rgba(255, 255, 255, 0.3);
 }
 
 #timeline-container .indicator-line {
-    stroke: #a8a8a8;
-    stroke-width: 2;
-    stroke-dasharray: 4,4;
+  stroke: #a8a8a8;
+  stroke-width: 2;
+  stroke-dasharray: 4,4;
 }
 
 #timeline-container .timeline-path {
-    stroke: #4287f5;
-    stroke-width: 3;
+  stroke: #4287f5;
+  stroke-width: 3;
 }
 
 #timeline-container .timeline-dot {
-    fill: #4287f5;
-    r: 5;
-    transition: none;
-    stroke: none;
+  fill: #4287f5;
+  r: 5;
+  transition: none;
+  stroke: none;
 }
 
 #timeline-container .grid-line-x {
-    stroke: rgba(255, 255, 255, 0.15);
-    stroke-width: 2;
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 2;
 }
 
 #visualization-container .grid-line {
-  stroke: rgba(255, 255, 255, 0.1);
-  stroke-width: 1;
+stroke: rgba(255, 255, 255, 0.1);
+stroke-width: 1;
 }
 
 
 
 /* Random ChatGPT Styling*/
 /* Artist Network */
+/* Artist Network Container */
+#artist-network-container {
+width: 60vmin;
+height: 60vmin;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+overflow: hidden;
+background-color: var(--spotify-black);
+border: 2px solid var(--spotify-green);
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+#artist-network-container {
+  width: 90vw;
+  height: 90vw;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 0;
+}
+}
+
+/* SVG and its contents */
+#artist-network-container svg {
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background-color: transparent;
+}
+#artist-network-container svg rect {
+fill: transparent;
+}
+
+/* Node styling */
+circle {
+stroke: #fff;
+stroke-width: 1.5px;
+transition: all 1s ease-in-out;
+}
+circle:hover {
+stroke: #ff4500;
+stroke-width: 3px;
+}
+
+/* Highlighted links */
+.highlighted-link {
+stroke: #e63946 !important;
+stroke-width: 2px !important;
+}
+
+/* Tooltip styling */
+.tooltip {
+position: absolute;
+opacity: 0;
+background-color: rgba(0, 0, 0, 0.75);
+color: white;
+padding: 8px 12px;
+border-radius: 5px;
+font-size: 12px;
+pointer-events: none;
+transition: opacity 0.3s ease-in-out;
+border: 1px solid white;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Node label styling */
+.artist-label {
+font-size: 10px;
+pointer-events: none;
+opacity: 0;
+fill: white;
+}
+
+/* Overlay for highlighting */
+.overlay {
+fill: none;
+stroke: gold;
+stroke-width: 2px;
+opacity: 0;
+}
+
+/* Table styling for artist details and top-K tables */
+.artist-details-table,
+.topk-table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 10px;
+}
+.artist-details-table th,
+.artist-details-table td,
+.topk-table th,
+.topk-table td {
+padding: 8px;
+border: 1px solid #ddd;
+text-align: left;
+}
+.artist-details-table th,
+.topk-table th {
+background-color: #f9f9f9;
+cursor: pointer;
+}
+
+/* Pagination controls */
+.pagination-controls {
+margin-top: 10px;
+text-align: center;
+}
+.pagination-controls button {
+margin: 0 5px;
+padding: 5px 10px;
+}
+
+/* Info panel styling */
+#info-panel {
+padding: 10px;
+margin-right: 3em; /* Adjustments for fullPages.js horizontal page adjustments */
+border: 1px solid #ccc;
+background: #fff;
+}
+
+/* Utility classes */
+.collaborator,
+.clickable-artist,
+.sortable {
+cursor: pointer;
+}
+
+/* Fallback styling for node circles if needed */
+.node-circle {
+fill: steelblue;
+}
+
+/* Fallback link styling if used */
+.link-line {
+stroke: #aaa;
+opacity: 0;
+}
+
+/* Extra SVG container class if applicable */
+.artist-network-svg {
+width: 100%;
+height: 100%;
+background-color: transparent;
+}
+
+/* Example "info-card" styling for the detailed info panel */
+.info-card {
+  background-color: var(--spotify-black) #2a2a2a;
+  color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+/* Headings inside the card */
+.info-card h3,
+.info-card h4 {
+  margin-top: 0;
+  color: var(--spotify-green)
+}
+
+/* Table within the info card */
+.info-card table {
+  width: 100%;
+  margin-top: 8px;
+  border-collapse: collapse;
+}
+
+/* Table header styling */
+.info-card thead {
+  background-color: #333;
+}
+.info-card th {
+  padding: 8px;
+  text-align: left;
+  color: #fff;
+}
+.info-card td {
+  padding: 8px;
+  color: #ccc;
+  border-bottom: 1px solid #444;
+}
+
+/* Pagination controls at bottom of the info card */
+.info-card .pagination-controls {
+  text-align: center;
+  margin-top: 10px;
+}
+.info-card .pagination-controls button {
+  background-color: var(--spotify-green);
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.info-card .pagination-controls button:hover {
+  background-color: #1ed760;
+}
+
+/* Year Buttons */
+.year-button {
+  background-color: var(--spotify-gray-dark);
+  color: var(--spotify-gray-light);
+  border: 1px solid var(--spotify-gray-mid);
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.year-button:hover {
+  background-color: var(--spotify-gray-mid);
+}
+
+.year-button.active {
+background-color: var(--spotify-green); /* Active color */
+color: #fff;
+border-color: var(--spotify-green);
+}
+
+.year-button.active {
+  background-color: var(--spotify-green);
+  color: #fff;
+  border: none;
+}
+
+/* Search Input */
+#search-container label,
+#year-container label,
+#filter-container label,
+#topk-filter-container label {
+  color: var(--spotify-gray-light);
+  font-weight: 500;
+}
+
+#search-input {
+  background-color: var(--spotify-black);
+  color: var(--spotify-gray-light);
+  border: 1px solid var(--spotify-gray-mid);
+  padding: 5px 8px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--spotify-green);
+}
+
+/* Slider and Number Input */
+#weight-slider {
+  -webkit-appearance: none;
+  appearance: var(--spotify-green);
+  width: 120px;
+  height: 4px;
+  background: var(--spotify-gray-mid);
+  outline: none;
+  border-radius: 2px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#weight-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  background: var(--spotify-green);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+#weight-slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  background: var(--spotify-green);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+#topk-input {
+  width: 60px;
+  background-color: var(--spotify-black);
+  color: var(--spotify-gray-light);
+  border: 1px solid var(--spotify-gray-mid);
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+
+#topk-input:focus {
+  outline: none;
+  border-color: var(--spotify-green);
+}
+
 /* Artist Network Container */
 #artist-network-container {
   width: 60vmin;
@@ -163,446 +468,147 @@ body {
   align-items: center;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #121212;
-  border: 2px solid #1db954;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: var(--spotify-black);
+  border: 2px solid var(--spotify-green);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  #artist-network-container {
-    width: 90vw;
-    height: 90vw;
-    padding: 0;
-    margin: 0 auto;
-    border-radius: 0;
-  }
-}
-
-/* SVG and its contents */
+/* SVG fills entire container */
 #artist-network-container svg {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background-color: transparent;
 }
-#artist-network-container svg rect {
-  fill: transparent;
-}
 
-/* Node styling */
+/* Nodes and Edges */
 circle {
   stroke: #fff;
   stroke-width: 1.5px;
-  transition: all 1s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 circle:hover {
   stroke: #ff4500;
   stroke-width: 3px;
 }
 
-/* Highlighted links */
-.highlighted-link {
-  stroke: #e63946 !important;
-  stroke-width: 2px !important;
+/* Links */
+line {
+  stroke: #aaa;
+  opacity: 1;
+  transition: opacity 0.2s ease;
 }
 
-/* Tooltip styling */
+/* Labels */
+.artist-label {
+  font-size: 10px;
+  pointer-events: none;
+  fill: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip */
 .tooltip {
   position: absolute;
-  opacity: 0;
   background-color: rgba(0, 0, 0, 0.75);
-  color: white;
+  color: #fff;
   padding: 8px 12px;
   border-radius: 5px;
   font-size: 12px;
   pointer-events: none;
+  opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  border: 1px solid white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
-/* Node label styling */
-.artist-label {
-  font-size: 10px;
-  pointer-events: none;
-  opacity: 0;
-  fill: white;
+/* Info Panel and Info Card */
+#info-panel {
+  padding: 16px;
+  border: 1px solid var(--spotify-gray-mid);
+  background-color: var(--spotify-gray-dark);
+  color: var(--spotify-gray-light);
+  border-radius: 6px;
+  margin-left: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Overlay for highlighting */
-.overlay {
-  fill: none;
-  stroke: gold;
-  stroke-width: 2px;
-  opacity: 0;
+#info-panel h3,
+#info-panel h4 {
+  color: var(--spotify-green);
+  margin-top: 0;
 }
 
-/* Table styling for artist details and top-K tables */
+/* Tables */
 .artist-details-table,
 .topk-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
+  background-color: var(--spotify-black);
 }
-.artist-details-table th,
-.artist-details-table td,
-.topk-table th,
-.topk-table td {
-  padding: 8px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
+
 .artist-details-table th,
 .topk-table th {
-  background-color: #f9f9f9;
+  background-color: var(--spotify-gray-mid);
+  color: #fff;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--spotify-gray-dark);
   cursor: pointer;
 }
 
-/* Pagination controls */
+.artist-details-table td,
+.topk-table td {
+  color: var(--spotify-gray-light);
+  border-bottom: 1px solid var(--spotify-gray-mid);
+  padding: 8px;
+}
+
+/* Table Pagination */
 .pagination-controls {
   margin-top: 10px;
   text-align: center;
 }
+
 .pagination-controls button {
+  background-color: var(--spotify-green);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
   margin: 0 5px;
-  padding: 5px 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-/* Info panel styling */
-#info-panel {
-  padding: 10px;
-  margin-right: 3em; /* Adjustments for fullPages.js horizontal page adjustments */
-  border: 1px solid #ccc;
-  background: #fff;
+.pagination-controls button:hover {
+  background-color: #1ed760; /* Slightly lighter green */
 }
 
-/* Utility classes */
+
 .collaborator,
 .clickable-artist,
 .sortable {
   cursor: pointer;
 }
 
-/* Fallback styling for node circles if needed */
-.node-circle {
-  fill: steelblue;
+/* Highlighted link example */
+.highlighted-link {
+  stroke: var(--spotify-green) !important;
+  stroke-width: 2px !important;
 }
 
-/* Fallback link styling if used */
-.link-line {
-  stroke: #aaa;
-  opacity: 0;
-}
 
-/* Extra SVG container class if applicable */
-.artist-network-svg {
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-}
-
-/* Example "info-card" styling for the detailed info panel */
-.info-card {
-    background-color: var(--spotify-black) #2a2a2a;
-    color: #fff;
-    padding: 16px;
-    border-radius: 6px;
-    margin-bottom: 10px;
-    border: 1px solid #333;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    transition: all 0.3s ease;
-}
-
-/* Headings inside the card */
-.info-card h3,
-.info-card h4 {
-    margin-top: 0;
-    color: var(--spotify-green)
-}
-
-/* Table within the info card */
-.info-card table {
-    width: 100%;
-    margin-top: 8px;
-    border-collapse: collapse;
-}
-
-/* Table header styling */
-.info-card thead {
-    background-color: #333;
-}
-.info-card th {
-    padding: 8px;
-    text-align: left;
-    color: #fff;
-}
-.info-card td {
-    padding: 8px;
-    color: #ccc;
-    border-bottom: 1px solid #444;
-}
-
-/* Pagination controls at bottom of the info card */
-.info-card .pagination-controls {
-    text-align: center;
-    margin-top: 10px;
-}
-.info-card .pagination-controls button {
-    background-color: #1DB954;
-    color: #fff;
-    border: none;
-    padding: 6px 12px;
-    margin: 0 5px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-.info-card .pagination-controls button:hover {
-    background-color: #1ed760;
-}
-
-/* Year Buttons */
-.year-button {
-    background-color: var(--spotify-gray-dark);
-    color: var(--spotify-gray-light);
-    border: 1px solid var(--spotify-gray-mid);
-    border-radius: 4px;
-    padding: 6px 10px;
-    margin: 0 5px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.year-button:hover {
-    background-color: var(--spotify-gray-mid);
-}
-
-.year-button.active {
-    background-color: var(--spotify-green);
-    color: #fff;
-    border: none;
-}
-
-/* Search Input */
-#search-container label,
-#year-container label,
-#filter-container label,
-#topk-filter-container label {
-    color: var(--spotify-gray-light);
-    font-weight: 500;
-  }
-  
-#search-input {
-    background-color: var(--spotify-black);
-    color: var(--spotify-gray-light);
-    border: 1px solid var(--spotify-gray-mid);
-    padding: 5px 8px;
-    border-radius: 4px;
-    margin-left: 5px;
-  }
-  
-  #search-input:focus {
-    outline: none;
-    border-color: var(--spotify-green);
-  }
-  
-/* Slider and Number Input */
-  #weight-slider {
-    -webkit-appearance: none;
-    appearance: var(--spotify-green);
-    width: 120px;
-    height: 4px;
-    background: var(--spotify-gray-mid);
-    outline: none;
-    border-radius: 2px;
-    margin: 0 10px;
-    cursor: pointer;
-  }
-  
-  #weight-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    height: 16px;
-    width: 16px;
-    background: var(--spotify-green);
-    border-radius: 50%;
-    border: 2px solid #fff;
-    cursor: pointer;
-  }
-  
-  #weight-slider::-moz-range-thumb {
-    height: 16px;
-    width: 16px;
-    background: var(--spotify-green);
-    border-radius: 50%;
-    border: 2px solid #fff;
-    cursor: pointer;
-  }
-  
-  #topk-input {
-    width: 60px;
-    background-color: var(--spotify-black);
-    color: var(--spotify-gray-light);
-    border: 1px solid var(--spotify-gray-mid);
-    padding: 5px;
-    border-radius: 4px;
-    margin-left: 5px;
-  }
-  
-  #topk-input:focus {
-    outline: none;
-    border-color: var(--spotify-green);
-  }
-  
-/* Artist Network Container */
-  #artist-network-container {
-    width: 60vmin;
-    height: 60vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: var(--spotify-black);
-    border: 2px solid var(--spotify-green);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* SVG fills entire container */
-  #artist-network-container svg {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: transparent;
-  }
-  
-/* Nodes and Edges */
-  circle {
-    stroke: #fff;
-    stroke-width: 1.5px;
-    transition: all 0.4s ease-in-out;
-  }
-  circle:hover {
-    stroke: #ff4500;
-    stroke-width: 3px;
-  }
-  
-  /* Links */
-  line {
-    stroke: #aaa;
-    opacity: 1;
-    transition: opacity 0.2s ease;
-  }
-  
-/* Labels */
-  .artist-label {
-    font-size: 10px;
-    pointer-events: none;
-    fill: #fff;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-/* Tooltip */
-  .tooltip {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 5px;
-    font-size: 12px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    border: 1px solid #333;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-  }
-  
-/* Info Panel and Info Card */
-  #info-panel {
-    padding: 16px;
-    border: 1px solid var(--spotify-gray-mid);
-    background-color: var(--spotify-gray-dark);
-    color: var(--spotify-gray-light);
-    border-radius: 6px;
-    margin-left: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  }
-  
-  #info-panel h3,
-  #info-panel h4 {
-    color: var(--spotify-green);
-    margin-top: 0;
-  }
-  
-/* Tables */
-  .artist-details-table,
-  .topk-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-    background-color: var(--spotify-black);
-  }
-  
-  .artist-details-table th,
-  .topk-table th {
-    background-color: var(--spotify-gray-mid);
-    color: #fff;
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid var(--spotify-gray-dark);
-    cursor: pointer;
-  }
-  
-  .artist-details-table td,
-  .topk-table td {
-    color: var(--spotify-gray-light);
-    border-bottom: 1px solid var(--spotify-gray-mid);
-    padding: 8px;
-  }
-  
-/* Table Pagination */
-  .pagination-controls {
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .pagination-controls button {
-    background-color: var(--spotify-green);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    margin: 0 5px;
-    padding: 6px 12px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-  }
-  
-  .pagination-controls button:hover {
-    background-color: #1ed760; /* Slightly lighter green */
-  }
-  
-
-  .collaborator,
-  .clickable-artist,
-  .sortable {
-    cursor: pointer;
-  }
-  
-  /* Highlighted link example */
-  .highlighted-link {
-    stroke: var(--spotify-green) !important;
-    stroke-width: 2px !important;
-  }
-  
-
-  /* Container for all controls */
+/* Container for all controls */
 #controls-container {
-  display: flex;
-  flex-wrap: wrap;         /* Allow wrapping on smaller screens */
-  align-items: center;
-  gap: 1em;                /* Space between each block of controls */
-  margin-bottom: 1em;      /* Spacing before the chart container */
-  padding: 0 1em;          /* Horizontal padding if desired */
+display: flex;
+flex-wrap: wrap;         /* Allow wrapping on smaller screens */
+align-items: center;
+gap: 1em;                /* Space between each block of controls */
+margin-bottom: 1em;      /* Spacing before the chart container */
+padding: 0 1em;          /* Horizontal padding if desired */
 }
 
 /* Each group (year, search, filter, topK) can also be a small flex row */
@@ -610,155 +616,198 @@ circle:hover {
 #search-container,
 #filter-container,
 #topk-filter-container {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
+display: flex;
+align-items: center;
+gap: 0.5em;
 }
 
 #year-container label,
 #search-container label,
 #filter-container label,
 #topk-filter-container label {
-  color: var(--spotify-gray-light, #b3b3b3);
-  font-weight: 500;
-  margin-right: 0.25em;
+color: var(--spotify-gray-light, var(--spotify-gray-light));
+font-weight: 500;
+margin-right: 0.25em;
 }
 
 .year-button,
 #search-input,
 #weight-slider,
 #topk-input {
-  font-size: 14px;
-  border-radius: 4px;
-  border: 1px solid var(--spotify-gray-mid, #535353);
-  background-color: var(--spotify-gray-dark, #212121);
-  color: var(--spotify-gray-light, #b3b3b3);
-  padding: 6px 8px;
-  transition: background-color 0.2s ease;
+font-size: 14px;
+border-radius: 4px;
+border: 1px solid var(--spotify-gray-mid, var(--spotify-gray-mid));
+background-color: var(--spotify-gray-dark, var(--spotify-gray-black));
+color: var(--spotify-gray-light, var(--spotify-gray-light));
+padding: 6px 8px;
+transition: background-color 0.2s ease;
 }
 
 .year-button:hover {
-  background-color: var(--spotify-gray-mid, #535353);
+background-color: var(--spotify-gray-mid, var(--spotify-gray-mid));
 }
 
 #weight-slider {
-  -webkit-appearance: none;
-  appearance: var(--spotify-green);
-  width: 120px;
-  height: 4px;
-  background: var(--spotify-gray-mid, #535353);
-  outline: none;
-  cursor: pointer;
+-webkit-appearance: none;
+appearance: var(--spotify-green);
+width: 120px;
+height: 4px;
+background: var(--spotify-gray-mid, var(--spotify-gray-mid));
+outline: none;
+cursor: pointer;
 }
 
 
 #chart {
-  width: 100%;
-  max-width: 1800px;
-  height: 650px;
-  margin: 0 auto;     
-  padding: 0 15px;    
+width: 100%;
+max-width: 1800px;
+height: 650px;
+margin: 0 auto;
+padding: 0 15px;
 }
 
-@media screen and (max-width: 1800px) {  
-  #chart {
-      max-width: 95%;  
-  }
+@media screen and (max-width: 1800px) {
+#chart {
+    max-width: 95%;
+}
 }
 
 section h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    max-width: 800px;
-    margin: 1em auto;
-    padding: 0 15px;
-    line-height: 1.6;
-    font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 0 15px;
+  line-height: 1.6;
+  font-size: 2em;
 }
 
 section p {
-    max-width: 800px;
-    margin: 1em auto;
-    padding: 0 15px;
-    line-height: 1.6;
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 0 15px;
+  line-height: 1.6;
 }
 
 section h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    margin: 1em auto;
-    padding: 0 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin: 1em auto;
+  padding: 0 15px;
 }
 
 #bar-chart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 
 
 .artist-card {
-  background-color: #2f2f2f; /* or your lighter grey */
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 20px;
+background-color: #2f2f2f;
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 16px;
+margin-bottom: 20px;
 }
 
 .artist-card-top {
-  display: flex;
-  align-items: center;
-  /* etc. */
+display: flex;
+align-items: center;
+
 }
 
 .artist-photo-container img {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  /* etc. */
+border-radius: 50%;
+width: 80px;
+height: 80px;
+object-fit: cover;
 }
 
 .artist-text-container {
-  margin-left: 16px;
+margin-left: 16px;
 }
 
 .artist-text-container h2 {
-  margin: 0;
-  color: #fff;
+margin: 0;
+color: #fff;
 }
 
 .artist-text-container p {
-  margin: 4px 0 0 0;
-  color: #fff;
+margin: 4px 0 0 0;
+color: #fff;
 }
 
 .artist-meta-info {
-  margin-top: 8px;
+margin-top: 8px;
 }
 
 .artist-meta-info p {
-  color: #fff;
-  margin: 4px 0 0 0;
+color: #fff;
+margin: 4px 0 0 0;
 }
 
 .card-top-section {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .nav-buttons {
-  margin-right: 16px;
+margin-right: 16px;
 }
 
 .artist-name-container h2 {
-  color: #fff;
-  margin: 0;
+color: #fff;
+margin: 0;
 }
 
 .dynamic-labels text:hover {
-  fill: #ff4500;        /* distinct highlight color */
-  font-weight: bold;     /* optionally, make it bold */
+fill: #ff4500;
+font-weight: bold;
+}
+
+
+/* Make the parent container positioned so we can absolutely position the suggestions. */
+#search-bar-container {
+position: relative;
+display: inline-block;
+}
+
+/* Style the suggestions dropdown to match the input’s width and appear right below it. */
+#search-suggestions {
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background-color: #2b2b2b;
+border: 1px solid #444;
+max-height: 200px;
+overflow-y: auto;
+border-top: none;
+border-radius: 0 0 4px 4px;
+box-sizing: border-box;
+z-index: 999;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Each suggestion line item */
+.suggestion-item {
+padding: 8px;
+cursor: pointer;
+color: #fff;
+}
+
+/* Highlight on hover */
+.suggestion-item:hover {
+background-color: #444;
+border-left: 4px solid var(--spotify-green);
+padding-left: 8px;
+}
+
+.year-button.active {
+background-color: var(--spotify-green);
+color: #fff;
+border-color: var(--spotify-green);
 }

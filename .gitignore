@@ -1,15 +1,19 @@
+# VSCode Editor
+.vscode
+
+# macOS resource forks & folder-specific temporary files
+._*
+**/.DS_Store
+
+# Experimental folders
 precompute
 tests
 
-# VSCode Editor 
-.vscode
+# Python scripts for data processing folder
+python
 
-# MacOS Garbage Collection
-.DS_Store
-
-
+## Python Virutal Environments
 .env
-env
 .venv
+env
 venv
-

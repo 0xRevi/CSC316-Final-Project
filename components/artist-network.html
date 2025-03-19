@@ -3,9 +3,11 @@
 
   <div id="controls-container">
     <!-- Search input for artist names -->
-    <div id="search-container">
+    <div id="search-bar-container">
       <label for="search-input">Search Artist:</label>
-      <input type="text" id="search-input" placeholder="Enter artist name">
+      <!-- Autocomplete off is especially important to prioritize our search rather than the browser's history search -->
+      <input type="text" id="search-input" placeholder="Enter artist name" autocomplete="off"/>
+      <div id="search-suggestions"></div>
     </div>
     <!-- Year selection buttons -->
     <div id="year-container">
@@ -19,13 +21,6 @@
       <button class="year-button" data-year="2022">2022</button>
       <button class="year-button" data-year="2023">2023</button>
       <button class="year-button" data-year="2024">2024</button>
-    </div>
-
-    <!-- Slider for filtering links based on collaboration weight -->
-    <div id="filter-container">
-      <label for="weight-slider">Minimum Collaboration Weight:</label>
-      <input type="range" id="weight-slider" min="1" max="20" value="1" step="1">
-      <span id="weight-value">1</span>
     </div>
 
     <!-- Top K Artist Filter -->

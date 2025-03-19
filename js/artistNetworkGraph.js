@@ -30,7 +30,8 @@ class ArtistNetworkGraph {
       topKTable: null,
       selectionHistory: [],
       historyIndex: -1,
-      radiusScale: null
+      radiusScale: null,
+      historyByYear: {}
     };
   }
 
@@ -113,6 +114,9 @@ class ArtistNetworkGraph {
       return;
     }
     this.currentYear = year;
+    if (!this.state.historyByYear[year]) {
+      this.state.historyByYear[year] = { history: [], index: -1 };
+    }
     const startOverall = performance.now();
 
     if (this.dataCache[year]) {
@@ -136,7 +140,7 @@ class ArtistNetworkGraph {
       .then(([datasets, csvRows]) => {
         const { nodes, links, radiusScale, colorScale } = this.processData(datasets);
 
-        // Build songDataMap
+        // Build songDataMap using updated CSV header names.
         const songDataMap = {};
         csvRows.forEach(row => {
           const key = row.spotify_track_id || row.song_id;
@@ -144,8 +148,8 @@ class ArtistNetworkGraph {
             (row.all_time_streams ? +row.all_time_streams : 0);
           songDataMap[key] = {
             spotify_track_id: row.spotify_track_id,
-            song: row.song,
-            artist: row.artist,
+            song_name: row.song_name,      // updated header name
+            artist_names: row.artist_names, // updated header name
             album: row.album,
             album_date: row.album_date,
             streams,
@@ -176,26 +180,44 @@ class ArtistNetworkGraph {
       }, 0);
     });
 
-    // Update slider UI based on data
-    const maxCollaborators = d3.max(nodes, d => d.degree);
-    d3.select("#weight-slider").attr("max", maxCollaborators).property("value", 1);
-    d3.select("#weight-value").text(1);
-
     // Clear previous graph and create new graph
     this.state.graphGroup.selectAll("*").remove();
     this.createGraph(nodes, links, radiusScale, colorScale);
     console.log(`Total render time for ${this.currentYear}: ${performance.now() - startOverall} ms`);
+
+
+  // // Update the active year button style
+  // d3.selectAll(".year-button").classed("active", false);
+  // d3.select(`.year-button[data-year="${this.currentYear}"]`).classed("active", true);
+  
+  // // Create new graph elements
+  // this.createGraph(nodes, links, radiusScale, colorScale);
+  // console.log(`Total render time for ${this.currentYear}: ${performance.now() - startOverall} ms`);
+  
+  // // If there is a pending history highlight from navigation, apply it
+  // if (this.pendingHighlight) {
+  //   this.highlightNeighbors(this.pendingHighlight);
+  //   this.pendingHighlight = null;
+  // }
+
+
   }
 
   processData(datasets) {
     const allLinks = [];
     datasets.forEach(data => {
       data.forEach(d => {
+        // For global artist network, handle both previous and new formatting for song_ids.
         let songs = [];
         try {
+          // Try to parse as JSON if the string is formatted as a list.
           songs = JSON.parse(d.song_ids.replace(/'/g, '"'));
+          if (!Array.isArray(songs)) {
+            songs = d.song_ids.split(",").map(s => s.trim());
+          }
         } catch (e) {
-          songs = [];
+          // If JSON parsing fails, assume it's a comma-separated list.
+          songs = d.song_ids.split(",").map(s => s.trim());
         }
         const existingLink = allLinks.find(link =>
           (link.source === d.artist_1 && link.target === d.artist_2) ||
@@ -303,11 +325,6 @@ class ArtistNetworkGraph {
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
       .style("opacity", 0)
-      .call(d3.drag()
-        .on("start", (event, d) => this.dragStarted(event, d))
-        .on("drag", (event, d) => this.dragged(event, d))
-        .on("end", (event, d) => this.dragEnded(event, d))
-      )
       .on("mouseover", (event, d) => {
         tooltip.transition().duration(200).style("opacity", 0.9);
         tooltip.html(`<strong>${d.id}</strong><br/>Collaborators: ${d.degree}<br/>Songs: ${d.songCount || 0}`)
@@ -343,26 +360,6 @@ class ArtistNetworkGraph {
   }
 
   /* =========================
-     Drag Event Handlers
-  ========================= */
-  dragStarted(event, d) {
-    if (!event.active) d3.select(event.sourceEvent.target).raise();
-    d.fx = d.x;
-    d.fy = d.y;
-  }
-
-  dragged(event, d) {
-    d.fx = event.x;
-    d.fy = event.y;
-  }
-
-  dragEnded(event, d) {
-    if (!event.active) d3.select(event.sourceEvent.target);
-    d.fx = null;
-    d.fy = null;
-  }
-
-  /* =========================
      Node Highlighting & Interaction
   ========================= */
   highlightNeighbors(selected) {
@@ -385,7 +382,7 @@ class ArtistNetworkGraph {
       .style("opacity", d => {
         const sourceID = typeof d.source === "object" ? d.source.id : d.source;
         const targetID = typeof d.target === "object" ? d.target.id : d.target;
-        return (connectedNodes.has(sourceID) && connectedNodes.has(targetID)) ? 1 : 0.0;
+        return (sourceID === selected.id || targetID === selected.id) ? 1 : 0;
       })
       .attr("stroke", d => {
         const sourceID = typeof d.source === "object" ? d.source.id : d.source;
@@ -424,14 +421,13 @@ class ArtistNetworkGraph {
         .attr("y", d => d.y)
         .style("fill", "#fff")
         .style("opacity", 1)
-        .style("pointer-events", "auto") // allow hover interactions
+        .style("pointer-events", "auto")
         .on("mouseover", function() {
-        d3.select(this).style("fill", "#ff4500"); // distinct hover color
+          d3.select(this).style("fill", "#ff4500");
         })
         .on("mouseout", function() {
-        d3.select(this).style("fill", "#fff"); // revert to original color
+          d3.select(this).style("fill", "#fff");
         });
-
 
     this.updateInfoPanel(selected, [...connectedNodes].filter(id => id !== selected.id));
     this.zoomToNodeAndNeighbors(selected, connectedNodes);
@@ -564,29 +560,36 @@ class ArtistNetworkGraph {
   }
 
   updateArtistDetailsTable(artist) {
-    const songs = [];
-    if (artist.song_ids && artist.song_ids.length) {
-      artist.song_ids.forEach(songID => {
-        const songData = this.state.songDataMap[songID];
-        if (songData) {
-          if (this.currentYear === "all") {
-            songs.push({
-              songName: songData.song,
-              artist: songData.artist,
-              releaseDate: songData.release_date,
-              yearsOnChart: this.formatYearsOnChart(songData.years_on_chart)
-            });
-          } else {
-            songs.push({
-              songName: songData.song,
-              artist: songData.artist,
-              releaseDate: songData.release_date
-            });
-          }
-        }
-      });
-    }
-
+    // Get all songs from the dataset
+    const allSongs = Object.values(this.state.songDataMap);
+    
+    // Filter songs to include any that list the selected artist in their "artist_names" field.
+    // This handles cases where multiple artists are comma separated.
+    const songs = allSongs.filter(songData => {
+      if (!songData.artist_names) return false;
+      const artistNames = songData.artist_names.split(",").map(a => a.trim().toLowerCase());
+      return artistNames.includes(artist.id.toLowerCase());
+    }).map(songData => {
+      // Include songID from either spotify_track_id or song_id
+      const songID = songData.spotify_track_id || songData.song_id;
+      if (this.currentYear === "all") {
+        return {
+          songID,
+          songName: songData.song_name,
+          artist: songData.artist_names,
+          releaseDate: songData.release_date,
+          yearsOnChart: this.formatYearsOnChart(songData.years_on_chart)
+        };
+      } else {
+        return {
+          songID,
+          songName: songData.song_name,
+          artist: songData.artist_names,
+          releaseDate: songData.release_date
+        };
+      }
+    });
+  
     // Initialize table state if necessary
     if (!this.state.artistTable) {
       this.state.artistTable = {
@@ -597,32 +600,39 @@ class ArtistNetworkGraph {
       };
     }
     const tableState = this.state.artistTable;
+    
+    // Sort the songs based on the current sort key and order
     songs.sort((a, b) => {
       if (tableState.sortKey === 'songName') {
         return tableState.sortOrder === 'asc' ? d3.ascending(a.songName, b.songName) : d3.descending(a.songName, b.songName);
       } else if (tableState.sortKey === 'releaseDate') {
-        return tableState.sortOrder === 'asc' ? d3.ascending(a.releaseDate, b.releaseDate) : d3.descending(a.releaseDate, b.songName);
+        return tableState.sortOrder === 'asc' ? d3.ascending(a.releaseDate, b.releaseDate) : d3.descending(a.releaseDate, b.releaseDate);
       } else if (tableState.sortKey === 'artist') {
         return tableState.sortOrder === 'asc' ? d3.ascending(a.artist, b.artist) : d3.descending(a.artist, b.artist);
       }
     });
-
+  
+    // Pagination setup
     const totalPages = Math.ceil(songs.length / tableState.rowsPerPage);
     tableState.currentPage = Math.max(1, Math.min(tableState.currentPage, totalPages));
     const startIndex = (tableState.currentPage - 1) * tableState.rowsPerPage;
     const pageData = songs.slice(startIndex, startIndex + tableState.rowsPerPage);
-
+  
+    // Clear any existing details and create a new details container
     d3.select("#info-panel").select(".artist-details").remove();
     const detailsDiv = d3.select("#info-panel").append("div").attr("class", "artist-details");
     detailsDiv.append("h4").text(`Song Details for ${artist.id}`);
-
+  
+    // Build the table
     const table = detailsDiv.append("table")
       .attr("class", "artist-details-table")
       .style("width", "100%");
     const thead = table.append("thead");
     const tbody = table.append("tbody");
-
+  
+    // Define the headers for the table including the new Song ID column
     const headers = [
+      { label: "Song ID", sortKey: null },
       { label: "Song Name", sortKey: "songName", defaultSortOrder: "asc" },
       { label: "Artist", sortKey: "artist", defaultSortOrder: "asc" },
       { label: "Release Date", sortKey: "releaseDate", defaultSortOrder: "asc" }
@@ -630,7 +640,8 @@ class ArtistNetworkGraph {
     if (this.currentYear === "all") {
       headers.push({ label: "Years on Chart", sortKey: null });
     }
-
+  
+    // Create header row with clickable sorting for sortable headers
     const headerRow = thead.append("tr");
     headers.forEach(header => {
       const th = headerRow.append("th")
@@ -649,10 +660,15 @@ class ArtistNetworkGraph {
         });
       }
     });
-
+  
+    // Populate table rows with song data
     pageData.forEach(song => {
       const row = tbody.append("tr");
+      // Song ID column
+      row.append("td").text(song.songID);
       row.append("td").text(song.songName);
+      
+      // Artist cell with clickable artist names for search refinement
       const artistCell = row.append("td");
       song.artist.split(",").map(s => s.trim()).forEach((artistName, i, arr) => {
         artistCell.append("span")
@@ -672,12 +688,14 @@ class ArtistNetworkGraph {
           artistCell.append("span").text(", ");
         }
       });
+      
       row.append("td").text(song.releaseDate);
       if (this.currentYear === "all") {
         row.append("td").text(song.yearsOnChart);
       }
     });
-
+  
+    // Add pagination controls
     const pagination = detailsDiv.append("div")
       .attr("class", "pagination-controls")
       .style("margin-top", "10px");
@@ -699,7 +717,7 @@ class ArtistNetworkGraph {
         this.updateArtistDetailsTable(artist);
       });
   }
-
+  
   formatYearsOnChart(years) {
     if (!years) return "";
     if (Array.isArray(years)) return years.join(", ");
@@ -790,30 +808,6 @@ class ArtistNetworkGraph {
   /* =========================
      Filter & Zoom Methods
   ========================= */
-  applyCollaborationFilter() {
-    const minWeight = +d3.select("#weight-slider").property("value");
-    d3.select("#weight-value").text(minWeight);
-
-    this.state.nodeElements.style("opacity", d =>
-      d.degree >= minWeight ? 1 : 0.3
-    );
-
-    const visibleNodes = new Set(
-      this.state.globalNodes.filter(d => d.degree >= minWeight).map(d => d.id)
-    );
-    this.state.linkElements
-      .style("opacity", d => {
-        const s = typeof d.source === "object" ? d.source.id : d.source;
-        const t = typeof d.target === "object" ? d.target.id : d.target;
-        return (visibleNodes.has(s) && visibleNodes.has(t)) ? 1 : 0.1;
-      })
-      .attr("stroke", "#aaa");
-
-    if (this.state.selectedNode) {
-      this.highlightNeighbors(this.state.selectedNode);
-    }
-  }
-
   applyTopKFilter() {
     const topK = +d3.select("#topk-input").property("value");
     const sortedNodes = this.state.globalNodes.slice().sort((a, b) => b.totalStreams - a.totalStreams);
@@ -827,20 +821,11 @@ class ArtistNetworkGraph {
     }
   }
 
+  // Removed reference to the old "minWeight" filter per updated requirements.
   applyFilterState() {
-    const minWeight = +d3.select("#weight-slider").property("value");
-    d3.select("#weight-value").text(minWeight);
-    this.state.nodeElements.style("opacity", d => d.degree >= minWeight ? 1 : 0.3);
-
-    const visibleNodes = new Set(
-      this.state.globalNodes.filter(d => d.degree >= minWeight).map(d => d.id)
-    );
+    this.state.nodeElements.style("opacity", 1);
     this.state.linkElements
-      .style("opacity", d => {
-        const sourceID = typeof d.source === "object" ? d.source.id : d.source;
-        const targetID = typeof d.target === "object" ? d.target.id : d.target;
-        return (visibleNodes.has(sourceID) && visibleNodes.has(targetID)) ? 1 : 0.0;
-      })
+      .style("opacity", 1)
       .attr("stroke", "#aaa");
 
     const sortedNodes = this.state.globalNodes.slice().sort((a, b) => b.totalStreams - a.totalStreams);
@@ -917,52 +902,53 @@ class ArtistNetworkGraph {
      History Navigation Methods
   ========================= */
   pushToHistory(artistNode) {
-    const history = this.state.selectionHistory;
-    const currentIndex = this.state.historyIndex;
+    const currentHistory = this.state.historyByYear[this.currentYear];
+    if (!currentHistory) return;
+    const { history, index } = currentHistory;
     const newArtistName = artistNode.id.toLowerCase();
-
-    if (history[currentIndex] && history[currentIndex].id.toLowerCase() === newArtistName) {
+    if (history[index] && history[index].id.toLowerCase() === newArtistName) {
       return;
     }
-
     let foundForwardIndex = -1;
-    for (let i = currentIndex + 1; i < history.length; i++) {
+    for (let i = index + 1; i < history.length; i++) {
       if (history[i].id.toLowerCase() === newArtistName) {
         foundForwardIndex = i;
         break;
       }
     }
-
     if (foundForwardIndex !== -1) {
-      this.state.historyIndex = foundForwardIndex;
+      currentHistory.index = foundForwardIndex;
     } else {
-      history.splice(currentIndex + 1, 0, artistNode);
-      this.state.historyIndex = currentIndex + 1;
+      history.splice(index + 1, 0, artistNode);
+      currentHistory.index = index + 1;
     }
     this.updateBackForwardButtons();
   }
 
   goBack() {
-    if (this.state.historyIndex > 0) {
-      this.state.historyIndex--;
-      const artistNode = this.state.selectionHistory[this.state.historyIndex];
+    const currentHistory = this.state.historyByYear[this.currentYear];
+    if (currentHistory.index > 0) {
+      currentHistory.index--;
+      const artistNode = currentHistory.history[currentHistory.index];
       this.highlightNeighbors(artistNode);
       this.updateBackForwardButtons();
     }
   }
 
   goForward() {
-    if (this.state.historyIndex < this.state.selectionHistory.length - 1) {
-      this.state.historyIndex++;
-      const artistNode = this.state.selectionHistory[this.state.historyIndex];
+    const currentHistory = this.state.historyByYear[this.currentYear];
+    if (currentHistory.index < currentHistory.history.length - 1) {
+      currentHistory.index++;
+      const artistNode = currentHistory.history[currentHistory.index];
       this.highlightNeighbors(artistNode);
       this.updateBackForwardButtons();
     }
   }
 
   updateBackForwardButtons() {
-    d3.select("#back-button").property("disabled", this.state.historyIndex <= 0);
-    d3.select("#forward-button").property("disabled", this.state.historyIndex >= this.state.selectionHistory.length - 1);
+    const currentHistory = this.state.historyByYear[this.currentYear];
+    d3.select("#back-button").property("disabled", currentHistory.index <= 0);
+    d3.select("#forward-button").property("disabled", currentHistory.index >= currentHistory.history.length - 1);
   }
 
   /* =========================
@@ -970,29 +956,98 @@ class ArtistNetworkGraph {
   ========================= */
   setupUIControls() {
     d3.selectAll(".year-button").on("click", event => {
+      // Remove active styling from all buttons first
+      d3.selectAll(".year-button").classed("active", false);
+      // Then add active styling to the clicked button
+      d3.select(event.target).classed("active", true);
+
       this.clearInfoPanel();
       const year = d3.select(event.target).attr("data-year");
       this.loadData(year);
     });
 
-    d3.select("#search-input").on("keydown", event => {
-      if (event.key === "Enter") {
-        const searchTerm = d3.select(event.target).property("value").trim().toLowerCase();
-        if (!this.state.globalNodes || this.state.globalNodes.length === 0) {
-          alert("Data not loaded yet!");
-          return;
-        }
-        const matchingNode = this.state.globalNodes.find(d => d.id.toLowerCase() === searchTerm);
-        if (matchingNode) {
-          this.state.userInteracted = true;
-          this.highlightNeighbors(matchingNode);
-        } else {
-          alert("Artist not found!");
-        }
+    // Set active class on the button that corresponds to the preloaded dataset
+    const initialYear = this.options.initialYear || "2024";
+    d3.select(`.year-button[data-year="${initialYear}"]`).classed("active", true);
+
+    // Attach suggestions dropdown update on input event
+    d3.select("#search-input").on("input", event => {
+      const searchTerm = d3.select(event.target).property("value").trim();
+      // Clear suggestions if search term is empty
+      if (!searchTerm) {
+        d3.select("#search-suggestions").html("");
+        return;
       }
+      
+      // Build the filtered dataset (e.g., using your topK filter)
+      const sortedNodes = this.state.globalNodes.slice().sort((a, b) => b.totalStreams - a.totalStreams);
+      const topK = +d3.select("#topk-input").property("value");
+      const filteredNodes = sortedNodes.slice(0, topK);
+      
+      // fuse.js instance config
+      const fuseOptions = {
+        keys: ['id'],
+        threshold: 0.3
+      };
+      const fuse = new Fuse(this.state.globalNodes, fuseOptions);
+      const results = fuse.search(searchTerm);
+      
+      // Get the top 5 suggestions
+      const suggestions = results.slice(0, 5).map(result => result.item);
+      
+      // Update suggestions dropdown
+      const suggestionsDiv = d3.select("#search-suggestions");
+      suggestionsDiv.html("");
+      suggestions.forEach(suggestion => {
+        suggestionsDiv.append("div")
+          .attr("class", "suggestion-item")
+          .text(suggestion.id)
+          .on("click", () => {
+            // Auto-fill search input and trigger selection
+            d3.select("#search-input").property("value", suggestion.id);
+            suggestionsDiv.html("");
+            this.state.userInteracted = true;
+            this.highlightNeighbors(suggestion);
+          });
+      });
     });
 
-    d3.select("#weight-slider").on("input", () => this.applyCollaborationFilter());
     d3.select("#topk-input").on("input", () => this.applyTopKFilter());
   }
 }
+
+// Helper function to parse artist names from a CSV field
+// It uses the known artist IDs to recombine parts if needed.
+function parseArtistNames(artistString, knownArtistsSet) {
+  const parts = artistString.split(",").map(s => s.trim());
+  const names = [];
+  for (let i = 0; i < parts.length; i++) {
+    // If possible, combine with the next part and check if it is a known artist.
+    if (i < parts.length - 1) {
+      const combined = parts[i] + ", " + parts[i+1];
+      if (knownArtistsSet.has(combined.toLowerCase())) {
+        names.push(combined);
+        i++; // Skip the next part since it was combined.
+        continue;
+      }
+    }
+    names.push(parts[i]);
+  }
+  return names;
+}
+
+document.addEventListener("click", (event) => {
+  // We'll look up the suggestions div and search input
+  const suggestionsDiv = document.getElementById("search-suggestions");
+  const searchInput = document.getElementById("search-input");
+
+  // If the click happened outside both the search input and the suggestions container, clear them
+  if (
+    suggestionsDiv &&
+    searchInput &&
+    !searchInput.contains(event.target) &&
+    !suggestionsDiv.contains(event.target)
+  ) {
+    suggestionsDiv.innerHTML = "";
+  }
+});
