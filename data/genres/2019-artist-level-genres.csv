@@ -1,0 +1,1093 @@
+artist_name,artist_id,genres,num_hits,num_collab_hits
+['Ariana Grande'],['66CXWjxzNUsdJxJ2JdwvnR'],pop,7,0
+['Post Malone',['246dkjvS1zLTtiykXe5h60',,4,4
+'Swae Lee'],'1zNqQNIdeOUZHb8zbZRFMX'],"electronic, moombahton",3,3
+['DJ Snake',['540vIaP2JwjQb9dm3aArA4',"latin, pop, reggaeton, trap latino, urbano latino",1,1
+'Selena Gomez','0C8ZW7ezQVs4URX5aX7Kqx',"latin, pop, reggaeton, trap latino, urbano latino",1,1
+'Ozuna','1i8SpTcr7yvPOmcqrbnVXY',"dembow, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",3,3
+'Cardi B'],'4kYSro6naA4h99UJvo89HB'],"latin, pop, reggaeton, trap latino, urbano latino",3,3
+['Post Malone'],['246dkjvS1zLTtiykXe5h60'],,3,0
+['Bad Bunny',['4q3ewBCX7sLwd24euuV69X',"hip hop, latin, rap, reggaeton, trap latino, urbano latino",1,1
+'Drake'],'3TVXtAsR1Inumwj472S9r4'],"hip hop, latin, melodic rap, memphis rap, rap, reggaeton, trap latino, urbano latino",6,6
+['Travis Scott'],['0Y5tJX1MQlPlqiwlOH1tJY'],"hip hop, rap",5,0
+['Halsey'],['26VFTg2z8YR0cCuwLzESi2'],,1,0
+['Ava Max'],['4npEfmQ6YuiwW1GpUmaq3F'],,1,0
+['Pedro Capó',['4QVBYiagIaa6ZGSPMbybpy',"latin, latin pop, pop, reggaeton, trap latino",1,1
+'Farruko'],'329e4yvIujISKGKz1BZZbO'],"latin, latin pop, pop, reggaeton, trap latino",1,1
+['Marshmello',['64KEffDW9EtZ1y2vBYgq8T',"edm, electronic, hip hop, melodic rap",4,4
+'Bastille'],'7EQ0qTo7fWT7DPxmxtSYEc'],"edm, electronic",1,1
+['Paulo Londra'],['3vQ0GE3mI0dAaxIMYe5g7z'],"argentine trap, hip hop, latin, reggaeton, trap latino",1,0
+['Kodak Black',['46SHBwWsqBkxI7EeeBEQG7',"hip hop, rap",1,1
+'Offset','4DdkRBBYG6Yk9Ka8tdJ9BW',"hip hop, rap",1,1
+'Travis Scott'],'0Y5tJX1MQlPlqiwlOH1tJY'],"hip hop, rap",1,1
+['Meek Mill',['20sxb77xiYeusSH8cVdatc',"hip hop, rap",1,1
+['Sheck Wes'],['2RDOrhPqAM4jzTRCEb19qX'],,1,0
+['Panic! At The Disco'],['20JZFwl6HVl6yg8a4H3ZqK'],"emo, rock",2,0
+['benny blanco',['5CiGnKThu5ctn9pBxv7DGa',"emo rap, hip hop, melodic rap",2,2
+'Halsey','26VFTg2z8YR0cCuwLzESi2',,1,1
+'Khalid'],'6LuN9FCkKOj5PcnpouEgny'],"edm, electronic, electronica, progressive house",5,5
+['Maroon 5',['04gDigrS5kc9YWfZHwBETP',"pop, r&b",2,2
+['Lil Baby',['5f7VJjfbwm532GiveGC0ZK',"hip hop, melodic rap, rap",3,3
+'Gunna'],'2hlmm7s2ICUX0LVIhVFlZQ'],"hip hop, melodic rap",2,2
+['Cardi B',['4kYSro6naA4h99UJvo89HB',"latin, reggaeton, trap latino, urbano latino",1,1
+'Bad Bunny','4q3ewBCX7sLwd24euuV69X',"dembow, latin, reggaeton, trap latino, urbano latino",2,2
+'J Balvin'],'1vyhD5VmyZ7KMfW5gqLgo5'],"dance, edm, electronic, latin, reggaeton, trap latino, urbano latino",3,3
+['Juice WRLD'],['4MCBfE4596Uoi2O4DtmEMz'],"emo rap, hip hop, melodic rap",4,0
+['Queen'],['1dfeR4HaWDbWqFHLkxsg1d'],"classic rock, glam rock, rock",7,0
+['Lady Gaga',['1HY2Jd0NmPuamShAr6KMms',"art pop, pop",2,2
+'Bradley Cooper'],'4VIvfOurcf0vuLRxLkGnIG'],"art pop, pop",2,2
+['Drake'],['3TVXtAsR1Inumwj472S9r4'],"hip hop, rap",4,0
+'21 Savage'],'1URnnhqYAYcrqrcwql10ft'],,2,2
+['XXXTENTACION'],['15UsOTVnJzReFVN1VCnxy4'],"emo rap, hip hop",8,0
+['XXXTENTACION',['15UsOTVnJzReFVN1VCnxy4',"emo rap, hip hop, latin, melodic rap, reggaeton, urbano latino",2,2
+'Lil Pump','3wyVrVrFCkukjdVIdirGVY',"emo rap, hip hop, latin, reggaeton, urbano latino",1,1
+'Swae Lee','1zNqQNIdeOUZHb8zbZRFMX',"emo rap, hip hop, latin, reggaeton, urbano latino",1,1
+'Maluma'],'1r4hJ1h58CWwUQe3MxPuau'],"emo rap, hip hop, latin, latin pop, pop, reggaeton, urbano latino",3,3
+['Dynoro',['3v6Ji4uoWtKRkhuDUaxi9n',"eurodance, italo dance, pop",1,1
+"""Gigi D'Agostino""]",'1OAjDaKgg00KCUYqDe68un'],"eurodance, italo dance, pop",1,1
+['Anuel AA',['2R21vXR83lH98kGeO99Y66',"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",2,2
+'Romeo Santos'],'5lwmRuXgjX8xIwlnauTZIP'],"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",2,2
+['Khalid'],['6LuN9FCkKOj5PcnpouEgny'],,3,0
+['Calvin Harris',['7CajNmpbOovFoOoasH2HaY',"edm, electronic, pop, soft pop",2,2
+'Sam Smith','2wY79sveU1sp5g7SokKOiI',"edm, electronic, pop, soft pop",1,1
+'Jessie Reyez'],'3KedxarmBCyFBevnqQHy3P'],"edm, electronic, pop, soft pop",1,1
+['Billie Eilish'],['6qqNVTkY8uBg9cP3Jd7DAH'],,6,0
+'Dua Lipa'],'6M2wZ9GZgrQXHCFfjv46we'],"edm, electronic, pop",1,1
+['Mark Ronson',['3hv9jJF3adDNsBSIQDqcjp',,2,2
+'Miley Cyrus'],'5YGY8feqx7naU7z4HrwZM6'],,1,1
+['Ozuna',['1i8SpTcr7yvPOmcqrbnVXY',"bachata, bachata pop, colombian pop, latin, pop, reggaeton, trap latino, urbano latino",2,2
+'Manuel Turizo'],'0tmwSHipWxN12fsoLcFU3B'],"colombian pop, latin, pop, reggaeton, trap latino, urbano latino",1,1
+['Ellie Goulding',['0X2BH1fck6amBIoJhDVmmJ',"electronic, moombahton",1,1
+'Diplo','5fMUXHkw8R8eOP2RNVYEZX',"electronic, moombahton",2,2
+['Flipp Dinero'],['2HUwZ0kumzCSlhFcjFZfpp'],"hip hop, melodic rap",1,0
+['Gucci Mane',['13y7CgLHjMVRMDqxdx0Xdo',"hip hop, rap, southern hip hop, trap",1,1
+'Bruno Mars','0du5cEVh5yTK9QJze8zA0C',"hip hop, rap, southern hip hop, trap",1,1
+'Kodak Black'],'46SHBwWsqBkxI7EeeBEQG7'],"hip hop, rap, southern hip hop, trap",1,1
+['Daddy Yankee',['4VMYDCV2IEDYJArk749S6m',"latin, reggaeton, trap latino, urbano latino",1,1
+'Anuel AA'],'2R21vXR83lH98kGeO99Y66'],"bachata, bachata pop, dembow, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",6,6
+['Tyga',['5LHRHt1k9lMyONurDHEdrp',,1,1
+'Offset'],'4DdkRBBYG6Yk9Ka8tdJ9BW'],"hip hop, melodic rap",2,2
+['Dean Lewis'],['3QSQFmccmX81fWCUSPTS7y'],,1,0
+['Bad Bunny'],['4q3ewBCX7sLwd24euuV69X'],"latin, reggaeton, trap latino, urbano latino",3,0
+['Ed Sheeran'],['6eUKZXaKkcviH0Ku9w2n3V'],"pop, soft pop",5,0
+['Camila Cabello',['4nDoRrQiYLoBzwC5BhVJzF',"hip hop, melodic rap, pop, rap, trap",1,1
+'Young Thug'],'50co4Is1HCEo8bhOyUWKpn'],"hip hop, melodic rap, pop, rap, trap",1,1
+['5 Seconds of Summer'],['5Rl15oVamLq7FbSb0NNBNy'],,2,0
+['Cardi B'],['4kYSro6naA4h99UJvo89HB'],,1,0
+['Mau y Ricky',['2wkoKEfS6dXwThbyTnZWFU',"colombian pop, latin, latin pop, pop, reggaeton",1,1
+'Manuel Turizo','0tmwSHipWxN12fsoLcFU3B',"colombian pop, latin, latin pop, pop, reggaeton",1,1
+'Camilo'],'28gNT5KBp7IjEOQoevXf9N'],"colombian pop, latin, latin pop, pop, reggaeton",1,1
+['6ix9ine',['7gZfnEnfiaHzxARJ2LeXrf',"hip hop, latin, rap, reggaeton, trap latino, urbano latino",6,6
+['A Boogie Wit da Hoodie'],['31W5EY0aAly4Qieq6OFu6I'],"hip hop, melodic rap",1,0
+['21 Savage'],['1URnnhqYAYcrqrcwql10ft'],,3,0
+['Becky G',['4obzFoKoKRHIphyHzJ35G3',"argentine trap, bachata, bachata pop, hip hop, latin, pop, reggaeton, trap latino, urbano latino",3,3
+'Paulo Londra'],'3vQ0GE3mI0dAaxIMYe5g7z'],"argentine trap, hip hop, latin, reggaeton, trap latino",1,1
+['Nio Garcia',['5hdhHgpxyniooUiQVaPxQ0',"dembow, latin, reggaeton, trap latino, urbano latino",1,1
+'Casper Magico','1fux65HMCBvfJHqlBc4Nno',"dembow, latin, reggaeton, trap latino, urbano latino",1,1
+'Darell','1TtXnWcUs0FCkaZDPGYHdf',"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",2,2
+'Nicky Jam'],'1SupJlEpv7RS2tPNRaHViT'],"dembow, latin, reggaeton, trap latino, urbano latino",1,1
+['Clean Bandit',['6MDME20pz9RveH9rEXvrOM',,1,1
+'Demi Lovato'],'6S2OmqARrzebs0tKUEyXyp'],,1,1
+['Dua Lipa'],['6M2wZ9GZgrQXHCFfjv46we'],pop,2,0
+'Ty Dolla $ign'],'7c0XG5cIJTrrAgEC3ULPiq'],,1,1
+['J Balvin'],['1vyhD5VmyZ7KMfW5gqLgo5'],"latin, reggaeton",1,0
+['Loud Luxury',['6t1gpxYbY8OlLA7D2RiikQ',,1,1
+'Brando'],'5uEeqYFuIChoWKy34jp8xE'],,1,1
+['Imagine Dragons'],['53XhwfbYqKCa1cC15pYq2q'],,4,0
+['Dua Lipa',['6M2wZ9GZgrQXHCFfjv46we',"k-pop, pop",1,1
+'BLACKPINK'],'41MozSoPIsD1dJM0CLPjZF'],"k-pop, pop",1,1
+['Zara Larsson'],['1Xylc3o4UrD53lo9CvFvVg'],,1,0
+'Tory Lanez'],'2jku7tDXc6XoB6MO2hFuqg'],,1,1
+['Zedd',['2qxJFvFYMEDqd7ui6kSAcq',"country, edm, electronic",2,2
+'Maren Morris','6WY7D3jk8zTrHtmkqqo5GI',"country, edm, electronic",1,1
+'Grey'],'4lDBihdpMlOalxy1jkUbPl'],"country, edm, electronic",1,1
+['Billie Eilish',['6qqNVTkY8uBg9cP3Jd7DAH',,2,2
+['Luis Fonsi',['4V8Sr092TqfHkfAA5fXXqG',"latin, reggaeton, trap latino, urbano latino",2,2
+'Ozuna'],'1i8SpTcr7yvPOmcqrbnVXY'],"latin, reggaeton, trap latino, urbano latino",1,1
+['Sebastian Yatra',['07YUOmWljBTXwIseAUd9TW',"colombian pop, latin, latin pop, pop, reggaeton",1,1
+'Mau y Ricky'],'2wkoKEfS6dXwThbyTnZWFU'],"colombian pop, latin, latin pop, pop, reggaeton",1,1
+['A Boogie Wit da Hoodie',['31W5EY0aAly4Qieq6OFu6I',"emo rap, hip hop, melodic rap",3,3
+'Tyga','5LHRHt1k9lMyONurDHEdrp',"hip hop, melodic rap",1,1
+['Felipe Araújo',['47uyFQHOD02S0lj9ptRpoB',"arrocha, country, latin, pagode, samba, sertanejo, sertanejo universitário",1,1
+'Ferrugem'],'5ZfBThYiIIhL7jHMG8gDB2'],"arrocha, country, latin, pagode, samba, sertanejo, sertanejo universitário",1,1
+'Prince Royce','3MHaV05u0io8fQbZ2XPtlC',"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",1,1
+'DJ Luian','64aJYyrXljOodnUG6jvhRD',"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",1,1
+'Mambo Kingz','2T1aUibqR2QC2sINIDQOAK',"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",1,1
+['Bazzi',['4GvEc3ANtPPjt1ZJllr5Zl',pop,1,1
+'Camila Cabello'],'4nDoRrQiYLoBzwC5BhVJzF'],pop,1,1
+['Michael Jackson'],['3fMbdgg4jU18AjLCKBhRSm'],,2,0
+'Nicki Minaj','0hCNtLu0JehylgoiP8L4Gh',"hip hop, rap",2,2
+'Murda Beatz'],'3CbYyyd8wH3RT6t0jwpdzC'],,1,1
+['Lukas Graham'],['25u4wHJWxCA9vO0CzxAbK7'],,1,0
+['Anne-Marie'],['1zNqDE7qDGCsyzJwohVaoX'],,1,0
+'Haze'],'77iZVjeYoYSl5P0K9mIiUE'],"latin, reggaeton, trap latino, urbano latino",1,1
+'Anne-Marie'],'1zNqDE7qDGCsyzJwohVaoX'],"edm, electronic, pop, soft pop",2,2
+['Kanye West',['5K4W6rqBFWDnAN6FQUkS6x',"hip hop, rap",1,1
+'Lil Pump'],'3wyVrVrFCkukjdVIdirGVY'],"hip hop, rap",1,1
+['The Chainsmokers',['69GGBxA162lTqCwzJG5jLp',country,4,4
+'Halsey'],'26VFTg2z8YR0cCuwLzESi2'],,1,1
+['Queen',['1dfeR4HaWDbWqFHLkxsg1d',"art rock, classic rock, glam rock, rock",1,1
+'David Bowie'],'0oSGxfWSnnOXhD2fKuz2Gy'],"art rock, classic rock, glam rock, rock",1,1
+['George Ezra'],['2ysnwxxNtSgbb9t1m2Ur4j'],,2,0
+'SZA'],'7tYKF4w9nC0nq9CsPZTHyP'],"hip hop, pop, r&b, west coast hip hop",2,2
+['Rita Ora'],['5CCwRZC6euC8Odo6y9X8jr'],,1,0
+['French Montana',['6vXTefBL93Dj5IqAWq6OTv',"hip hop, rap",2,2
+['Reik',['0vR2qb8m9WHeZ5ByCbimq2',"latin, latin pop, pop, reggaeton, urbano latino",1,1
+['Jonas Blue',['1HBjj22wzbscIZ9sEb5dyf',"electronic, tropical house",1,1
+'Jack & Jack'],'1INuLZXjjVbcJRyWvD1iSq'],"electronic, tropical house",1,1
+['Kygo',['23fqKkggKUBHNkbKtXEls4',"electronic, tropical house",2,2
+'Sandro Cavazza'],'5JYo7gm2dkyLLlWHjxS7Dy'],"electronic, tropical house",1,1
+['Lil Peep',['2kCcBybjl3SAtIcwdWpUe3',"cloud rap, emo rap, hip hop",1,1
+'XXXTENTACION'],'15UsOTVnJzReFVN1VCnxy4'],"cloud rap, emo rap, hip hop",1,1
+['Kendrick Lamar',['2YZyLoL8N0Wb9xBt1NhZWg',"hip hop, r&b, west coast hip hop",1,1
+['MC L da Vinte',['0lHB0Qc4pmD5RkTLlHeESo',"brazilian funk, funk, funk carioca, funk de bh, hip hop, r&b",1,1
+'MC Gury'],'6fOyYqdh6p0ZWLs9zUDoyt'],"brazilian funk, funk, funk carioca, funk de bh, hip hop, r&b",1,1
+'NATTI NATASHA'],'1GDbiv3spRmZ1XdM1jQbT7'],"latin, latin pop, pop, reggaeton, urbano latino",2,2
+['James Arthur',['4IWBUUAFIplrNtaOHcJPRM',"pop, soft pop",1,1
+['JENNIE'],['250b0Wlc5Vk0CoUsaCY84M'],"k-pop, pop",1,0
+['TOTO'],['0PFtn5NtBbbUNbU9EAmIWF'],"rock, soft rock",1,0
+['Maluma'],['1r4hJ1h58CWwUQe3MxPuau'],"latin, reggaeton, urbano latino",1,0
+['BlocBoy JB',['4TEJudQY2pXxVHPE3gD2EU',"hip hop, memphis rap, rap",1,1
+['Silk City',['2X97ZAqRKRMYFIDqtvGgGc',"electronic, moombahton, pop",1,1
+'Dua Lipa','6M2wZ9GZgrQXHCFfjv46we',"electronic, moombahton, pop",1,1
+'Mark Ronson','3hv9jJF3adDNsBSIQDqcjp',"electronic, moombahton, pop",1,1
+'Diplo'],'5fMUXHkw8R8eOP2RNVYEZX'],"electronic, moombahton, pop",1,1
+['Zé Neto & Cristiano'],['487N2T9nIPEHrlTZLL3SQs'],"agronejo, arrocha, country, latin, sertanejo, sertanejo universitário",1,0
+['Portugal. The Man'],['4kI8Ie27vjvonwaB2ePh8T'],,1,0
+['J Balvin',['1vyhD5VmyZ7KMfW5gqLgo5',"latin, reggaeton",1,1
+'Zion & Lennox'],'21451j1KhjAiaYKflxBjr1'],"latin, reggaeton",1,1
+['Tiësto',['2o5jDhtHVPhrJdv3cEQ99Z',"big room, dance, edm, electronic, house, trance",1,1
+'Dzeko','5vQfv3s2Z2SRdPZKr82ABw',"big room, dance, edm, electronic, house, trance",1,1
+'Preme','0bdJZl7TDeiymDYzMJnVh2',"big room, dance, edm, electronic, house, trance",1,1
+'Post Malone'],'246dkjvS1zLTtiykXe5h60'],"big room, dance, edm, electronic, house, trance",1,1
+['Lauv'],['5JZ7CnR6gTvEMKX4g70Amv'],,1,0
+['KAROL G',['790FomKkXshlbRYZFtlgla',"latin, reggaeton, trap latino, urbano latino",2,2
+'Trippie Redd'],'6Xgp2XMz1fhVYe7i6yNAax'],"emo rap, hip hop, melodic rap",1,1
+['Marília Mendonça'],['1yR65psqiazQpeM79CcGh8'],"arrocha, country, forró, latin, sertanejo, sertanejo universitário",1,0
+['Selena Gomez'],['0C8ZW7ezQVs4URX5aX7Kqx'],pop,1,0
+['Macklemore',['3JhNCzhSMTxs9WLGJJxWOY',,1,1
+'Ryan Lewis','4myTppRgh0rojLxx8RycOp',,1,1
+'Macklemore & Ryan Lewis','6WLvgbfYXQPO396oJEYCsi',,1,1
+'Ray Dalton'],'4e0nWw2r4BoQSKPQ2zpU13'],,1,1
+['Márcia Fellipe',['3OxZ4asD88P1lJJmLcXz4K',"arrocha, brazilian funk, brega, brega funk, country, forró, funk, hip hop, latin, piseiro, pop, r&b, sertanejo, sertanejo universitário",1,1
+'Jerry Smith'],'6OpOg5HVCc8xVf7OVrd5Fk'],"arrocha, brazilian funk, brega, brega funk, country, forró, funk, hip hop, latin, piseiro, pop, r&b, sertanejo, sertanejo universitário",2,2
+['Wesley Safadão'],['1AL2GKpmRrKXkYIcASuRFa'],"arrocha, country, forró, latin, piseiro, sertanejo, sertanejo universitário",1,0
+['David Guetta',['1Cs0zKBU1kc0i8ypK3B9ai',"dance, edm, electronic, latin, reggaeton",1,1
+'Bebe Rexha','64M6ah0SkkRsnPGtGiRAbb',"dance, edm, electronic, latin, reggaeton",1,1
+'Kelsea Ballerini'],'3RqBeV12Tt7A8xH3zBDDUF'],country,1,1
+['Bebe Rexha'],['64M6ah0SkkRsnPGtGiRAbb'],,1,0
+['Nicki Minaj',['0hCNtLu0JehylgoiP8L4Gh',"afro house, electronic, latin, reggaeton, trap latino, urbano latino",1,1
+'Anuel AA','2R21vXR83lH98kGeO99Y66',"afro house, electronic, latin, reggaeton, trap latino, urbano latino",1,1
+'Bantu'],'6tt0iYnpHERj05WATWRiom'],"afro house, electronic, latin, reggaeton, trap latino, urbano latino",1,1
+'Quavo'],'0VRj0yCOv2FXJNP47XQnx5'],,1,1
+['DJ Khaled',['0QHgL1lAIqAw0HtD7YldmP',,1,1
+'Justin Bieber','1uNFoZAHBGtllmzznpCI3s',,1,1
+'Quavo','0VRj0yCOv2FXJNP47XQnx5',,1,1
+'Chance the Rapper'],'1anyVhU62p31KFi8MEzkbf'],,1,1
+['Bebe Rexha',['64M6ah0SkkRsnPGtGiRAbb',"acoustic country, country, pop country",1,1
+'Florida Georgia Line'],'3b8QkneNDz4JHKKKlLgYZg'],"acoustic country, country, pop country",1,1
+['Little Mix',['3e7awlrlDSwF3iM0WBjGMp',,1,1
+'Nicki Minaj'],'0hCNtLu0JehylgoiP8L4Gh'],,1,1
+'Juice WRLD','4MCBfE4596Uoi2O4DtmEMz',"emo rap, hip hop, melodic rap",1,1
+'Brendon Urie'],'6eYFryfcEu3QSq59D62wZQ'],"emo rap, hip hop, melodic rap",1,1
+['Lil Uzi Vert'],['4O15NlyKLIASxsJ0PrXPfz'],"hip hop, melodic rap",1,0
+['DENNIS',['6xlRSRMLgZbsSNd0BMobwy',"brazilian funk, country, funk, funk carioca, funk melody, funk pop, hip hop, pop, r&b",1,1
+'MC Kevinho'],'1mXAhKnZEdF6rotyyd4GBi'],"brazilian funk, country, funk, funk carioca, funk melody, funk pop, hip hop, pop, r&b",1,1
+['Ski Mask The Slump God',['2rhFzFmezpnW82MNqEKVry',"emo rap, hip hop, melodic rap",1,1
+'Juice WRLD'],'4MCBfE4596Uoi2O4DtmEMz'],"emo rap, hip hop, melodic rap, rap",4,4
+['Nicky Jam',['1SupJlEpv7RS2tPNRaHViT',"latin, reggaeton",1,1
+['Drake',['3TVXtAsR1Inumwj472S9r4',"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, hip hop, pop, r&b, rap, traditional music",1,1
+'Wizkid','3tVQdUvClmAT7URs9V3rsp',"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, hip hop, pop, r&b, rap, traditional music",1,1
+'Kyla'],'6TK7fjRPdy2GW2pJzNF23L'],"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, hip hop, pop, r&b, rap, traditional music",1,1
+'Lil Baby'],'5f7VJjfbwm532GiveGC0ZK'],,1,1
+['Rudimental',['4WN5naL3ofxrVBgFpguzKo',,1,1
+'Jess Glynne','4ScCswdRlyA23odg9thgIO',,1,1
+'Macklemore','3JhNCzhSMTxs9WLGJJxWOY',,1,1
+'Dan Caplen'],'2U3FuHYvL3vhkbDAXm24Ep'],,1,1
+['James Arthur'],['4IWBUUAFIplrNtaOHcJPRM'],"pop, soft pop",1,0
+['Khalid',['6LuN9FCkKOj5PcnpouEgny',,1,1
+'Normani'],'2cWZOOzeOm4WmBJRnD5R7I'],,1,1
+['Thalia',['23wEWD21D4TPYiJugoXmYb',"latin, latin pop, pop, reggaeton, urbano latino",1,1
+['Brytiago',['00XhexlJEXQstHimpZN910',"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",1,1
+'Daddy Yankee','4VMYDCV2IEDYJArk749S6m',"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",2,2
+'Gunna','2hlmm7s2ICUX0LVIhVFlZQ',"hip hop, melodic rap, rap",1,1
+['Eminem',['7dGJo4pcD2V6oG8kP0tJRR',"hip hop, rap",1,1
+'Joyner Lucas'],'6C1ohJrd5VydigQtaGy5Wa'],"hip hop, rap",1,1
+['Daniel Caesar',['20wkVLutqVOYrc0kxFs7rA',r&b,1,1
+'H.E.R.'],'3Y7RZ31TRPVadSFVy1o8os'],r&b,1,1
+['Future',['1RyvyyTE3xzB2ZywiAwp0i',"emo rap, hip hop, melodic rap, rap",1,1
+['A$AP Rocky',['13ubrt8QOOCPljQ2FL1Kca',"electronic, grime, hip hop, rap",1,1
+'Skepta'],'2p1fiYHYiXz9qi0JJyxBzN'],"electronic, grime, hip hop, rap",1,1
+'Justin Bieber'],'1uNFoZAHBGtllmzznpCI3s'],"latin, reggaeton",1,1
+['KEVIN ROLDAN'],['1RBzGO6Nm3uyhUSxP7EDWO'],"latin, reggaeton, trap latino, urbano latino",1,0
+['Sam Smith'],['2wY79sveU1sp5g7SokKOiI'],"pop, soft pop",3,0
+['Earth,['4QQgXkCYTt3BlENzhyNETg'],"disco, r&b",1,1
+['Sia',['5WUlDfRSoLAfcVSX1WnrxN',"electronic, moombahton",1,1
+'Labrinth','2feDdbD5araYcm6JhFHHw7',"electronic, moombahton",1,1
+'LSD'],'6IZ4ctovY9dl7bgHClAvKJ'],"electronic, moombahton",1,1
+['Metro Boomin',['0iEtIxbK0KxaSlF7G42ZOp',"hip hop, melodic rap",2,2
+['Lil Mosey'],['5zctI4wO9XSKS8XwcnqEHk'],"hip hop, melodic rap",1,0
+['Bruno Mars',['0du5cEVh5yTK9QJze8zA0C',,1,1
+['Offset',['4DdkRBBYG6Yk9Ka8tdJ9BW',,1,1
+'Metro Boomin'],'0iEtIxbK0KxaSlF7G42ZOp'],,1,1
+Gabriel Diniz,3WQ1s2QFvL6crxBvrVhwzj,"arrocha, country, forró, latin, sertanejo, sertanejo universitário",2,0
+['Outkast'],['1G9G7WwrXka3Z1r7aIDjI7'],"hip hop, southern hip hop",1,0
+['The Killers'],['0C0XlULifJtAgn6ZNCW2eu'],"alternative rock, rock",1,0
+['a-ha'],['2jzc5TC5TVFLXQlBNiIUzE'],"new wave, pop, rock, synthpop",1,0
+['Kendrick Lamar'],['2YZyLoL8N0Wb9xBt1NhZWg'],"hip hop, west coast hip hop",1,0
+['Humberto & Ronaldo',['1zEo6Fk1iaaOYFlFPBHCFn',"arrocha, brazilian funk, brega funk, country, funk, hip hop, latin, pop, r&b, sertanejo, sertanejo universitário",1,1
+['Rich The Kid'],['1pPmIToKXyGdsCF6LmqLmI'],"hip hop, trap",1,0
+['Sia'],['5WUlDfRSoLAfcVSX1WnrxN'],,2,0
+['Oasis'],['2DaxqgrOhkeH0fpeiQq2f4'],"britpop, madchester, pop, rock",1,0
+['Shawn Mendes'],['7n2wHs1TKAczGzO7Dd2rGr'],pop,2,0
+['Anuel AA'],['2R21vXR83lH98kGeO99Y66'],"latin, reggaeton, trap latino, urbano latino",1,0
+['Bazzi'],['4GvEc3ANtPPjt1ZJllr5Zl'],,1,0
+'Kanye West'],'5K4W6rqBFWDnAN6FQUkS6x'],"hip hop, rap",1,1
+['Piso 21'],['4bw2Am3p9ji3mYsXNXtQcd'],"colombian pop, latin, pop, pop urbano, reggaeton",1,0
+'Roddy Ricch'],'757aE44tKEUQEqRuT6GnEB'],"edm, electronic, hip hop, melodic rap",1,1
+Bee Gees,1LZEQNv7sE11VDY3SdxQeN,"disco, r&b",1,0
+MC Kevin o Chris,2UMj7NCbuqy1yUZmiSYGjJ,"brazilian funk, brega, brega funk, country, funk, funk carioca, funk melody, funk pop, hip hop, pop, r&b",5,4
+DENNIS,6xlRSRMLgZbsSNd0BMobwy,"brazilian funk, brega funk, country, funk, funk carioca, funk melody, funk pop, hip hop, pop, r&b",1,1
+['Journey'],['0rvjqX7ttXeg3mTy8Xscbt'],"album rock, classic rock, rock",1,0
+['Trippie Redd'],['6Xgp2XMz1fhVYe7i6yNAax'],"hip hop, melodic rap",1,0
+Henrique & Juliano,3p7PcrEHaaKLJnPUGOtRlT,"agronejo, arrocha, country, latin, sertanejo, sertanejo universitário",2,0
+['Lady Gaga'],['1HY2Jd0NmPuamShAr6KMms'],"art pop, pop",1,0
+['Capital Bra'],['4WZGDpNwrC0vNQyl9QzF7d'],"german hip hop, hip hop",1,0
+SHAED,3KwmxIhSe9UTSEF37kwngR,,3,2
+['Hailee Steinfeld',['5p7f24Rk5HkUZsaS3BLG5F',"acoustic country, country, edm, electronic, pop country",2,2
+'Alesso','4AVFqumd2ogHFlRbKIjp1t',"acoustic country, country, edm, electronic, pop country",1,1
+'Florida Georgia Line','3b8QkneNDz4JHKKKlLgYZg',"acoustic country, country, edm, electronic, pop country",1,1
+'WATT'],'4olE3I5QU0dvSR7LIpqTXc'],"acoustic country, country, edm, electronic, pop country",1,1
+['Zac Efron',['6U1dBXJhC8gXFjamvFTmHg',"classical, musicals",1,1
+'Zendaya'],'6sCbFbEjbYepqswM1vWjjs'],"classical, musicals",1,1
+['Selena Gomez',['0C8ZW7ezQVs4URX5aX7Kqx',"edm, electronic, pop",1,1
+'Marshmello'],'64KEffDW9EtZ1y2vBYgq8T'],"edm, electronic, pop",2,2
+'6ix9ine'],'7gZfnEnfiaHzxARJ2LeXrf'],"hip hop, melodic rap",1,1
+['Martin Garrix',['60d24wfXkVzDSfLS6hyCjZ',"edm, electronic, electronica, progressive house",1,1
+'Coldplay'],'4gzpq5DPGxSnKTe4SA8HAU'],,1,1
+['Keala Settle',['7HV2RI2qNug4EcQqLbCAKS',"classical, musicals",1,1
+'The Greatest Showman Ensemble'],'63nv0hWWDob56Rk8GlNpN8'],"classical, musicals",1,1
+'Elley Duhé'],'67MNhiAICFY6Pwc2YxCO0K'],"edm, electronic",1,1
+'Imagine Dragons'],'53XhwfbYqKCa1cC15pYq2q'],"electronic, tropical house",1,1
+['The Weeknd'],['1Xyo4u8uXC1ZmMpatF05PJ'],,1,0
+['Jason Mraz'],['4phGZZrJZRo4ElhRtViYdl'],"acoustic pop, pop, soft pop",1,0
+['Peter Manos'],['4K9aclpXgCPNFGEqRlFPal'],,1,0
+['LX',['10XY9PZCJKzUFzZOdtlQLU',"german hip hop, hip hop",1,1
+'Maxwell','0b62itBWBdLgiecXjXCqKC',"german hip hop, hip hop",1,1
+'Bonez MC','1aS5tqEs9ci5P9KD9tZWa6',"german hip hop, hip hop",1,1
+'Gzuz','5eioJDe26lOqkAMbuhzZYs',"german hip hop, hip hop",1,1
+'Sa4'],'5qZLYtTL3ldN6Uw7OXHESR'],"german hip hop, hip hop",1,1
+Future,1RyvyyTE3xzB2ZywiAwp0i,"hip hop, melodic rap, rap, trap",20,6
+Bring Me The Horizon,1Ffb6ejR6Fe5IamqA5oRUF,"emo, metal, metalcore, post-hardcore, rock, screamo",2,0
+Chris Brown,7bXgB6jMjp9ATFy66eO08Z,"edm, electronic, hip hop, latin, r&b, rap, reggaeton",10,9
+benny blanco,5CiGnKThu5ctn9pBxv7DGa,"edm, electronic, emo rap, hip hop, latin, melodic rap, pop, r&b, reggaeton",3,3
+Calvin Harris,7CajNmpbOovFoOoasH2HaY,"edm, electronic, r&b",2,2
+Miguel,360IAlyVv4PCEVjgyMZrxK,"edm, electronic, r&b",1,1
+Fedez,3pgCLfNbw5ozIfoNsvDU7i,"hip hop, italian trap, melodic rap",1,1
+Tedua,1AgAVqo74e2q4FVvg0xpT7,"hip hop, italian trap, melodic rap",2,2
+Trippie Redd,6Xgp2XMz1fhVYe7i6yNAax,"emo rap, gangster rap, hip hop, italian trap, melodic rap, rage rap, west coast hip hop",26,13
+['Kodak Black'],['46SHBwWsqBkxI7EeeBEQG7'],,1,0
+'Winona Oak'],'3XC57xz74X3xUi1hv4mge1'],,1,1
+Lil Pump,3wyVrVrFCkukjdVIdirGVY,"hip hop, rap",6,1
+Manuel Turizo,0tmwSHipWxN12fsoLcFU3B,"colombian pop, latin, latin alternative, latin pop, pop, reggaeton, trap latino, urbano latino",6,5
+Lewis Capaldi,4GNC7GD6oZMSxPGyXy4MNB,"pop, soft pop",9,0
+Billie Eilish,6qqNVTkY8uBg9cP3Jd7DAH,,19,1
+Sam Smith,2wY79sveU1sp5g7SokKOiI,"pop, soft pop",3,1
+Normani,2cWZOOzeOm4WmBJRnD5R7I,"pop, soft pop",3,2
+Gesaffelstein,3hteYQFiMFbJY7wS0xDymP,,1,1
+The Weeknd,1Xyo4u8uXC1ZmMpatF05PJ,"hip hop, melodic rap, r&b, rap",10,6
+Rag'n'Bone Man,4f9iBmdUOhQWeP7dcAn1pf,"edm, electronic",1,1
+Shindy,5j21TGkrNEAJe3gG9VlS34,"german hip hop, german pop, hip hop, pop",7,2
+Lana Del Rey,00FQb4jTyendYWaN8pK0wa,pop,18,2
+Ozuna,1i8SpTcr7yvPOmcqrbnVXY,"colombian pop, dembow, latin, pop, reggaeton, trap latino, urbano latino",21,15
+Kehlani,0cGUm45nv7Z6M6qdXYQGTX,"edm, electronic",3,3
+Ty Dolla $ign,7c0XG5cIJTrrAgEC3ULPiq,"hip hop, hyphy, rap",7,7
+Halsey,26VFTg2z8YR0cCuwLzESi2,"emo rap, hip hop, k-pop, melodic rap, pop, rap, rap rock, rock",9,6
+Juice WRLD,4MCBfE4596Uoi2O4DtmEMz,"emo rap, hip hop, k-pop, latin, melodic rap, pop, r&b, rap, trap, trap latino",37,15
+Zé Neto & Cristiano,487N2T9nIPEHrlTZLL3SQs,"agronejo, arrocha, country, latin, sertanejo, sertanejo universitário",1,0
+Lauren Jauregui,3J0BpFVUc9LeOIVeN5uNhU,,1,0
+Piso 21,4bw2Am3p9ji3mYsXNXtQcd,"banda, colombian pop, grupera, latin, mariachi, música mexicana, norteño, pop, pop urbano, ranchera, reggaeton",2,2
+Micro TDH,1aWJsBQa67l72j1VT3D6Ow,"colombian pop, latin, pop, pop urbano, reggaeton",1,1
+Coez,5dXlc7MnpaTeUIsHLVe3n4,"hip hop, indie, italian trap, rock",2,1
+Alec Benjamin,5IH6FPUwQTxPSXurCrcIov,,1,0
+NOTD,5jAMCwdNHWr7JThxtMuEyy,"electronic, tropical house",1,1
+Felix Jaehn,4bL2B6hmLlMWnUEZnorEtG,"electronic, tropical house",1,1
+Captain Cuts,0rlKkLkpsCnJbZethGBfAk,"electronic, tropical house",1,1
+Georgia Ku,5mYakBbBzPMQTfkVMIgiDM,"electronic, tropical house",1,1
+['Lil Baby'],['5f7VJjfbwm532GiveGC0ZK'],,1,0
+Anuel AA,2R21vXR83lH98kGeO99Y66,"bachata, bachata pop, colombian pop, dembow, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",13,13
+KAROL G,790FomKkXshlbRYZFtlgla,"latin, reggaeton, trap latino, urbano latino",7,5
+Ariana Grande,66CXWjxzNUsdJxJ2JdwvnR,"alternative r&b, hip hop, pop, r&b, rap, southern hip hop",24,9
+Travis Scott,0Y5tJX1MQlPlqiwlOH1tJY,"brooklyn drill, drill, glam metal, hard rock, heavy metal, hip hop, latin, melodic rap, metal, new york drill, pop, r&b, rap, rock, soft pop, southern hip hop, trap",24,23
+MERO,5wyWp867LWGjFmYZXVSFnZ,"german hip hop, hip hop, turkish hip hop",14,5
+Logic,4xRYI6VqpkE3UwrDrAZL8L,"crunk, hip hop, memphis rap, rap, southern hip hop, trap",17,9
+James Blake,53KwLdlmrlCelAZMaLVZqU,"hip hop, rap",2,2
+Metro Boomin,0iEtIxbK0KxaSlF7G42ZOp,"hip hop, rap",1,1
+Luchè,3yiEJ9SByXZMXTwaKdVFN4,"canzone napoletana, folk/acoustic, hip hop, italian trap, neomelodico, traditional music, trap",2,2
+Sfera Ebbasta,23TFHmajVfBtlRx5MXqgoz,"canzone napoletana, folk/acoustic, hip hop, italian trap, neomelodico, traditional music, trap",6,5
+Mustard,0YinUQ50QDB7ZxSCLyQ40k,"hip hop, hyphy, melodic rap, rage rap, rap, trap",5,5
+Migos,6oMuImdp5ZcFhWP0ESe6mG,"hip hop, trap",3,3
+Young Thug,50co4Is1HCEo8bhOyUWKpn,"afrobeats, afroswing, country, electronic, emo rap, grime, hip hop, melodic rap, pop, r&b, rap, soft pop, traditional music, trap",21,19
+Gunna,2hlmm7s2ICUX0LVIhVFlZQ,"german hip hop, hip hop, melodic rap, rap, trap, turkish hip hop",18,12
+Azet,39KEQQAG9JhIt71g9NEVhh,"german hip hop, hip hop",3,3
+Zuna,2otUckChxWf2cp6UP2cD6e,"german hip hop, hip hop",3,3
+Dean Lewis,3QSQFmccmX81fWCUSPTS7y,"edm, electronic, electronica, progressive house",4,1
+Hozier,2FXC3k01G6Gw61bmprjgqS,,4,0
+Marília Mendonça,1yR65psqiazQpeM79CcGh8,"arrocha, brazilian pop, country, forró, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, sertanejo, sertanejo universitário",4,1
+5 Seconds of Summer,5Rl15oVamLq7FbSb0NNBNy,,8,5
+Julia Michaels,0ZED1XzwlLHW4ZaG4lOT6m,pop,6,6
+Seeb,5iNrZmtVMtYev5M9yoWpEq,,1,1
+Bastille,7EQ0qTo7fWT7DPxmxtSYEc,,3,1
+XXXTENTACION,15UsOTVnJzReFVN1VCnxy4,"dancehall, electronic, emo rap, hip hop, melodic rap, r&b, ragga, reggae, riddim, roots reggae, soca, traditional music",9,7
+Flyboy Tarantino,6kYViCeiqcUZXgPVdCIKBi,"emo rap, hip hop",1,1
+Kid Trunks,57SA5Qv24Vydwd6bJnV8fI,"emo rap, hip hop",1,1
+Bass Santana,0O1cTzccAEKaEFShgzAK9V,"emo rap, hip hop",3,3
+Kin$oul,6HhsbprrJmKeaH8SgSlGge,"emo rap, hip hop",2,2
+Ski Mask The Slump God,2rhFzFmezpnW82MNqEKVry,"emo rap, hip hop",2,2
+Reddz,71sg3tAkpnG5jjfNWFX8zo,"emo rap, hip hop",1,1
+J. Cole,6l3HvQ5sa6mXTsMTB19rO5,"hip hop, melodic rap, rap, trap",11,10
+Robin Schulz,3t5xRXzsuZmMDkQzgOX35S,"electronic, tropical house",1,1
+Erika Sirola,1OHw2r7Diz2rc9JktaFV6N,"electronic, tropical house",1,1
+Dua Lipa,6M2wZ9GZgrQXHCFfjv46we,pop,3,0
+Lauv,5JZ7CnR6gTvEMKX4g70Amv,"k-pop, pop",10,6
+Troye Sivan,3WGpXCj9YhhfX11TToZcXP,,3,3
+Selena Gomez,0C8ZW7ezQVs4URX5aX7Kqx,"latin, pop, reggaeton, trap latino, urbano latino",7,4
+Capital Bra,4WZGDpNwrC0vNQyl9QzF7d,"german hip hop, german pop, hip hop, pop",18,14
+Tyga,5LHRHt1k9lMyONurDHEdrp,"dembow, edm, electronic, hip hop, hyphy, latin, melodic rap, r&b, reggaeton, trap, trap latino",16,15
+G-Eazy,02kJSzxNuaWGqwubyUba0Z,"hip hop, melodic rap, trap",3,3
+Rich The Kid,1pPmIToKXyGdsCF6LmqLmI,"hip hop, melodic rap, rap, trap",5,4
+Daddy Yankee,4VMYDCV2IEDYJArk749S6m,"big room, colombian pop, dance, dancehall, edm, electro, electronic, electronica, hip hop, latin, moombahton, pop, reggaeton, traditional music, trap latino, urbano latino",12,11
+Snow,3uZFBSsMiooimnprFL9jD1,"latin, pop, reggaeton",2,2
+Vampire Weekend,5BvJzeQpmsdsFp4HGUYUEx,"baroque pop, indie, pop, rock",1,0
+Queen,1dfeR4HaWDbWqFHLkxsg1d,"classic rock, glam rock, rock",3,0
+Rudimental,4WN5naL3ofxrVBgFpguzKo,,1,1
+Jess Glynne,4ScCswdRlyA23odg9thgIO,,2,2
+Macklemore,3JhNCzhSMTxs9WLGJJxWOY,"edm, electronic, electronica, emo, emo pop, pop, pop punk, progressive house, rock",4,4
+Dan Caplen,2U3FuHYvL3vhkbDAXm24Ep,,1,1
+Shirin David,0JBdTCGs111JKKYfLqOEBa,"french pop, german hip hop, german pop, hip hop, pop, pop urbaine",8,4
+Blueface,3Fl1V19tmjt57oBdxXKAjJ,"brooklyn drill, hip hop, hyphy, melodic rap, trap",5,4
+Reynmen,1Fg19vpUJpAAPFjnKaVYVW,"hip hop, pop, turkish hip hop, turkish pop",2,0
+Dominic Fike,6USv9qhCn6zfxlBQIYJ9qs,,1,0
+Sebastian Yatra,07YUOmWljBTXwIseAUd9TW,"colombian pop, latin, latin pop, pop, reggaeton, urbano latino",7,5
+Reik,0vR2qb8m9WHeZ5ByCbimq2,"colombian pop, latin, latin pop, pop, reggaeton",3,3
+Luis Fonsi,4V8Sr092TqfHkfAA5fXXqG,"colombian pop, latin, pop, reggaeton, trap latino, urbano latino",3,3
+Anitta,7FNnA9vBm6EKceENgCGRMb,"argentine trap, arrocha, brazilian funk, brazilian pop, brega funk, country, dancehall, electronic, forró, funk, funk carioca, funk pop, hip hop, latin, latin pop, moombahton, pagode baiano, pop, r&b, reggaeton, sertanejo, sertanejo universitário, traditional music, trap latino, urbano latino",10,10
+MC Kevinho,1mXAhKnZEdF6rotyyd4GBi,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+Galantis,4sTQVOfp9vEMCemLw50sbu,"pop, soft pop",1,1
+OneRepublic,5Pwc4xIPtQLFEnJriah9YJ,"pop, soft pop",4,1
+Lil Peep,2kCcBybjl3SAtIcwdWpUe3,"cloud rap, emo, emo pop, emo rap, hip hop, pop, pop punk, rock",1,1
+ILOVEMAKONNEN,3aGFCoR8xGN6DKwvdzeSja,"cloud rap, emo, emo pop, emo rap, hip hop, pop, pop punk, rock",1,1
+Fall Out Boy,4UXqAaa6dQYAk18Lv7PEgX,"cloud rap, edm, electronic, electronica, emo, emo pop, emo rap, hip hop, pop, pop punk, progressive house, rock",3,3
+Mabel,1MIVXf74SZHmTIp4V4paH4,"big room, dance, edm, electronic, house, trance",5,1
+2 Chainz,17lzZA2AlOHwCwFALHttmp,"hip hop, pop, rap, southern hip hop, west coast hip hop",4,4
+Loredana,2Im8m4STDBosjfmb5hmP80,"german hip hop, hip hop, turkish hip hop",7,4
+Mozzik,1pkDzgHvVqC17qYGKfLPpb,"german hip hop, hip hop",2,2
+Marshmello,64KEffDW9EtZ1y2vBYgq8T,"country, edm, electronic, pop, pop country, r&b, synthpop",6,4
+The Rudeboyz,7ciBW1p3KBsYIkFk4UmwS8,"colombian pop, latin, pop, reggaeton, urbano latino",1,1
+Jowell & Randy,4IMAo2UQchVFyPH24PAjUs,"colombian pop, latin, pop, reggaeton, urbano latino",1,1
+['Logic',['4xRYI6VqpkE3UwrDrAZL8L',"edm, electronic",1,1
+['Maroon 5'],['04gDigrS5kc9YWfZHwBETP'],pop,1,0
+Ultimo,3hN3iJMbbBmqBSAMx5veDa,,1,0
+Shawn Mendes,7n2wHs1TKAczGzO7Dd2rGr,pop,8,4
+Khalid,6LuN9FCkKOj5PcnpouEgny,"electronic, hip hop, house, melodic rap, moombahton, pop, sexy drill, soft pop",25,9
+Disclosure,6nS5roXSAGhTGr34W6n7Et,"electronic, house",2,2
+The Chainsmokers,69GGBxA162lTqCwzJG5jLp,"edm, electronic, future bass, melodic bass, tropical house",14,12
+Eno,3GBBxBdoolb0B5YizZq9bF,"german hip hop, hip hop, turkish hip hop",3,2
+David Guetta,1Cs0zKBU1kc0i8ypK3B9ai,"big room, dance, dancehall, edm, electro, electronic, electronica, french house, future house, hip hop, latin, moombahton, reggaeton, traditional music, urbano latino",5,5
+Brooks,4mHAu7NX2UNsnGXjviBD9e,"dance, edm, electronic, future house",1,1
+Loote,00TKPo9MxwZ0j4ooveIxWZ,"dance, edm, electronic, future house",1,1
+Nicki Minaj,0hCNtLu0JehylgoiP8L4Gh,"drill, hip hop, latin, pop, reggaeton, urbano latino",8,7
+Mahmood,06nvjg4wBANK6DCHjqtPNd,"hip hop, italian trap, trap",3,1
+Irama,5iot8OPcosJN9nCl7I5SdK,,1,0
+['Childish Gambino'],['73sIBHcqh3Z3NyqHKZ7FOL'],,1,0
+Why Don't We,2jnIB6XdLvnJUeNTy5A0J2,,3,1
+John Legend,5y2Xq6xcjJb2jVM54GHK3t,"christmas, hip hop, jazz, neo soul, pop, r&b, soft pop, west coast hip hop",6,4
+YNW Melly,1cNDP5yjU5vjeR8qMf4grg,"emo rap, hip hop, melodic rap, rap",7,4
+Adele,4dpARuHxo51G3z768sgnrY,"pop, soft pop",1,0
+['Beyoncé'],['6vWDO969PvNqNYHIOW5v0m'],,1,0
+The Police,5NGO30tJxFlKixkPSgXcFE,,2,0
+['Christina Perri'],['7H55rcKCfwqkyDFH9wpKM6'],"pop, soft pop",1,0
+Alicia Keys,3DiDSECUqqY1AuBP8qtaIa,"neo soul, r&b",1,0
+['Lord Huron'],['6ltzsmQQbmdoHHbLZ4ZN25'],,1,0
+Cardi B,4kYSro6naA4h99UJvo89HB,"hip hop, hyphy, latin, pop, reggaeton, soft pop, trap latino, urbano latino",13,11
+Bruno Mars,0du5cEVh5yTK9QJze8zA0C,"country, pop, soft pop",3,3
+Zedd,2qxJFvFYMEDqd7ui6kSAcq,"edm, electronic, pop",2,2
+Katy Perry,6jJ0s89eD6GaHleKKya26X,"edm, electronic, latin, pop, reggaeton",6,2
+Kygo,23fqKkggKUBHNkbKtXEls4,"electronic, tropical house",5,5
+Valerie Broussard,6eVWXmKBW7Iltub01D9R1c,"electronic, tropical house",1,1
+YUNGBLUD,6Ad91Jof8Niiw0lGLLi3NW,"edm, electronic, rap rock, rock",5,5
+Travis Barker,4exLIFE8sISLr28sqG1qNX,"rap rock, rock",4,4
+Offset,4DdkRBBYG6Yk9Ka8tdJ9BW,"hip hop, melodic rap, rap, southern hip hop, trap",12,8
+Avril Lavigne,0p4nmQO2msCgU4IF37Wi3j,,1,1
+Dennis Lloyd,3EOEK57CV77D4ovYVcmiyt,,1,0
+Bebe Rexha,64M6ah0SkkRsnPGtGiRAbb,,6,4
+KC Rebell,5p7mWeX4RlvqBCxylfiXdE,"german hip hop, hip hop",4,3
+Summer Cem,3drqpTL4sQOckmAfF9i1wg,"german hip hop, hip hop",5,5
+Paulo Londra,3vQ0GE3mI0dAaxIMYe5g7z,"argentine trap, drill, electronic, grime, hip hop, latin, pop, reggaeton, soft pop, trap latino, uk drill, urbano latino",9,3
+ChocQuibTown,6tkyhGe9hGI3Lcfo4gVh6Z,"colombian pop, latin, latin alternative, pop, reggaeton, trap latino",1,1
+Zion & Lennox,21451j1KhjAiaYKflxBjr1,"colombian pop, latin, latin alternative, pop, reggaeton, trap latino",1,1
+Farruko,329e4yvIujISKGKz1BZZbO,"argentine trap, brazilian pop, colombian pop, dembow, funk, funk carioca, funk pop, hip hop, latin, latin alternative, pagode baiano, pop, r&b, reggaeton, trap latino, urbano latino",14,14
+Cauty,2QUvtLq6oQaX0LNsYY2fas,"dembow, hip hop, latin, latin hip hop, reggaeton, trap, trap latino, urbano latino",1,1
+Brytiago,00XhexlJEXQstHimpZN910,"dembow, hip hop, latin, latin hip hop, reggaeton, trap, trap latino, urbano latino",2,2
+Darell,1TtXnWcUs0FCkaZDPGYHdf,"dembow, hip hop, latin, latin hip hop, reggaeton, trap, trap latino, urbano latino",4,4
+Cosculluela,00me4Ke1LsvMxt5kydlMyU,"dembow, hip hop, latin, latin hip hop, reggaeton, trap, trap latino, urbano latino",1,1
+Rafa Pabön,11YLRSsZA3YVuQQtHXKTlz,"argentine trap, dembow, hip hop, latin, latin hip hop, reggaeton, trap, trap latino, turreo, urbano latino",4,4
+Chencho Corleone,37230BxxYs9ksS7OkZw3IU,"argentine trap, dembow, hip hop, latin, latin hip hop, reggaeton, trap, trap latino, urbano latino",2,2
+Amenazzy,6kq4GHwUcUojGIu0ziSNXf,"dembow, latin, reggaeton, trap latino, urbano latino",1,1
+Nicky Jam,1SupJlEpv7RS2tPNRaHViT,"argentine trap, colombian pop, dembow, hip hop, latin, pop, reggaeton, trap, trap latino, urbano latino",15,15
+Kanye West,5K4W6rqBFWDnAN6FQUkS6x,"christmas, gospel, gospel r&b, hip hop, jazz, melodic rap, pop, r&b, rap, smooth jazz, southern hip hop, worship",12,6
+Dermot Kennedy,5KNNVgR6LBIABRIomyCwKJ,,3,0
+Post Malone,246dkjvS1zLTtiykXe5h60,"glam metal, hard rock, heavy metal, hip hop, latin, melodic rap, metal, r&b, rap, rock, trap, trap latino",44,21
+Swae Lee,1zNqQNIdeOUZHb8zbZRFMX,"brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, rap",6,6
+Tropkillaz,5bzWtCkjIAMgN93gLt56SO,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton",1,1
+J Balvin,1vyhD5VmyZ7KMfW5gqLgo5,"afrobeat, afrobeats, afropop, afroswing, azonto, brazilian funk, brazilian pop, dancehall, dembow, drill, electronic, funk, funk carioca, funk pop, hip hop, hiplife, latin, latin pop, latin rock, mexican rock, moombahton, pagode baiano, pop, r&b, rap, reggaeton, rock, rock en español, symphonic rock, traditional music, trap latino, urbano latino",27,26
+ZAAC,76Xa625geVw0Q7BdyxNjA2,"brazilian funk, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton",1,1
+21 Savage,1URnnhqYAYcrqrcwql10ft,"hip hop, rap, southern hip hop, trap",6,5
+John Mayer,0hEurMDQu99nJRq8pTxO14,"folk/acoustic, singer-songwriter",3,1
+Lil Wayne,55Aa2cqylxrFIXC767Z865,"hip hop, r&b, rap",2,2
+Martin Garrix,60d24wfXkVzDSfLS6hyCjZ,"edm, electronic, electronica, emo, emo pop, pop, pop punk, progressive house, rock",5,5
+Bonn,7Io0XduXk7aOHFHA7sLru2,"edm, electronic, electronica, progressive house",4,4
+P!nk,1KCSPY1glIKqW2TotWuXOR,"edm, electronic",4,2
+James Bay,4EzkuveR9pLvDVFNx6foYD,,2,1
+Ninho,6Te49r3A6f5BiIgBRxH7FH,"hip hop, pop urbaine",11,4
+Big Rube,39uOfkRb9XnAEW9zs3JCbb,,1,1
+FP do Trem Bala,5hPHLE5ssifxHX5bhK8iXR,"brazilian funk, brega funk, funk, funk carioca, hip hop, pop, r&b",1,1
+Calboy,0HkcYmcjrBR3SCw9Ld5VZk,"hip hop, melodic rap",2,0
+Summer Walker,57LYzLEk2LcFghVwuWbcuS,"hip hop, r&b, rap",5,5
+Drake,3TVXtAsR1Inumwj472S9r4,"hip hop, r&b, rap, southern hip hop",27,12
+Niall Horan,1Hsdzj7Dlq2I7tHP7501T4,,2,1
+Jonas Brothers,7gOdHgIoIKoe4i9Tta6qdD,"colombian pop, electronic, latin, moombahton, pop, reggaeton, urbano latino",20,2
+Tainy,0GM7qgcRCORpGnfcN2tCiB,"brazilian pop, dancehall, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton, traditional music, trap latino, urbano latino",4,4
+Lil Skies,7d3WFRME3vBY2cgoP38RDo,"hip hop, melodic rap, rap, southern hip hop, trap",3,2
+Solange,2auiVi8sUZo17dLy1HwrTU,"alternative r&b, neo soul, r&b",2,0
+Gucci Mane,13y7CgLHjMVRMDqxdx0Xdo,"hip hop, melodic rap, rap, southern hip hop, trap",5,5
+Maluma,1r4hJ1h58CWwUQe3MxPuau,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",8,5
+Kendrick Lamar,2YZyLoL8N0Wb9xBt1NhZWg,"alternative r&b, hip hop, neo soul, r&b, rap, southern hip hop, west coast hip hop",5,5
+Ellie Goulding,0X2BH1fck6amBIoJhDVmmJ,"emo rap, hip hop, melodic rap",3,1
+Landon Cube,04ei5kNgmDuNAydFhhIHnD,"hip hop, melodic rap",1,1
+Martin Jensen,4ehtJnVumNf6xzSCDk8aLB,"pop, soft pop",1,1
+James Arthur,4IWBUUAFIplrNtaOHcJPRM,"pop, soft pop",2,1
+Wisin & Yandel,1wZtkThiXbVNtj6hee6dz9,"bachata, bachata pop, latin, pop, reggaeton, urbano latino",2,2
+Romeo Santos,5lwmRuXgjX8xIwlnauTZIP,"bachata, bachata pop, latin, pop, reggaeton, trap latino, urbano latino",2,2
+Dalex,0KPX4Ucy9dk82uj4GpKesn,"argentine trap, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton, trap, trap latino, turreo, urbano latino",12,12
+KHEA,4m6ubhNsdwF4psNf3R8kwR,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",2,2
+Sech,77ziqFxp5gaInVrF2lj4ht,"argentine trap, dembow, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",17,17
+Cazzu,6w3SkAHYPsQ1bxV7VDlG5y,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",2,2
+Feid,2LRoIwlKmHjgvigdNGBHNo,"argentine trap, hip hop, latin, reggaeton, trap, trap latino, turreo, urbano latino",6,6
+Lenny Tavárez,1pQWsZQehhS4wavwh7Fnxd,"argentine trap, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton, trap, trap latino, turreo, urbano latino",12,12
+Mc Livinho,7me0S5Z40qVWj3gzyK8aC3,"brazilian funk, brega funk, funk, funk carioca, funk pop, hip hop, pop, r&b",1,1
+Rennan da Penha,7ecRwFks8F2vYad383BkKf,"brazilian funk, brega funk, funk, funk carioca, funk pop, hip hop, pop, r&b",1,1
+Kenny Man,6SGvRyZuaSuWmP6IWUKpGf,"latin, reggaeton",1,0
+Aaron Smith,77qukKzmdI5BeMBR7WGUrN,,1,1
+Krono,17TFSnqADESRM8BPSaM5aB,,1,1
+Luvli,6dqohi36avY0M9urnyhITr,,1,1
+YG,0A0FS04o6zMoto8OKPsDwY,"dembow, hip hop, hyphy, latin, rap, trap, trap latino, west coast hip hop",9,7
+Tom Walker,7z2avKuuiMAT4XZJFv8Rvh,,1,0
+['Ski Mask The Slump God'],['2rhFzFmezpnW82MNqEKVry'],,1,0
+TOMORROW X TOGETHER,0ghlgldX5Dd6720Q3qFyQB,"k-pop, pop",1,0
+Lil Nas X,7jVv8c5Fj3E9VhNjxT4snq,"country, hip hop, k-pop, k-rap, melodic rap, pop, rap, rap rock, rock, trap",20,9
+Louis Tomlinson,57WHJIHrjOE3iAxpihhMnp,,1,0
+CHVRCHES,3CjlHNtplJyTf9npxaPl5w,"edm, electronic, pop, synthpop",1,1
+Brent Faiyaz,3tlXnStJ1fFhdScmQeLpuG,"emo rap, hip hop, melodic rap, r&b",1,1
+Rvssian,1fctva4kpRbg2k3v7kwRuS,"emo rap, hip hop, latin, melodic rap, trap latino",3,3
+Clever,5yy76ufVriyvidNSvXlRU1,"emo rap, hip hop, latin, melodic rap, trap latino",1,1
+Ava Max,4npEfmQ6YuiwW1GpUmaq3F,,2,1
+The Black Keys,7mnBLXK823vNxN3UWB7Gfz,"blues, blues rock, garage rock, modern blues, rock",1,0
+Lunay,47MpMsUfWtgyIIBEFOr4FE,"colombian pop, latin, latin pop, pop, reggaeton, trap latino, urbano latino",7,7
+Gaby Music,1r3tpVQ08jFAA2P4xzV5o4,"latin, reggaeton, trap latino, urbano latino",1,1
+Chris Jedi,0qTZZWLzuD59Un5r1speHm,"latin, reggaeton, trap latino, urbano latino",1,1
+Don Patricio,6vPXtLmNd3mW0dd1Rb9eQ9,,1,1
+Cruz Cafuné,0jeYkqwckGJoHQhhXwgzk3,,1,1
+John Lundvik,11LbPHLi2sCqOVjknt0jmW,,1,0
+Maren Morris,6WY7D3jk8zTrHtmkqqo5GI,country,1,0
+ScHoolboy Q,5IcR3N7QB1j6KBL8eImZ8m,"hip hop, hyphy, rap",12,6
+FLETCHER,5qa31A9HySw3T7MKWI9bGg,,1,0
+Myke Towers,7iK8PXO48WeuP03g8YR51W,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",5,4
+Sofía Reyes,0haZhu4fFKt0Ag94kZDiz2,"brazilian pop, funk, funk carioca, funk pop, hip hop, latin, latin pop, pagode baiano, pop, r&b",1,1
+Rita Ora,5CCwRZC6euC8Odo6y9X8jr,"big room, brazilian pop, dance, edm, electronic, funk, funk carioca, funk pop, hip hop, house, latin, latin pop, pagode baiano, pop, r&b, trance, tropical house",3,3
+Sia,5WUlDfRSoLAfcVSX1WnrxN,"alternative hip hop, electronic, hip hop, moombahton",5,5
+Diplo,5fMUXHkw8R8eOP2RNVYEZX,"art pop, country, dembow, electronic, hyperpop, latin, moombahton, pop, reggaeton, urbano latino",9,9
+Labrinth,2feDdbD5araYcm6JhFHHw7,"electronic, moombahton",5,5
+LSD,6IZ4ctovY9dl7bgHClAvKJ,"electronic, moombahton",4,4
+Samra,6h1s4i4XKIYv4ErDelLDN0,"german hip hop, german pop, hip hop, pop",14,11
+Tory Lanez,2jku7tDXc6XoB6MO2hFuqg,"g-funk, gangster rap, hip hop, r&b, rap, trap, west coast hip hop",7,6
+Sean Paul,3Isy6kedDrgPYoTS1dazA9,"brazilian pop, dancehall, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton, traditional music",3,3
+BRADO,0Mh0QuhaJ6WIW0qrJwzMmt,"german hip hop, hip hop, turkish hip hop",2,2
+Roddy Ricch,757aE44tKEUQEqRuT6GnEB,"hip hop, melodic rap, rap, west coast hip hop",9,8
+Rauw Alejandro,1mcTU81TzQhprhouKaTkpq,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",3,3
+Ufo361,5pVRwX5ZQR7hfJ18w8ZYkl,"cloud rap, german hip hop, hip hop, melodic rap, pop, turkish hip hop, turkish pop",9,7
+NAV,7rkW85dBwwrJtlHRDkJDAC,"hip hop, melodic rap, rage rap, rap",6,5
+Tame Impala,5INjqkS1o8h1imAzPqGZBb,"indie, pop, psychedelic pop, rock",4,0
+Alan Walker,7vk5e3vY1uw9plTHJAMwjN,"latin, reggaeton, trap latino",3,3
+Sabrina Carpenter,74KM79TiuVKeVCqs8QtB0B,"latin, reggaeton, trap latino",2,2
+Paloma Mami,7rOlQwf8OuFLFQp4aydjBt,"chilean trap, flamenco, hip hop, latin, reggaeton chileno",2,1
+Niska,7CUFPNi1TU8RowpnFRSsZV,"hip hop, pop urbaine",2,2
+Luciano,3CJKkU0XuElRT1z8rEtIYg,"german hip hop, hip hop, turkish hip hop",8,5
+Fero47,4A7HeXSd4HtQuf6IR5XZ1b,"german hip hop, hip hop",2,0
+Koba LaD,1q7T9rFQ2a2ukA1PU51fo3,"hip hop, pop urbaine",1,1
+Meek Mill,20sxb77xiYeusSH8cVdatc,"hip hop, hyphy, latin, melodic rap, pop, rap, reggaeton, soft pop",10,10
+Jul,3IW7ScrzXmPvZhB27hmfgy,"hip hop, pop urbaine",1,1
+Jonas Blue,1HBjj22wzbscIZ9sEb5dyf,"big room, dance, edm, electronic, house, trance, tropical house",2,2
+Theresa Rex,6t9tbRO9Lv6Oq6xtVwfdrn,"electronic, tropical house",1,1
+PNL,3NH8t45zOTqzlZgBvZRjvB,"hip hop, pop urbaine",17,0
+Gaullin,1aQwKFn00nswXRDUDipm0K,"electronic, slap house",1,0
+Bad Bunny,4q3ewBCX7sLwd24euuV69X,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, hip hop, hiplife, latin, latin hip hop, latin rock, mexican rock, pop, r&b, reggaeton, rock, rock en español, symphonic rock, traditional music, trap latino, urbano latino",18,16
+ROSALÍA,7ltDVBr6mKbRvohxheJ9h1,"drill, hip hop, latin, rap, reggaeton, trap latino, urbano latino",5,3
+El Guincho,1oMiDFyAgmIzw9ZBQYHOJI,"drill, hip hop, latin, reggaeton",1,1
+Rammstein,6wWVKhxIU2cEi0K81v7HvP,"industrial, industrial metal, industrial rock, metal, rock",11,0
+DJ Luian,64aJYyrXljOodnUG6jvhRD,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",2,2
+Mambo Kingz,2T1aUibqR2QC2sINIDQOAK,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",2,2
+Zara Larsson,1Xylc3o4UrD53lo9CvFvVg,"k-pop, pop",3,1
+Nipsey Hussle,0EeQBlQJFiAfJeVN2vT9s0,"hip hop, hyphy, melodic rap, neo soul, pop, r&b, soft pop, west coast hip hop",7,6
+Hit-Boy,6q3p11nP1p80Ey6LrOOSed,"hip hop, melodic rap, rap, west coast hip hop",2,2
+Belly,0FOWNUFHPnMy0vOw1siGqi,"hip hop, west coast hip hop",1,1
+Dom Kennedy,3s8alQfNnY0roAHaJh7Xxt,"hip hop, west coast hip hop",1,1
+Victoria Monét,63XBtGSEZINSyXylZxEUbv,"alternative r&b, pop, r&b",1,1
+Daya,6Dd3NScHWwnW6obMFbl1BH,,1,0
+BLACKPINK,41MozSoPIsD1dJM0CLPjZF,"k-pop, pop",7,0
+Billy Ray Cyrus,60rpJ9SgigSd16DOAG7GSa,"country, hip hop, melodic rap, rap, trap",4,4
+SAFE,3bnpcWBcvlfq4hPFJjNPbz,sexy drill,1,1
+Bazzi,4GvEc3ANtPPjt1ZJllr5Zl,,6,1
+Aventura,1qto4hHid1P71emI6Fd8xi,"bachata, bachata pop, latin, pop",1,0
+Dardan,3pjq2pDV9RR6VY55wBjVnp,"german hip hop, hip hop",2,1
+['Twenty One Pilots'],['3YQKmKGau1PzlVlkL1iodx'],,1,0
+Lil Uzi Vert,4O15NlyKLIASxsJ0PrXPfz,"emo rap, hip hop, melodic rap, rap, trap",6,3
+Avicii,1vCWHaC5f2uS3yhpwWbIA6,"edm, electronic, tropical house",16,15
+Aloe Blacc,0id62QV2SZZfvBn9xpmuCl,"edm, electronic",3,3
+['Avicii'],['1vCWHaC5f2uS3yhpwWbIA6'],"edm, electronic",1,0
+Danny Ocean,5H1nN1SzW0qNeUEZvuXjAj,"latin, reggaeton",1,0
+BTS,3Nrfpe0tUJi4K4DXYWgMUX,"art pop, emo rap, hip hop, hyperpop, k-pop, k-rap, melodic rap, pop",14,7
+Nimo,3ZuBEj9ppJe8GSdKaMTfMN,"german hip hop, hip hop",4,3
+Justin Quiles,14zUHaJZo1mnYtn6IBRaRP,"argentine trap, brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton, trap latino, urbano latino",10,10
+Cash Cash,1LOB7jTeEV14pHai6EXSzF,"edm, electronic",1,1
+Guaynaa,0BqURncJM5B1BBu7UM51eq,"latin, reggaeton, trap latino, urbano latino",2,1
+MEDUZA,0xRXCcSX89eobfrshSVdyu,,3,3
+Goodboys,2nm38smINjms1LtczR0Cei,,3,3
+Polo G,6AgTAQt8XS6jRWi4sX7w49,"brooklyn drill, hip hop, melodic rap",2,2
+Lil Tjay,6jGMq4yGs7aQzuGsMgVgZR,"brooklyn drill, hip hop, melodic rap",5,3
+SZA,7tYKF4w9nC0nq9CsPZTHyP,"hip hop, r&b, rap",5,5
+Game of Thrones,22JdJVovP3pV9XkGTih01c,"hip hop, r&b, rap",2,2
+Lil Dicky,1tqhsYv8yBBdwANFNzHtcr,,1,0
+Madonna,6tbjWDEIzxoDsBA1FuhfPW,"brazilian pop, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, reggaeton, urbano latino",2,2
+Beyoncé,6vWDO969PvNqNYHIOW5v0m,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, blues rock, dancehall, east coast hip hop, hip hop, pop, r&b, rap, rock, traditional music, west coast hip hop",24,8
+French Montana,6vXTefBL93Dj5IqAWq6OTv,"brooklyn drill, crunk, german hip hop, gnawa, hip hop, latin, melodic rap, memphis rap, rap, raï, traditional music, trap latino",6,6
+TWICE,7n2Ycct7Beij7Dj7meI4X0,"k-pop, pop",2,0
+Jack White,4FZ3j1oH43e7cukCALsCwf,"blues rock, rock",1,1
+Florence + The Machine,1moxjboGR7GNWYIMWsRjgG,"baroque pop, pop",1,0
+Lizzo,56oDRnqbIiwx4mymNEv7dS,"art pop, hyperpop, pop",8,2
+A Boogie Wit da Hoodie,31W5EY0aAly4Qieq6OFu6I,"hip hop, melodic rap, pop, rage rap, rap, soft pop",9,8
+DaBaby,4r63FhuTkUYltbVAg5TQnk,"hip hop, melodic rap, memphis rap, pop, rap, southern hip hop, trap",25,16
+Taylor Swift,06HL4z0CvFAxyc27GXpf02,"country, emo, pop, rock",26,5
+Brendon Urie,6eYFryfcEu3QSq59D62wZQ,"emo, rock",3,3
+bülow,5vBrKGOjN10BMwB0cJADj4,,1,1
+Stormzy,2SrSdSvpminqmStGELCSNd,"afrobeat, afrobeats, afropiano, afropop, afroswing, dancehall, drill, electronic, grime, hip hop, pop, r&b, soft pop, traditional music, uk drill",5,4
+RIN,18ISxWwWjV6rPLoVCXf1dz,"cloud rap, german hip hop, hip hop, turkish hip hop",5,2
+DJ Snake,540vIaP2JwjQb9dm3aArA4,"brazilian pop, dancehall, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b, rap, reggaeton, southern hip hop, traditional music, trap, trap latino, urbano latino",7,7
+Sheck Wes,2RDOrhPqAM4jzTRCEb19qX,"hip hop, rap, southern hip hop, trap",2,2
+Kid Cudi,0fA0VVWsXO9YnASrzqfmYu,,1,1
+Charlie Charles,1UCxzrM5WJh9ure5vCcsim,"hip hop, italian trap, trap",1,1
+Fabri Fibra,7u710e44HW3K7A5eTnRqHC,"hip hop, italian trap, trap",3,3
+6LACK,4IVAbR2w4JJNJDDRFP3E83,,1,1
+LANY,49tQo2QULno7gxHutgccqF,,2,2
+Alessia Cara,2wUjUUtkb5lvLKcGKsKqsR,,3,0
+Kina,4qIVPF0s71ZYW3qzhu5GkF,,3,3
+Snøw,5fSVkkuijRIpxuvSqysYiP,,1,1
+Eminem,7dGJo4pcD2V6oG8kP0tJRR,"east coast hip hop, hip hop, pop, rap, soft pop",4,4
+Mau y Ricky,2wkoKEfS6dXwThbyTnZWFU,"colombian pop, latin, latin pop, pop, reggaeton",3,3
+Camilo,28gNT5KBp7IjEOQoevXf9N,"colombian pop, latin, latin pop, pop, reggaeton",4,4
+Juju,4sg4no0TXdsrM1s4SVUwNF,"german hip hop, german pop, hip hop, pop",2,2
+Henning May,1cH0i2n6YLrWFDDemqztay,"german hip hop, german pop, hip hop, pop",2,2
+Jon Z,5bWUlnPx9OYKsLiUJrhCA1,"dembow, hip hop, hyphy, latin, trap, trap latino",2,2
+PnB Rock,21WS9wngs9AqFckK7yYJPM,"emo rap, hip hop, melodic rap, pop, soft pop",5,4
+KYLE,4qBgvVog0wzW75IQ48mU7v,,1,1
+Lil Yachty,6icQOAFXDZKsumw3YXyusw,,1,1
+Luke Combs,718COspgdWOnwOFpJHRZHS,country,1,0
+Ed Sheeran,6eUKZXaKkcviH0Ku9w2n3V,"afrobeat, afrobeats, afropiano, afropop, afroswing, argentine trap, country, dancehall, drill, dubstep, east coast hip hop, edm, electro, electronic, grime, hip hop, latin, melodic rap, pop, r&b, rap, reggaeton, soft pop, traditional music, trap, trap latino, uk drill",22,22
+Justin Bieber,1uNFoZAHBGtllmzznpCI3s,"country, hip hop, latin, pop, r&b, rap, reggaeton, soft pop, southern hip hop, trap",9,9
+Agnes,6SsTlCsuCYleNza6xGwynu,"edm, electronic",3,3
+Vargas & Lagola,2fVW2ix4ANKiofDZIsy1XR,"edm, electronic",5,5
+RAYE,5KKpBU5eC2tJDzf0wmlRp2,"dance, edm, electronic",2,2
+ZAYN,5ZsFI1h6hIdQRw2ti0hz81,"edm, electronic, slap house",4,4
+Zhavia,1CO6e7WRJvSFenmQO8n64C,,1,1
+Cordae,0huGjMyP507tBCARyzSkrv,,2,2
+Wiz Khalifa,137W8MRPWKqSmrBGDBFSop,"hip hop, rap",1,1
+Major Lazer,738wLrAtLtCtFOLvQBXOXp,"brazilian pop, dembow, electronic, funk, funk carioca, funk pop, hip hop, latin, moombahton, pagode baiano, pop, r&b, reggae, reggaeton, urbano latino",4,4
+Skip Marley,4ryoUS0W8qXokfMxrlJt6O,"electronic, moombahton, r&b, reggae",1,1
+Quavo,0VRj0yCOv2FXJNP47XQnx5,"hip hop, hyphy, rap",4,4
+Jax Jones,4Q6nIcaBED8qUel8bBx6Cr,"electronic, french house",5,5
+Martin Solveig,1bj5GrcLom5gZFF5t949Xl,"dance, edm, electronic, french house",4,4
+Madison Beer,2kRfqPViCqYdSGhYSM9R0Q,"electronic, french house",3,3
+Europa,2NlKrNMdpYxGjt3Pvw87rC,"electronic, french house",3,3
+MAX,1bqxdqvUtPWZri43cKHac8,,1,1
+Quinn XCII,3ApUX1o6oSz321MMECyIYd,,1,1
+Andy Grammer,2oX42qP5ineK3hrhBECLmj,,1,0
+De La Ghetto,3EiLUeyEcA6fbRPSHkG5kb,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",2,2
+Tyler The Creator,4V8LLVI7PbaPR0K2TGSxFF,,11,0
+DJ Khaled,0QHgL1lAIqAw0HtD7YldmP,"hip hop, latin, neo soul, pop, r&b, rap, reggaeton, soft pop, west coast hip hop",11,11
+Slipknot,05fG473iIaoy82BF1aGhL8,"alternative metal, heavy metal, metal, nu metal, rap metal",5,0
+Chance the Rapper,1anyVhU62p31KFi8MEzkbf,"alternative r&b, drill, gospel, gospel r&b, hip hop, melodic rap, neo soul, new jack swing, pop, r&b, rap, soft pop, southern hip hop, trap, worship",15,14
+TisaKorean,6lEhBhAv6HOopjXssi09cq,,1,1
+Murda Beatz,3CbYyyd8wH3RT6t0jwpdzC,,1,1
+Big Sean,0c173mlxpT3dSFRgMO8XPh,"hip hop, r&b, rap",4,3
+Kontra K,4lDiJcOJ2GLCK6p9q5BgfK,"german hip hop, hip hop",1,0
+Lil Baby,5f7VJjfbwm532GiveGC0ZK,"german hip hop, hip hop, latin, melodic rap, memphis rap, rap, reggaeton, southern hip hop, trap, turkish hip hop",15,14
+Duncan Laurence,3klZnJvYGIbWritVwQD434,,1,0
+Charli xcx,25uiPmTg16RbhZWAqwLBy5,"art pop, brazilian pop, country, electronic, french pop, funk pop, hyperpop, k-pop, moombahton, pop, tecnobrega",5,5
+Jeremih,3KV3p5EY4AvKxOlhGHORLg,"hip hop, latin, rap, reggaeton",1,1
+Luca Hänni,5JbALDn35ZrLwVAle4xVqZ,"german pop, pop",1,0
+KEiiNO,0chh7dlaUzEreDTulHiOlm,"europop, pop",1,0
+Panic! At The Disco,20JZFwl6HVl6yg8a4H3ZqK,"emo, rock",3,2
+JHAYCO,6nVcHLIgY5pE2YCl8ubca1,"latin, reggaeton, trap latino, urbano latino",2,2
+Chelsea Cutler,5JMLG56F1X5mFmWNmS0iAp,"electronic, tropical house",1,1
+Joyner Lucas,6C1ohJrd5VydigQtaGy5Wa,,1,1
+NLE Choppa,0ErzCpIMyLcjPiwT4elrtZ,,3,1
+Miley Cyrus,5YGY8feqx7naU7z4HrwZM6,"east coast hip hop, hardcore hip hop, hip hop, pop",10,5
+Mark Ronson,3hv9jJF3adDNsBSIQDqcjp,pop,2,2
+Camila Cabello,4nDoRrQiYLoBzwC5BhVJzF,"pop, soft pop",14,6
+Tiësto,2o5jDhtHVPhrJdv3cEQ99Z,"big room, dance, edm, electronic, house, trance, tropical house",2,2
+Ghostface Killah,6FD0unjzGQhX3b6eMccMJe,"east coast hip hop, hardcore hip hop, hip hop",1,1
+RuPaul,2SdOKxC1sSxEyv8JYERaNe,,1,1
+Mike WiLL Made-It,0NWbwDZY1VkRqFafuQm6wk,,1,1
+NF,6fOMl44jA4Sp5b9PpYCkzz,"christian hip hop, hip hop",7,0
+Herve Pagez,31JFnMfmvwzZGdEnXaKGek,"art pop, electronic, hyperpop, moombahton, pop",1,1
+Tove Lo,4NHQUGzhtTLFvgF5SZesLK,,1,0
+Elton John,3PhoLpVuITZKcymswpck5b,,2,0
+Guayna,3OhUwA1syjRoS0WdUL0ATz,,1,0
+Lil Tecca,4Ga1P7PMIsmqEZqhYZQgDo,"emo rap, hip hop, melodic rap, rap",15,4
+'Grey','4lDBihdpMlOalxy1jkUbPl',"edm, electronic",1,1
+'Zedd'],'2qxJFvFYMEDqd7ui6kSAcq'],"edm, electronic",1,1
+Russ,1z7b1Pr1rSlvWRzsW3HOrS,,2,1
+Gemitaiz,4upwdFMlZBmQ68jP9jPzjK,"hip hop, italian trap",4,4
+MadMan,3MkkSf3u5KU52Mb2iMrqeX,"hip hop, italian trap",3,3
+Nekfeu,4LXBc13z5EWsc5N32bLxfH,"chanson, easy listening, electronic, french house, french pop, hip hop, pop, pop urbaine, variété française",9,3
+Damso,2UwqpfQtNuhBwviIC0f2ie,"hip hop, pop urbaine",1,1
+A R I Z O N A,7hOGhpa8RMSuDOWntGIAJt,"edm, electronic",1,1
+Imagine Dragons,53XhwfbYqKCa1cC15pYq2q,"edm, electronic",1,1
+Joe Janiak,142TY556WknD1ZRV8XilJQ,"edm, electronic, tropical house",2,2
+Noonie Bao,1vIuPjtFhqIPE2n9W2ePgO,"edm, electronic",1,1
+R3HAB,6cEuCEZu7PAE9ZSzLLc2oQ,"edm, electronic, eurodance, europop, pop, slap house",2,2
+A Touch Of Class,5wTdspmxzb8V4ZjvDodpBo,"edm, electronic, eurodance, europop, pop, slap house",1,1
+mgk,6TIYQ3jFPwQSRmorSezPxX,"hip hop, melodic rap, rap, rap rock, rock, trap",4,3
+Vanessa Paradis,1FmxE030Xe2H8Bn9bdv6Pd,"chanson, easy listening, electronic, french house, french pop, pop, variété française",1,1
+Nemir,5f6nz3iqzrfiUfKOIKvLvd,,1,1
+Farid Bang,2JwyRtuXf2l6sTnSnGVIa1,"german hip hop, gnawa, hip hop, raï, traditional music",1,1
+Khaled,28ztjHIXceRRntmTUfnmUX,"german hip hop, gnawa, hip hop, raï, traditional music",1,1
+Naomi Scott,2Zi3RrdQqk63Xj0914STkS,,1,0
+Dreamville,1iNqsUDUraNWrj00bqssQG,"hip hop, rap",9,9
+JID,6U3ybJ9UHNKEdsH7ktGBZ7,"hip hop, rap",4,4
+Bas,70gP6Ry4Uo0Yx6uzPIdaiJ,"hip hop, rap",3,3
+EARTHGANG,5MbNzCW3qokGyoo9giHA3V,"hip hop, rap",4,4
+Young Nudy,5yPzzu25VzEk8qrGTLIrE1,"hip hop, rap",3,3
+Joji,3MZsBdqDrRTJihTHQrO6Dq,,1,0
+Kalazh44,5sRQkVexJlax2iISuqL8cV,"german hip hop, hip hop",1,1
+Little Mix,3e7awlrlDSwF3iM0WBjGMp,,1,0
+Alesso,4AVFqumd2ogHFlRbKIjp1t,"edm, electronic, latin pop, pop",1,1
+TINI,7vXDAI8JwjW531ouMGbfcp,"colombian pop, edm, electronic, latin, latin pop, pop, reggaeton",2,2
+Ali Gatie,4rTv3Ejc7hKMtmoBOK1B4T,,2,0
+['Taylor Swift'],['06HL4z0CvFAxyc27GXpf02'],,1,0
+Flume,6nxWCVXbOlEVRexSbLsTer,"electronic, future bass",1,1
+London Grammar,3Bd1cgCjtCI32PYvDC3ynO,"electronic, future bass",1,1
+Rick Ross,1sBkRIssrMs1AbVkOJbc7a,"hip hop, rap, southern hip hop",5,5
+Blanco Brown,3yzRiNMZdTsSUgplcyYZ4i,"country, country hip hop, hip hop",2,0
+Ashley O,14scxEoUN7Dcx1m4EQ7oHe,,1,0
+Kane Brown,3oSJ7TBVCWMDMiYjXNiCKE,"country, edm, electronic, pop country",1,1
+88-Keys,6RedK3o51NbUJuJxXlT4kj,"alternative hip hop, hip hop",1,1
+Mac Miller,4LLpKhyESsyAXpc4laK94U,"alternative hip hop, hip hop",1,1
+NATTI NATASHA,1GDbiv3spRmZ1XdM1jQbT7,"argentine trap, big room, brazilian pop, colombian pop, dance, dancehall, edm, electro, electronic, electronica, funk, funk carioca, funk pop, hip hop, latin, moombahton, pagode baiano, pop, r&b, reggaeton, traditional music, trap latino, urbano latino",4,4
+Y2K,6USMTwO0MNDnKte5a5h0xx,"hip hop, meme rap",2,2
+bbno$,41X1TR6hrK8Q2ZCpp2EqCz,"hip hop, meme rap",2,2
+Arcángel,4SsVbpTthjScTS7U2hmr1X,"latin, reggaeton, trap latino, urbano latino",3,3
+Sam Feldt,20gsENnposVs2I4rQ5kvrf,"electronic, tropical house",2,2
+RANI,3SYnDj7btg9gFY7ps8m5d5,"electronic, tropical house",2,2
+Ink,4ZhFCxPekpmV12n2xMeF2z,r&b,2,2
+Whitney Houston,6XpaIBNiVzIetEPCWDvAFP,"electronic, tropical house",1,1
+Marciano Cantero,5QzDzXfXC5lepOBeQXBiVO,"latin, latin rock, mexican rock, reggaeton, rock, rock en español, symphonic rock, trap latino, urbano latino",1,1
+Mr Eazi,4TAoP0f9OuWZUesao43xUW,"afrobeat, afrobeats, afropop, afroswing, azonto, dancehall, hiplife, latin, pop, r&b, reggaeton, traditional music, trap latino, urbano latino",1,1
+GIMS,0GOx72r5AAEKRGQFn3xqXK,"french pop, german hip hop, german pop, hip hop, pop, pop urbaine",1,1
+Data Luv,2gtmbs0Uas9TBSMqkA4zjE,"german hip hop, hip hop, turkish hip hop",1,1
+Daniel Caesar,20wkVLutqVOYrc0kxFs7rA,"folk/acoustic, r&b, singer-songwriter",2,2
+Brandy,05oH07COxkXKIMt6mIPRee,r&b,1,1
+Playboi Carti,699OTQXzgjhIYAHMy9RyPD,"hip hop, melodic rap, rage rap",2,2
+Sodré,07qgzS86XBNsyrY6MAVDAc,"brazilian funk, brega, brega funk, country, funk, funk carioca, funk pop, hip hop, pop, r&b",2,2
+João Gustavo e Murilo,6xerOqBLmelL3xZNZkVbGl,"latin, sertanejo, sertanejo universitário",1,1
+Analaga,4LTPxLxjiT5pzYd5WZAR3v,"latin, sertanejo, sertanejo universitário",1,1
+Lynyrd Skynyrd,4MVyzYMgTwdP7Z49wAZHx0,"classic rock, rock, southern rock",1,0
+Yebba,1ooV8YZC1KbpEcrmI8WH0F,"pop, soft pop",2,2
+Lute,75WcpJKWXBV3o3cfluWapK,"hip hop, rap",1,1
+MACHETE,7Do8se3ZoaVqUt3woqqSrD,"hip hop, italian trap",9,9
+Salmo,3hBQ4zniNdQf1cqqo6hzuW,"hip hop, italian trap",8,8
+Lazza,0jdNdfi4vAuVi7a6cPDFBM,"hip hop, italian trap, trap",3,3
+Chris Stapleton,4YLtscXsxbVgi031ovDDdh,"country, pop, soft pop",2,2
+Guapdad 4000,0NcPKaSNIHAM2RfioH9vMT,,2,2
+Reese LAFLARE,07V3atNq2TyPNDYmzp6Dyy,,1,1
+Jace,0vaKiuLwFJLVU664A8GTjE,,1,1
+Mez,30C5wgn4celhRP3Tytv7R6,,1,1
+Smokepurpp,21dooacK2WGBB5amYvKyfM,"hip hop, melodic rap",2,2
+Buddy,6PDLwWvgYNMfBRLqC1h5cJ,,2,2
+Dani Faiv,0ffKEtMDnROKWyJtXUnLbJ,"hip hop, italian trap",1,1
+thasup,19i93sA0D7yS9dYoVNBqAA,"hip hop, italian trap, trap",12,7
+Dimitri Vegas & Like Mike,73jBynjsVtofjRpdpRAJGk,"big room, dance, dancehall, edm, electro, electronic, electronica, hip hop, latin, moombahton, reggaeton, traditional music, urbano latino",1,1
+Afro Bros,3wtMPMvPtiFylbnNXF6CAj,"big room, dance, dancehall, edm, electro, electronic, electronica, hip hop, latin, moombahton, reggaeton, traditional music, urbano latino",1,1
+Dimitri Vegas,2HkAI0YrEcgoR8QdaURqhO,"big room, dance, dancehall, edm, electro, electronic, electronica, hip hop, latin, moombahton, reggaeton, traditional music, urbano latino",1,1
+Like Mike,4pwXiI7Z5ZStkgKowZyoKi,"big room, dance, dancehall, edm, electro, electronic, electronica, hip hop, latin, moombahton, reggaeton, traditional music, urbano latino",1,1
+Massimo Pericolo,1El4YQA8oCXX7ynFSxRTFq,"hip hop, italian trap",2,2
+Nitro,6jQZzWW3JlEtcRDSzFVKSP,"hip hop, italian trap",2,2
+Marracash,5AZuEF0feCXMkUCwQiQlW7,"canzone napoletana, folk/acoustic, hip hop, indie, italian trap, neomelodico, rock, traditional music, trap",8,7
+Izi,6289Bbkkk3gaCbh1K7Rv8F,"hip hop, italian trap",1,1
+Cozz,5oFkj1qSlyBUmV5d6Edgtq,,1,1
+REASON,6XpXnnKHIhCOUbOLOJGe6o,,1,1
+Childish Major,4bMNzAopkqYTwkBLwMKsF1,,1,1
+Jack The Smoker,0vZAzVAFQL1gKLBPfnXMaS,"hip hop, italian trap",1,1
+Beba,6ZpOQK1OKdCybuOgMkdbUh,"hip hop, italian trap",1,1
+Zoink Gang,3OBsADexDJ29wg3OGVoAji,"hip hop, rap",1,1
+KEY!,2tMOCIpxj6jwM9e6pmwGiP,"hip hop, rap",1,1
+Maxo Kream,6xS5PpBWaVYraexEkEjjXv,"hip hop, rap",1,1
+GRiNGO,5Sjj30aHCmKcM9SdVX7PBK,"german hip hop, hip hop",1,1
+Hell Raton,6g5SF1Yz63eoPUnJgRHfrz,"hip hop, italian trap",1,1
+Jeremy Zucker,3gIRvgZssIb9aiirIg0nI3,,1,0
+50 Cent,3q7HBObVc0L8jNeTe5Gofh,"east coast hip hop, hip hop, pop, rap, soft pop",1,1
+Dave,6Ip8FS7vWT1uKkJSweANQK,"argentine trap, drill, electronic, grime, hip hop, latin, pop, reggaeton, soft pop, trap latino, uk drill",1,1
+J Hus,2a0uxJgbvvIRI4GX8pYfcr,"afrobeats, afroswing, electronic, grime, hip hop, melodic rap, pop, r&b, rap, soft pop, traditional music, trap",1,1
+Ella Mai,7HkdQ0gt53LP4zmHsL0nap,"pop, r&b, soft pop",1,1
+Skrillex,5he5w2lnU9x7JFhnwcekXX,"dubstep, edm, electro, electronic, hip hop, pop, soft pop",1,1
+H.E.R.,3Y7RZ31TRPVadSFVy1o8os,"pop, r&b, soft pop",1,1
+Mason Ramsey,6xvpfMjWTougrRRtK7iikz,"country, hip hop, melodic rap, rap, trap",1,1
+Childish Gambino,73sIBHcqh3Z3NyqHKZ7FOL,"afropop, east coast hip hop, hip hop, pop, rap",2,2
+Billy Eichner,0FVsUxcFSlxwIM7Qs31s6J,,1,1
+Seth Rogen,7xX39IyguhWsTIg4eU2reH,,1,1
+City Girls,37hAfseJWi0G3Scife12Il,,1,1
+Becky G,4obzFoKoKRHIphyHzJ35G3,"hip hop, k-pop, k-rap, latin, pop, reggaeton, trap latino, urbano latino",3,3
+Stephanie Poetri,0HS00NN7MAfF59aJnfcxSO,,1,0
+Dayvi,2TWBei99x2tV70bdYbWdAf,"guaracha, latin",1,1
+Victor Cardenas,00CMSJdbf36zOzKB3z8JrR,"guaracha, latin",1,1
+Kelly Ruíz,0cCNT5RyWndpS7Zx7ISEDw,"guaracha, latin",1,1
+Tones And I,2NjfBq1NflQcKSeiDooVjY,,2,0
+JAY-Z,3nFkdlSjzX9mRTtwJOzDYB,"afropop, east coast hip hop, hip hop, pop, rap",1,1
+Oumou Sangaré,65CKKZilbcSKkAPC9a5Mvh,"afropop, east coast hip hop, hip hop, pop, rap",1,1
+Blue Ivy,3XV0lFzNs8BCTwhJTcMiBr,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, pop, r&b, traditional music",1,1
+SAINt JHN,0H39MdGGX6dbnnQPt6NQkZ,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, electronic, pop, r&b, slap house, traditional music",2,2
+Wizkid,3tVQdUvClmAT7URs9V3rsp,"afrobeat, afrobeats, afropiano, afropop, afroswing, azonto, dancehall, pop, r&b, traditional music",1,1
+Ky-Mani Marley,1XTGADISSMRf8B4TcVGYUC,"dancehall, electronic, emo rap, hip hop, r&b, ragga, reggae, riddim, roots reggae, soca, traditional music",1,1
+Stefflon Don,2ExGrw6XpbtUAJHTLtUXUD,"dancehall, electronic, emo rap, hip hop, r&b, ragga, reggae, riddim, roots reggae, soca, traditional music",1,1
+Vybz Kartel,2NUz5P42WqkxilbI8ocN76,"dancehall, electronic, emo rap, hip hop, r&b, ragga, reggae, riddim, roots reggae, soca, traditional music",1,1
+RAF Camora,0Dvx6p8JDyzeOPGmaCIH1L,"german hip hop, hip hop, turkish hip hop",5,2
+Quality Control,6i392l38cR3uBPF0DbNs7S,,2,2
+Norm Ender,3S6gaE89XewFAvZqsMuJDJ,"hip hop, turkish hip hop",1,0
+Christine and the Queens,04vj3iPUiVh5melWr0w3xT,"art pop, french pop, hyperpop, pop",1,1
+RM,2auC28zjQyVTsiZKNgPRGs,"hip hop, k-pop, k-rap, pop",1,1
+ILLENIUM,45eNHdiiabvmbp4erw26rg,"edm, electronic, future bass, melodic bass",4,4
+Lennon Stella,1cZQSpDsxgKIX2yW5OR9Ot,"edm, electronic, future bass, melodic bass",3,3
+MadeinTYO,5SyGEPymt1G2uto47tVWvZ,,1,1
+Death Cab for Cutie,0YrtvWJMgSdVrk3SfNjTbx,,1,1
+Residente,5GcWBUX00IPuWVGMIRK1sS,"hip hop, latin, latin hip hop, reggaeton, trap latino, urbano latino",1,1
+Anderson .Paak,3jK9MiCrA42lLAdMGUZpwa,,1,1
+Smino,1ybINI1qPiFbwDXamRtwxD,,1,1
+Majid Jordan,4HzKw8XcD0piJmDrrPRCYk,,1,1
+Pabllo Vittar,6tzRZ39aZlNqlUzQlkuhDV,"art pop, brazilian pop, country, funk pop, hyperpop, pop, tecnobrega",1,1
+Megan Thee Stallion,181bsRPaVXVlUKXrxwZfHK,,2,2
+Lil Durk,3hcs9uc56yIGFCSy9leWe7,"drill, hip hop",1,1
+En Vogue,5fikk4h5qbEebqK2Fc6e48,"alternative r&b, gospel, gospel r&b, neo soul, new jack swing, pop, r&b, worship",1,1
+Ari Lennox,1vaQ6v3pOFxAIrFoPrAcom,"alternative r&b, gospel, gospel r&b, neo soul, new jack swing, pop, r&b, worship",1,1
+Kierra Sheard,4x3CdMQ3YjnPn4Evhyni5y,"alternative r&b, gospel, gospel r&b, neo soul, new jack swing, pop, r&b, worship",1,1
+Jorge & Mateus,1elUiq4X7pxej6FRlrEzjM,"agronejo, arrocha, country, latin, sertanejo, sertanejo universitário",2,0
+Taylor Bennett,6CqjoQyGZlnhnq5gAUz92c,,1,1
+CocoRosie,05fo024EFotg9songSENOZ,,1,1
+Social House,5UjifI1TYefXWn9GdqDOHl,pop,1,1
+Anne-Marie,1zNqDE7qDGCsyzJwohVaoX,,2,2
+James Fauntleroy,5ooSG9S0glqP5ZrqqaHBvT,"hip hop, rap",1,1
+Gryffin,2ZRQcIgzPCVaT9XKhXZIzh,"edm, electronic, future bass, melodic bass",1,1
+Carly Rae Jepsen,6sFIWsNpZYqfjUpaCgueju,"edm, electronic, future bass, melodic bass",1,1
+Zion,1pgDilWYDWLoOgGjf1iHNu,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",5,5
+TOOL,2yEwvVSSSUkcLeSTNyHKh8,"alternative metal, metal, progressive metal, progressive rock, rock",8,0
+Zendaya,6sCbFbEjbYepqswM1vWjjs,,1,1
+Lil Duke,06Qf6vq8AVIpE9XIw8LAsY,"hip hop, melodic rap",1,1
+Pedro Capó,4QVBYiagIaa6ZGSPMbybpy,"colombian pop, latin, latin pop, pop",1,1
+SiR,3QTDHixorJelOLxoxcjqGx,"alternative r&b, hip hop, neo soul, r&b, west coast hip hop",1,1
+Bon Iver,4LEiUm1SRbFMgfqnQTwUbQ,"folk/acoustic, indie folk",1,0
+The Game,0NbfKEOTQCcwd6o7wSDOHI,"gangster rap, hip hop, melodic rap, west coast hip hop",1,1
+Saweetie,6cK3NBO6uP7hh0oyuVELFl,,1,0
+Duki,1bAftSH8umNcGZ0uyV7LMg,"argentine trap, hip hop, latin, trap, trap latino",2,0
+WOS,5YCc6xS5Gpj3EkaYGdjyNK,"argentine trap, hip hop",1,0
+Jorja Smith,1CoZyIx7UvdxT5c8UkMzHd,"afrobeat, afrobeats, afropiano, afropop, afroswing, dancehall, pop, r&b, traditional music",2,2
+Burna Boy,3wcj11K77LjEY1PkEazffa,"afrobeat, afrobeats, afropiano, afropop, afroswing, dancehall, electronic, grime, pop, r&b, soft pop, traditional music, uk drill",4,4
+Bizarrap,716NhGYqD1jl2wI1Qkgq36,"argentine trap, hip hop, latin, trap latino, urbano latino",1,1
+Nicki Nicole,2UZIAOlrnyZmyzt1nuXr9y,"argentine trap, hip hop, latin, trap latino, urbano latino",1,1
+X Ambassadors,3NPpFNZtSTHheNBaWC82rB,"edm, electronic, future bass, melodic bass",1,1
+Morgan Wallen,4oUHIQIBe0LHzYfvXNW4QM,"country, electronic, moombahton",1,1
+A$AP Ferg,5dHt1vcEm9qb8fCyLcB3HL,"hip hop, rap",2,1
+Barloe Team,4okiIReqptfBJ5UULmWycZ,"latin, reggaeton, trap latino, urbano latino",1,1
+['Joji'],['3MZsBdqDrRTJihTHQrO6Dq'],,1,0
+The Chicks,25IG9fa7cbdmCIy3OnuH57,country,1,1
+BROCKHAMPTON,1Bl6wpkWCQ4KVgnASpvzzA,,4,0
+Charlie Puth,6VuMaDnrHyPL1p4EHjYLi7,"pop, soft pop",2,0
+The 1975,3mIj9lX2MWuHmhNCA7LSCW,,2,0
+Apache 207,1qQLhymHXFPtP5U8KNKsm6,"german hip hop, german pop, hip hop, pop",9,1
+Miami Yacine,1XKjtpH5P81gpOXDB91IEB,"german hip hop, hip hop",1,0
+blackbear,2cFrymmkijnjDg9SS92EPM,"edm, electronic",2,1
+Rico Nasty,2OaHYHb2XcFPvqL3VsyPzU,"emo rap, hip hop",1,1
+Luan Santana,3qvcCP2J0fWi0m0uQDUf6r,"arrocha, country, latin, sertanejo, sertanejo universitário",1,0
+A$AP Rocky,13ubrt8QOOCPljQ2FL1Kca,"crunk, hip hop, memphis rap, rap",2,1
+Dímelo Flow,3fZk3Gm5dN5v5yfYMQ04Bx,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",4,4
+Ozzy Osbourne,6ZLTlhejhndI4Rh53vYhrY,"glam metal, hard rock, heavy metal, hip hop, metal, rap, rock",3,3
+Şanışer,5LUxu287CsPM7jy3yS3l86,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Kamufle,0JnDkp29FlLpGwsnub400t,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Mert Şenel,5YP7LI1ddSh4JFYe03h7ue,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Mirac,7xoGvuN5XfZ3T4dZoJvMCr,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Aga B,3QKeYTHlgDrec7FDej6XiN,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Defkhan,5piE2MZ1wGpBjpDud8kTOS,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Aspova,2sjnyyL9NXijL3Fr2eLikf,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Yeis Sensura,08zaslX1yBxta9zqc2yoWJ,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Sehabe,6P5Tw2kwv3BAa3iONsQe9x,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Deniz Tekin,4TdvNk4wmn5DgBFiLDeCj0,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Ozbi,4DG2pTwQBor7a6wtoEABau,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Sokrat St,7ouCgJkxRBIJljUiQVJK65,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Tahribad-ı İsyan,7KNe21hAKV93GU7joDCs7e,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Beta,6Qhj2IvvWhPa0OgHHruMRL,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Server Uraz,14obHIpcXd2SsTyR9VBsLL,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Hayki,6I65kFgfXDWx56jwnip3TU,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Ados,4jtv7mIerRdHNQOkFtKyDW,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Fuat,6tRmpYzDIjWoRHzbJO7Cpx,"breakbeat, electronic, hip hop, pop, turkish hip hop, turkish pop",1,1
+Lalo Ebratt,1GAymyGBvB4gQy5Z5LZ1Wj,"latin, latin pop, pop, reggaeton",1,1
+Regard,4ofCBoyEiGSePFAG500xev,,1,0
+Melanie Martinez,63yrD80RY3RNEM2YDpUpO8,,2,0
+9lokknine,0ceH34CATvfgphxnLRWFkm,"hip hop, melodic rap",2,2
+El Alfa,2oQX8QiMXOyuqbcZEFsZfm,"dembow, electronic, latin, moombahton, reggaeton, urbano latino",1,1
+MC JottaPê,5GqnSMX8p2hxqsM6LqDty3,"agronejo, brazilian funk, brega funk, country, funk, hip hop, pop, r&b",1,1
+MC M10,2kMDiFDvjMOoLfcZbLgA6s,"agronejo, brazilian funk, brega funk, country, funk, hip hop, pop, r&b",1,1
+DJ RD,0tvACMjTDrW7HCo4F2wiIb,"agronejo, brazilian funk, brega funk, country, funk, hip hop, pop, r&b",1,1
+Maroon 5,04gDigrS5kc9YWfZHwBETP,pop,1,0
+LEA,5Yo5iU2nf4H41waPl4ZnS1,"german hip hop, german pop, hip hop, pop",2,2
+Bushido,3c96G4d2lUOxhomM2mby5S,"german hip hop, hip hop",1,1
+Animus,4Mt1ci7cKg2DpDS5kJ5mHS,"german hip hop, hip hop",1,1
+C. Tangana,5TYxZTjIPqKM8K8NuP9woO,"chilean trap, flamenco, hip hop, latin, reggaeton chileno",1,1
+Xavier Naidoo,47RPLpnGhBRTjQrRBOev9s,"german hip hop, german pop, hip hop, pop",1,1
+blink-182,6FBDaR13swtiWwGhX1WQsP,"emo, emo pop, metal, pop, pop punk, punk, rock, skate punk",1,0
+Rich Music LTD,2kqUKsTuEj1lPbm6BSn1AU,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",3,3
+Wisin,3E6xrwgnVfYCrCs0ePERDz,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",2,2
+Felipe Original,2Cra8I2P4OnMkVguqZRVwi,"brazilian funk, brazilian pop, brega, brega funk, country, funk, funk carioca, funk pop, hip hop, pop, r&b",2,2
+JS o Mão de Ouro,7C7NNCiIFavKH6oDarjp0v,"brazilian funk, brazilian pop, brega, brega funk, country, funk, funk carioca, funk pop, hip hop, pop, r&b",2,2
+Noriel,3RtNN1VnooWEn3KQk03DUL,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",1,1
+Almighty,6P6GTRTigHBp8ZesNtpCKH,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",1,1
+Moneybagg Yo,3tJoFztHeIJkJWMrx0td2f,"hip hop, memphis rap",1,1
+YK Osiris,7meyrw7Or5DwteYxDJrkCM,"hip hop, rap, southern hip hop, trap",1,1
+Kevin Gates,1gPhS1zisyXr5dHTYZyiMe,,1,1
+The Cratez,3pVfscwg2QxhdHtk966inb,"german hip hop, hip hop",2,2
+Bonez MC,1aS5tqEs9ci5P9KD9tZWa6,"german hip hop, hip hop",1,1
+Stunna 4 Vegas,44IvvHRk2XF243QLA2VOa8,,1,1
+j-hope,0b1sIQumIAsNbqAoIClSpy,"hip hop, k-pop, k-rap, latin, pop, reggaeton",1,1
+Sido,4Yttlv9ndGjCDCVLqM7ACq,"german hip hop, german pop, hip hop, pop",1,1
+SSIO,3IrUyDPQlQFcB5lMWhPml2,"german hip hop, hip hop",1,0
+MC Du Black,6v4PBIzRAGaLp43LVureQc,"brazilian funk, brega funk, funk, funk carioca, hip hop, pop, r&b",1,1
+DJ 2F,3tkq9ZnBaejLPLRpg8kGET,"brazilian funk, brega funk, funk, funk carioca, hip hop, pop, r&b",1,1
+José José,4mN0qcMxWX8oToqfDPM5yV,"bolero, latin",1,0
+24kGoldn,6fWVd57NKTalqvmjRd2t8Z,,2,0
+Lil Mosey,5zctI4wO9XSKS8XwcnqEHk,"hip hop, melodic rap",3,3
+Murda,2y1VzMKAa5nmfXKtJL9jnj,"hip hop, pop, turkish hip hop, turkish pop",1,1
+Ezhel,6LnJKrtFnTEGdbWQ2riWCL,"german hip hop, hip hop, pop, turkish hip hop, turkish pop",2,2
+Dan + Shay,7z5WFjZAIYejWy0NI5lv4T,country,1,1
+YoungBoy Never Broke Again,7wlFDEWiM5OoIAt8RSli8b,"emo rap, hip hop, melodic rap",3,2
+Bryson Tiller,2EMAnMvWE2eb56ToJVfCWs,r&b,1,1
+USHER,23zg3TcAtWQy7J6upgbUnj,r&b,1,1
+Gambi,1lB3I3SI30v2ZOpR4XQqzJ,"hip hop, pop urbaine",1,0
+SuperM,5BHFSMEjfLVx1JwRWjAOsE,"k-pop, pop",1,0
+Capo Plaza,5SulO4l40qDuV9zUGLZx7n,"hip hop, italian trap, trap",1,1
+Harry Styles,6KImCVD70vtIoJWnq6nGn3,,16,0
+Dan Reynolds,3k3gbUT7bF0jYmFmAKBQtU,,1,1
+Juicy J,5gCRApTajqwbnHHPbr2Fpi,"crunk, hip hop, memphis rap, rap",1,1
+Black Eyed Peas,1yxSLGMDHlW21z4YXirZDS,"latin, reggaeton",1,1
+Bausa,13bDjug9N0pyv3ZUINjkDV,"cloud rap, german hip hop, hip hop",2,2
+Becky Hill,4EPJlUEBy49EX1wuFOvtjK,,1,1
+Dadá Boladão,36SRwzRkX5zW3ABjJrevqX,"brazilian funk, brega, brega funk, country, funk, funk pop, hip hop, pop, r&b",1,1
+Tati Zaqui,0e68cnJyUTJu1nEuxxMSLm,"brazilian funk, brega, brega funk, country, funk, funk pop, hip hop, pop, r&b",1,1
+OIK,1B5n6jsxvFldc6Nq8Wx8VJ,"brazilian funk, brega, brega funk, country, funk, funk pop, hip hop, pop, r&b",1,1
+Frank Ocean,2h93pZq0e7k5yf4dywlkpM,,2,0
+Internet Money,6MPCFvOQv5cIGfw3jODMF0,"hip hop, melodic rap, rap",1,1
+BIA,6veh5zbFpm31XsPdjBgPER,,1,1
+Noah Cyrus,55fhWPvDiMpLnE4ZzNXZyW,,1,0
+Sunday Service Choir,2c9O21YLFy4tFI9zCVhbFg,"gospel, gospel r&b, hip hop, pop, r&b, rap, worship",1,1
+Ant Clemons,028lPW2NdWHdSPCkRkcyhd,"hip hop, rap",2,2
+Clipse,2J257euzcjnDLipsyJH3F2,"christmas, hip hop, jazz, rap, smooth jazz, southern hip hop",1,1
+Kenny G,6I3M904Y9IwgDjrQ9pANiB,"christmas, hip hop, jazz, rap, smooth jazz, southern hip hop",1,1
+Fred Hammond,2ndyVAdV9UqF1XjyTJt484,"gospel, gospel r&b, hip hop, pop, r&b, rap, worship",1,1
+Coldplay,4gzpq5DPGxSnKTe4SA8HAU,,5,0
+Death Stranding: Timefall,4rojTfP5nRkmYpdSbWQgV4,"electronic, moombahton",1,1
+Carlos Santana,0MsXN56oNCyqorqEPViWgQ,"hip hop, hyphy",1,1
+Rex Orange County,7pbDxGE6nQSZVfiFdq9lOL,"bedroom pop, pop",1,0
+Kesha,6LqNN22kT3074XbTVUrhzX,"bounce, hip hop",1,1
+Big Freedia,2gyv1akuIB9fQvXoGSPaJr,"bounce, hip hop",1,1
+Omar Montes,3lY9Fxceu60W1rbon7PkuF,"electronic, flamenco, flamenco pop, flamenco urbano, latin, neoperreo, pop",1,1
+Bad Gyal,4F4pp8NUW08JuXwnoxglpN,"electronic, flamenco, flamenco pop, flamenco urbano, latin, neoperreo, pop",1,1
+Arizona Zervas,0vRvGUQVUjytro0xpb26bs,,2,0
+['Ray Parker Jr.'],['0NyzfcGDZZ6GM25EBG9BYK'],,1,0
+['Bobby (Boris) Pickett',['42MRYPhQfcEXqb18dl5ERX',,1,1
+'The Crypt-Kickers'],'4frDtYgwXXKkbyQzjOmJG5'],,1,1
+['AC/DC'],['711MCceyCBcFnzjGY4Q7Un'],"classic rock, hard rock, rock, rock and roll",1,0
+['The Citizens of Halloween'],['4LazDzEGshEUn9D2zbm6w2'],,1,0
+['Rihanna'],['5pKCCKE2ajJHZ9KAiaK11H'],,1,0
+['Rockwell'],['3xs0LEzcPXtgNfMNcHzLIP'],,1,0
+Guè,7F2utINZ6tSokSiZTQBE27,"hip hop, italian trap",1,1
+Stevie Wonder,7guDJrEfX3qb6FEbdPA5qi,"motown, r&b, soul",1,0
+['The Cranberries'],['7t0rwkOPGlDPEhaOcVtOt9'],,1,0
+['Mariah Carey'],['4iHNK0tOyZPYnBU7nGAgpQ'],"christmas, jazz",3,0
+Lexa,0jTDeBJQr3unrK29LklnAv,"brazilian funk, brazilian pop, brega funk, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",2,2
+PEDRO SAMPAIO,5wbf52LA6kcaboHSN6NEF1,"brazilian funk, brazilian pop, brega, brega funk, country, funk, funk carioca, funk pop, hip hop, pop, r&b",2,2
+Christian Nodal,0XwVARXT135rw8lyw1EeWP,"banda, colombian pop, grupera, latin, mariachi, música mexicana, norteño, pop, pop urbano, ranchera, reggaeton",1,1
+Ant Saunders,4jpsw9CQS439N0B7SecMgf,,2,0
+Doja Cat,5cj0lLjcoR7YOSnhnX0Po5,,3,1
+T-Pain,3aQeKQSyrW4qWr35idm0cy,,2,2
+Riton,7i9j813KFoSBMldGqlh2Z1,"disco house, electronic, future house, house",1,1
+Oliver Heldens,5nki7yRhxgM509M5ADlN1p,"disco house, electronic, future house, house",1,1
+Vula,6YqhcZlSE8ugUcmoHLw9gz,"disco house, electronic, future house, house",1,1
+['Wham!'],['5lpH0xAS4fVfLkACg9DAuM'],"christmas, jazz",1,0
+Adriana Proenza,7KHA7OOevgTDFhlym0oEyP,,2,2
+JP Saxe,66W9LaWS0DPdL7Sz8iYGYe,,1,1
+True Damage,7xX15v6ahAkcT14kHfB9wB,"k-pop, latin, pop, reggaeton",1,1
+Keke Palmer,2YFBOR9KIxC6WqHclkj9Yq,"k-pop, latin, pop, reggaeton",1,1
+JEON SOYEON,6Xg22wJOAcnvPUfk5WvODH,"k-pop, latin, pop, reggaeton",1,1
+Duckwrth,6I3MElirhT5t6Kf7p0hGk9,"k-pop, latin, pop, reggaeton",1,1
+Thutmose,1igl9M102nuD96lo3ZoW5d,"k-pop, latin, pop, reggaeton",1,1
+League of Legends,47mIJdHORyRerp4os813jD,"k-pop, latin, pop, reggaeton",1,1
+KSI,1nzgtKYFckznkcVMR3Gg4z,"hip hop, southern hip hop",1,1
+S-X,0JYmighF3zbuA81Di54CZN,"hip hop, southern hip hop",1,1
+Juhn,2LmcxBak1alK1bf7d1beTr,"argentine trap, hip hop, latin, reggaeton, trap latino, urbano latino",1,1
+Snoop Dogg,7hJcb9fa4alzcOq3EaNPoG,"g-funk, gangster rap, hip hop, rap, west coast hip hop",1,1
+Jungleboi,1igVsxmGxt1VTKPulM0EuA,"edm, electronic, slap house",1,1
+Mara Sattei,0zoMmzmyi8N8LwzhyXPvtk,"hip hop, italian trap",1,1
+Bryant Myers,6w9ToX5slZ4uIdmD17hJ3c,"dembow, hip hop, latin, reggaeton, trap, trap latino, urbano latino",1,1
+Jhené Aiko,5ZS223C6JyBfXasXxrRqOk,r&b,1,1
+Trevor Daniel,7uaIm6Pw7xplS8Dy06V6pT,,1,0
+['Michael Bublé'],['1GxkXlMwML1oSg5eLPiAz3'],"christmas, jazz",9,0
+Bobby Helms,38EmEgXkgK51MT2tPY0EoC,"christmas, jazz",1,0
+['Brenda Lee'],['4cPHsZM98sKzmV26wlwD2W'],"christmas, jazz",2,0
+['Justin Bieber'],['1uNFoZAHBGtllmzznpCI3s'],,1,0
+PARTYNEXTDOOR,2HPaUgqeutzr3jx5a9WyDV,"hip hop, r&b, rap",1,1
+Maggie Rogers,4NZvixzsSefsNiIqXn0NDe,,1,0
+London On Da Track,5Nf5yishRW9Ye174sJISkg,r&b,1,1
+MORTEN,19HFRWmRCl27kTk6LeqAO8,"dance, edm, electronic",1,1
+Maxwell,0b62itBWBdLgiecXjXCqKC,"german hip hop, hip hop",1,1
+Joshi Mizu,03bmDyr8klGV17DKQnPZVA,"german hip hop, hip hop",1,1
+Luísa Sonza,4PzYKhC14sTJNEr0dzoo0d,"brazilian funk, brazilian pop, brega funk, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+Rebecca,5MS6HieNmKxzkAM8amE8sr,"brazilian funk, brazilian pop, brega funk, funk, funk carioca, funk pop, hip hop, latin, pagode baiano, pop, r&b",1,1
+Chris King,19Nq4oCJmRe9pxcCfxRgU7,"hip hop, melodic rap",1,1
+Quan'ta,2kuTXO1yl1horIqmc9JQnI,"hip hop, melodic rap",1,1
+['Andy Williams'],['4sj6D0zlMOl25nprDJBiU9'],"christmas, jazz",1,0
+Idina Menzel,73Np75Wv2tju61Eo9Zw4IR,"art pop, classical, musicals, norwegian pop, pop",2,2
+AURORA,1WgXqy2Dd70QQOU7Ay074N,"art pop, classical, musicals, norwegian pop, pop",1,1
+Frank Sinatra,1Mxqyy3pSjf8kZZL4QVxS0,"adult standards, big band, christmas, easy listening, jazz, swing music, vocal jazz",2,1
+B. Swanson Quartet,0JXiS2FrAg3wQYJHcmZdrc,"adult standards, big band, christmas, easy listening, jazz, swing music, vocal jazz",1,1
+['Band Aid'],['35S20clEkkSNUo23ViaslZ'],"christmas, jazz",1,0
+['Kelly Clarkson'],['3BmGtnKgCSGYIUhmivXKWX'],"christmas, jazz",1,0
+Evan Rachel Wood,3MyB0MyKec3Jq0AH2llk7v,"classical, musicals",1,1
+['The Weeknd',['1Xyo4u8uXC1ZmMpatF05PJ',"electro, electronic, french house, hip hop",1,1
+'Daft Punk'],'4tZwfgrHOc3mvqYlEYSvVi'],"electro, electronic, french house, hip hop",1,1
+Shiva,2K5nCggbhSZ00YCYP5qkZS,"hip hop, italian trap, trap",1,1
+EXO,3cjEqqelV9zb4BYE3qDQ4O,"k-pop, pop",1,0
+['José Feliciano'],['7K78lVZ8XzkjfRSI7570FF'],"bolero, christmas, jazz, latin",1,0
+['John Lennon',['4x1nvY2FN8jxqAFA0DA02H',"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",1,1
+'The Harlem Community Choir','0vneleczrRRNPF1vj0x0vy',"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",1,1
+'The Plastic Ono Band','4m2kfAHEnK7Z7qLGxeWtro',"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",1,1
+'Yoko Ono'],'2s4tjL6W3qrblOe0raIzwJ'],"art pop, art rock, avant-garde, christmas, classical, jazz, pop, rock",1,1
+Gradur,2tcoLkA9Hexz70Kuc1NTUl,"hip hop, pop urbaine",1,1
+Heuss L'enfoiré,3YwqjMyrRfuixi2pbgTGCE,"hip hop, pop urbaine",1,1
+['Paul McCartney'],['4STHEaNw4mPZ2tzheohgXB'],,1,0
+['Bing Crosby',['6ZjFtWeHP9XN7FeKSUe80S',"big band, christmas, easy listening, jazz, swing music",2,2
+'Ken Darby Singers','69UfPJgUmFFAVT740qGVZi',"christmas, jazz",1,1
+'John Scott Trotter & His Orchestra'],'735L650pvygCZZlPMyHqsN'],"christmas, jazz",1,1
+['Nat King Cole'],['7v4imS0moSyGdXyLgVTIV7'],"adult standards, christmas, easy listening, jazz, vocal jazz",2,0
+Chris Rea,5KEG7G8LDYlHgFDqZyEEs2,"christmas, jazz",1,0
+['Burl Ives'],['0MHgLfmQdutffmvWe5XBTN'],"christmas, jazz",2,0
+['Dean Martin'],['49e4v89VmlDcFCMyDv9wQ9'],"adult standards, big band, christmas, easy listening, jazz, swing music",4,0
+['Perry Como',['5v8jlSmAQfrkTjAlpUfWtu',"adult standards, christmas, easy listening, jazz",1,1
+'The Fontane Sisters','1Ml4OuStDoympbREURAM15',"adult standards, christmas, easy listening, jazz",1,1
+'Mitchell Ayres & His Orchestra'],'0HS96tPggl2nwiz3gNWWI5'],"adult standards, christmas, easy listening, jazz",1,1
+The Ronettes,7CyeXFnOrfC1N6z4naIpgo,"christmas, jazz",2,0
+Shakin' Stevens,0wi4yTYlGtEnbGo4ltZTib,"christmas, jazz, rock, rockabilly",1,0
+['Daryl Hall & John Oates'],['77tT1kLj6mCWtFNqiOmP9H'],"rock, soft rock",1,0
+['The Pogues',['2wzMOQwNT6ZvVB4amvhFAH',"celtic, celtic rock, christmas, folk punk, folk/acoustic, jazz, rock, traditional music",1,1
+'Kirsty MacColl'],'6UlNIFEuWlBqb4TvlVCekq'],"celtic, celtic rock, christmas, folk punk, folk/acoustic, jazz, rock, traditional music",1,1
+['Elvis Presley'],['43ZHCT0cAZBISjO8DG9PnE'],"rock, rock and roll, rockabilly",2,0
+Britney Spears,26dSoYclwsYLMAKD3tpOr4,pop,1,0
+['Coldplay'],['4gzpq5DPGxSnKTe4SA8HAU'],,1,0
+Meghan Trainor,6JL8zeS1NmiOftqZTRgdTz,,1,0
+['Pentatonix'],['26AHtbjWKiwYzsoGoUZq53'],"christmas, jazz",1,0
+['Chuck Berry'],['293zczrfYafIItmnmM3coR'],"rock, rock and roll, rockabilly",1,0
+['Bruce Springsteen'],['3eqjTLE0HfPfh78zjh6TqT'],,1,0
+['Ariana Grande',['66CXWjxzNUsdJxJ2JdwvnR',"christmas, jazz, pop",1,1
+'Liz Gillies'],'7pLntWGInZPQxc4kXxzzjB'],"christmas, jazz, pop",1,1
+['Tony Bennett'],['2lolQgalUvZDfp5vvVtTYV'],"adult standards, big band, christmas, easy listening, jazz, vocal jazz",1,0
+Don Toliver,4Gso3d4CscCijv0lmajZWs,"hip hop, rap",3,2
+['Kylie Minogue'],['4RVnAU35WRWra6OZ3CbbMA'],"dance pop, pop",1,0
+['The Jackson 5'],['2iE18Oxc8YSumAU232n4rW'],"christmas, jazz, motown, r&b",2,0
+['Eartha Kitt',['1AwO9pWEBSBoWdEZu28XDC',"christmas, easy listening, exotica, jazz",1,1
+'Henri René and His Orchestra'],'0oK8UXKZbQezeRhE0KeBAV'],"christmas, easy listening, exotica, jazz",1,1
+['Leona Lewis'],['5lKZWd6HiSCLfnDGrq9RAm'],,1,0
+Darlene Love,391oLRVmoTkumiN79HkTWu,"christmas, jazz",1,0
+['Michael Bublé',['1GxkXlMwML1oSg5eLPiAz3',"christmas, country, easy listening, electro swing, jazz, swing music",2,2
+'Shania Twain'],'5e4Dhzv426EvQe3aDb64jL'],"christmas, country, jazz",1,1
+SUGA,0ebNdVaOfp6N0oZ1guIxM8,"k-pop, pop",1,1
+Hava,3Mn6d673ieRza7uw6zY2Zv,"german hip hop, hip hop",1,1
+Seezyn,1jIVEaq8GmqMYb8nFNAZgb,"emo rap, hip hop, melodic rap",1,1
+['Trippie Redd',['6Xgp2XMz1fhVYe7i6yNAax',"emo rap, hip hop, melodic rap",1,1
+Headie One,6UCQYrcJ6wab6gnQ89OJFh,"drill, electronic, grime, hip hop, pop, uk drill",1,1
+Imanbek,5rGrDvrLOV2VV8SCFVGWlj,"electronic, slap house",1,1
+Andy Williams,4sj6D0zlMOl25nprDJBiU9,"christmas, jazz",1,0
+['Gwen Stefani',['4yiQZ8tQPux8cPriYMWUFP',country,1,1
+'Blake Shelton'],'1UTPBmNbXNTittyMJrNkvw'],country,1,1
+*NSYNC,6Ff53KvcvAj5U7Z1vojB5o,,1,0
+['Stevie Wonder'],['7guDJrEfX3qb6FEbdPA5qi'],"motown, r&b, soul",1,0
+['Brett Eldredge',['0qSX3s5pJnAlSsgsCne8Cz',"christmas, country, jazz",1,1
+'Meghan Trainor'],'6JL8zeS1NmiOftqZTRgdTz'],"christmas, country, jazz",1,1
+['John Williams'],['3dRfiJ2650SZu6GbydcHNb'],"easy listening, soundtrack",1,0
+['Frank Sinatra'],['1Mxqyy3pSjf8kZZL4QVxS0'],"adult standards, big band, christmas, easy listening, jazz, swing music, vocal jazz",3,0
+'The Puppini Sisters'],'1svaANJTE5KrG16fTGDqOs'],"christmas, easy listening, electro swing, jazz, swing music",1,1
+['Bing Crosby'],['6ZjFtWeHP9XN7FeKSUe80S'],"christmas, jazz",4,0
+Red Velvet,1z4g3DjTBBZKhvAroFlhOM,"k-pop, pop",1,0
+Liam Payne,5pUo3fmmHT8bhCyHE52hA6,,1,0
+['Train'],['3FUY2gzHeIiaesXtOAdB7A'],"pop, soft pop",1,0
+Ella Fitzgerald,5V0MlUE1Bft0mbLlND7FJz,"big band, blues, christmas, easy listening, jazz, jazz blues, swing music, vocal jazz",2,0
+['Donny Hathaway'],['0HU0U9kdXEHZVxUNbuQe8S'],"r&b, soul",1,0
+['Boney M.'],['54R6Y0I7jGUCveDTtI21nb'],"disco, r&b",1,0
+Céline Dion,4S9EykWXhStSc15wEx8QFK,variété française,1,0
+Bryan Adams,3Z02hBLubJxuFJfhacLSDc,,1,0
+['Melanie Thornton'],['2apYMRrg5FxN4go0pfsCvf'],"christmas, jazz",1,0
+['Slade'],['10n5lhNDoSMUHWLlnST1yw'],"christmas, glam rock, jazz, rock",1,0
+['The Beach Boys'],['3oDbviiivRWhXwIE8hxkVV'],"baroque pop, pop",1,0
+['Christina Aguilera'],['1l7ZsJRRS8wlW3WfJfPfNS'],,2,0
+['Gene Autry'],['5ixB75BQR3ADoWQkcHQJTs'],"christmas, jazz",1,0
+Backstreet Boys,5rSXSAkZ67PYJSvpUpkOr7,,1,0
+'The Andrews Sisters'],'2NCGI6dLTxLdI9XHdv7QfM'],"big band, christmas, easy listening, jazz, swing music",1,1
+['Idina Menzel',['73Np75Wv2tju61Eo9Zw4IR',"christmas, classical, jazz, musicals",1,1
+'Michael Bublé'],'1GxkXlMwML1oSg5eLPiAz3'],"christmas, classical, jazz, musicals",1,1
+Judy Garland,0hItVPjwJLVZrFqOyIsxPf,"christmas, jazz",1,0
+"[""Destiny's Child""]",['1Y8cdNmUJH7yBTd9yOvr5i'],,1,0
+Eagles,0ECwFtbIWEVNwjlrfc6xoL,"classic rock, rock, soft rock",1,0
+Kacey Musgraves,70kkdajctXSbqSMJbQO424,,1,1
+['Mel & Kim'],['5XnIjshjqYVE2eDVgSt9Ro'],"christmas, jazz",1,0
+['Jessie J'],['2gsggkzM5R49q6jpPvazou'],,1,0
+Pentatonix,26AHtbjWKiwYzsoGoUZq53,"christmas, jazz",1,0
+['Justin Bieber',['1uNFoZAHBGtllmzznpCI3s',r&b,1,1
+'USHER'],'23zg3TcAtWQy7J6upgbUnj'],r&b,1,1
+Kelly Clarkson,3BmGtnKgCSGYIUhmivXKWX,"christmas, jazz, neo soul, pop, r&b, soft pop",2,1
+Michael Bublé,1GxkXlMwML1oSg5eLPiAz3,"christmas, jazz, latin pop, pop",3,1
+Mariah Carey,4iHNK0tOyZPYnBU7nGAgpQ,"christmas, jazz",1,0
+['Nina Nesbitt'],['7AzjETXRUKNRSJHMW9GIqd'],,1,0
+Lukas Graham,25u4wHJWxCA9vO0CzxAbK7,,1,0
+['Hannah Kerr'],['5FxshnB3eJ2YDn8xN8zDKq'],"ccm, christian, christmas, hip hop, jazz, pop, pop worship",1,0
+Vince Guaraldi Trio,4ytkhMSAnrDP8XzRNlw9FS,"christmas, jazz",1,0
+['Vince Guaraldi Trio'],['4ytkhMSAnrDP8XzRNlw9FS'],"christmas, jazz",1,0
+Carpenters,1eEfMU2AhEo7XnKgL7c304,"adult standards, christmas, easy listening, jazz",2,0
+['Thurl Ravenscroft'],['5Gejwv3xz2DpLcxVpMD6hL'],"christmas, jazz",1,0
+['Pretenders'],['0GByy3DcfbQwDvXGCWmzv9'],,1,0
+['Wizzard'],['7823Dim2TzjiQQ9wRQxyi9'],"christmas, glam rock, jazz, rock",1,0
+Brett Eldredge,0qSX3s5pJnAlSsgsCne8Cz,"christmas, country, jazz",2,0
+Thalia,23wEWD21D4TPYiJugoXmYb,"christmas, jazz, latin pop, pop",1,1
+['Nat King Cole Trio'],['3OpnoUqoRIHWbsFs4Nw0NQ'],"christmas, jazz, vocal jazz",1,0
+Jona Lewie,3nohf4qILMr5aUSOsolwxB,"christmas, jazz",1,0
+JACKBOYS,7A8S43ryYdbWpJKeHRZRcq,"brooklyn drill, drill, hip hop, melodic rap, new york drill, rap, trap",5,4
+Pop Smoke,0eDvMgVFoNV3TpwtrVCoTj,"brooklyn drill, drill, hip hop, new york drill, rap",1,1
+Conan Gray,4Uc8Dsxct0oMqx0P6i60ea,,1,0
+Gzuz,5eioJDe26lOqkAMbuhzZYs,"german hip hop, hip hop",1,0
+'Bruno Mars'],'0du5cEVh5yTK9QJze8zA0C'],,1,1
+Earth Wind & Fire,4QQgXkCYTt3BlENzhyNETg,"disco, r&b",1,0
+['Foster The People'],['7gP3bB2nilZXLfPHJhMdvc'],,1,0
+The Killers,0C0XlULifJtAgn6ZNCW2eu,"alternative rock, rock",1,0
