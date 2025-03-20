@@ -8,6 +8,9 @@ class ArtistNetworkGraph {
     this.currentYear = null;
     this.dataCache = {};
 
+    // Artist images for mapping
+    this.artistImagesMapping = {};
+
     // Graph state configuration
     this.state = {
       svg: null,
@@ -47,6 +50,8 @@ class ArtistNetworkGraph {
     this.disableFullPageScrolling();
     this.bindSVGBackgroundClick();
     this.setupUIControls();
+
+    this.loadArtistImages();
 
     const initialYear = this.options.initialYear || "2024";
     this.loadData(initialYear);
@@ -148,8 +153,8 @@ class ArtistNetworkGraph {
             (row.all_time_streams ? +row.all_time_streams : 0);
           songDataMap[key] = {
             spotify_track_id: row.spotify_track_id,
-            song_name: row.song_name,      // updated header name
-            artist_names: row.artist_names, // updated header name
+            song_name: row.song_name,
+            artist_names: row.artist_names,
             album: row.album,
             album_date: row.album_date,
             streams,
@@ -184,23 +189,6 @@ class ArtistNetworkGraph {
     this.state.graphGroup.selectAll("*").remove();
     this.createGraph(nodes, links, radiusScale, colorScale);
     console.log(`Total render time for ${this.currentYear}: ${performance.now() - startOverall} ms`);
-
-
-  // // Update the active year button style
-  // d3.selectAll(".year-button").classed("active", false);
-  // d3.select(`.year-button[data-year="${this.currentYear}"]`).classed("active", true);
-  
-  // // Create new graph elements
-  // this.createGraph(nodes, links, radiusScale, colorScale);
-  // console.log(`Total render time for ${this.currentYear}: ${performance.now() - startOverall} ms`);
-  
-  // // If there is a pending history highlight from navigation, apply it
-  // if (this.pendingHighlight) {
-  //   this.highlightNeighbors(this.pendingHighlight);
-  //   this.pendingHighlight = null;
-  // }
-
-
   }
 
   processData(datasets) {
@@ -278,6 +266,24 @@ class ArtistNetworkGraph {
     const colorScale = d3.scaleSequential(d3.interpolateViridis).domain(degreeExtent);
     return { nodes, links: allLinks, radiusScale, colorScale };
   }
+
+  loadArtistImages() {
+    d3.csv("img/artist_network/artist_images.csv").then(data => {
+      // Build a mapping with keys as lowercased artist_id and artist_name.
+      data.forEach(d => {
+        if (d.artist_id && d.image_url) {
+          this.artistImagesMapping[d.artist_id.toLowerCase()] = d.image_url;
+        }
+        if (d.artist_name && d.image_url) {
+          this.artistImagesMapping[d.artist_name.toLowerCase()] = d.image_url;
+        }
+      });
+      console.log("Artist images mapping loaded:", this.artistImagesMapping);
+    }).catch(error => {
+      console.error("Error loading artist images:", error);
+    });
+  }
+
 
   /* =========================
      Graph Rendering Methods
@@ -476,13 +482,21 @@ class ArtistNetworkGraph {
       .style("display", "flex")
       .style("align-items", "center");
 
+    let imageUrl = "img/artist_network/default_artist.png";
+    if (this.artistImagesMapping) {
+      const key = artist.id.toLowerCase();
+      if (this.artistImagesMapping[key] && this.artistImagesMapping[key].trim() !== "") {
+        imageUrl = this.artistImagesMapping[key];
+      }
+    }
     leftSection.append("img")
-      .attr("src", "img/artist_network/default_artist.png")
+      .attr("src", imageUrl)
       .style("width", "80px")
       .style("height", "80px")
       .style("border-radius", "50%")
       .style("object-fit", "cover")
-      .style("margin-right", "16px");
+      .style("margin-right", "16px")
+      .style("border", "2px solid #fff");
 
     const textContainer = leftSection.append("div");
     textContainer.append("h2")
