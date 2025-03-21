@@ -22,6 +22,14 @@ class BarChartRace {
             vis.margin.top -
             vis.margin.bottom;
 
+        console.log(
+            document.getElementById(vis.parentElement).getBoundingClientRect()
+                .height
+        );
+
+        vis.referenceHeight = 600;
+        vis.scaleFactor = vis.height / vis.referenceHeight;
+
         // init drawing area
         vis.svg = d3
             .select("#" + vis.parentElement)
@@ -31,8 +39,17 @@ class BarChartRace {
             .append("g")
             .attr(
                 "transform",
-                "translate(" + vis.margin.left + "," + vis.margin.top + ")"
+                "translate(" +
+                    vis.margin.left +
+                    "," +
+                    vis.margin.top +
+                    ") scale(" +
+                    vis.scaleFactor +
+                    ")"
             );
+
+        vis.effectiveWidth = vis.width / vis.scaleFactor;
+        vis.effectiveHeight = vis.height / vis.scaleFactor;
 
         vis.chartArea = vis.svg.append("g").attr("clip-path", "url(#clip)");
 
@@ -41,11 +58,14 @@ class BarChartRace {
             .append("clipPath")
             .attr("id", "clip")
             .append("rect")
-            .attr("width", vis.width)
-            .attr("height", vis.height);
+            .attr("width", vis.effectiveWidth)
+            .attr("height", vis.effectiveHeight);
 
-        vis.xScale = d3.scaleLinear().range([0, vis.width]);
-        vis.yScale = d3.scaleBand().range([0, vis.height]).padding(0.1);
+        vis.xScale = d3.scaleLinear().range([0, vis.effectiveWidth]);
+        vis.yScale = d3
+            .scaleBand()
+            .range([0, vis.effectiveHeight])
+            .padding(0.1);
         vis.colorScale = d3
             .scaleOrdinal()
             .range([window.SOLO_COLOR, window.COLLAB_COLOR])
@@ -57,12 +77,12 @@ class BarChartRace {
         vis.dateLabel = vis.svg
             .append("text")
             .attr("class", "date-label")
-            .attr("x", vis.width)
-            .attr("y", vis.height)
+            .attr("x", vis.effectiveWidth)
+            .attr("y", vis.effectiveHeight)
             .attr("text-anchor", "end")
             .text("date label")
             .attr("fill", "white")
-            .attr("font-size", "20px");
+            .attr("font-size", 20 / vis.scaleFactor + "px");
 
         // this.createLegend();
         this.wrangleData(0);
@@ -151,7 +171,7 @@ class BarChartRace {
             .attr("x1", (d) => vis.xScale(d))
             .attr("x2", (d) => vis.xScale(d))
             .attr("y1", 0)
-            .attr("y2", vis.height)
+            .attr("y2", vis.effectiveHeight)
             .style("stroke-dasharray", "4,4");
 
         gridLines.exit().remove();
@@ -174,7 +194,7 @@ class BarChartRace {
             .attr("class", "bar")
             .attr("height", vis.yScale.bandwidth())
             .attr("x", 0)
-            .attr("y", vis.height)
+            .attr("y", vis.effectiveHeight)
             .attr("width", 0)
             .attr("fill", (d) => vis.colorScale(d.is_solo))
             .attr("opacity", 1)
@@ -197,7 +217,7 @@ class BarChartRace {
             .attr("fill", "white")
             .attr("text-anchor", "end")
             .attr("alignment-baseline", "middle")
-            .attr("y", (d) => vis.height + vis.yScale.bandwidth() / 2)
+            .attr("y", (d) => vis.effectiveHeight + vis.yScale.bandwidth() / 2)
             .merge(songlabels)
             .transition()
             .duration(vis.duration)
@@ -209,7 +229,9 @@ class BarChartRace {
 
         vis.dateLabel.text(vis.displayData.date);
 
-        let streamLabels = vis.svg.selectAll(".stream-label").data(songsData);
+        let streamLabels = vis.chartArea
+            .selectAll(".stream-label")
+            .data(songsData);
 
         streamLabels
             .enter()
@@ -218,7 +240,7 @@ class BarChartRace {
             .attr("fill", "white")
             .attr("text-anchor", "start")
             .attr("alignment-baseline", "middle")
-            .attr("y", (d) => vis.height + vis.yScale.bandwidth() / 2)
+            .attr("y", (d) => vis.effectiveHeight + vis.yScale.bandwidth() / 2)
             .merge(streamLabels)
             .transition()
             .duration(vis.duration)

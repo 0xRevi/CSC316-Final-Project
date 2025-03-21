@@ -28,24 +28,44 @@ class BubbleChart {
             vis.margin.top -
             vis.margin.bottom;
 
+        vis.referenceHeight = 650;
+        vis.scaleFactor = vis.height / vis.referenceHeight;
+
+        console.log(
+            document.getElementById(vis.parentElement).getBoundingClientRect()
+                .width,
+            document.getElementById(vis.parentElement).getBoundingClientRect()
+                .height
+        );
+
         vis.svg = d3
             .select("#" + vis.parentElement)
             .append("svg")
             .attr("width", "100%")
             .attr("height", "100%")
             .attr("viewBox", `0 0 ${vis.width} ${vis.height}`)
-            .style("display", "block")
+            .style("display", "block");
+
+        // group for all elements and apply scaling
+        vis.container = vis.svg
             .append("g")
             .attr(
                 "transform",
-                "translate(" + vis.margin.left + "," + vis.margin.top + ")"
+                `translate(${vis.margin.left},${vis.margin.top}) scale(${vis.scaleFactor})`
             );
+
+        vis.effectiveWidth = vis.width / vis.scaleFactor;
+        vis.effectiveHeight = vis.height / vis.scaleFactor;
 
         // define scales
         const xExtent = d3.extent(vis.data, (d) => d.releaseDate);
-        vis.xScale = d3.scaleTime().domain(xExtent).range([0, vis.width]);
+        vis.xScale = d3
+            .scaleTime()
+            .domain(xExtent)
+            .range([0, vis.effectiveWidth]);
 
         const rExtent = d3.extent(vis.data, (d) => d.total_streams);
+
         vis.radiusScale = d3.scaleSqrt().domain(rExtent).range([5, 23]);
 
         vis.colorScale = d3
@@ -53,7 +73,8 @@ class BubbleChart {
             .domain(["Solo", "Collaboration"])
             .range([window.SOLO_COLOR, window.COLLAB_COLOR]);
 
-        vis.renderLegendPage();
+        // vis.renderLegendPage();
+        vis.renderChart();
     }
 
     loadData() {
@@ -90,12 +111,14 @@ class BubbleChart {
 
     renderLegendPage() {
         let vis = this;
-        const centerX = vis.width / 2;
-        const centerY = vis.height / 2 - 100;
+        const centerX = vis.effectiveWidth / 2;
+        const centerY = vis.effectiveHeight / 2 - 100;
         const circleRadius = 23;
         const circleSpacing = 180;
 
-        const legendGroup = vis.svg.append("g").attr("class", "legend-group");
+        const legendGroup = vis.container
+            .append("g")
+            .attr("class", "legend-group");
 
         const title = legendGroup
             .append("text")
@@ -277,10 +300,10 @@ class BubbleChart {
 
         buttonText.transition().delay(4000).duration(800).style("opacity", 0.9);
 
-        const clickOverlay = vis.svg
+        const clickOverlay = vis.container
             .append("rect")
-            .attr("width", vis.width)
-            .attr("height", vis.height)
+            .attr("width", vis.effectiveWidth)
+            .attr("height", vis.effectiveHeight)
             .attr("fill", "transparent")
             .style("cursor", "pointer")
             .on("click", () => {
@@ -304,12 +327,12 @@ class BubbleChart {
         const tooltip = d3.select("#tooltip");
 
         // chart group for all elements with initial opacity of 0
-        const chartGroup = vis.svg
+        const chartGroup = vis.container
             .append("g")
             .attr("class", "chart-group")
             .style("opacity", 0);
 
-        const boundaryY = vis.height * 0.5;
+        const boundaryY = vis.effectiveHeight * 0.5;
         const boundaryPadding = 40;
 
         vis.data.forEach((d) => {
@@ -367,7 +390,10 @@ class BubbleChart {
             .alphaMin(0.001)
             .alphaDecay(0.1)
             .velocityDecay(0.23)
-            .force("xBoundary", xBoundaryForce(0, vis.width, vis.radiusScale))
+            .force(
+                "xBoundary",
+                xBoundaryForce(0, vis.effectiveWidth, vis.radiusScale)
+            )
             .force(
                 "yBoundary",
                 yBoundaryForce(boundaryY, vis.radiusScale, boundaryPadding)
@@ -435,7 +461,7 @@ class BubbleChart {
             .attr("x1", (d) => vis.xScale(new Date(d, 0, 1))) // jan 1st of the year
             .attr("x2", (d) => vis.xScale(new Date(d, 0, 1)))
             .attr("y1", boundaryY + textPadding)
-            .attr("y2", vis.height)
+            .attr("y2", vis.effectiveHeight)
             .attr("stroke", "#555")
             .attr("stroke-width", 0.5)
             .attr("stroke-dasharray", "3,3")

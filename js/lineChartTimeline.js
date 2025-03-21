@@ -9,6 +9,7 @@ class LineChartTimeline {
         let vis = this;
 
         this.currentIndex = 0;
+        this.hasBeenDragged = false; // track if the user has dragged
 
         vis.margin = { top: 10, right: 20, bottom: 20, left: 35 };
         vis.width =
@@ -16,7 +17,11 @@ class LineChartTimeline {
                 .width -
             vis.margin.left -
             vis.margin.right;
-        vis.height = 150 - vis.margin.top - vis.margin.bottom;
+        vis.height =
+            document.getElementById(vis.parentElement).getBoundingClientRect()
+                .height -
+            vis.margin.top -
+            vis.margin.bottom;
 
         vis.svg = d3
             .select("#" + vis.parentElement)
@@ -97,6 +102,13 @@ class LineChartTimeline {
 
         // dot at end of line path
         vis.dot = vis.svg.append("circle").attr("class", "timeline-dot");
+
+        vis.tooltip = d3
+            .select("body")
+            .append("div")
+            .attr("class", "timeline-tooltip tooltip")
+            .style("opacity", 0)
+            .html("Try touching me!");
 
         this.wrangleData(0);
     }
@@ -186,8 +198,48 @@ class LineChartTimeline {
         // update line path and dot
         vis.path.datum(vis.timelineData).attr("d", vis.lineGenerator);
         const lastPoint = vis.timelineData[vis.timelineData.length - 1];
-        vis.dot
-            .attr("cx", vis.xScale(new Date(vis.data[vis.currentIndex].date)))
-            .attr("cy", vis.yScale(lastPoint.collaborationProportion));
+
+        const dotX = vis.xScale(new Date(vis.data[vis.currentIndex].date));
+        const dotY = vis.yScale(lastPoint.collaborationProportion);
+
+        vis.dot.attr("cx", dotX).attr("cy", dotY);
+
+        if (parseFloat(vis.tooltip.style("opacity")) > 0) {
+            const dotNode = vis.dot.node();
+            const dotRect = dotNode.getBoundingClientRect();
+
+            vis.tooltip
+                .style("left", dotRect.left + dotRect.width / 2 + "px")
+                .style("top", dotRect.top - 10 + "px");
+        }
+    }
+
+    showDragTooltip() {
+        let vis = this;
+        if (!vis.hasBeenDragged) {
+            // show tooltip after x seconds
+            vis.tooltipTimeout = setTimeout(() => {
+                const dotNode = vis.dot.node();
+                const dotRect = dotNode.getBoundingClientRect();
+
+                vis.tooltip
+                    .style("left", dotRect.left + dotRect.width / 2 + "px")
+                    .style("top", dotRect.top - 10 + "px")
+                    .transition()
+                    .duration(2500)
+                    .style("opacity", 1);
+            }, 2000);
+        }
+    }
+
+    hideDragTooltip() {
+        let vis = this;
+        vis.hasBeenDragged = true;
+
+        if (vis.tooltipTimeout) {
+            clearTimeout(vis.tooltipTimeout);
+        }
+
+        vis.tooltip.transition().duration(300).style("opacity", 0);
     }
 }
