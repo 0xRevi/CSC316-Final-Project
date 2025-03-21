@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Spotify Global 200 Analysis</title>
         <link rel="stylesheet" href="css/style.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&family=Lato:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
 
         <link
             rel="stylesheet"
@@ -27,7 +30,7 @@
             </section>
 
             <!-- Storyboarding 1 -->
-            <section class="section" id="vis1">
+            <!-- <section class="section" id="vis1">
                 <h1>Trends in the Top 200 Songs</h1>
                 <p>
                     Imagine scrolling through your favourite music app and
@@ -41,15 +44,24 @@
                     makes us wonder: Are collaborative tracks becoming more
                     prevalent, and do they outperform solo efforts?
                 </p>
-            </section>
+            </section> -->
 
             <!-- Bubble Chart Section -->
             <section class="section" id="bubble-chart">
+                <div class="top-text">
+                    <p>
+                        Here are the top 2000 songs on Spotify split by
+                        <span class="solo-tag">solo</span> and
+                        <span class="collab-tag">collab</span>. Each bubble is a
+                        song and the larger the bubble, the more total streams
+                        it has. Songs are sorted by release date.
+                    </p>
+                </div>
                 <div id="chart"></div>
             </section>
 
             <!-- Storyboarding 2 -->
-            <section class="section" id="vis2">
+            <!-- <section class="section" id="vis2">
                 <p>
                     Let’s check out the all-star lineup of the most-streamed
                     songs first. At first glance, collaborations seem to
@@ -60,10 +72,20 @@
                     collaborations took the lead. This dynamic landscape raises
                     questions about the factors influencing these shifts.
                 </p>
-            </section>
+            </section> -->
 
             <!-- Bar Chart Race & Timeline Section -->
             <section class="section" id="scrolly-chart">
+                <div class="top-text">
+                    <p>
+                        Press play to watch the top 15 songs evolve over time!
+                        The line chart below tracks the proportion of collab
+                        songs in the top 15, while the background color
+                        indicates whether the top song was
+                        <span class="solo-tag">solo</span> or
+                        <span class="collab-tag">collab</span>.
+                    </p>
+                </div>
                 <div id="visualization-container"></div>
             </section>
 

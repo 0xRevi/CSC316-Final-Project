@@ -13,11 +13,21 @@ class TimeController {
         this.barChart = new BarChartRace("bar-chart-race-container", this.data);
         this.timeline = new LineChartTimeline("timeline-container", this.data);
 
+        this.overlay = d3
+            .select("#visualization-container")
+            .append("div")
+            .attr("class", "chart-overlay")
+            .style("opacity", 0.7);
+
         // create play button
         this.playButton = d3
-            .select("#control-container")
+            .select("#bar-chart-race-container")
             .append("button")
-            .attr("class", "play-pause-btn paused")
+            .attr("class", "play-pause-btn paused breathing")
+            .style("position", "absolute")
+            .style("top", "50%")
+            .style("left", "50%")
+            .style("transform", "translate(-50%, -50%)")
             .html('<i class="bi bi-play-fill"></i>')
             .on("click", () => this.togglePlayPause());
 
@@ -35,6 +45,9 @@ class TimeController {
             );
             this.currentIndex = boundedIndex;
             this.updateVisualizations();
+
+            // hide tooltip after user drags
+            this.timeline.hideDragTooltip();
         });
 
         // add drag behavior to timeline
@@ -51,7 +64,28 @@ class TimeController {
         if (this.isPlaying && this.currentIndex >= this.data.length - 1) {
             this.currentIndex = 0;
         }
-        this.isPlaying ? this.play() : this.pause();
+
+        if (this.isPlaying) {
+            this.playButton
+                .classed("breathing", false)
+                .style("transform", "none")
+                .transition()
+                .duration(400)
+                .style("top", "30px")
+                .style("left", "calc(100% - 60px)");
+
+            this.overlay
+                .transition()
+                .duration(800)
+                .style("opacity", 0)
+                .on("end", () => {
+                    this.overlay.style("display", "none");
+                });
+
+            this.play();
+        } else {
+            this.pause();
+        }
     }
 
     play() {
@@ -59,6 +93,9 @@ class TimeController {
             .html('<i class="bi bi-pause-fill"></i>')
             .classed("playing", true)
             .classed("paused", false);
+
+        // show tooltip after play is pressed
+        this.timeline.showDragTooltip();
 
         this.interval = setInterval(() => {
             if (this.currentIndex < this.data.length - 1) {
