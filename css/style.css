@@ -1,4 +1,4 @@
-/* Spotify Colour Theme: https://www.color-hex.com/color-palette/53188 */
+/*! Spotify Colour Theme: https://www.color-hex.com/color-palette/53188 */
 :root {
   --spotify-green: #1db954;
   --spotify-black: #121212;
@@ -11,7 +11,22 @@
   --COLLAB_COLOR-rgb: 76, 199, 100;
 }
 
+/*! Fullpage.js Navigation Colour Change */
+/* Change the color of all navigation bullets */
+#fp-nav ul li a span {
+  background: white !important;
+}
 
+/* Change the color of the active bullet */
+#fp-nav ul li a.active span {
+  background: var(--spotify-green) !important;
+}
+
+#fp-nav ul li a:hover span {
+  background: gray !important;
+}
+
+/*! General Text Styling */
 body {
   color: #f1eeee;           /* Light grey text */
   background: 	var(--spotify-black);
@@ -21,6 +36,7 @@ body {
   padding: 0;
 }
 
+/*! Instruction Text Styling */
 .top-text {
   position: absolute;
   top: 0;
@@ -62,8 +78,46 @@ body {
   /* color: #000; */
 }
 
+/*! Beeswarm plot (Restyling) */
+#chart {
+  width: 100%;
+  max-width: 1800px;
+  height: 650px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+  
+@media screen and (max-width: 1800px) {
+  #chart {
+      max-width: 95%;
+  }
+}
+  
+section h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 0 15px;
+  line-height: 1.6;
+  font-size: 2em;
+}
+  
+section p {
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 0 15px;
+  line-height: 1.6;
+}
+  
+section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin: 1em auto;
+  padding: 0 15px;
+}
 
-
+/*! Bar Chart Race */
 #bar-chart-race-container {
   width: 100%;
   height: min(600px, 70vh);
@@ -101,6 +155,7 @@ body {
   font-size: 14px;
 }
 
+/*! Timeline in Bar Chart Race */
 #timeline-controls-container {
   width: 100%;
   /* margin-top: 20px; */
@@ -113,6 +168,42 @@ body {
   width: 100%;
 }
 
+#timeline-container .axis text {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+  fill: #ffffff;
+}
+
+#timeline-container .axis line,
+#timeline-container .axis path {
+  stroke: rgba(255, 255, 255, 0.3);
+}
+
+#timeline-container .indicator-line {
+  stroke: #a8a8a8;
+  stroke-width: 2;
+  stroke-dasharray: 4,4;
+}
+
+#timeline-container .timeline-path {
+  stroke: #4287f5;
+  stroke-width: 3;
+}
+
+#timeline-container .timeline-dot {
+  fill: #4287f5;
+  r: 5;
+  transition: none;
+  stroke: none;
+}
+
+#timeline-container .grid-line-x {
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 2;
+}
+
+/*! Play/Pause button in Bar Chart Race */
 #control-container {
   position: absolute;
   /* top: 10px;
@@ -192,41 +283,6 @@ body {
   }
 }
 
-#timeline-container .axis text {
-  font-size: 12px;
-  font-weight: 400;
-  opacity: 0.7;
-  fill: #ffffff;
-}
-
-#timeline-container .axis line,
-#timeline-container .axis path {
-  stroke: rgba(255, 255, 255, 0.3);
-}
-
-#timeline-container .indicator-line {
-  stroke: #a8a8a8;
-  stroke-width: 2;
-  stroke-dasharray: 4,4;
-}
-
-#timeline-container .timeline-path {
-  stroke: #4287f5;
-  stroke-width: 3;
-}
-
-#timeline-container .timeline-dot {
-  fill: #4287f5;
-  r: 5;
-  transition: none;
-  stroke: none;
-}
-
-#timeline-container .grid-line-x {
-  stroke: rgba(255, 255, 255, 0.15);
-  stroke-width: 2;
-}
-
 #visualization-container .grid-line {
 stroke: rgba(255, 255, 255, 0.1);
 stroke-width: 1;
@@ -234,77 +290,257 @@ stroke-width: 1;
 
 
 
-/* Random ChatGPT Styling*/
-/* Artist Network */
-/* Artist Network Container */
-#artist-network-container {
-width: 60vmin;
-height: 60vmin;
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 50%;
-overflow: hidden;
-background-color: var(--spotify-black);
-border: 2px solid var(--spotify-green);
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-#artist-network-container {
-  width: 90vw;
-  height: 90vw;
-  padding: 0;
-  margin: 0 auto;
-  border-radius: 0;
-}
-}
-
-/* SVG and its contents */
-#artist-network-container svg {
-width: 100%;
-height: 100%;
-border-radius: 50%;
-background-color: transparent;
-}
-#artist-network-container svg rect {
-fill: transparent;
-}
-
-/* Node styling */
-circle {
-stroke: #fff;
-stroke-width: 1.5px;
-transition: all 1s ease-in-out;
-}
+/*! Artist Network */
 circle:hover {
-stroke: #ff4500;
-stroke-width: 3px;
+  stroke: #ff4500;
+  stroke-width: 3px;
 }
 
-/* Highlighted links */
-.highlighted-link {
-stroke: #e63946 !important;
-stroke-width: 2px !important;
+/*! Top Panel */
+#top-panel {
+  background: var(--spotify-gray-dark);
+  padding: 20px;
+}
+#top-panel-title {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+#top-panel-title h2 {
+  margin: 0;
+  font-size: 24px;
+}
+#top-panel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+#top-panel-left,
+#top-panel-center,
+#top-panel-right,
+#year-container,
+#search-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#top-panel-left {
+  position: relative;
+}
+#top-panel-left,
+#top-panel-right {
+  padding: 0 20px;
+}
+#top-panel-center {
+  justify-content: center;
+}
+#year-container,
+#search-container {
+  gap: 0.5em;
+}
+.suggestion-item.active-suggestion {
+  background-color: var(--spotify-green);
+  color: white;
+}
+#year-container label,
+#search-container label {
+  color: var(--spotify-gray-light);
+  font-weight: 500;
+  margin-right: 0.25em;
+}
+.year-button {
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid var(--spotify-gray-mid, var(--spotify-gray-mid));
+  background-color: var(--spotify-gray-dark, var(--spotify-gray-black));
+  color: var(--spotify-gray-light, var(--spotify-gray-light));
+  padding: 6px 8px;
+  transition: background-color 0.2s ease;
+}
+#search-input {
+  background-color: var(--spotify-black);
+  color: var(--spotify-gray-light);
+  border: 1px solid var(--spotify-gray-mid);
+  padding: 5px 8px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+#search-input:focus {
+  outline: none;
+  border-color: var(--spotify-green);
+}
+.year-button:hover {
+background-color: var(--spotify-gray-mid, var(--spotify-gray-mid));
+}
+.year-button.active {
+  background-color: var(--spotify-green);
+  color: #fff;
+  border-color: var(--spotify-green);
+}
+/*! Top K Filter */
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+}
+#topk-input {
+  width: 180px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  background: none;
+  cursor: pointer;
+}
+#topk-input::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  background: #666;
+  border-radius: 3px;
+  border: none;
+  margin: 0;
+}
+#topk-input::-webkit-slider-thumb {
+  width: 14px;
+  height: 14px;
+  background: var(--spotify-green);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-top: -4px;
+  -webkit-appearance: none;
+}
+#topk-value {
+  display: inline-block;
+  width: 40px;
+  text-align: left;
+  margin-left: 4px;
+  font-family: monospace;
+  flex-shrink: 0;
+}
+/*! Search Suggestions */
+#search-content {
+  position: relative;
+}
+#search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+  max-height: 200px;
+  overflow-y: auto;
+  background: var(--spotify-black);
+  border: 1px solid var(--spotify-gray-mid);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  z-index: 10;
+}
+.suggestion-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.suggestion-item:hover {
+  background-color: var(--spotify-gray-mid);
+}
+/*! Artist Network Graph Region */
+#graph-container {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+#artist-network-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*! Info Panel Styling */
+#info-panel {
+  position: absolute;
+  scrollbar-gutter: stable both-edges;
+  top: 20px;
+  right: 80px;
+  width: 500px;
+  max-height: 70vh;
+  overflow: auto;
+  background-color: var(--spotify-black);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--spotify-gray-dark);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #fff;
 }
 
-/* Tooltip styling */
+/*TODO Verify if webkit is needed */
+#info-panel::-webkit-scrollbar {
+  width: 8px;
+}
+#info-panel::-webkit-scrollbar-track {
+  background: var(--spotify-black);
+}
+#info-panel::-webkit-scrollbar-thumb {
+  background-color: var(--spotify-green);
+  border-radius: 4px;
+}
+
+/*! Artist Details (Tabular View) */
+.artist-details {
+  max-height: none;
+  overflow: visible;
+  position: static;
+}
+.artist-details-table thead tr {
+  position: sticky;
+  top: -20px;
+  background-color: var(--spotify-gray-mid);
+  z-index: 10;
+}
+.artist-details-table th,
+.artist-details-table td {
+  padding: 10px 14px;
+  text-align: left;
+}
+.artist-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  background-color: var(--spotify-gray-dark);
+}
+
+
+.card-wrapper {
+  position: relative;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.back-button {
+  left: -50px;
+}
+
+.forward-button {
+  right: -50px;
+}
+
+/*! Tooltip */
 .tooltip {
-position: absolute;
-opacity: 0;
-background-color: rgba(0, 0, 0, 0.75);
-color: white;
-padding: 8px 12px;
-border-radius: 5px;
-font-size: 12px;
-pointer-events: none;
-transition: opacity 0.3s ease-in-out;
-border: 1px solid white;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-tooltip {
   position: absolute;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.75);
@@ -316,610 +552,152 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease-in-out;
   border: 1px solid white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transform: translate(-50%, -100%);
-  margin-top: -10px;
 }
 
-
-/* Node label styling */
-.artist-label {
-font-size: 10px;
-pointer-events: none;
-opacity: 0;
-fill: white;
+/*! Insturction page */
+.instruction-content {
+  position: relative; /* Establish positioning context */
+  padding-bottom: 60px; /* Optional: ensure there's space for the button */
 }
-
-/* Overlay for highlighting */
-.overlay {
-fill: none;
-stroke: gold;
-stroke-width: 2px;
-opacity: 0;
-}
-
-/* Table styling for artist details and top-K tables */
-.artist-details-table,
-.topk-table {
-width: 100%;
-border-collapse: collapse;
-margin-top: 10px;
-}
-.artist-details-table th,
-.artist-details-table td,
-.topk-table th,
-.topk-table td {
-padding: 8px;
-border: 1px solid #ddd;
-text-align: left;
-}
-.artist-details-table th,
-.topk-table th {
-background-color: #f9f9f9;
-cursor: pointer;
-}
-
-/* Pagination controls */
-.pagination-controls {
-margin-top: 10px;
-text-align: center;
-}
-.pagination-controls button {
-margin: 0 5px;
-padding: 5px 10px;
-}
-
-/* Info panel styling */
-#info-panel {
-padding: 10px;
-margin-right: 3em; /* Adjustments for fullPages.js horizontal page adjustments */
-border: 1px solid #ccc;
-background: #fff;
-}
-
-/* Utility classes */
-.collaborator,
-.clickable-artist,
-.sortable {
-cursor: pointer;
-}
-
-/* Fallback styling for node circles if needed */
-.node-circle {
-fill: steelblue;
-}
-
-/* Fallback link styling if used */
-.link-line {
-stroke: #aaa;
-opacity: 0;
-}
-
-/* Extra SVG container class if applicable */
-.artist-network-svg {
-width: 100%;
-height: 100%;
-background-color: transparent;
-}
-
-/* Example "info-card" styling for the detailed info panel */
-.info-card {
-  background-color: var(--spotify-black) #2a2a2a;
-  color: #fff;
-  padding: 16px;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  border: 1px solid #333;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-  transition: all 0.3s ease;
-}
-
-/* Headings inside the card */
-.info-card h3,
-.info-card h4 {
-  margin-top: 0;
-  color: var(--spotify-green)
-}
-
-/* Table within the info card */
-.info-card table {
-  width: 100%;
-  margin-top: 8px;
-  border-collapse: collapse;
-}
-
-/* Table header styling */
-.info-card thead {
-  background-color: #333;
-}
-.info-card th {
-  padding: 8px;
-  text-align: left;
-  color: #fff;
-}
-.info-card td {
-  padding: 8px;
-  color: #ccc;
-  border-bottom: 1px solid #444;
-}
-
-/* Pagination controls at bottom of the info card */
-.info-card .pagination-controls {
-  text-align: center;
-  margin-top: 10px;
-}
-.info-card .pagination-controls button {
-  background-color: var(--spotify-green);
-  color: #fff;
+/*! Minimize Button */
+#instruction-toggle-icon {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
   border: none;
-  padding: 6px 12px;
-  margin: 0 5px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-.info-card .pagination-controls button:hover {
-  background-color: #1ed760;
-}
-
-/* Year Buttons */
-.year-button {
-  background-color: var(--spotify-gray-dark);
-  color: var(--spotify-gray-light);
-  border: 1px solid var(--spotify-gray-mid);
-  border-radius: 4px;
-  padding: 6px 10px;
-  margin: 0 5px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.year-button:hover {
+  border-radius: 50%;
   background-color: var(--spotify-gray-mid);
-}
-
-.year-button.active {
-background-color: var(--spotify-green); /* Active color */
-color: #fff;
-border-color: var(--spotify-green);
-}
-
-.year-button.active {
-  background-color: var(--spotify-green);
   color: #fff;
-  border: none;
-}
-
-/* Search Input */
-#search-container label,
-#year-container label,
-#filter-container label,
-#topk-filter-container label {
-  color: var(--spotify-gray-light);
-  font-weight: 500;
-}
-
-#search-input {
-  background-color: var(--spotify-black);
-  color: var(--spotify-gray-light);
-  border: 1px solid var(--spotify-gray-mid);
-  padding: 5px 8px;
-  border-radius: 4px;
-  margin-left: 5px;
-}
-
-#search-input:focus {
-  outline: none;
-  border-color: var(--spotify-green);
-}
-
-/* Slider and Number Input */
-#weight-slider {
-  -webkit-appearance: none;
-  appearance: var(--spotify-green);
-  width: 120px;
-  height: 4px;
-  background: var(--spotify-gray-mid);
-  outline: none;
-  border-radius: 2px;
-  margin: 0 10px;
+  font-size: 18px;
+  line-height: 1;
   cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
-
-#weight-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  height: 16px;
-  width: 16px;
-  background: var(--spotify-green);
+/*TODO Resolve this part*/
+/*! Instruction & Info Panel Toggle Styling */
+#instruction-toggle-icon.instruction-toggle-icon {
+  position: absolute;
+  top: 32px;
+  right: 17px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  border: 2px solid #fff;
-  cursor: pointer;
-}
-
-#weight-slider::-moz-range-thumb {
-  height: 16px;
-  width: 16px;
-  background: var(--spotify-green);
-  border-radius: 50%;
-  border: 2px solid #fff;
-  cursor: pointer;
-}
-
-#topk-input {
-  width: 60px;
-  background-color: var(--spotify-black);
-  color: var(--spotify-gray-light);
   border: 1px solid var(--spotify-gray-mid);
-  padding: 5px;
-  border-radius: 4px;
-  margin-left: 5px;
-}
-
-#topk-input:focus {
-  outline: none;
-  border-color: var(--spotify-green);
-}
-
-/* Artist Network Container */
-#artist-network-container {
-  width: 60vmin;
-  height: 60vmin;
+  background-color: var(--spotify-black);
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: var(--spotify-black);
-  border: 2px solid var(--spotify-green);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  cursor: pointer;
 }
 
-/* SVG fills entire container */
-#artist-network-container svg {
+#instruction-toggle-icon img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   border-radius: 50%;
-  background-color: transparent;
+}
+#instruction-toggle-icon.hidden {
+  display: none;
+}
+#instruction-toggle-icon.artist-mode {
+  border-color: #ff4500;
+  background: var(--toggle-img) center/cover no-repeat;
 }
 
-/* Nodes and Edges */
-circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-  transition: all 0.4s ease-in-out;
+#instruction-toggle-icon.instructions-mode {
+  border-color: var(--spotify-green);
+  /*background: url('img/icons/info.svg') center/50% no-repeat;*/
 }
-circle:hover {
-  stroke: #ff4500;
-  stroke-width: 3px;
-}
-
-/* Links */
-line {
-  stroke: #aaa;
-  opacity: 1;
-  transition: opacity 0.2s ease;
-}
-
-/* Labels */
-.artist-label {
-  font-size: 10px;
-  pointer-events: none;
-  fill: #fff;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-/* Tooltip */
-.tooltip {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 5px;
-  font-size: 12px;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border: 1px solid #333;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-}
-
-/* Info Panel and Info Card */
-#info-panel {
-  padding: 16px;
-  border: 1px solid var(--spotify-gray-mid);
-  background-color: var(--spotify-gray-dark);
-  color: var(--spotify-gray-light);
-  border-radius: 6px;
-  margin-left: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-#info-panel h3,
-#info-panel h4 {
+#instruction-toggle-icon.instruction-toggle-icon i {
   color: var(--spotify-green);
-  margin-top: 0;
+}
+#instruction-toggle-icon.artist-mode i {
+  color: #ff4500;
 }
 
-/* Tables */
-.artist-details-table,
-.topk-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 10px;
-  background-color: var(--spotify-black);
+
+/* Minimize button */
+#info-panel .info-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 8px;
 }
 
-.artist-details-table th,
-.topk-table th {
+#minimize-info-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--spotify-gray-light);
+}
+
+
+/* Forward and Back Buttons */
+/* Make back/forward look identical to minimize: 32×32 circle, centered icon */
+#info-panel .nav-button {
+  position: absolute;
+  top: 12px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
   background-color: var(--spotify-gray-mid);
   color: #fff;
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid var(--spotify-gray-dark);
-  cursor: pointer;
-}
-
-.artist-details-table td,
-.topk-table td {
-  color: var(--spotify-gray-light);
-  border-bottom: 1px solid var(--spotify-gray-mid);
-  padding: 8px;
-}
-
-/* Table Pagination */
-.pagination-controls {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.pagination-controls button {
-  background-color: var(--spotify-green);
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  margin: 0 5px;
-  padding: 6px 12px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.pagination-controls button:hover {
-  background-color: #1ed760; /* Slightly lighter green */
-}
-
-
-.collaborator,
-.clickable-artist,
-.sortable {
-  cursor: pointer;
-}
-
-/* Highlighted link example */
-.highlighted-link {
-  stroke: var(--spotify-green) !important;
-  stroke-width: 2px !important;
-}
-
-
-/* Container for all controls */
-#controls-container {
-display: flex;
-flex-wrap: wrap;         /* Allow wrapping on smaller screens */
-align-items: center;
-gap: 1em;                /* Space between each block of controls */
-margin-bottom: 1em;      /* Spacing before the chart container */
-padding: 0 1em;          /* Horizontal padding if desired */
-}
-
-/* Each group (year, search, filter, topK) can also be a small flex row */
-#year-container,
-#search-container,
-#filter-container,
-#topk-filter-container {
-display: flex;
-align-items: center;
-gap: 0.5em;
-}
-
-#year-container label,
-#search-container label,
-#filter-container label,
-#topk-filter-container label {
-color: var(--spotify-gray-light, var(--spotify-gray-light));
-font-weight: 500;
-margin-right: 0.25em;
-}
-
-.year-button,
-#search-input,
-#weight-slider,
-#topk-input {
-font-size: 14px;
-border-radius: 4px;
-border: 1px solid var(--spotify-gray-mid, var(--spotify-gray-mid));
-background-color: var(--spotify-gray-dark, var(--spotify-gray-black));
-color: var(--spotify-gray-light, var(--spotify-gray-light));
-padding: 6px 8px;
-transition: background-color 0.2s ease;
-}
-
-.year-button:hover {
-background-color: var(--spotify-gray-mid, var(--spotify-gray-mid));
-}
-
-#weight-slider {
--webkit-appearance: none;
-appearance: var(--spotify-green);
-width: 120px;
-height: 4px;
-background: var(--spotify-gray-mid, var(--spotify-gray-mid));
-outline: none;
-cursor: pointer;
-}
-
-
-#chart {
-width: 100%;
-max-width: 1800px;
-height: min(70vh, 650px);
-margin: 0 auto;
-padding: 0 15px;
-}
-
-@media screen and (max-width: 1800px) {
-#chart {
-    max-width: 95%;
-}
-}
-
-section h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  max-width: 800px;
-  margin: 1em auto;
-  padding: 0 15px;
-  line-height: 1.6;
-  font-size: 2em;
-}
-
-section p {
-  max-width: 800px;
-  margin: 1em auto;
-  padding: 0 15px;
-  line-height: 1.6;
-}
-
-section h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  margin: 1em auto;
-  padding: 0 15px;
-}
-
-#bar-chart {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  transition: background-color 0.2s, transform 0.1s;
 }
+#info-panel .nav-button:hover { background-color: var(--spotify-green); transform: scale(1.1); }
+#info-panel .nav-button:active { transform: scale(0.95); }
 
-
-
-.artist-card {
-background-color: #2f2f2f;
-border: 1px solid #ccc;
-border-radius: 8px;
-padding: 16px;
-margin-bottom: 20px;
-}
-
-.artist-card-top {
-display: flex;
-align-items: center;
-
-}
-
-.artist-photo-container img {
-border-radius: 50%;
-width: 80px;
-height: 80px;
-object-fit: cover;
-}
-
-.artist-text-container {
-margin-left: 16px;
-}
-
-.artist-text-container h2 {
-margin: 0;
-color: #fff;
-}
-
-.artist-text-container p {
-margin: 4px 0 0 0;
-color: #fff;
-}
-
-.artist-meta-info {
-margin-top: 8px;
-}
-
-.artist-meta-info p {
-color: #fff;
-margin: 4px 0 0 0;
-}
-
-.card-top-section {
-display: flex;
-align-items: center;
-}
-
-.nav-buttons {
-margin-right: 16px;
-}
-
-.artist-name-container h2 {
-color: #fff;
-margin: 0;
-}
-
-.dynamic-labels text:hover {
-fill: #ff4500;
-font-weight: bold;
-}
-
-
-/* Make the parent container positioned so we can absolutely position the suggestions. */
-#search-bar-container {
-position: relative;
-display: inline-block;
-}
-
-/* Style the suggestions dropdown to match the input's width and appear right below it. */
-#search-suggestions {
-position: absolute;
-top: 100%;
-left: 0;
-width: 100%;
-background-color: #2b2b2b;
-border: 1px solid #444;
-max-height: 200px;
-overflow-y: auto;
-border-top: none;
-border-radius: 0 0 4px 4px;
-box-sizing: border-box;
-z-index: 999;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-/* Each suggestion line item */
-.suggestion-item {
-padding: 8px;
-cursor: pointer;
-color: #fff;
-}
-
-/* Highlight on hover */
-.suggestion-item:hover {
-background-color: #444;
-border-left: 4px solid var(--spotify-green);
-padding-left: 8px;
-}
-
-.year-button.active {
-background-color: var(--spotify-green);
-color: #fff;
-border-color: var(--spotify-green);
-}
-
-/* Chart overlay for initial state */
-.chart-overlay {
+/* Position back & forward at top‑left */
+/* Top‑left nav buttons inside #info-panel */
+#info-panel #back-button {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: calc(100%);
-  background-color: var(--spotify-black);
-  z-index: 5;
-  pointer-events: none;
-  transition: opacity 0.8s ease;
+  left: 12px;
+}
+
+#info-panel #forward-button {
+  position: absolute;
+  left: 52px; /* 32px width + 8px gap + 12px padding */
+}
+
+
+/* Disabled state styling */
+#info-panel .nav-button:disabled {
+  background-color: var(--spotify-gray-dark);
+  color: var(--spotify-gray-light);
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+
+#overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  z-index: 900;
+}
+
+
+/* Instruction View Minimize Button*/
+#info-panel #info-panel-minimize-btn {
+  right: 52px;
+}
+
+#info-panel #info-panel-close-btn {
+  right: 12px;
+}
+
+#info-panel.instruction-view button#instruction-minimize-btn {
+  right: 12px;
 }

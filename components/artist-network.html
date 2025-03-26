@@ -1,40 +1,58 @@
 <div id="artist-network-graph">
-  <h2 style="text-align: center;">Artist Collaboration Network</h2>
-
-  <div id="controls-container">
-    <!-- Search input for artist names -->
-    <div id="search-bar-container">
-      <label for="search-input">Search Artist:</label>
-      <!-- Autocomplete off is especially important to prioritize our search rather than the browser's history search -->
-      <input type="text" id="search-input" placeholder="Enter artist name" autocomplete="off"/>
-      <div id="search-suggestions"></div>
+  <div id="top-panel-wrapper">
+    <div id="top-panel-title">
+      <h2>Artist Collaboration Network</h2>
     </div>
-    <!-- Year selection buttons -->
-    <div id="year-container">
-      <label>Select Year:</label>
-      <button class="year-button" data-year="all">All Years</button>
-      <button class="year-button" data-year="2017">2017</button>
-      <button class="year-button" data-year="2018">2018</button>
-      <button class="year-button" data-year="2019">2019</button>
-      <button class="year-button" data-year="2020">2020</button>
-      <button class="year-button" data-year="2021">2021</button>
-      <button class="year-button" data-year="2022">2022</button>
-      <button class="year-button" data-year="2023">2023</button>
-      <button class="year-button" data-year="2024">2024</button>
-    </div>
-
-    <!-- Top K Artist Filter -->
-    <div id="topk-filter-container">
-      <label for="topk-input">Top K Artists (by total streams):</label>
-      <input type="number" id="topk-input" value="50" min="1">
+    <!-- Top Panel with all controls -->
+    <div id="top-panel-controls">
+      <!-- Left: Search Bar -->
+      <div id="top-panel-left">
+        <div id="search-content">
+          <label for="search-input">Search Artist:</label>
+          <input type="text" id="search-input" placeholder="Enter artist name" autocomplete="off" />
+          <div id="search-suggestions"></div>
+        </div>
+      </div>
+      <!-- Center: Title and Year Buttons -->
+      <div id="top-panel-center">
+        <div id="year-container">
+          <button class="year-button" data-year="all">All Years</button>
+          <button class="year-button" data-year="2017">2017</button>
+          <button class="year-button" data-year="2018">2018</button>
+          <button class="year-button" data-year="2019">2019</button>
+          <button class="year-button" data-year="2020">2020</button>
+          <button class="year-button" data-year="2021">2021</button>
+          <button class="year-button" data-year="2022">2022</button>
+          <button class="year-button" data-year="2023">2023</button>
+          <button class="year-button" data-year="2024">2024</button>
+        </div>
+      </div>
+      <!-- Right: Top K Filter -->
+      <div id="top-panel-right">
+        <label for="topk-input">Top K Artists:</label>
+        <div class="slider-wrapper">
+          <input type="range" id="topk-input" value="0" min="0" max="200" step="1" />
+          <span id="topk-value">0</span>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Artist Network Chart Container-->
-  <div id="chart-container" style="display: flex;">
-    <div id="artist-network-container"></div>
-    <div id="info-panel" style="flex: 1; padding: 20px; border-left: 1px solid #ccc;">
+
+  <div id="artist-network-container">
+    <div id="overlay"></div>
+    <div id="info-panel">
+      <div class="info-header">
+        <button id="minimize-info-btn" title="Close">–</button>
+      </div>
+      <div class="card-wrapper">
+        <div class="artist-card">
+          <!-- Your artist card content (header, image, title, etc.) -->
+        </div>
+      </div>
+      <div class="artist-details">
+        <!-- Additional details content (tables, etc.) -->
+      </div>
     </div>
   </div>
-
 </div>
