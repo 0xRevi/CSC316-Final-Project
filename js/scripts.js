@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         scrollHorizontally: true,
         // Handles cleanup when leaving a section
         onLeave: function (origin, destination, direction) {
-            console.log(`Leaving section: ${origin.index}`);
+            console.log(`Leaving section: ${origin.index}, ${origin.item.id}`);
 
             // Remove the graph when leaving the "network-graph" section
             if (origin.item.id === "network-graph") {
@@ -71,6 +71,11 @@ document.addEventListener("DOMContentLoaded", () => {
             //     console.log("Cleaning up bubble chart...");
             //     d3.select("#chart").select("svg").remove();
             // }
+            if (origin.item.id === "scrolly-chart") {
+                console.log("Cleaning up bar chart race...");
+                // d3.select("#visualization-container").select("svg").remove();
+                window.timeControllerInstance.handlePageLeave();
+            }
         },
 
         // Handles initialization when entering a section

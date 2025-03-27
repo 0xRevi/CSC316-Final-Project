@@ -104,6 +104,8 @@ class TimeController {
             } else {
                 this.pause();
                 this.isPlaying = false;
+                // hide tooltip when animation completes
+                this.timeline.hideDragTooltip();
             }
         }, this.duration);
     }
@@ -114,5 +116,16 @@ class TimeController {
             .html('<i class="bi bi-play-fill"></i>')
             .classed("playing", false)
             .classed("paused", true);
+    }
+
+    handlePageLeave() {
+        if (this.isPlaying) {
+            this.pause();
+            this.isPlaying = false;
+        }
+        // Always hide tooltip when leaving the page
+        if (this.timeline) {
+            this.timeline.hideDragTooltip(false);
+        }
     }
 }
