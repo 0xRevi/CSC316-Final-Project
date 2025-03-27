@@ -70,7 +70,10 @@ class BarChartRace {
             .scaleOrdinal()
             .range([window.SOLO_COLOR, window.COLLAB_COLOR])
             .domain([true, false]);
-        vis.xAxis = vis.svg.append("g").attr("transform", "translate(0,0)");
+        vis.xAxis = vis.svg
+            .append("g")
+            .attr("class", "x-axis")
+            .attr("transform", "translate(0,0)");
 
         vis.gridLines = vis.chartArea.append("g").attr("class", "grid-lines");
 
@@ -185,6 +188,12 @@ class BarChartRace {
                     .axisTop(vis.xScale)
                     .tickFormat((d) => `${(d / 1000000).toFixed(1)}M`)
             );
+        //     .selectAll("text")
+        //     .attr("fill", "white")
+        //     .attr("font-size", "12px");
+
+        // vis.xAxis.selectAll("path").attr("stroke", "rgba(255, 255, 255, 0.2)");
+        // vis.xAxis.selectAll("line").attr("stroke", "rgba(255, 255, 255, 0.2)");
 
         let bars = vis.chartArea
             .selectAll(".bar")

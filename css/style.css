@@ -172,6 +172,17 @@ section h2 {
   font-size: 14px;
 }
 
+#bar-chart-race-container .x-axis text {
+  fill: white;
+  font-size: 13px;
+}
+
+#bar-chart-race-container .x-axis path,
+#bar-chart-race-container .x-axis line {
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 1px;
+}
+
 /*! Timeline in Bar Chart Race */
 #timeline-controls-container {
   width: 100%;
@@ -301,7 +312,7 @@ section h2 {
 }
 
 #visualization-container .grid-line {
-stroke: rgba(255, 255, 255, 0.1);
+stroke: rgba(255, 255, 255, 0.15);
 stroke-width: 1;
 }
 
