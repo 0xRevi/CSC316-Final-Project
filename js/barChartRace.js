@@ -80,9 +80,10 @@ class BarChartRace {
             .attr("x", vis.effectiveWidth)
             .attr("y", vis.effectiveHeight)
             .attr("text-anchor", "end")
+            .attr("alignment-baseline", "bottom")
             .text("date label")
-            .attr("fill", "white")
-            .attr("font-size", 20 / vis.scaleFactor + "px");
+            .attr("fill", "white");
+        // .attr("font-size", 20 / vis.scaleFactor + "px");
 
         // this.createLegend();
         this.wrangleData(0);
