@@ -231,6 +231,17 @@ section h2 {
   stroke-width: 2;
 }
 
+#timeline-container .axis text {
+  fill: white;
+  font-size: 13px;
+}
+
+#timeline-container .axis path,
+#timeline-container .axis line {
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 1px;
+}
+
 /*! Play/Pause button in Bar Chart Race */
 #control-container {
   position: absolute;
