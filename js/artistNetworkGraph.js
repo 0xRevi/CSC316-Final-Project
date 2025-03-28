@@ -1,5 +1,8 @@
-const SPOTIFY_GREEN = "#1DB954";
-const SELECTED_NODE_COLOR = "#ff4500";
+const SELECTED_NODE_COLOR = "#FFFF00";
+
+const rootStyles = getComputedStyle(document.documentElement);
+const SOLO_COLOR = rootStyles.getPropertyValue('--SOLO_COLOR').trim();
+const COLLAB_COLOR = rootStyles.getPropertyValue('--COLLAB_COLOR').trim();
 
 class ArtistNetworkGraph {
   constructor(container, options = {}) {
@@ -124,6 +127,13 @@ class ArtistNetworkGraph {
   }
 
   createTooltip() {
+    // Check if a tooltip already exists in the body
+    // Resolves creating multiple tooltips after page revisit events.
+    let tooltip = d3.select("body").select("div.tooltip");
+    if (!tooltip.empty()) {
+      return tooltip;
+    }
+    // Otherwise, create a new one
     return d3.select("body")
       .append("div")
       .attr("class", "tooltip")
@@ -192,103 +202,151 @@ class ArtistNetworkGraph {
       globalColorScale: colorScale,
       songDataMap
     });
-
-    // Compute cumulative streams for each node
+  
+    // For solo artists, update the song_ids using the chosic dataset.
+    // This assumes that in the chosic CSV each song row has an 'artist_names' field.
     this.state.globalNodes.forEach(node => {
-      nodes.forEach(node => {
-        node.totalStreams = (node.song_ids || []).reduce((sum, songID) => {
-          const songData = songDataMap[songID];
-          return sum + (songData && songData.streams ? songData.streams : 0);
-        }, 0);
-      })
+      if (node.isSoloOnly) {
+        // Inefficient lookup, but gets the job done.
+        let songsForArtist = [];
+        for (const key in songDataMap) {
+          const songData = songDataMap[key];
+          if (!songData.artist_names) continue;
+          // Split and normalize artist names for comparison.
+          const artists = songData.artist_names.split(",").map(a => a.trim().toLowerCase());
+          if (artists.includes(node.id.toLowerCase())) {
+            songsForArtist.push(key);
+          }
+        }
+        // Update the node so that the tooltip and info panel reflect the chosen dataset.
+        node.song_ids = songsForArtist;
+        node.songCount = songsForArtist.length;
+      }
     });
-
-    // Precompute ranking
+  
+    // Compute cumulative streams for each node.
+    this.state.globalNodes.forEach(node => {
+      node.totalStreams = (node.song_ids || []).reduce((sum, songID) => {
+        const songData = songDataMap[songID];
+        return sum + (songData && songData.streams ? songData.streams : 0);
+      }, 0);
+    });
+  
+    // Precompute ranking.
     const sortedByStreams = this.state.globalNodes.slice().sort((a, b) => b.totalStreams - a.totalStreams);
     sortedByStreams.forEach((node, index) => {
       node.rank = index + 1;
     });
-
-    // Clear previous graph and create new graph
+    console.log("Artist Rankings by Stream Count:");
+    sortedByStreams.forEach(node => {
+      console.log(`Rank #${node.rank}: ${node.id} with ${node.totalStreams} streams`);
+    });
+    
+  
+    // Clear previous graph and create new graph.
     this.state.graphGroup.selectAll("*").remove();
     this.createGraph(nodes, links, radiusScale, colorScale);
     console.log(`Total render time for ${this.currentYear}: ${performance.now() - startOverall} ms`);
+    this.applyTopKFilter();
   }
+  
 
   processData(datasets) {
     const allLinks = [];
+    const nodeSet = new Set();
+    const songMap = {};
+    const degreeMap = {};
+  
+    // First pass: collect artists, track songs, build links
     datasets.forEach(data => {
       data.forEach(d => {
-        // For global artist network, handle both previous and new formatting for song_ids.
+        const a1 = d.artist_1?.trim();
+        const a2 = d.artist_2?.trim();
+        if (!a1) return;
+  
+        nodeSet.add(a1);
+        if (a2) nodeSet.add(a2);
+  
+        // Parse song_ids reliably
         let songs = [];
         try {
-          // Try to parse as JSON if the string is formatted as a list.
-          songs = JSON.parse(d.song_ids.replace(/'/g, '"'));
-          if (!Array.isArray(songs)) {
-            songs = d.song_ids.split(",").map(s => s.trim());
-          }
-        } catch (e) {
-          // If JSON parsing fails, assume it's a comma-separated list.
+          const parsed = JSON.parse(d.song_ids.replace(/'/g, '"'));
+          songs = Array.isArray(parsed) ? parsed : d.song_ids.split(",").map(s => s.trim());
+        } catch {
           songs = d.song_ids.split(",").map(s => s.trim());
         }
+  
+        // Always assign songs to artist_1
+        songMap[a1] = songMap[a1] || new Set();
+        songs.forEach(song => songMap[a1].add(song));
+  
+        // If it's a solo artist row
+        if (!a2 || +d.count === 0) {
+          return;
+        }
+  
+        // Build collaboration link
         const existingLink = allLinks.find(link =>
-          (link.source === d.artist_1 && link.target === d.artist_2) ||
-          (link.source === d.artist_2 && link.target === d.artist_1)
+          (link.source === a1 && link.target === a2) ||
+          (link.source === a2 && link.target === a1)
         );
+  
         if (existingLink) {
           existingLink.linkValue += +d.count;
           existingLink.songIDs = Array.from(new Set(existingLink.songIDs.concat(songs)));
         } else {
           allLinks.push({
-            source: d.artist_1,
-            target: d.artist_2,
+            source: a1,
+            target: a2,
             linkValue: +d.count,
             songIDs: songs
           });
         }
+  
+        // Assign songs and degrees for collaborations
+        songMap[a2] = songMap[a2] || new Set();
+        songs.forEach(song => songMap[a2].add(song));
+  
+        degreeMap[a1] = (degreeMap[a1] || 0) + 1;
+        degreeMap[a2] = (degreeMap[a2] || 0) + 1;
       });
     });
-
-    const nodeIds = Array.from(new Set(allLinks.flatMap(d => [d.source, d.target])));
-    const nodes = nodeIds.map(id => ({ id }));
-    const degreeMap = {};
-    const songMap = {};
-
-    allLinks.forEach(link => {
-      const { source, target, songIDs } = link;
-      degreeMap[source] = (degreeMap[source] || 0) + 1;
-      degreeMap[target] = (degreeMap[target] || 0) + 1;
-      songMap[source] = songMap[source] || new Set();
-      songMap[target] = songMap[target] || new Set();
-      songIDs.forEach(song => {
-        songMap[source].add(song);
-        songMap[target].add(song);
-      });
+  
+    const nodeIds = Array.from(nodeSet);
+  
+    // Validate and filter links
+    const invalidLinks = allLinks.filter(link =>
+      !nodeSet.has(link.source) || !nodeSet.has(link.target)
+    );
+    if (invalidLinks.length) {
+      console.warn("Invalid links (missing node):", invalidLinks);
+    }
+    const validLinks = allLinks.filter(link =>
+      nodeSet.has(link.source) && nodeSet.has(link.target)
+    );
+  
+    // Create node objects, including solo-only tagging
+    const nodes = nodeIds.map(id => {
+      const degree = degreeMap[id] || 0;
+      const songs = songMap[id] ? Array.from(songMap[id]) : [];
+      return {
+        id,
+        degree,
+        song_ids: songs,
+        songCount: songs.length,
+        isSoloOnly: degree === 0
+      };
     });
-
-    nodes.forEach(d => {
-      d.degree = degreeMap[d.id] || 0;
-      d.songCount = songMap[d.id] ? songMap[d.id].size : 0;
-      d.song_ids = [];
-    });
-
-    allLinks.forEach(link => {
-      link.songIDs.forEach(songID => {
-        const sourceNode = nodes.find(n => n.id === link.source);
-        const targetNode = nodes.find(n => n.id === link.target);
-        if (sourceNode && !sourceNode.song_ids.includes(songID)) {
-          sourceNode.song_ids.push(songID);
-        }
-        if (targetNode && !targetNode.song_ids.includes(songID)) {
-          targetNode.song_ids.push(songID);
-        }
-      });
-    });
-
+  
     const degreeExtent = d3.extent(nodes, d => d.degree);
+    const greenPalette = ["#cccccc", "#b2ccb2", "#95cb98", "#75c97f", "#4cc764"];
     const radiusScale = d3.scaleLinear().domain(degreeExtent).range([8, 20]);
-    const colorScale = d3.scaleSequential(d3.interpolateViridis).domain(degreeExtent);
-    return { nodes, links: allLinks, radiusScale, colorScale };
+    const colorScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", COLLAB_COLOR)(t)).domain(degreeExtent);
+    
+    // const radiusScale = d3.scaleLinear().domain(degreeExtent).range([8, 20]);
+    // const colorScale = d3.scaleSequential(d3.interpolateViridis).domain(degreeExtent);
+  
+    return { nodes, links: validLinks, radiusScale, colorScale };
   }
 
   loadArtistImages() {
@@ -302,7 +360,6 @@ class ArtistNetworkGraph {
           this.artistImagesMapping[d.artist_name.toLowerCase()] = d.image_url;
         }
       });
-      console.log("Artist images mapping loaded:", this.artistImagesMapping);
     }).catch(error => {
       console.error("Error loading artist images:", error);
     });
@@ -326,7 +383,7 @@ class ArtistNetworkGraph {
         .alphaDecay(0.08)
         .alphaMin(0.02);
       simulation.stop();
-      for (let i = 0; i < 300; i++) simulation.tick();
+      for (let i = 0; i < 100; i++) simulation.tick();
       console.log("Simulation ticks ran to compute positions.");
     }
 
@@ -347,13 +404,13 @@ class ArtistNetworkGraph {
       .data(nodes)
       .enter().append("circle")
       .attr("r", d => radiusScale(d.degree))
-      .style("fill", d => colorScale(d.degree))
+      .style("fill", d => d.isSoloOnly ? SOLO_COLOR : colorScale(d.degree))
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
       .style("opacity", 0)
       .on("mouseover", (event, d) => {
         tooltip.transition().duration(200).style("opacity", 0.9);
-        tooltip.html(`<strong>${d.id}</strong><br/>Rank: #${d.rank}<br/>Collaborators: ${d.degree}<br/>Songs: ${d.songCount || 0}`)
+        tooltip.html(`<strong>${d.id}</strong><br/>Rank: #${d.rank}<br/>Collaborators: ${d.degree}<br/>Songs: ${d.song_ids.length}`)
           .style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 28) + "px");
       })
@@ -412,7 +469,7 @@ class ArtistNetworkGraph {
         const sourceID = typeof d.source === "object" ? d.source.id : d.source;
         const targetID = typeof d.target === "object" ? d.target.id : d.target;
         return (connectedNodes.has(sourceID) && connectedNodes.has(targetID))
-          ? SPOTIFY_GREEN
+          ? "#fff"
           : "#aaa";
       });
 
@@ -422,12 +479,11 @@ class ArtistNetworkGraph {
       .style("fill", d => {
         if (d.id === selected.id) {
           return SELECTED_NODE_COLOR;
-        } else if (connectedNodes.has(d.id)) {
-          return SPOTIFY_GREEN;
         } else {
-          return this.state.globalColorScale(d.degree);
+          return d.isSoloOnly ? SOLO_COLOR : this.state.globalColorScale(d.degree);
         }
       });
+      
 
     // Update dynamic labels for connected nodes
     this.state.graphGroup.select(".dynamic-labels").remove();
@@ -463,7 +519,7 @@ class ArtistNetworkGraph {
   
     this.state.nodeElements
       .style("opacity", 1)
-      .style("fill", d => this.state.globalColorScale(d.degree));
+      .style("fill", d => d.isSoloOnly ? SOLO_COLOR : this.state.globalColorScale(d.degree));
   
     this.state.linkElements
       .style("opacity", 0)
@@ -476,8 +532,83 @@ class ArtistNetworkGraph {
     // Reset the toggle icon to show instructions mode.
     this.isInstructionView = false;
     this.showInstructionToggleIcon();
+    
+    // Force the zoom reset to default view.
+    this.fitGraphToSVG(true, true);
+  }
+
+  
+  createInstructionLegend(container) {
+    // Dimensions for the legend rectangle.
+    const legendWidth = 480;
+    const legendHeight = 20;
+  
+    // Overall SVG dimensions (a bit larger than the rectangle to accommodate labels).
+    const svgWidth = 480;
+    const svgHeight = 60;
+  
+    // Create an inline SVG in the given container, centered horizontally.
+    const legendSvg = container.append("svg")
+      .attr("width", svgWidth)
+      .attr("height", svgHeight)
+      .style("display", "block")
+      .style("margin", "0 auto"); // Center the SVG in the container
+  
+    // Define the linear gradient in <defs>.
+    const defs = legendSvg.append("defs");
+    const legendGradient = defs.append("linearGradient")
+      .attr("id", "instruction-legend-gradient")
+      .attr("x1", "0%")
+      .attr("y1", "0%")
+      .attr("x2", "100%")
+      .attr("y2", "0%");
+  
+    // Example "reverse green" scale from darker to lighter. Adjust if needed.
+    const reverseGreenScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", COLLAB_COLOR)(t))
+      .domain([0, 1]);
+  
+    legendGradient.append("stop")
+      .attr("offset", "0%")
+      .attr("stop-color", reverseGreenScale(0));  // Darker: fewer collaborators
+  
+    legendGradient.append("stop")
+      .attr("offset", "100%")
+      .attr("stop-color", reverseGreenScale(1));  // Lighter: more collaborators
+  
+    // Create a group that holds the rectangle and labels,
+    // translated so that the legend is horizontally centered in the SVG.
+    const legendGroup = legendSvg.append("g")
+      // Move the group so it’s centered horizontally & vertically in our 300×60 SVG.
+      .attr("transform", `translate(${(svgWidth - legendWidth) / 2}, ${(svgHeight - legendHeight) / 2})`);
+  
+    // Draw the gradient rectangle.
+    legendGroup.append("rect")
+      .attr("width", legendWidth)
+      .attr("height", legendHeight)
+      .style("fill", "url(#instruction-legend-gradient)");
+  
+    // "Fewer Collaborators" label on the left
+    legendGroup.append("text")
+      .attr("x", 0)
+      .attr("y", -5)  // Move it slightly above the rectangle
+      .style("text-anchor", "start")
+      .style("fill", "white")
+      .style("font-size", "14px")
+      .text("Fewer Collaborators");
+  
+    // "More Collaborators" label on the right
+    legendGroup.append("text")
+      .attr("x", legendWidth)
+      .attr("y", -5)
+      .style("text-anchor", "end")
+      .style("fill", "white")
+      .style("font-size", "14px")
+      .text("More Collaborators");
   }
   
+  
+
+
 
 
   //! Instruction Panel
@@ -505,6 +636,13 @@ class ArtistNetworkGraph {
     instructionContent.append("p")
       .html("Click on a node to see artist details or search artists by name.<br>" +
             "To minimize this pane, click the button in the corner.");
+
+    const legendContainer = instructionContent.append("div")
+      .attr("class", "instruction-legend")
+      .style("margin-top", "20px");
+
+    this.createInstructionLegend(legendContainer);
+
 
     panel.append("button")
       .attr("id", "instruction-minimize-btn")
@@ -671,6 +809,7 @@ class ArtistNetworkGraph {
       .style("height", "80px")
       .style("border-radius", "50%")
       .style("object-fit", "cover")
+      .style("object-position", "center")
       .style("margin-right", "16px")
       .style("border", "2px solid #fff");
   
@@ -1058,24 +1197,28 @@ zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
   }
 
   /* Fits the initial graph view for when datasets are rendere for the first time */
-  fitGraphToSVG(final = false) {
-    if (this.state.userInteracted) return;
+  fitGraphToSVG(final = false, forceReset = false) {
+    // Only skip if not forced to reset and if the user has interacted.
+    if (!forceReset && this.state.userInteracted) return;
+    
     const { svg, width, nodeElements } = this.state;
     const { xMin, xMax, yMin, yMax } = this.computeBoundingBox(nodeElements);
     const networkWidth = xMax - xMin;
     const networkHeight = yMax - yMin;
     const centerX = (xMax + xMin) / 2;
     const centerY = (yMax + yMin) / 2;
-    const circleRadius = Math.min(this.state.width, this.state.height) / 2;
+    const circleRadius = Math.min(width, this.state.height) / 2;
     const networkSize = Math.max(networkWidth, networkHeight);
     const computedScale = circleRadius / (networkSize / 2);
+    
     svg.transition().duration(final ? 1000 : 300).call(
       this.state.zoom.transform,
-      d3.zoomIdentity.translate(this.state.width / 2, this.state.height / 2)
+      d3.zoomIdentity.translate(width / 2, this.state.height / 2)
         .scale(computedScale)
         .translate(-centerX, -centerY)
     );
   }
+  
 
   updateZoomExtentWithNetworkBounds(margin = 0) {
     const { xMin, xMax, yMin, yMax } = this.computeBoundingBox(this.state.nodeElements);

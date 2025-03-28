@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (origin.item.id === "network-graph") {
                 console.log("Removing existing graph...");
                 d3.select("#artist-network-container").select("svg").remove();
+                d3.select("body").select("div.tooltip").remove();
             }
 
             // if (origin.item.id === "bubble-chart") {

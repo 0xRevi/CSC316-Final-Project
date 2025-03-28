@@ -1,1510 +1,1684 @@
 artist_1,artist_2,count,song_ids
-Post Malone,Swae Lee,1,"0RiRZpuVRbi7oqRdSMwhQY"
-DJ Snake,Selena Gomez,2,"4w8niZpiMy6qz1mntFA5uM, 0KoiMHhqKLoL4xM54rcWYY"
-DJ Snake,Ozuna,2,"4w8niZpiMy6qz1mntFA5uM, 0KoiMHhqKLoL4xM54rcWYY"
-Cardi B,DJ Snake,2,"4w8niZpiMy6qz1mntFA5uM, 0KoiMHhqKLoL4xM54rcWYY"
-Ozuna,Selena Gomez,2,"4w8niZpiMy6qz1mntFA5uM, 0KoiMHhqKLoL4xM54rcWYY"
-Cardi B,Selena Gomez,2,"4w8niZpiMy6qz1mntFA5uM, 0KoiMHhqKLoL4xM54rcWYY"
-Cardi B,Ozuna,2,"4w8niZpiMy6qz1mntFA5uM, 0KoiMHhqKLoL4xM54rcWYY"
-Bad Bunny,Drake,1,"116H0KvKr2Zl4RPuVBruDO"
-Farruko,Pedro Capó,1,"5iwz1NiezX7WWjnCgY5TH4"
-Bastille,Marshmello,1,"2dpaYNEQHiRxtZbfNsse99"
-Kodak Black,Offset,1,"0FZ4Dmg8jJJAPJnvBIzD9z"
-Kodak Black,Travis Scott,1,"0FZ4Dmg8jJJAPJnvBIzD9z"
-Offset,Travis Scott,2,"0FZ4Dmg8jJJAPJnvBIzD9z, 7pMRoGLEJuFM2wl5pt0R99"
-Drake,Meek Mill,1,"2IRZnDFmlqMuOrYOLnZZyc"
-Halsey,benny blanco,1,"7FGq80cy8juXBCD2nrqdWU"
-Khalid,benny blanco,1,"7FGq80cy8juXBCD2nrqdWU"
-Halsey,Khalid,1,"7FGq80cy8juXBCD2nrqdWU"
-Cardi B,Maroon 5,1,"7fa9MBXhVfQ8P8Df9OEbD8"
-Gunna,Lil Baby,2,"78QR3Wp35dqAhFEc2qAGjE, 6wWaVoUOzLQJHd3bWAUpdZ"
-Bad Bunny,Cardi B,1,"58q2HKrzhC3ozto2nDdN4z"
-Cardi B,J Balvin,1,"58q2HKrzhC3ozto2nDdN4z"
-Bad Bunny,J Balvin,10,"58q2HKrzhC3ozto2nDdN4z, 4R8BJggjosTswLxtkw8V7P, 25ZAibhr3bdlMCLmubZDVt, 0fea68AdmYNygeTGI4RC18, 71pEiUWwfDFiRO6RmFpnBf, 0uIfrUwwg0Z7KTitul7E3T, 7hynhxDoDpgMIV12JuVtNa, 6SYSu569pfYdkDT9A5lZqi, 7alOsNr36sJ8CyOEP4aILq, 7knLcYCOSaURD0d7HUULFM"
-Bradley Cooper,Lady Gaga,2,"2VxeLyX666F8uXCJ0dZF8B, 3DKpA54hrFIdPN6AtL9HXa"
-21 Savage,Post Malone,1,"0e7ipj03S05BNilyu5bRzt"
-Lil Pump,XXXTENTACION,1,"2LskIZrCeLxRvCiGP8gxlh"
-Swae Lee,XXXTENTACION,1,"2LskIZrCeLxRvCiGP8gxlh"
-Maluma,XXXTENTACION,1,"2LskIZrCeLxRvCiGP8gxlh"
-Lil Pump,Swae Lee,1,"2LskIZrCeLxRvCiGP8gxlh"
-Lil Pump,Maluma,1,"2LskIZrCeLxRvCiGP8gxlh"
-Maluma,Swae Lee,1,"2LskIZrCeLxRvCiGP8gxlh"
-Dynoro,Gigi D'Agostino,1,"0E9ZjEAyAwOXZ7wJC0PD33"
-Anuel AA,Romeo Santos,1,"3f5lA8nnc4YYF1qf78WpHw"
-Calvin Harris,Sam Smith,1,"5N5k9nd479b1xpDZ4usjrg"
-Calvin Harris,Jessie Reyez,1,"5N5k9nd479b1xpDZ4usjrg"
-Jessie Reyez,Sam Smith,1,"5N5k9nd479b1xpDZ4usjrg"
-Calvin Harris,Dua Lipa,1,"76dIZzTdrNO15mGBrU3MHi"
-Mark Ronson,Miley Cyrus,1,"02dRkCEc8Q5ch4TTcnLxOn"
-Manuel Turizo,Ozuna,2,"48zFZh27QU5qsrBjn4C2FA, 3g4UyIcQwutiG0TfW32GnX"
-Diplo,Ellie Goulding,1,"5JEx7HbmvHQQswJCsoo9rA"
-Ellie Goulding,Swae Lee,1,"5JEx7HbmvHQQswJCsoo9rA"
-Diplo,Swae Lee,1,"5JEx7HbmvHQQswJCsoo9rA"
-Bruno Mars,Gucci Mane,1,"2G1tXoGBaEMJ7FKGnkf6ud"
-Gucci Mane,Kodak Black,1,"2G1tXoGBaEMJ7FKGnkf6ud"
-Bruno Mars,Kodak Black,1,"2G1tXoGBaEMJ7FKGnkf6ud"
-Anuel AA,Daddy Yankee,4,"6MJUCumnQsQEKbCy28tbCP, 59PYgzOiOjGDzjDT5N5oOX, 7mWFF4gPADjTQjC97CgFVt, 2ksOAxtIxY8yElEWw8RhgK"
-Offset,Tyga,2,"2toVe5hfuIi97ytDPDbQFt, 0jAfdqv18goRTUxm3ilRjb"
-Camila Cabello,Young Thug,1,"1rfofaqEpACxVEHIZBJe6W"
-Manuel Turizo,Mau y Ricky,1,"56f5qnyAlZdlz8wrUDA50h"
-Camilo,Mau y Ricky,3,"56f5qnyAlZdlz8wrUDA50h, 0UQwlF2pRkr1lMN6kNNUj3, 2EEmzqzM70CybVspgM7YRT"
-Camilo,Manuel Turizo,1,"56f5qnyAlZdlz8wrUDA50h"
-6ix9ine,Anuel AA,2,"4KkUjFkcQvGvWekl8RATDn, 0LQ1J0BCzA2qnAgp9MkkNE"
-Becky G,Paulo Londra,1,"2XXMDz7SPZ4mSFN1PXfHUy"
-Casper Magico,Nio Garcia,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Bad Bunny,Nio Garcia,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Darell,Nio Garcia,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Nio Garcia,Ozuna,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Nicky Jam,Nio Garcia,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Bad Bunny,Casper Magico,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Casper Magico,Darell,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Casper Magico,Ozuna,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Casper Magico,Nicky Jam,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Bad Bunny,Darell,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Bad Bunny,Ozuna,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Bad Bunny,Nicky Jam,1,"3V8UKqhEK5zBkBb6d6ub8i"
-Darell,Ozuna,3,"3V8UKqhEK5zBkBb6d6ub8i, 59PYgzOiOjGDzjDT5N5oOX, 4bTZeO72FwMa6wKOiqoynL"
-Darell,Nicky Jam,3,"3V8UKqhEK5zBkBb6d6ub8i, 4lzxJ4jCuFDXXGkE1LmpKR, 4bTZeO72FwMa6wKOiqoynL"
-Nicky Jam,Ozuna,3,"3V8UKqhEK5zBkBb6d6ub8i, 4PJ3umtW1aWdfh5EITHc6T, 4bTZeO72FwMa6wKOiqoynL"
-Clean Bandit,Demi Lovato,1,"3NuK5xMlSlB6K2Qp16zf3h"
-Post Malone,Ty Dolla $ign,1,"3swc6WTsr7rl9DqQKQA55C"
-Brando,Loud Luxury,1,"7K7MUBCnzgBAvMVW2RTWNs"
-BLACKPINK,Dua Lipa,1,"13hvHEstJ4sNbzdroPrPI3"
-6ix9ine,Tory Lanez,1,"6Gy7rXB6Ku5vIWC7WGWsl3"
-Maren Morris,Zedd,1,"09IStsImFySgyp0pIQdqAc"
-Grey,Zedd,2,"09IStsImFySgyp0pIQdqAc, 6875MeXyCW0wLyT72Eetmo"
-Grey,Maren Morris,1,"09IStsImFySgyp0pIQdqAc"
-Billie Eilish,Khalid,2,"1NJcg626wLln4pGHpiV7mf, 0u2P5u6lvoDfwTYjAADbn4"
-Luis Fonsi,Ozuna,1,"4cuGZb0iFyHtwaSKdKrJkF"
-Mau y Ricky,Sebastian Yatra,1,"7uQmJ1jgNzBpATSoWKSPFu"
-A Boogie Wit da Hoodie,Tyga,2,"0jAfdqv18goRTUxm3ilRjb, 0Zl4G9qcdXV5hVhdOirNHG"
-A Boogie Wit da Hoodie,Offset,1,"0jAfdqv18goRTUxm3ilRjb"
-Felipe Araújo,Ferrugem,1,"5EKHbW7mXcAR4hCyS3YXjb"
-Becky G,Prince Royce,1,"7dNwJbsT0sg1le5kVugGJb"
-Becky G,DJ Luian,1,"7dNwJbsT0sg1le5kVugGJb"
-Becky G,Mambo Kingz,1,"7dNwJbsT0sg1le5kVugGJb"
-Anuel AA,Becky G,1,"7dNwJbsT0sg1le5kVugGJb"
-DJ Luian,Prince Royce,1,"7dNwJbsT0sg1le5kVugGJb"
-Mambo Kingz,Prince Royce,1,"7dNwJbsT0sg1le5kVugGJb"
-Anuel AA,Prince Royce,1,"7dNwJbsT0sg1le5kVugGJb"
-DJ Luian,Mambo Kingz,3,"7dNwJbsT0sg1le5kVugGJb, 4lzxJ4jCuFDXXGkE1LmpKR, 5J64qSSq0VZuh0CiI9o9Nq"
-Anuel AA,DJ Luian,3,"7dNwJbsT0sg1le5kVugGJb, 4lzxJ4jCuFDXXGkE1LmpKR, 5J64qSSq0VZuh0CiI9o9Nq"
-Anuel AA,Mambo Kingz,3,"7dNwJbsT0sg1le5kVugGJb, 4lzxJ4jCuFDXXGkE1LmpKR, 5J64qSSq0VZuh0CiI9o9Nq"
-Bazzi,Camila Cabello,1,"4VUwkH455At9kENOfzTqmF"
-6ix9ine,Nicki Minaj,2,"2l8nEO0vsTRCRnGqQty6qx, 1oJ8EDr2pv94IvSd6ZmDgo"
-6ix9ine,Murda Beatz,1,"2l8nEO0vsTRCRnGqQty6qx"
-Murda Beatz,Nicki Minaj,1,"2l8nEO0vsTRCRnGqQty6qx"
-Anuel AA,Haze,1,"1LiN0Z98FkR1t0m8KmLcAH"
-Anne-Marie,Marshmello,1,"08bNPGLD8AhKpnnERrAc6G"
-Kanye West,Lil Pump,1,"4S8d14HvHb70ImctNgVzQQ"
-Halsey,The Chainsmokers,1,"7BKLCZ1jbUBVqRi2FVlTVw"
-David Bowie,Queen,1,"2fuCquhmrzHpu5xcA1ci9x"
-Maroon 5,SZA,1,"0WdGQhoAP2LBsqr5Jhit2g"
-Drake,French Montana,1,"04MLEeAMuV9IlHEsD8vF6A"
-Maluma,Reik,1,"2zDj4WjbNDmrRL6Z4YjjCA"
-Jack & Jack,Jonas Blue,1,"3KLygy1YWhmrQx0GRs7IOx"
-Kygo,Sandro Cavazza,1,"14sOS5L36385FJ3OL8hew4"
-Lil Peep,XXXTENTACION,1,"4jvjzW7Hm0yK4LvvE0Paz9"
-Kendrick Lamar,SZA,1,"3GCdLUSnKSMJhs4Tj6CV3s"
-MC Gury,MC L da Vinte,1,"3Hb9kUdm4yf839Fle4RIdT"
-Becky G,NATTI NATASHA,1,"2ijef6ni2amuunRoKTlgww"
-Anne-Marie,James Arthur,1,"6mQLN3zRtAp6ovjusyYKrV"
-BlocBoy JB,Drake,1,"4qKcDkK6siZ7Jp1Jb4m0aL"
-Dua Lipa,Silk City,1,"5N4erncE7kuUccm7zEmwzk"
-Mark Ronson,Silk City,1,"5N4erncE7kuUccm7zEmwzk"
-Diplo,Silk City,1,"5N4erncE7kuUccm7zEmwzk"
-Dua Lipa,Mark Ronson,1,"5N4erncE7kuUccm7zEmwzk"
-Diplo,Dua Lipa,1,"5N4erncE7kuUccm7zEmwzk"
-Diplo,Mark Ronson,1,"5N4erncE7kuUccm7zEmwzk"
-J Balvin,Zion & Lennox,1,"5qFeMRz4TvetPmzjre9Dq7"
-Dzeko,Tiësto,1,"4kWO6O1BUXcZmaxitpVUwp"
-Preme,Tiësto,1,"4kWO6O1BUXcZmaxitpVUwp"
-Post Malone,Tiësto,1,"4kWO6O1BUXcZmaxitpVUwp"
-Dzeko,Preme,1,"4kWO6O1BUXcZmaxitpVUwp"
-Dzeko,Post Malone,1,"4kWO6O1BUXcZmaxitpVUwp"
-Post Malone,Preme,1,"4kWO6O1BUXcZmaxitpVUwp"
-Anuel AA,KAROL G,4,"6q8Lb50EtqNeeJXXe8mMAH, 5W83ErFkO3aKAIS1WMi6u0, 5J64qSSq0VZuh0CiI9o9Nq, 2ksOAxtIxY8yElEWw8RhgK"
-Trippie Redd,XXXTENTACION,3,"7AQim7LbvFVZJE3O8TYgf2, 69dXVFCMiz3SL1L7M24NdX, 03eJ2DclFWXYU8GWgANdmZ"
-Macklemore,Ryan Lewis,1,"22skzmqfdWrjJylampe0kt"
-Macklemore,Macklemore & Ryan Lewis,1,"22skzmqfdWrjJylampe0kt"
-Macklemore,Ray Dalton,1,"22skzmqfdWrjJylampe0kt"
-Macklemore & Ryan Lewis,Ryan Lewis,1,"22skzmqfdWrjJylampe0kt"
-Ray Dalton,Ryan Lewis,1,"22skzmqfdWrjJylampe0kt"
-Macklemore & Ryan Lewis,Ray Dalton,1,"22skzmqfdWrjJylampe0kt"
-Jerry Smith,Márcia Fellipe,1,"2lAyctg5FocS67eksHoyIg"
-Drake,Lil Baby,2,"6vN77lE9LK6HP2DewaN6HZ, 6wWaVoUOzLQJHd3bWAUpdZ"
-Bebe Rexha,David Guetta,1,"0YammaEkYSeo9vQYZ1OwS6"
-David Guetta,J Balvin,1,"0YammaEkYSeo9vQYZ1OwS6"
-Bebe Rexha,J Balvin,1,"0YammaEkYSeo9vQYZ1OwS6"
-Kelsea Ballerini,The Chainsmokers,1,"4NBTZtAt1F13VvlSKe6KTl"
-Anuel AA,Nicki Minaj,1,"4Uy3kNxW2kB8AEoXljEcth"
-Bantu,Nicki Minaj,1,"4Uy3kNxW2kB8AEoXljEcth"
-Anuel AA,Bantu,1,"4Uy3kNxW2kB8AEoXljEcth"
-Post Malone,Quavo,1,"3a1lNhkSLSkpJE4MSHpDu9"
-DJ Khaled,Justin Bieber,2,"5WvAo7DNuPRmk4APhdPzi8, 03nPEoQOYMuDe7KmGljpmd"
-DJ Khaled,Quavo,2,"5WvAo7DNuPRmk4APhdPzi8, 03nPEoQOYMuDe7KmGljpmd"
-Chance the Rapper,DJ Khaled,2,"5WvAo7DNuPRmk4APhdPzi8, 03nPEoQOYMuDe7KmGljpmd"
-Justin Bieber,Quavo,2,"5WvAo7DNuPRmk4APhdPzi8, 03nPEoQOYMuDe7KmGljpmd"
-Chance the Rapper,Justin Bieber,2,"5WvAo7DNuPRmk4APhdPzi8, 03nPEoQOYMuDe7KmGljpmd"
-Chance the Rapper,Quavo,2,"5WvAo7DNuPRmk4APhdPzi8, 03nPEoQOYMuDe7KmGljpmd"
-Bebe Rexha,Florida Georgia Line,1,"4e4fqjx0Izh4svvTef1z7e"
-Little Mix,Nicki Minaj,1,"222B3aljXx6fFwKmFjuBED"
-Juice WRLD,benny blanco,2,"1KVczjazCcCCgM3gXXUl47, 6cjSh516BbrNUs213jDAGm"
-Brendon Urie,benny blanco,1,"1KVczjazCcCCgM3gXXUl47"
-Brendon Urie,Juice WRLD,1,"1KVczjazCcCCgM3gXXUl47"
-DENNIS,MC Kevinho,1,"5yH8pYxNckOU1cxfPsMIaz"
-Juice WRLD,Ski Mask The Slump God,1,"74lnM5V6ecvoTPV0fvptx9"
-J Balvin,Nicky Jam,1,"39N9RPD9MRb5WmoLzNzPeA"
-Drake,Wizkid,1,"1zi7xx7UVEFkmKfv06H8x0"
-Drake,Kyla,1,"1zi7xx7UVEFkmKfv06H8x0"
-Kyla,Wizkid,1,"1zi7xx7UVEFkmKfv06H8x0"
-6ix9ine,Lil Baby,1,"4m5Cd9kAbIxg6t9sMrQWtk"
-Jess Glynne,Rudimental,1,"20ZP3Om9DvDazXrNUC7WM2"
-Macklemore,Rudimental,1,"20ZP3Om9DvDazXrNUC7WM2"
-Dan Caplen,Rudimental,1,"20ZP3Om9DvDazXrNUC7WM2"
-Jess Glynne,Macklemore,1,"20ZP3Om9DvDazXrNUC7WM2"
-Dan Caplen,Jess Glynne,1,"20ZP3Om9DvDazXrNUC7WM2"
-Dan Caplen,Macklemore,1,"20ZP3Om9DvDazXrNUC7WM2"
-Khalid,Normani,1,"45Egmo7icyopuzJN0oMEdk"
-NATTI NATASHA,Thalia,1,"1G586ld1gbaECg4Bc6w40O"
-Brytiago,Daddy Yankee,1,"59PYgzOiOjGDzjDT5N5oOX"
-Brytiago,Ozuna,1,"59PYgzOiOjGDzjDT5N5oOX"
-Brytiago,Darell,3,"59PYgzOiOjGDzjDT5N5oOX, 7kuRvjpeUcn6qNV9IBXC2C, 4lzxJ4jCuFDXXGkE1LmpKR"
-Anuel AA,Brytiago,2,"59PYgzOiOjGDzjDT5N5oOX, 4lzxJ4jCuFDXXGkE1LmpKR"
-Daddy Yankee,Ozuna,3,"59PYgzOiOjGDzjDT5N5oOX, 7mWFF4gPADjTQjC97CgFVt, 2ksOAxtIxY8yElEWw8RhgK"
-Daddy Yankee,Darell,1,"59PYgzOiOjGDzjDT5N5oOX"
-Anuel AA,Ozuna,7,"59PYgzOiOjGDzjDT5N5oOX, 7mWFF4gPADjTQjC97CgFVt, 3cg9A9GVyZAT2CPevqWr65, 2ksOAxtIxY8yElEWw8RhgK, 4bTZeO72FwMa6wKOiqoynL, 3jbT1Y5MoPwEIpZndDDwVq, 37zdqI4r1gswIzczSBkRon"
-Anuel AA,Darell,3,"59PYgzOiOjGDzjDT5N5oOX, 4lzxJ4jCuFDXXGkE1LmpKR, 4bTZeO72FwMa6wKOiqoynL"
-Drake,Gunna,1,"6wWaVoUOzLQJHd3bWAUpdZ"
-Eminem,Joyner Lucas,1,"60SdxE8apGAxMiRrpbmLY0"
-Daniel Caesar,H.E.R.,1,"1RMJOxR6GRPsBHL8qeC2ux"
-Future,Juice WRLD,1,"5274I4mUMnYczyeXkGDWZN"
-A$AP Rocky,Skepta,1,"7ycWLEP1GsNjVvcjawXz3z"
-Daddy Yankee,Luis Fonsi,1,"1vnnXMrBeEWiRg3YCMCjQq"
-Justin Bieber,Luis Fonsi,1,"1vnnXMrBeEWiRg3YCMCjQq"
-Daddy Yankee,Justin Bieber,1,"1vnnXMrBeEWiRg3YCMCjQq"
-Diplo,Sia,3,"4lJNen4SMTIJMahALc3DcB, 6Dma0t0hOe6Bd6u5YRKF3n, 2VDTgXwf3F6kcpX4HI0BKy"
-Labrinth,Sia,3,"4lJNen4SMTIJMahALc3DcB, 6Dma0t0hOe6Bd6u5YRKF3n, 2VDTgXwf3F6kcpX4HI0BKy"
-LSD,Sia,3,"4lJNen4SMTIJMahALc3DcB, 6Dma0t0hOe6Bd6u5YRKF3n, 2VDTgXwf3F6kcpX4HI0BKy"
-Diplo,Labrinth,3,"4lJNen4SMTIJMahALc3DcB, 6Dma0t0hOe6Bd6u5YRKF3n, 2VDTgXwf3F6kcpX4HI0BKy"
-Diplo,LSD,3,"4lJNen4SMTIJMahALc3DcB, 6Dma0t0hOe6Bd6u5YRKF3n, 2VDTgXwf3F6kcpX4HI0BKy"
-LSD,Labrinth,3,"4lJNen4SMTIJMahALc3DcB, 6Dma0t0hOe6Bd6u5YRKF3n, 2VDTgXwf3F6kcpX4HI0BKy"
-Gunna,Metro Boomin,1,"1fewSx2d5KIZ04wsooEBOz"
-Bruno Mars,Cardi B,2,"3Vo4wInECJQuz9BIBMOu8i, 0PG9fbaaHFHfre2gUVo7AN"
-Metro Boomin,Offset,1,"7sO5G9EABYOXQKNPNiE9NR"
-Ozuna,Romeo Santos,1,"1h9P5WJwyvK8OB7O2YiXgp"
-Humberto & Ronaldo,Jerry Smith,1,"0PaAB17axL9hn88mHiw8g0"
-6ix9ine,Kanye West,1,"1oJ8EDr2pv94IvSd6ZmDgo"
-Kanye West,Nicki Minaj,1,"1oJ8EDr2pv94IvSd6ZmDgo"
-KAROL G,Maluma,1,"4EKZsrsCKyqr64FBHLc0DU"
-Marshmello,Roddy Ricch,1,"0PowxVSTY2uh1CPc8EPKyX"
-DENNIS,MC Kevin o Chris,1,"7rLegaz7zKB6EtDNzcslKE"
-Alesso,Hailee Steinfeld,1,"5Gu0PDLN4YJeW75PpBSg9p"
-Florida Georgia Line,Hailee Steinfeld,1,"5Gu0PDLN4YJeW75PpBSg9p"
-Hailee Steinfeld,WATT,1,"5Gu0PDLN4YJeW75PpBSg9p"
-Alesso,Florida Georgia Line,1,"5Gu0PDLN4YJeW75PpBSg9p"
-Alesso,WATT,1,"5Gu0PDLN4YJeW75PpBSg9p"
-Florida Georgia Line,WATT,1,"5Gu0PDLN4YJeW75PpBSg9p"
-Zac Efron,Zendaya,1,"630sXRhIcfwr2e4RdNtjKN"
-Marshmello,Selena Gomez,1,"0tBbt8CrmxbjRP0pueQkyU"
-6ix9ine,A Boogie Wit da Hoodie,1,"1wJRveJZLSb1rjhnUHQiv6"
-Khalid,Martin Garrix,1,"3nc420PXjTdBV5TN0gCFkS"
-Coldplay,The Chainsmokers,1,"6RUKPb4LETWmmr3iAEQktW"
-Keala Settle,The Greatest Showman Ensemble,1,"2xGjteMU3E1tkEPVFBO08U"
-Elley Duhé,Zedd,1,"4keoy2fqgwGnbWlm3ZVZFa"
-Imagine Dragons,Kygo,1,"4M3FO0ji6Lc8vwD1sgf1nc"
-Khalid,Marshmello,1,"7vGuf3Y35N4wmASOKLUVVU"
-A Boogie Wit da Hoodie,Juice WRLD,1,"3L19besdNQzd342qL78xqm"
-LX,Maxwell,1,"0kLA41xkWzzYzMIEGFuDkP"
-Bonez MC,LX,1,"0kLA41xkWzzYzMIEGFuDkP"
-Gzuz,LX,1,"0kLA41xkWzzYzMIEGFuDkP"
-LX,Sa4,1,"0kLA41xkWzzYzMIEGFuDkP"
-Bonez MC,Maxwell,1,"0kLA41xkWzzYzMIEGFuDkP"
-Gzuz,Maxwell,1,"0kLA41xkWzzYzMIEGFuDkP"
-Maxwell,Sa4,1,"0kLA41xkWzzYzMIEGFuDkP"
-Bonez MC,Gzuz,1,"0kLA41xkWzzYzMIEGFuDkP"
-Bonez MC,Sa4,1,"0kLA41xkWzzYzMIEGFuDkP"
-Gzuz,Sa4,1,"0kLA41xkWzzYzMIEGFuDkP"
-21 Savage,Metro Boomin,1,"0AluA5RNsa4Cx6XRhf2hWZ"
-Calvin Harris,benny blanco,1,"3eVuglKxN2sjoIGHAsFAge"
-Miguel,benny blanco,1,"3eVuglKxN2sjoIGHAsFAge"
-Calvin Harris,Miguel,1,"3eVuglKxN2sjoIGHAsFAge"
-Fedez,Tedua,1,"7GeC7Nb58zsPnlFSfF0HZU"
-Fedez,Trippie Redd,1,"7GeC7Nb58zsPnlFSfF0HZU"
-Tedua,Trippie Redd,1,"7GeC7Nb58zsPnlFSfF0HZU"
-The Chainsmokers,Winona Oak,1,"4BiiOzZCrXEzHRLYcYFiD5"
-French Montana,Swae Lee,1,"3B54sVLJ402zGa6Xm4YGNe"
-Normani,Sam Smith,1,"3xgT3xIlFGqZjYW9QlhJWp"
-Gesaffelstein,The Weeknd,1,"2vXKRlJBXyOcvZYTdNeckS"
-Calvin Harris,Rag'n'Bone Man,1,"5itOtNx0WxtJmi1TQ3RuRd"
-Kehlani,Ty Dolla $ign,1,"6ZRuF2n1CQxyxxAAWsKJOy"
-Halsey,Juice WRLD,1,"6Zc5f20q7sOe1IC1c1jQvZ"
-Micro TDH,Piso 21,1,"059bcIhyc2SBwm6sw2AZzd"
-Felix Jaehn,NOTD,1,"7FjZU7XFs7P9jHI9Z0yRhK"
-Captain Cuts,NOTD,1,"7FjZU7XFs7P9jHI9Z0yRhK"
-Georgia Ku,NOTD,1,"7FjZU7XFs7P9jHI9Z0yRhK"
-Captain Cuts,Felix Jaehn,1,"7FjZU7XFs7P9jHI9Z0yRhK"
-Felix Jaehn,Georgia Ku,1,"7FjZU7XFs7P9jHI9Z0yRhK"
-Captain Cuts,Georgia Ku,1,"7FjZU7XFs7P9jHI9Z0yRhK"
-Future,Travis Scott,1,"3WRIaWsws011vHMd9uzPjG"
-James Blake,Travis Scott,1,"64ydkbrt0xhdJXRaam06Mc"
-James Blake,Metro Boomin,1,"64ydkbrt0xhdJXRaam06Mc"
-Metro Boomin,Travis Scott,1,"64ydkbrt0xhdJXRaam06Mc"
-Luchè,Sfera Ebbasta,1,"7hHf4gz7kGmkuwa6XMc88W"
-Migos,Mustard,1,"3j84U36KvLeXNDPv4t5pI8"
-Future,Young Thug,2,"2U3LJfQB0ALLxC7Yy0QW7l, 0zNHMc1cGKe4MO5rtGtKRh"
-Future,Gunna,1,"2U3LJfQB0ALLxC7Yy0QW7l"
-Gunna,Young Thug,5,"2U3LJfQB0ALLxC7Yy0QW7l, 4bi9YrkOvmg4Eb7h00AW2c, 5Z8HZM6iQMhhqyPcCGY5g9, 6igOR5QCn09zAVF2ikZjsV, 4ea9w8c4ROqiZpJVhfBA3m"
-Azet,Zuna,3,"23N0z3XkwS2ErcNKsgCWAb, 3aYAAXlB1yvUs5MJ0FI3bh, 26pr9oLIVAc1L62F2exIRT"
-5 Seconds of Summer,Julia Michaels,1,"6GzApXoBQiiAjak3tOQfV3"
-Bastille,Seeb,1,"3gicyfiEVMGONgzygpWjNT"
-Flyboy Tarantino,XXXTENTACION,1,"15Y949TGjUppdT78h0S49P"
-Kid Trunks,XXXTENTACION,1,"15Y949TGjUppdT78h0S49P"
-Bass Santana,XXXTENTACION,3,"15Y949TGjUppdT78h0S49P, 44nlOJLjLqwNgYcT277V25, 2WOxBv9WElDqB0opEAbCC4"
-Kin$oul,XXXTENTACION,2,"15Y949TGjUppdT78h0S49P, 2WOxBv9WElDqB0opEAbCC4"
-Flyboy Tarantino,Kid Trunks,1,"15Y949TGjUppdT78h0S49P"
-Bass Santana,Flyboy Tarantino,1,"15Y949TGjUppdT78h0S49P"
-Flyboy Tarantino,Kin$oul,1,"15Y949TGjUppdT78h0S49P"
-Bass Santana,Kid Trunks,1,"15Y949TGjUppdT78h0S49P"
-Kid Trunks,Kin$oul,1,"15Y949TGjUppdT78h0S49P"
-Bass Santana,Kin$oul,2,"15Y949TGjUppdT78h0S49P, 2WOxBv9WElDqB0opEAbCC4"
-Bass Santana,Ski Mask The Slump God,1,"44nlOJLjLqwNgYcT277V25"
-Ski Mask The Slump God,XXXTENTACION,1,"44nlOJLjLqwNgYcT277V25"
-Reddz,XXXTENTACION,1,"2WOxBv9WElDqB0opEAbCC4"
-Bass Santana,Reddz,1,"2WOxBv9WElDqB0opEAbCC4"
-Kin$oul,Reddz,1,"2WOxBv9WElDqB0opEAbCC4"
-Erika Sirola,Robin Schulz,1,"1rCcsYnmqbMYdkG7kS9GC5"
-Lauv,Troye Sivan,1,"4vjpLMyL3ZO6aphdYr8XYw"
-Julia Michaels,Selena Gomez,1,"1XJ93XskwJf7PCyIVLbNBt"
-G-Eazy,Tyga,1,"1NHlyKgtR4roNylOhidKSv"
-Rich The Kid,Tyga,1,"1NHlyKgtR4roNylOhidKSv"
-G-Eazy,Rich The Kid,1,"1NHlyKgtR4roNylOhidKSv"
-Daddy Yankee,Snow,2,"5w9c2J52mkdntKOmRLeM2m, 4au7FRcgZzChASRYu279xH"
-Reik,Sebastian Yatra,1,"2vrpcQNg6itmgVZWsNjWe0"
-Anitta,MC Kevinho,1,"7G2XZhDNHo7SSDWSVxC0UT"
-Galantis,OneRepublic,1,"1pfgsjmxVZhoZpeDx6POKv"
-ILOVEMAKONNEN,Lil Peep,1,"2v5JTeM6hSmi5wWy7jiwrI"
-Fall Out Boy,Lil Peep,1,"2v5JTeM6hSmi5wWy7jiwrI"
-Fall Out Boy,ILOVEMAKONNEN,1,"2v5JTeM6hSmi5wWy7jiwrI"
-2 Chainz,Ariana Grande,2,"6AyI8UGx8Y4peb7pLOy2pf, 1R6VwZ8TuHRzxZUxe88n4I"
-Loredana,Mozzik,2,"3uB8KqnEoQq5bTQ1JFHJ7Y, 52UVKsw31NTOCTNPTpwbFJ"
-Jowell & Randy,The Rudeboyz,1,"6qP73DRFGojLuIk1siIhNE"
-Manuel Turizo,The Rudeboyz,1,"6qP73DRFGojLuIk1siIhNE"
-Jowell & Randy,Manuel Turizo,1,"6qP73DRFGojLuIk1siIhNE"
-Logic,Marshmello,1,"4EAV2cKiqKP5UPZmY6dejk"
-Disclosure,Khalid,2,"0rTV5WefWd1J3OwIheTzxM, 6TqXcAFInzjp0bODyvrWEq"
-5 Seconds of Summer,The Chainsmokers,1,"5rAtoPMDrOFN5wLdM6YmRx"
-Eno,MERO,1,"4AgK0CwpwcekXVdAoYB2VO"
-Brooks,David Guetta,1,"4Tvw0lweq9l2JPQKFbpbBQ"
-David Guetta,Loote,1,"4Tvw0lweq9l2JPQKFbpbBQ"
-Brooks,Loote,1,"4Tvw0lweq9l2JPQKFbpbBQ"
-Ariana Grande,Nicki Minaj,2,"44ONERBHALxftQNWq6dmyd, 7vJS1DPc3FzBtqBs8n3mW5"
-Katy Perry,Zedd,1,"2XWjPtKdi5sucFYtVav07d"
-Kygo,Valerie Broussard,1,"3Kuu5vASpXK8oRsxOvau6P"
-Halsey,YUNGBLUD,1,"4mGdjNMo0RonTlOEb7cYg4"
-Travis Barker,YUNGBLUD,2,"4mGdjNMo0RonTlOEb7cYg4, 2gTdDMpNxIRFSiu7HutMCg"
-Halsey,Travis Barker,1,"4mGdjNMo0RonTlOEb7cYg4"
-Avril Lavigne,Nicki Minaj,1,"1Spmq0UazGU6ovMIlGldZX"
-KC Rebell,Summer Cem,2,"4BD9yUEFI07WaDJ381DDMq, 38lQ7lYhN3eSWepnZHaiBF"
-Capital Bra,KC Rebell,2,"4BD9yUEFI07WaDJ381DDMq, 38lQ7lYhN3eSWepnZHaiBF"
-Capital Bra,Summer Cem,3,"4BD9yUEFI07WaDJ381DDMq, 38lQ7lYhN3eSWepnZHaiBF, 2QpxC2yag7Ec7Ut1dovXKb"
-ChocQuibTown,Zion & Lennox,1,"2ktoFujjJtantyMoVdBJlX"
-ChocQuibTown,Farruko,1,"2ktoFujjJtantyMoVdBJlX"
-ChocQuibTown,Manuel Turizo,1,"2ktoFujjJtantyMoVdBJlX"
-Farruko,Zion & Lennox,1,"2ktoFujjJtantyMoVdBJlX"
-Manuel Turizo,Zion & Lennox,1,"2ktoFujjJtantyMoVdBJlX"
-Farruko,Manuel Turizo,1,"2ktoFujjJtantyMoVdBJlX"
-Brytiago,Cauty,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Cauty,Darell,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Cauty,Cosculluela,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Cauty,Rafa Pabön,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Cauty,Chencho Corleone,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Brytiago,Cosculluela,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Brytiago,Rafa Pabön,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Brytiago,Chencho Corleone,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Cosculluela,Darell,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Darell,Rafa Pabön,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Chencho Corleone,Darell,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Cosculluela,Rafa Pabön,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Chencho Corleone,Cosculluela,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Chencho Corleone,Rafa Pabön,1,"7kuRvjpeUcn6qNV9IBXC2C"
-Amenazzy,Nicky Jam,1,"2IA8cFA46DkjgbsRG7kKbp"
-Amenazzy,Farruko,1,"2IA8cFA46DkjgbsRG7kKbp"
-Farruko,Nicky Jam,4,"2IA8cFA46DkjgbsRG7kKbp, 7fODjB7BrQTGqh0hogW6XD, 3dWpRjCmaHbroNahuSeX11, 684EjRHwNsZQ9hCQxL4NYL"
-Kanye West,YNW Melly,1,"6vWEAOUSxohKxhp0K1BsxL"
-J Balvin,Tropkillaz,1,"1OUPXna2MCgAt3VNmXJBtg"
-Anitta,Tropkillaz,1,"1OUPXna2MCgAt3VNmXJBtg"
-Tropkillaz,ZAAC,1,"1OUPXna2MCgAt3VNmXJBtg"
-Anitta,J Balvin,1,"1OUPXna2MCgAt3VNmXJBtg"
-J Balvin,ZAAC,1,"1OUPXna2MCgAt3VNmXJBtg"
-Anitta,ZAAC,1,"1OUPXna2MCgAt3VNmXJBtg"
-21 Savage,Offset,2,"7pMRoGLEJuFM2wl5pt0R99, 6mCqxnyOhr4tHMbRbQL4Yn"
-21 Savage,Travis Scott,1,"7pMRoGLEJuFM2wl5pt0R99"
-Lil Pump,Lil Wayne,1,"6flur5o18COKeafnjLHRiJ"
-Bonn,Martin Garrix,2,"1ahVFh0ViDZr8LvkEVlq3B, 4aTtHoSBB0CuQGA6vXBNyp"
-J. Cole,Offset,1,"32iPykTXUNZ9oGyACGUybq"
-Gunna,Offset,1,"0SQ8yalm13UIJuebuZkQlH"
-Cardi B,Offset,1,"59ywHNwwchG4nZJMLyxSzd"
-James Bay,Julia Michaels,1,"4JWQC6gyYoPRnxRxk0ta2M"
-Big Rube,Offset,1,"57QievAWQ13DWl20Obiz8E"
-FP do Trem Bala,MC Kevin o Chris,1,"7FiIQXpIeLo3ITfGGpb8PB"
-Drake,Summer Walker,1,"14SaZBTjxlorHJQxXh01Hu"
-Julia Michaels,Niall Horan,1,"5WtfUKzXircvW8l5aaVZWT"
-Selena Gomez,benny blanco,1,"1WSGTYKLEpKfNQYYW5Oymt"
-J Balvin,benny blanco,1,"1WSGTYKLEpKfNQYYW5Oymt"
-Tainy,benny blanco,1,"1WSGTYKLEpKfNQYYW5Oymt"
-J Balvin,Selena Gomez,1,"1WSGTYKLEpKfNQYYW5Oymt"
-Selena Gomez,Tainy,1,"1WSGTYKLEpKfNQYYW5Oymt"
-J Balvin,Tainy,1,"1WSGTYKLEpKfNQYYW5Oymt"
-2 Chainz,Travis Scott,1,"6Z4rmc0uujCpl8yXe3yjgI"
-Gucci Mane,Lil Skies,1,"0hCHNYL8ApQCGNwJrYN1FY"
-2 Chainz,Kendrick Lamar,1,"7jKUnzzOGhAlPjr7LkIUlE"
-Landon Cube,Lil Skies,1,"0Goo25lbtpwor5vb0K2r21"
-James Arthur,Martin Jensen,1,"2qfEcCkEo5NscA9GL7ER72"
-Romeo Santos,Wisin & Yandel,1,"7BuHdm4lQqcyG3qTwdkxus"
-Dalex,Rafa Pabön,3,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6"
-Dalex,KHEA,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Dalex,Sech,7,"224EVTFiLsdQignUFLvDeH, 7fODjB7BrQTGqh0hogW6XD, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Cazzu,Dalex,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Dalex,Feid,6,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Dalex,Lenny Tavárez,11,"224EVTFiLsdQignUFLvDeH, 7fODjB7BrQTGqh0hogW6XD, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6, 1ndyl3wJCFs872XZ3ztPk6, 4AjWbAwRpxk2worpjNH5CS, 1tpbAGsGpZee5jDHMcLrUJ, 5Id5B3dxJZhPcV9GzgYZZe, 5stPVcRqb4qixbafP9e8lt, 1Xnn1TPyr5h0hpRAT4B4EA, 0RDgqtvOHLwcI6yz9bjsZV"
-KHEA,Rafa Pabön,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Rafa Pabön,Sech,3,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6"
-Cazzu,Rafa Pabön,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Feid,Rafa Pabön,3,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6"
-Lenny Tavárez,Rafa Pabön,3,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6"
-KHEA,Sech,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Cazzu,KHEA,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Feid,KHEA,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-KHEA,Lenny Tavárez,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Cazzu,Sech,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Feid,Sech,6,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Lenny Tavárez,Sech,7,"224EVTFiLsdQignUFLvDeH, 7fODjB7BrQTGqh0hogW6XD, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Cazzu,Feid,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Cazzu,Lenny Tavárez,2,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz"
-Feid,Lenny Tavárez,6,"224EVTFiLsdQignUFLvDeH, 7g8YaUQABMal0zWe7a2ijz, 7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Mc Livinho,Rennan da Penha,1,"0IQCOAw9ZAI6WnXIrl481F"
-Aaron Smith,Krono,1,"6WkJ2OK163XXS2oARUC9JM"
-Aaron Smith,Luvli,1,"6WkJ2OK163XXS2oARUC9JM"
-Krono,Luvli,1,"6WkJ2OK163XXS2oARUC9JM"
-Blueface,Cardi B,1,"1JkrD47SDpAbyvqKtolcea"
-Blueface,YG,1,"1JkrD47SDpAbyvqKtolcea"
-Cardi B,YG,1,"1JkrD47SDpAbyvqKtolcea"
-CHVRCHES,Marshmello,1,"5icOoE6VgqFKohjWWNp0Ac"
-Brent Faiyaz,Juice WRLD,1,"5ZOEulH7fvK4ZkMLTOyKL0"
-Juice WRLD,Rvssian,1,"4zxpssj8DyrfZcEUSUiNxG"
-Clever,Juice WRLD,1,"4zxpssj8DyrfZcEUSUiNxG"
-Clever,Rvssian,1,"4zxpssj8DyrfZcEUSUiNxG"
-Juice WRLD,Young Thug,2,"572BChNcXOIvtfn2TGmTKc, 5TnLXSd4h6G06Fbt2ApOpa"
-Gaby Music,Lunay,1,"4T4CZ3Q4z3GG7lU720YYhM"
-Chris Jedi,Lunay,1,"4T4CZ3Q4z3GG7lU720YYhM"
-Chris Jedi,Gaby Music,1,"4T4CZ3Q4z3GG7lU720YYhM"
-Cruz Cafuné,Don Patricio,1,"6Cs7b9bu3fy5XhMwBA9Tz4"
-Farruko,Myke Towers,2,"5KbBGUpIZd6gVFUU8tqYiQ, 6K5BsR04ijf3FHNzjbaagD"
-Rita Ora,Sofía Reyes,1,"6JqpFboOH2bq9pzaYbkKBn"
-Anitta,Sofía Reyes,1,"6JqpFboOH2bq9pzaYbkKBn"
-Anitta,Rita Ora,1,"6JqpFboOH2bq9pzaYbkKBn"
-Capital Bra,Samra,9,"1mdJ39D1lrR3aWIOhgeNaE, 2kkcJ8tSDV42LdWcPjy6We, 4Rif4wqdvzy84dhP1apC4Y, 1VEMUkGFio5uURvN8x1DZJ, 6fDC5DIa4bt6NbPZWR1yxM, 3drwaFqLSEjqzjNRbjap0R, 6AFIVhbJLR7YVvW9fLFMu1, 67ojvEGRPAUCOohuMPqoRC, 2pfio0uHpT4USTPBNeTIWo"
-J Balvin,Sean Paul,1,"37eGbhE1xVFSvcKkqGb6i1"
-Rich The Kid,Tory Lanez,1,"7cWmR9RLLMY6bj28q4bhvz"
-BRADO,MERO,2,"2GxHx0bbc0BK7Z0ChMJUtO, 1BEo3epznRQuYhuQH8bZu9"
-Post Malone,Roddy Ricch,1,"0fcq51a3gOI6gPvzc0YLsk"
-Post Malone,Tyga,1,"0fcq51a3gOI6gPvzc0YLsk"
-Roddy Ricch,Tyga,1,"0fcq51a3gOI6gPvzc0YLsk"
-Nicky Jam,Rauw Alejandro,1,"08aYFNUTIOMGq93e2VSArQ"
-NAV,The Weeknd,1,"4hqOmrCCJKyiuwDexd8c2t"
-Alan Walker,Sabrina Carpenter,1,"7KhHA3mzt7A3LFlOJEAKpI"
-Alan Walker,Farruko,1,"7KhHA3mzt7A3LFlOJEAKpI"
-Farruko,Sabrina Carpenter,1,"7KhHA3mzt7A3LFlOJEAKpI"
-Ninho,Niska,2,"5c2HadbVTsMKjja4gohEFI, 75bVc27bDSOAhMAL38cXpV"
-Luciano,Samra,2,"0EDSU9JYeKABA14OcOuM7b, 4Rif4wqdvzy84dhP1apC4Y"
-Shindy,Shirin David,1,"1L8LtC2s161XwY6YrtnQjw"
-Macklemore,Why Don't We,1,"45ZGEdLxCZvdMX9jWlsAAx"
-Rich The Kid,Young Thug,1,"4bi9YrkOvmg4Eb7h00AW2c"
-Gunna,Rich The Kid,1,"4bi9YrkOvmg4Eb7h00AW2c"
-Koba LaD,Ninho,1,"4waeGjPW1ovLjhbScVibAH"
-Meek Mill,NAV,1,"5rU6kDNXZLXIinFezpbWbO"
-Jul,Ninho,1,"4DwppHaJ76CJ0GYOFwrQoJ"
-Jonas Blue,Theresa Rex,1,"4NSW0Km5ZG60L8FthUebPJ"
-J Balvin,ROSALÍA,1,"2qG5sZ7Si6sdK74qLxedYM"
-El Guincho,ROSALÍA,1,"2qG5sZ7Si6sdK74qLxedYM"
-El Guincho,J Balvin,1,"2qG5sZ7Si6sdK74qLxedYM"
-DJ Luian,Nicky Jam,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-DJ Luian,Darell,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-Brytiago,DJ Luian,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-Mambo Kingz,Nicky Jam,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-Darell,Mambo Kingz,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-Brytiago,Mambo Kingz,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-Anuel AA,Nicky Jam,3,"4lzxJ4jCuFDXXGkE1LmpKR, 4bTZeO72FwMa6wKOiqoynL, 2pWOMNQJW3g2zmGjP0Vkb0"
-Brytiago,Nicky Jam,1,"4lzxJ4jCuFDXXGkE1LmpKR"
-Nipsey Hussle,Roddy Ricch,1,"6ya8ejoKgw906Y8LWclqrp"
-Hit-Boy,Nipsey Hussle,1,"6ya8ejoKgw906Y8LWclqrp"
-Hit-Boy,Roddy Ricch,1,"6ya8ejoKgw906Y8LWclqrp"
-Kendrick Lamar,Nipsey Hussle,1,"6fIjnWrv46njJHLDAY2JdC"
-Nipsey Hussle,YG,1,"39xWBHPM4E9MwzEy5gbM7p"
-Belly,Nipsey Hussle,1,"4iVD0fTHGxV9JWloujsL3s"
-Dom Kennedy,Nipsey Hussle,1,"4iVD0fTHGxV9JWloujsL3s"
-Belly,Dom Kennedy,1,"4iVD0fTHGxV9JWloujsL3s"
-Ariana Grande,Victoria Monét,1,"6tsOcBnaKgzK22yEiqRh8P"
-Billy Ray Cyrus,Lil Nas X,2,"2YpeDb67231RjR0MgVLzsG, 6jmZlyf9DxcIoRrjw02YXm"
-Khalid,SAFE,1,"1E6DEDWDKHoOW0fcFuDghV"
-Anitta,Swae Lee,1,"5qm2otRZaeZaqdLVVohUjq"
-ScHoolboy Q,Travis Scott,1,"2EGtBS7Ws3ajiSkJLviFJ4"
-Aloe Blacc,Avicii,2,"2x0RZdkZcD8QRI53XT4GI5, 0n2nEtLP3OzDdi12ziIekx"
-BTS,Halsey,2,"4a9tbd947vo9K8Vti9JwcI, 1ZoQVu9XBssJBdeKMgF2eV"
-Capital Bra,Nimo,2,"60yqRJXgkrPEvP977ZIOWb, 4Rif4wqdvzy84dhP1apC4Y"
-Justin Quiles,Sech,5,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Maluma,Sech,1,"7fODjB7BrQTGqh0hogW6XD"
-Nicky Jam,Sech,6,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6, 3dWpRjCmaHbroNahuSeX11, 4bTZeO72FwMa6wKOiqoynL, 26Qhn2T88XqVinXQpmSarj, 684EjRHwNsZQ9hCQxL4NYL"
-Farruko,Sech,4,"7fODjB7BrQTGqh0hogW6XD, 3dWpRjCmaHbroNahuSeX11, 6K5BsR04ijf3FHNzjbaagD, 684EjRHwNsZQ9hCQxL4NYL"
-Justin Quiles,Maluma,1,"7fODjB7BrQTGqh0hogW6XD"
-Justin Quiles,Nicky Jam,2,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6"
-Farruko,Justin Quiles,3,"7fODjB7BrQTGqh0hogW6XD, 1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-Dalex,Justin Quiles,7,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6, 1ndyl3wJCFs872XZ3ztPk6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 1Xnn1TPyr5h0hpRAT4B4EA, 0RDgqtvOHLwcI6yz9bjsZV"
-Justin Quiles,Lenny Tavárez,7,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6, 1ndyl3wJCFs872XZ3ztPk6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 1Xnn1TPyr5h0hpRAT4B4EA, 0RDgqtvOHLwcI6yz9bjsZV"
-Maluma,Nicky Jam,1,"7fODjB7BrQTGqh0hogW6XD"
-Farruko,Maluma,1,"7fODjB7BrQTGqh0hogW6XD"
-Dalex,Maluma,1,"7fODjB7BrQTGqh0hogW6XD"
-Lenny Tavárez,Maluma,1,"7fODjB7BrQTGqh0hogW6XD"
-Dalex,Nicky Jam,2,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6"
-Lenny Tavárez,Nicky Jam,2,"7fODjB7BrQTGqh0hogW6XD, 7anSoGdgtmJTAPZBzcPhO6"
-Dalex,Farruko,3,"7fODjB7BrQTGqh0hogW6XD, 1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-Farruko,Lenny Tavárez,3,"7fODjB7BrQTGqh0hogW6XD, 1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-Cash Cash,P!nk,1,"3O0e0LHTpza0rYVDbZfQ4r"
-Goodboys,MEDUZA,2,"1DFD5Fotzgn6yYXkYsKiGs, 7CHi4DtfK4heMlQaudCuHK"
-Lil Tjay,Polo G,1,"6uFn47ACjqYkc0jADwEdj1"
-SZA,The Weeknd,1,"4cbdPT6uaBOgOQe3fLMofl"
-SZA,Travis Scott,1,"4cbdPT6uaBOgOQe3fLMofl"
-Game of Thrones,SZA,1,"4cbdPT6uaBOgOQe3fLMofl"
-The Weeknd,Travis Scott,1,"4cbdPT6uaBOgOQe3fLMofl"
-Game of Thrones,The Weeknd,1,"4cbdPT6uaBOgOQe3fLMofl"
-Game of Thrones,Travis Scott,1,"4cbdPT6uaBOgOQe3fLMofl"
-Kygo,Rita Ora,1,"3y3brCCecHC3Db18aIOnny"
-Madonna,Maluma,1,"3tTV4DYlhkiXRNiiXwIAPf"
-Daddy Yankee,Katy Perry,1,"4au7FRcgZzChASRYu279xH"
-Katy Perry,Snow,1,"4au7FRcgZzChASRYu279xH"
-Blueface,French Montana,1,"40Zb4FZ6nS1Hj8RVfaLkCV"
-French Montana,Lil Tjay,1,"40Zb4FZ6nS1Hj8RVfaLkCV"
-Blueface,Lil Tjay,1,"40Zb4FZ6nS1Hj8RVfaLkCV"
-Darell,Sech,2,"1Ej96GIBCTvgH7tNX1r3qr, 4bTZeO72FwMa6wKOiqoynL"
-Beyoncé,The Weeknd,1,"0pxNyJJiL2zZZ5GgJ4JhsQ"
-Beyoncé,Jack White,1,"78eouBKVRyhbSzJwChr6QM"
-Beyoncé,Kendrick Lamar,1,"7aBxcRw77817BrkdPChAGY"
-Beyoncé,James Blake,1,"2bOWJIYSbhwg2NMQq1QMYH"
-Brendon Urie,Taylor Swift,2,"4Sib57MmYGJzSvkW84jTwh, 2Rk4JlNc2TPmZe2af99d45"
-Marshmello,Tyga,1,"4Q8aDd3H6LF8t4eY7So9O8"
-Chris Brown,Marshmello,1,"4Q8aDd3H6LF8t4eY7So9O8"
-Chris Brown,Tyga,2,"4Q8aDd3H6LF8t4eY7So9O8, 1jlnBQGP2DtSEhMgQaz7a7"
-21 Savage,ScHoolboy Q,1,"4NN6N5TxBO5k9uqu0W4gfQ"
-Macklemore,Martin Garrix,1,"40OMBMYRk5IQL6xCzGM0JA"
-Fall Out Boy,Martin Garrix,1,"40OMBMYRk5IQL6xCzGM0JA"
-Fall Out Boy,Macklemore,1,"40OMBMYRk5IQL6xCzGM0JA"
-Khalid,P!nk,1,"2BM7nF0pMIpLQOT04o691Z"
-The Chainsmokers,Ty Dolla $ign,1,"5MvLsT03RBp67RLoeISCdl"
-The Chainsmokers,bülow,1,"5MvLsT03RBp67RLoeISCdl"
-Ty Dolla $ign,bülow,1,"5MvLsT03RBp67RLoeISCdl"
-RIN,Ufo361,1,"1x4MJYA9mJRph3fygU51K4"
-DJ Snake,Sheck Wes,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-DJ Snake,Offset,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-21 Savage,DJ Snake,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-DJ Snake,Gucci Mane,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-Offset,Sheck Wes,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-21 Savage,Sheck Wes,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-Gucci Mane,Sheck Wes,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-Gucci Mane,Offset,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-21 Savage,Gucci Mane,1,"6mCqxnyOhr4tHMbRbQL4Yn"
-J Balvin,Ozuna,2,"7mWFF4gPADjTQjC97CgFVt, 2ksOAxtIxY8yElEWw8RhgK"
-Farruko,Ozuna,1,"7mWFF4gPADjTQjC97CgFVt"
-Daddy Yankee,J Balvin,2,"7mWFF4gPADjTQjC97CgFVt, 2ksOAxtIxY8yElEWw8RhgK"
-Daddy Yankee,Farruko,1,"7mWFF4gPADjTQjC97CgFVt"
-Farruko,J Balvin,1,"7mWFF4gPADjTQjC97CgFVt"
-Anuel AA,J Balvin,2,"7mWFF4gPADjTQjC97CgFVt, 2ksOAxtIxY8yElEWw8RhgK"
-Anuel AA,Farruko,1,"7mWFF4gPADjTQjC97CgFVt"
-Kid Cudi,ScHoolboy Q,1,"0IH3D0P8OrQFs6ajcqbm0R"
-Charlie Charles,Sfera Ebbasta,1,"45zJRuzK9e6AO527NOW7Fy"
-Charlie Charles,Mahmood,1,"45zJRuzK9e6AO527NOW7Fy"
-Charlie Charles,Fabri Fibra,1,"45zJRuzK9e6AO527NOW7Fy"
-Mahmood,Sfera Ebbasta,1,"45zJRuzK9e6AO527NOW7Fy"
-Fabri Fibra,Sfera Ebbasta,1,"45zJRuzK9e6AO527NOW7Fy"
-Fabri Fibra,Mahmood,1,"45zJRuzK9e6AO527NOW7Fy"
-6LACK,ScHoolboy Q,1,"06Y14QBRyzmPRqrswAfF4J"
-ScHoolboy Q,Ty Dolla $ign,1,"7gPHxxAq4YjK7GoLT3Vch3"
-ScHoolboy Q,YG,1,"7gPHxxAq4YjK7GoLT3Vch3"
-Ty Dolla $ign,YG,1,"7gPHxxAq4YjK7GoLT3Vch3"
-Julia Michaels,LANY,1,"1a0Mg4XPdt4EKsUz5beRZY"
-Kina,Snøw,1,"4ZLzoOkj0MPWrTLvooIuaa"
-Eminem,Logic,2,"0Lw6aQcBFWTQ9m4MSwwwes, 7M2tXmeS15NAzEn7ABFeBg"
-Henning May,Juju,1,"07f2b3CTdgKKlhv0mqUksz"
-Tyga,YG,2,"1kK6DwzyXJSp58u5HYWwuD, 51wFQM8W0YfXTmHusXUr5i"
-Jon Z,YG,1,"1kK6DwzyXJSp58u5HYWwuD"
-Jon Z,Tyga,1,"1kK6DwzyXJSp58u5HYWwuD"
-Luis Fonsi,Sebastian Yatra,1,"5lwVd35Zg6DJ4qibVMq99H"
-Luis Fonsi,Nicky Jam,1,"5lwVd35Zg6DJ4qibVMq99H"
-Nicky Jam,Sebastian Yatra,1,"5lwVd35Zg6DJ4qibVMq99H"
-KYLE,Lil Yachty,1,"1jkEorRvoRQNo1WZfD1X5q"
-Ed Sheeran,Justin Bieber,1,"0hVXuCcriWRGvwMV1r5Yn9"
-Agnes,Avicii,2,"1yfyIdEw5U2bD5I6gxQCxW, 0uxDHazXSSu9bSZ28LsnAN"
-Avicii,Vargas & Lagola,4,"1yfyIdEw5U2bD5I6gxQCxW, 0uxDHazXSSu9bSZ28LsnAN, 6ZEYvUSgON3J5Qe1RYi3Jo, 5dVUSdsePmEKkq4ryfrobU"
-Agnes,Vargas & Lagola,2,"1yfyIdEw5U2bD5I6gxQCxW, 0uxDHazXSSu9bSZ28LsnAN"
-Daddy Yankee,Lunay,1,"4t9a07PAghtQMRAIP9FQ7Z"
-Bad Bunny,Lunay,1,"4t9a07PAghtQMRAIP9FQ7Z"
-Bad Bunny,Daddy Yankee,1,"4t9a07PAghtQMRAIP9FQ7Z"
-David Guetta,RAYE,2,"4YhN72dRYL2Z3MsaKyT7rS, 5dS2dvXVPe7AR6UwBpnomW"
-Gucci Mane,Logic,1,"5sCwso3aURYAdieWEFI1nE"
-G-Eazy,Logic,1,"2SDFznsHkeFXiPFwN0npVM"
-ZAYN,Zhavia,1,"1iWHabUgUuuKLBa0TzTHfk"
-Cordae,Logic,1,"43IfdE75ficQgsI8QGBvwb"
-Logic,Wiz Khalifa,1,"0ZN72tCEgbwPXEtj6TPMxK"
-Major Lazer,Skip Marley,1,"1MBtNXoT6cXrrSstG07Lf7"
-Mustard,Quavo,1,"5duCElafuovM4ZSmkQL4hn"
-Mustard,YG,1,"5duCElafuovM4ZSmkQL4hn"
-Meek Mill,Mustard,1,"5duCElafuovM4ZSmkQL4hn"
-Quavo,YG,1,"5duCElafuovM4ZSmkQL4hn"
-Meek Mill,Quavo,1,"5duCElafuovM4ZSmkQL4hn"
-Meek Mill,YG,1,"5duCElafuovM4ZSmkQL4hn"
-Jax Jones,Martin Solveig,1,"5naYe7rLMZcLfO1DKg48MK"
-Jax Jones,Madison Beer,1,"5naYe7rLMZcLfO1DKg48MK"
-Europa,Jax Jones,1,"5naYe7rLMZcLfO1DKg48MK"
-Madison Beer,Martin Solveig,1,"5naYe7rLMZcLfO1DKg48MK"
-Europa,Martin Solveig,1,"5naYe7rLMZcLfO1DKg48MK"
-Europa,Madison Beer,1,"5naYe7rLMZcLfO1DKg48MK"
-MAX,Quinn XCII,1,"2tOOcDDYkh0PSjr6GwPEAJ"
-De La Ghetto,Paulo Londra,1,"3H9GDhVVTlmFQSmpt51qiP"
-Justin Quiles,Paulo Londra,1,"3H9GDhVVTlmFQSmpt51qiP"
-De La Ghetto,Justin Quiles,1,"3H9GDhVVTlmFQSmpt51qiP"
-Feid,Nicky Jam,1,"7anSoGdgtmJTAPZBzcPhO6"
-Nicky Jam,Rafa Pabön,1,"7anSoGdgtmJTAPZBzcPhO6"
-Feid,Justin Quiles,4,"7anSoGdgtmJTAPZBzcPhO6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Justin Quiles,Rafa Pabön,1,"7anSoGdgtmJTAPZBzcPhO6"
-DJ Khaled,Nipsey Hussle,1,"6O10oTtZIZ4DkkUqyfCbrR"
-DJ Khaled,John Legend,1,"6O10oTtZIZ4DkkUqyfCbrR"
-John Legend,Nipsey Hussle,1,"6O10oTtZIZ4DkkUqyfCbrR"
-DJ Khaled,Travis Scott,1,"0b6UoVjUzFyZNpHI0aAhKt"
-DJ Khaled,Post Malone,1,"0b6UoVjUzFyZNpHI0aAhKt"
-Post Malone,Travis Scott,2,"0b6UoVjUzFyZNpHI0aAhKt, 7CZyCXKG6d5ALeq41sLzbw"
-DJ Khaled,SZA,1,"0BnTBAGmr9FtYwkZrwKhwS"
-Cardi B,DJ Khaled,1,"1Hd2XLitkt1PYCWSbfF5qV"
-21 Savage,DJ Khaled,1,"1Hd2XLitkt1PYCWSbfF5qV"
-21 Savage,Cardi B,1,"1Hd2XLitkt1PYCWSbfF5qV"
-Luciano,Ufo361,2,"7MqL7uh6zGd8x0B9srz3r0, 1e9QSdX5uLUw6vbrkZJyXi"
-Chance the Rapper,TisaKorean,1,"0yFvWTLs3iIwDbc91noXGT"
-Chance the Rapper,Murda Beatz,1,"0yFvWTLs3iIwDbc91noXGT"
-Murda Beatz,TisaKorean,1,"0yFvWTLs3iIwDbc91noXGT"
-Chris Brown,DJ Khaled,1,"6Dq8FZrvx9S28iyaKSwn9x"
-DJ Khaled,Lil Wayne,1,"6Dq8FZrvx9S28iyaKSwn9x"
-Big Sean,DJ Khaled,1,"6Dq8FZrvx9S28iyaKSwn9x"
-Chris Brown,Lil Wayne,1,"6Dq8FZrvx9S28iyaKSwn9x"
-Big Sean,Chris Brown,1,"6Dq8FZrvx9S28iyaKSwn9x"
-Big Sean,Lil Wayne,1,"6Dq8FZrvx9S28iyaKSwn9x"
-DJ Khaled,Meek Mill,2,"6xVhqLT40s5sVhepe9Mckc, 4U6ubKsTd8RBDP5tPPhh7I"
-DJ Khaled,Lil Baby,2,"6xVhqLT40s5sVhepe9Mckc, 4U6ubKsTd8RBDP5tPPhh7I"
-Lil Baby,Meek Mill,3,"6xVhqLT40s5sVhepe9Mckc, 4U6ubKsTd8RBDP5tPPhh7I, 12Fkyg9lpmaz2zmKOfw2Y2"
-Charli xcx,Lizzo,1,"1MfuskV4ODUp14C2dnyPgW"
-DJ Khaled,J Balvin,1,"4U6ubKsTd8RBDP5tPPhh7I"
-DJ Khaled,Jeremih,1,"4U6ubKsTd8RBDP5tPPhh7I"
-J Balvin,Meek Mill,1,"4U6ubKsTd8RBDP5tPPhh7I"
-Jeremih,Meek Mill,1,"4U6ubKsTd8RBDP5tPPhh7I"
-J Balvin,Lil Baby,1,"4U6ubKsTd8RBDP5tPPhh7I"
-J Balvin,Jeremih,1,"4U6ubKsTd8RBDP5tPPhh7I"
-Jeremih,Lil Baby,1,"4U6ubKsTd8RBDP5tPPhh7I"
-Panic! At The Disco,Taylor Swift,1,"2Rk4JlNc2TPmZe2af99d45"
-Brendon Urie,Panic! At The Disco,1,"2Rk4JlNc2TPmZe2af99d45"
-J Balvin,JHAYCO,1,"4R8BJggjosTswLxtkw8V7P"
-Bad Bunny,JHAYCO,1,"4R8BJggjosTswLxtkw8V7P"
-J. Cole,Young Thug,1,"3s4mrPrEFFPF0LmAfutW0n"
-Travis Scott,Young Thug,4,"3s4mrPrEFFPF0LmAfutW0n, 4ea9w8c4ROqiZpJVhfBA3m, 3RZftiuTcLOqpsd8ZlwNhr, 6gi6y1xwmVszDWkUqab1qw"
-J. Cole,Travis Scott,1,"3s4mrPrEFFPF0LmAfutW0n"
-Chance the Rapper,Ed Sheeran,1,"4wuCQX7JvAZLlrcmH4AeZF"
-Ed Sheeran,PnB Rock,1,"4wuCQX7JvAZLlrcmH4AeZF"
-Chance the Rapper,PnB Rock,1,"4wuCQX7JvAZLlrcmH4AeZF"
-Chelsea Cutler,Kygo,1,"6aoGtdWXBkYQ2O2wnyIz2x"
-Joyner Lucas,Logic,1,"36TO60sxDduIsO3xH8IcUh"
-J. Cole,Ty Dolla $ign,1,"3OJ4LEE50iFELaHiZ09zif"
-Jax Jones,Jess Glynne,1,"3eS1VMcEmq2IUgpaeDysCb"
-Camila Cabello,Mark Ronson,1,"5Uw7Dut2lZfexn3Y09swpf"
-Bebe Rexha,The Chainsmokers,1,"6IJTc8xo6XasOU8fpxMU57"
-Jonas Blue,Tiësto,1,"3M9Apu4OZfylLTFKvgEtKa"
-Rita Ora,Tiësto,1,"3M9Apu4OZfylLTFKvgEtKa"
-Jonas Blue,Rita Ora,1,"3M9Apu4OZfylLTFKvgEtKa"
-Bad Bunny,Tainy,1,"71wFwRo8xGc4lrcyKwsvba"
-Ghostface Killah,Miley Cyrus,1,"42zePe03Iq8tvFcJAIKkp8"
-Gucci Mane,Justin Bieber,1,"1VsqQEYObJsOPaeZwEXRPg"
-Miley Cyrus,RuPaul,1,"0uZd8cKaTyNogTREourFY5"
-Quavo,Tory Lanez,1,"5CKtlUULFD5aPVX4PL02H6"
-Tory Lanez,Tyga,1,"5CKtlUULFD5aPVX4PL02H6"
-Quavo,Tyga,1,"5CKtlUULFD5aPVX4PL02H6"
-Miley Cyrus,Swae Lee,1,"3DB14jHq2qNoByUN5W2gz1"
-Mike WiLL Made-It,Miley Cyrus,1,"3DB14jHq2qNoByUN5W2gz1"
-Mike WiLL Made-It,Swae Lee,1,"3DB14jHq2qNoByUN5W2gz1"
-Diplo,Herve Pagez,1,"7hzjWGFi2HKUGOXp1LiQ3V"
-Charli xcx,Herve Pagez,1,"7hzjWGFi2HKUGOXp1LiQ3V"
-Charli xcx,Diplo,1,"7hzjWGFi2HKUGOXp1LiQ3V"
-Grey,Hailee Steinfeld,1,"6875MeXyCW0wLyT72Eetmo"
-Hailee Steinfeld,Zedd,1,"6875MeXyCW0wLyT72Eetmo"
-BTS,Charli xcx,1,"4c1WgUnHXq2LEncGHKgj1I"
-Gemitaiz,MadMan,3,"3fV9z98dnQLSIPIMMJXCm7, 34UHhwlly3SHryWuVfMOJm, 0Rsfm3UqHkNzKsb6L0Yz3Y"
-J Balvin,Tyga,2,"1jlnBQGP2DtSEhMgQaz7a7, 6osaMSJh9NguagEDQcZaKx"
-Chris Brown,J Balvin,1,"1jlnBQGP2DtSEhMgQaz7a7"
-Damso,Nekfeu,1,"5ZwRTJD1bTACtIuW5Iibnu"
-A R I Z O N A,Avicii,1,"6EBlOYNcZ8MrdEov9lEdV6"
-Avicii,Imagine Dragons,1,"6kXNnS7JJz0nAv4XEwEmQJ"
-Avicii,Joe Janiak,2,"0HZgYFimoJG9Ijy8InUWcV, 7zGEU6BXl2c4TxpzIAr7BI"
-Avicii,Bonn,2,"6NVjujGb9fnl25fjzm5dTy, 3MhNgzZwFtUF6jSr6pRSkW"
-Avicii,Noonie Bao,1,"6aPDvttLmezuUlv60ExTH9"
-A Touch Of Class,R3HAB,1,"02itaCXOdC54J0ISjqqFAp"
-YUNGBLUD,mgk,1,"2gTdDMpNxIRFSiu7HutMCg"
-Travis Barker,mgk,1,"2gTdDMpNxIRFSiu7HutMCg"
-Nekfeu,Vanessa Paradis,1,"3OmMEncU5Z8hZJVKwAMZpk"
-Nekfeu,Nemir,1,"31ljIjVJOgopnyNposqPhm"
-Chris Brown,Drake,1,"6XHVuErjQ4XNm6nDPVCxVX"
-Farid Bang,French Montana,1,"1IBUPdwV9TvaipSODdt8QY"
-Farid Bang,Khaled,1,"1IBUPdwV9TvaipSODdt8QY"
-French Montana,Khaled,1,"1IBUPdwV9TvaipSODdt8QY"
-Dreamville,JID,3,"36J0iaPDGbYGsHvYpaYs3k, 5WnfnSpuNEGXyEt78PBA6d, 2gtFMLjQpCTGekMi4oXZxN"
-Bas,Dreamville,2,"36J0iaPDGbYGsHvYpaYs3k, 5WnfnSpuNEGXyEt78PBA6d"
-Dreamville,J. Cole,4,"36J0iaPDGbYGsHvYpaYs3k, 6MF4tRr5lU8qok8IKaFOBE, 7wxDKfgFtRTbupcG4xDhtj, 3pZO6GoVPeSYDxxsH6vCdj"
-Dreamville,EARTHGANG,3,"36J0iaPDGbYGsHvYpaYs3k, 2gtFMLjQpCTGekMi4oXZxN, 03XfngWwNfhEjrnEga73Rg"
-Dreamville,Young Nudy,2,"36J0iaPDGbYGsHvYpaYs3k, 3pZO6GoVPeSYDxxsH6vCdj"
-Bas,JID,2,"36J0iaPDGbYGsHvYpaYs3k, 5WnfnSpuNEGXyEt78PBA6d"
-J. Cole,JID,1,"36J0iaPDGbYGsHvYpaYs3k"
-EARTHGANG,JID,2,"36J0iaPDGbYGsHvYpaYs3k, 2gtFMLjQpCTGekMi4oXZxN"
-JID,Young Nudy,1,"36J0iaPDGbYGsHvYpaYs3k"
-Bas,J. Cole,1,"36J0iaPDGbYGsHvYpaYs3k"
-Bas,EARTHGANG,1,"36J0iaPDGbYGsHvYpaYs3k"
-Bas,Young Nudy,1,"36J0iaPDGbYGsHvYpaYs3k"
-EARTHGANG,J. Cole,1,"36J0iaPDGbYGsHvYpaYs3k"
-J. Cole,Young Nudy,2,"36J0iaPDGbYGsHvYpaYs3k, 3pZO6GoVPeSYDxxsH6vCdj"
-EARTHGANG,Young Nudy,1,"36J0iaPDGbYGsHvYpaYs3k"
-DJ Snake,J Balvin,1,"6osaMSJh9NguagEDQcZaKx"
-DJ Snake,Tyga,1,"6osaMSJh9NguagEDQcZaKx"
-BTS,Zara Larsson,1,"5XkyZyKMdFungjDb9cUKc3"
-Capital Bra,Kalazh44,1,"4Rif4wqdvzy84dhP1apC4Y"
-Kalazh44,Samra,1,"4Rif4wqdvzy84dhP1apC4Y"
-Kalazh44,Nimo,1,"4Rif4wqdvzy84dhP1apC4Y"
-Kalazh44,Luciano,1,"4Rif4wqdvzy84dhP1apC4Y"
-Capital Bra,Luciano,1,"4Rif4wqdvzy84dhP1apC4Y"
-Nimo,Samra,1,"4Rif4wqdvzy84dhP1apC4Y"
-Luciano,Nimo,1,"4Rif4wqdvzy84dhP1apC4Y"
-21 Savage,Bazzi,1,"12iDo4Kdw9vA2X1lN3UTVu"
-Alesso,TINI,1,"2JoIjuzRplpYGvvLpSW2on"
-Anitta,Madonna,1,"2SC14LGDbRWRlyLg9Wupa0"
-Flume,London Grammar,1,"7p0tz5SeCrSxTLSvwR8W3D"
-Bad Bunny,Myke Towers,1,"0bCPJsVGDxPYwQMDZMi4NW"
-Drake,Rick Ross,3,"5ry2OE6R2zPQFDO85XkgRb, 1rX5L6pyl3rVWb55D8Cprr, 18t8ypY0HYaQuGBxg2KdT2"
-Camila Cabello,Shawn Mendes,1,"6v3KW9xbzN5yKLt9YKDYA2"
-Kane Brown,Marshmello,1,"4hPpVbbakQNv8YTHYaOJP4"
-Cardi B,Lil Nas X,1,"4ak7xjvBeBOcJGWFDX9w5n"
-88-Keys,Mac Miller,1,"5h0Jgt873QtgL6nJRBGfT6"
-88-Keys,Sia,1,"5h0Jgt873QtgL6nJRBGfT6"
-Mac Miller,Sia,1,"5h0Jgt873QtgL6nJRBGfT6"
-Daddy Yankee,Sebastian Yatra,1,"7BuSE9uTIw931wtZYzvZcQ"
-NATTI NATASHA,Sebastian Yatra,1,"7BuSE9uTIw931wtZYzvZcQ"
-Jonas Brothers,Sebastian Yatra,1,"7BuSE9uTIw931wtZYzvZcQ"
-Daddy Yankee,NATTI NATASHA,2,"7BuSE9uTIw931wtZYzvZcQ, 0U6bQIAh6MCGo1xjbIIx2S"
-Daddy Yankee,Jonas Brothers,1,"7BuSE9uTIw931wtZYzvZcQ"
-Jonas Brothers,NATTI NATASHA,1,"7BuSE9uTIw931wtZYzvZcQ"
-BTS,Juice WRLD,1,"70sKIAQgaVN2zWEEyOpyMZ"
-Dardan,Eno,1,"2nvmHDiEWXRzS6FUDzUhVL"
-Lil Nas X,Travis Barker,1,"1ABQT5SxlUTNapSbSzblGx"
-Y2K,bbno$,1,"51Fjme0JiitpyXKuyQiCDo"
-KAROL G,Mambo Kingz,1,"5J64qSSq0VZuh0CiI9o9Nq"
-Arcángel,Mambo Kingz,1,"5J64qSSq0VZuh0CiI9o9Nq"
-DJ Luian,KAROL G,1,"5J64qSSq0VZuh0CiI9o9Nq"
-Arcángel,DJ Luian,1,"5J64qSSq0VZuh0CiI9o9Nq"
-Anuel AA,Arcángel,1,"5J64qSSq0VZuh0CiI9o9Nq"
-Arcángel,KAROL G,1,"5J64qSSq0VZuh0CiI9o9Nq"
-Future,Lil Baby,1,"2wZjsbwmWfNVslgV5afl1L"
-Anitta,Major Lazer,1,"0QopfywHKJZH8bnt8Cj9qr"
-RANI,Sam Feldt,1,"36orMWv2PgvnzXsd5CJ0yL"
-Chris Brown,Justin Bieber,1,"7ILEWkpfdK6AjH2D7jppWk"
-Chris Brown,Ink,1,"7ILEWkpfdK6AjH2D7jppWk"
-Ink,Justin Bieber,1,"7ILEWkpfdK6AjH2D7jppWk"
-Ed Sheeran,Khalid,1,"70eFcWOvlMObDhURTqT4Fv"
-Kygo,Whitney Houston,1,"1kKYjjfNYxE0YYgLa7vgVY"
-J Balvin,Marciano Cantero,1,"7hynhxDoDpgMIV12JuVtNa"
-Bad Bunny,Marciano Cantero,1,"7hynhxDoDpgMIV12JuVtNa"
-Ellie Goulding,Juice WRLD,1,"6kls8cSlUyHW2BUOkDJIZE"
-J Balvin,Mr Eazi,1,"7knLcYCOSaURD0d7HUULFM"
-Bad Bunny,Mr Eazi,1,"7knLcYCOSaURD0d7HUULFM"
-GIMS,Shirin David,1,"554Ip3S1rbeES9TNWXGoK1"
-Data Luv,Ufo361,1,"7yosVOH7pRWrKANBDbsBqI"
-Brandy,Daniel Caesar,1,"2fhePAlCSsJplwkjqMYpVm"
-Daniel Caesar,John Mayer,1,"45PxuJqJBnPXZKLxoo9Apj"
-Daddy Yankee,Wisin & Yandel,1,"7MRU4vOkywuhZ9kbFiPuiu"
-Mustard,NAV,1,"2zjGJ0dChMR0KxBZS15aqo"
-Mustard,Playboi Carti,1,"2zjGJ0dChMR0KxBZS15aqo"
-A Boogie Wit da Hoodie,Mustard,1,"2zjGJ0dChMR0KxBZS15aqo"
-NAV,Playboi Carti,1,"2zjGJ0dChMR0KxBZS15aqo"
-A Boogie Wit da Hoodie,NAV,1,"2zjGJ0dChMR0KxBZS15aqo"
-A Boogie Wit da Hoodie,Playboi Carti,1,"2zjGJ0dChMR0KxBZS15aqo"
-MC Kevin o Chris,Sodré,2,"0WhDotK0QXigmsrlw0DxKK, 5dKesZwp6deuhEeW8F1UEi"
-Analaga,João Gustavo e Murilo,1,"5pRGXCDY0eT6R1QicAn7Uk"
-Post Malone,Young Thug,1,"0t3ZvGKlmYmVsDzBJAXK8C"
-Ed Sheeran,Yebba,1,"0VsGaRXR5WAzpu51unJTis"
-Dreamville,Lute,1,"6MF4tRr5lU8qok8IKaFOBE"
-DaBaby,Dreamville,1,"6MF4tRr5lU8qok8IKaFOBE"
-J. Cole,Lute,1,"6MF4tRr5lU8qok8IKaFOBE"
-DaBaby,J. Cole,1,"6MF4tRr5lU8qok8IKaFOBE"
-DaBaby,Lute,1,"6MF4tRr5lU8qok8IKaFOBE"
-MACHETE,Salmo,6,"0nFCpnM7nistUWXRZpzOWM, 28fRkU3vhqAJdl9i9458pQ, 5nFX29WZIulql4m4ic0KRw, 46HYFOcfvg2W8a8FccaRvO, 2zVawCwOXmkr5pFw5O6MoB, 1ZCzbEj3F8SqqtKSupWaBo"
-Lazza,MACHETE,2,"0nFCpnM7nistUWXRZpzOWM, 46HYFOcfvg2W8a8FccaRvO"
-Lazza,Salmo,2,"0nFCpnM7nistUWXRZpzOWM, 46HYFOcfvg2W8a8FccaRvO"
-Chris Stapleton,Ed Sheeran,1,"7hvO2qCwJVZxiyoA7c9i5d"
-Bruno Mars,Ed Sheeran,1,"7hvO2qCwJVZxiyoA7c9i5d"
-Bruno Mars,Chris Stapleton,1,"7hvO2qCwJVZxiyoA7c9i5d"
-Dreamville,Guapdad 4000,2,"5WnfnSpuNEGXyEt78PBA6d, 2gtFMLjQpCTGekMi4oXZxN"
-Dreamville,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-Dreamville,Jace,1,"5WnfnSpuNEGXyEt78PBA6d"
-Dreamville,Mez,1,"5WnfnSpuNEGXyEt78PBA6d"
-Dreamville,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Dreamville,2,"5WnfnSpuNEGXyEt78PBA6d, 2gtFMLjQpCTGekMi4oXZxN"
-Dreamville,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Guapdad 4000,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Jace,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Mez,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Buddy,1,"5WnfnSpuNEGXyEt78PBA6d"
-Bas,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Guapdad 4000,JID,2,"5WnfnSpuNEGXyEt78PBA6d, 2gtFMLjQpCTGekMi4oXZxN"
-JID,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-JID,Jace,1,"5WnfnSpuNEGXyEt78PBA6d"
-JID,Mez,1,"5WnfnSpuNEGXyEt78PBA6d"
-JID,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,JID,2,"5WnfnSpuNEGXyEt78PBA6d, 2gtFMLjQpCTGekMi4oXZxN"
-JID,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Guapdad 4000,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-Guapdad 4000,Jace,1,"5WnfnSpuNEGXyEt78PBA6d"
-Guapdad 4000,Mez,1,"5WnfnSpuNEGXyEt78PBA6d"
-Guapdad 4000,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Guapdad 4000,2,"5WnfnSpuNEGXyEt78PBA6d, 2gtFMLjQpCTGekMi4oXZxN"
-Guapdad 4000,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Jace,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-Mez,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-Reese LAFLARE,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Reese LAFLARE,1,"5WnfnSpuNEGXyEt78PBA6d"
-Reese LAFLARE,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Jace,Mez,1,"5WnfnSpuNEGXyEt78PBA6d"
-Jace,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Jace,1,"5WnfnSpuNEGXyEt78PBA6d"
-Jace,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Mez,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Mez,1,"5WnfnSpuNEGXyEt78PBA6d"
-Mez,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Ski Mask The Slump God,Smokepurpp,1,"5WnfnSpuNEGXyEt78PBA6d"
-Buddy,Ski Mask The Slump God,1,"5WnfnSpuNEGXyEt78PBA6d"
-Dani Faiv,MACHETE,1,"3Hh0ZcGIqIkSiJVZGLcVLx"
-MACHETE,thasup,2,"3Hh0ZcGIqIkSiJVZGLcVLx, 2gUn6S1SuuXK0BvypPKnir"
-Fabri Fibra,MACHETE,2,"3Hh0ZcGIqIkSiJVZGLcVLx, 2umL0eO9N7iNxDay6i2rVi"
-Dani Faiv,thasup,1,"3Hh0ZcGIqIkSiJVZGLcVLx"
-Dani Faiv,Fabri Fibra,1,"3Hh0ZcGIqIkSiJVZGLcVLx"
-Fabri Fibra,thasup,1,"3Hh0ZcGIqIkSiJVZGLcVLx"
-David Guetta,Dimitri Vegas & Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Daddy Yankee,Dimitri Vegas & Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Afro Bros,Dimitri Vegas & Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Dimitri Vegas & Like Mike,NATTI NATASHA,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Dimitri Vegas,Dimitri Vegas & Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Dimitri Vegas & Like Mike,Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Daddy Yankee,David Guetta,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Afro Bros,David Guetta,1,"0U6bQIAh6MCGo1xjbIIx2S"
-David Guetta,NATTI NATASHA,1,"0U6bQIAh6MCGo1xjbIIx2S"
-David Guetta,Dimitri Vegas,1,"0U6bQIAh6MCGo1xjbIIx2S"
-David Guetta,Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Afro Bros,Daddy Yankee,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Daddy Yankee,Dimitri Vegas,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Daddy Yankee,Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Afro Bros,NATTI NATASHA,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Afro Bros,Dimitri Vegas,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Afro Bros,Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Dimitri Vegas,NATTI NATASHA,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Like Mike,NATTI NATASHA,1,"0U6bQIAh6MCGo1xjbIIx2S"
-Dimitri Vegas,Like Mike,1,"0U6bQIAh6MCGo1xjbIIx2S"
-MACHETE,Massimo Pericolo,1,"2umL0eO9N7iNxDay6i2rVi"
-Fabri Fibra,Massimo Pericolo,1,"2umL0eO9N7iNxDay6i2rVi"
-MACHETE,Nitro,2,"28fRkU3vhqAJdl9i9458pQ, 2gUn6S1SuuXK0BvypPKnir"
-MACHETE,Marracash,1,"28fRkU3vhqAJdl9i9458pQ"
-Nitro,Salmo,1,"28fRkU3vhqAJdl9i9458pQ"
-Marracash,Salmo,1,"28fRkU3vhqAJdl9i9458pQ"
-Marracash,Nitro,1,"28fRkU3vhqAJdl9i9458pQ"
-Gemitaiz,MACHETE,1,"5nFX29WZIulql4m4ic0KRw"
-Izi,MACHETE,1,"5nFX29WZIulql4m4ic0KRw"
-Gemitaiz,Izi,1,"5nFX29WZIulql4m4ic0KRw"
-Gemitaiz,Salmo,2,"5nFX29WZIulql4m4ic0KRw, 0Rsfm3UqHkNzKsb6L0Yz3Y"
-Izi,Salmo,1,"5nFX29WZIulql4m4ic0KRw"
-Cozz,Dreamville,1,"1OS9fNE87zO4Z696lBXriv"
-Dreamville,REASON,1,"1OS9fNE87zO4Z696lBXriv"
-Childish Major,Dreamville,1,"1OS9fNE87zO4Z696lBXriv"
-Cozz,REASON,1,"1OS9fNE87zO4Z696lBXriv"
-Childish Major,Cozz,1,"1OS9fNE87zO4Z696lBXriv"
-Childish Major,REASON,1,"1OS9fNE87zO4Z696lBXriv"
-MACHETE,Tedua,1,"2gUn6S1SuuXK0BvypPKnir"
-Tedua,thasup,1,"2gUn6S1SuuXK0BvypPKnir"
-Nitro,Tedua,1,"2gUn6S1SuuXK0BvypPKnir"
-Nitro,thasup,1,"2gUn6S1SuuXK0BvypPKnir"
-Buddy,EARTHGANG,1,"2gtFMLjQpCTGekMi4oXZxN"
-EARTHGANG,Guapdad 4000,1,"2gtFMLjQpCTGekMi4oXZxN"
-Jack The Smoker,MACHETE,1,"2zVawCwOXmkr5pFw5O6MoB"
-Beba,MACHETE,1,"2zVawCwOXmkr5pFw5O6MoB"
-Beba,Jack The Smoker,1,"2zVawCwOXmkr5pFw5O6MoB"
-Jack The Smoker,Salmo,1,"2zVawCwOXmkr5pFw5O6MoB"
-Beba,Salmo,1,"2zVawCwOXmkr5pFw5O6MoB"
-Dreamville,Zoink Gang,1,"7wxDKfgFtRTbupcG4xDhtj"
-Dreamville,KEY!,1,"7wxDKfgFtRTbupcG4xDhtj"
-Dreamville,Maxo Kream,1,"7wxDKfgFtRTbupcG4xDhtj"
-J. Cole,Zoink Gang,1,"7wxDKfgFtRTbupcG4xDhtj"
-J. Cole,KEY!,1,"7wxDKfgFtRTbupcG4xDhtj"
-J. Cole,Maxo Kream,1,"7wxDKfgFtRTbupcG4xDhtj"
-KEY!,Zoink Gang,1,"7wxDKfgFtRTbupcG4xDhtj"
-Maxo Kream,Zoink Gang,1,"7wxDKfgFtRTbupcG4xDhtj"
-KEY!,Maxo Kream,1,"7wxDKfgFtRTbupcG4xDhtj"
-GRiNGO,Summer Cem,1,"70zRDnEkOhVb51fZA13khd"
-Hell Raton,MACHETE,1,"1ZCzbEj3F8SqqtKSupWaBo"
-Hell Raton,Salmo,1,"1ZCzbEj3F8SqqtKSupWaBo"
-Billie Eilish,Justin Bieber,1,"3yNZ5r3LKfdmjoS3gkhUCT"
-Ed Sheeran,Travis Scott,1,"1DhRbox3xkceP64k3JeYfW"
-Camila Cabello,Ed Sheeran,1,"4vUmTMuQqjdnvlZmAH61Qk"
-Cardi B,Ed Sheeran,1,"4vUmTMuQqjdnvlZmAH61Qk"
-Camila Cabello,Cardi B,1,"4vUmTMuQqjdnvlZmAH61Qk"
-Ed Sheeran,Eminem,1,"0AtP8EkGPn6SwxKDaUuXec"
-50 Cent,Ed Sheeran,1,"0AtP8EkGPn6SwxKDaUuXec"
-50 Cent,Eminem,1,"0AtP8EkGPn6SwxKDaUuXec"
-Ed Sheeran,Stormzy,2,"1AI7UPw3fgwAFkvAlZWhE0, 4QPEwDdOMhY7rNS05mTyMR"
-Ed Sheeran,Paulo Londra,1,"2qRN7PWiHRLprw4FpDeI9N"
-Dave,Ed Sheeran,1,"2qRN7PWiHRLprw4FpDeI9N"
-Dave,Paulo Londra,1,"2qRN7PWiHRLprw4FpDeI9N"
-Ed Sheeran,Young Thug,1,"1Bdptrvb7nQkq8kCw3siE9"
-Ed Sheeran,J Hus,1,"1Bdptrvb7nQkq8kCw3siE9"
-J Hus,Young Thug,1,"1Bdptrvb7nQkq8kCw3siE9"
-Ed Sheeran,Ella Mai,1,"5T03itPFOPGGkvVPvPiyla"
-Ed Sheeran,Meek Mill,1,"4vIKzWqtn44umal5jXq4wE"
-A Boogie Wit da Hoodie,Ed Sheeran,1,"4vIKzWqtn44umal5jXq4wE"
-A Boogie Wit da Hoodie,Meek Mill,1,"4vIKzWqtn44umal5jXq4wE"
-Ed Sheeran,Skrillex,1,"5d1rmWWF1725tnYjq6rMDB"
-Ed Sheeran,H.E.R.,1,"3FHXUqaUer9o231Je1zxIN"
-Lil Nas X,Mason Ramsey,1,"6jmZlyf9DxcIoRrjw02YXm"
-Lil Nas X,Young Thug,1,"6jmZlyf9DxcIoRrjw02YXm"
-Billy Ray Cyrus,Mason Ramsey,1,"6jmZlyf9DxcIoRrjw02YXm"
-Billy Ray Cyrus,Young Thug,1,"6jmZlyf9DxcIoRrjw02YXm"
-Mason Ramsey,Young Thug,1,"6jmZlyf9DxcIoRrjw02YXm"
-David Guetta,Martin Solveig,1,"0IhTEIjFaRt3B2NQYf9azQ"
-Beyoncé,Childish Gambino,2,"1zSKtBze2IReYU44W0lDzd, 7oqftogUN82Q7VNy2TmTJW"
-Beyoncé,Billy Eichner,1,"1zSKtBze2IReYU44W0lDzd"
-Beyoncé,Seth Rogen,1,"1zSKtBze2IReYU44W0lDzd"
-Billy Eichner,Childish Gambino,1,"1zSKtBze2IReYU44W0lDzd"
-Childish Gambino,Seth Rogen,1,"1zSKtBze2IReYU44W0lDzd"
-Billy Eichner,Seth Rogen,1,"1zSKtBze2IReYU44W0lDzd"
-Bebe Rexha,Jax Jones,1,"5RgBnDtHKFHgtVdqabjGE3"
-City Girls,French Montana,1,"4vfsh1GHqHZtTlkusq9j5E"
-Guaynaa,Nicky Jam,1,"3dWpRjCmaHbroNahuSeX11"
-Farruko,Guaynaa,1,"3dWpRjCmaHbroNahuSeX11"
-Becky G,Guaynaa,1,"3dWpRjCmaHbroNahuSeX11"
-Guaynaa,Sech,1,"3dWpRjCmaHbroNahuSeX11"
-Becky G,Nicky Jam,1,"3dWpRjCmaHbroNahuSeX11"
-Becky G,Farruko,1,"3dWpRjCmaHbroNahuSeX11"
-Becky G,Sech,1,"3dWpRjCmaHbroNahuSeX11"
-Blueface,NLE Choppa,1,"67XyC1GdSkKb9sbRRkUDXS"
-Dayvi,Victor Cardenas,1,"4Clmg1g8n2yBYG13Z1oSdG"
-Dayvi,Kelly Ruíz,1,"4Clmg1g8n2yBYG13Z1oSdG"
-Kelly Ruíz,Victor Cardenas,1,"4Clmg1g8n2yBYG13Z1oSdG"
-Beyoncé,JAY-Z,1,"7oqftogUN82Q7VNy2TmTJW"
-Beyoncé,Oumou Sangaré,1,"7oqftogUN82Q7VNy2TmTJW"
-Childish Gambino,JAY-Z,1,"7oqftogUN82Q7VNy2TmTJW"
-JAY-Z,Oumou Sangaré,1,"7oqftogUN82Q7VNy2TmTJW"
-Childish Gambino,Oumou Sangaré,1,"7oqftogUN82Q7VNy2TmTJW"
-Daddy Yankee,KAROL G,1,"2ksOAxtIxY8yElEWw8RhgK"
-J Balvin,KAROL G,1,"2ksOAxtIxY8yElEWw8RhgK"
-KAROL G,Ozuna,1,"2ksOAxtIxY8yElEWw8RhgK"
-Blue Ivy,SAINt JHN,1,"0B3FovCVaGKS5w1FTidEUP"
-Beyoncé,Blue Ivy,1,"0B3FovCVaGKS5w1FTidEUP"
-Blue Ivy,Wizkid,1,"0B3FovCVaGKS5w1FTidEUP"
-Beyoncé,SAINt JHN,1,"0B3FovCVaGKS5w1FTidEUP"
-SAINt JHN,Wizkid,1,"0B3FovCVaGKS5w1FTidEUP"
-Beyoncé,Wizkid,1,"0B3FovCVaGKS5w1FTidEUP"
-Ky-Mani Marley,XXXTENTACION,1,"0OTBOHjEaoqroFlfut1ZsH"
-Stefflon Don,XXXTENTACION,1,"0OTBOHjEaoqroFlfut1ZsH"
-Vybz Kartel,XXXTENTACION,1,"0OTBOHjEaoqroFlfut1ZsH"
-Ky-Mani Marley,Stefflon Don,1,"0OTBOHjEaoqroFlfut1ZsH"
-Ky-Mani Marley,Vybz Kartel,1,"0OTBOHjEaoqroFlfut1ZsH"
-Stefflon Don,Vybz Kartel,1,"0OTBOHjEaoqroFlfut1ZsH"
-KC Rebell,RAF Camora,1,"3GmfHF5RUe6r5C9UbvIXQp"
-Lil Baby,Quality Control,2,"2nKYHpmwjLaEOXS3o7QMiz, 5MPPttjfGap2C6j6eKcO6J"
-DaBaby,Quality Control,2,"2nKYHpmwjLaEOXS3o7QMiz, 5MPPttjfGap2C6j6eKcO6J"
-DaBaby,Lil Baby,3,"2nKYHpmwjLaEOXS3o7QMiz, 5MPPttjfGap2C6j6eKcO6J, 2FvD20Z8aoWIePi7PoN8sG"
-Gunna,Ufo361,1,"4e3VIoNlhRV6seqSAerKtG"
-Charli xcx,Christine and the Queens,1,"4UQeq4HUvC5uPEA9pWTgPW"
-Lil Nas X,RM,1,"6woeVu3fVMflqen1t4N6pg"
-BTS,Lil Nas X,1,"6woeVu3fVMflqen1t4N6pg"
-BTS,RM,1,"6woeVu3fVMflqen1t4N6pg"
-Ozuna,Sech,2,"4bTZeO72FwMa6wKOiqoynL, 6Y4PDQv4XjYjHLeLmvyOt0"
-Anuel AA,Sech,1,"4bTZeO72FwMa6wKOiqoynL"
-ILLENIUM,The Chainsmokers,1,"3g0mEQx3NTanacLseoP0Gw"
-Lennon Stella,The Chainsmokers,1,"3g0mEQx3NTanacLseoP0Gw"
-ILLENIUM,Lennon Stella,1,"3g0mEQx3NTanacLseoP0Gw"
-Chance the Rapper,John Legend,1,"1g3ErLqysBJ5EIGdYYMWFZ"
-DJ Snake,Sean Paul,1,"660eekzsNZ7sdATvfIsAkR"
-Anitta,DJ Snake,1,"660eekzsNZ7sdATvfIsAkR"
-DJ Snake,Tainy,1,"660eekzsNZ7sdATvfIsAkR"
-Anitta,Sean Paul,1,"660eekzsNZ7sdATvfIsAkR"
-Sean Paul,Tainy,1,"660eekzsNZ7sdATvfIsAkR"
-Anitta,Tainy,1,"660eekzsNZ7sdATvfIsAkR"
-Chance the Rapper,MadeinTYO,1,"00ko9WaS4jOX1kEk3gvHjf"
-Chance the Rapper,DaBaby,2,"00ko9WaS4jOX1kEk3gvHjf, 0WoAkdHmgPmEXfiBox1flk"
-DaBaby,MadeinTYO,1,"00ko9WaS4jOX1kEk3gvHjf"
-Chance the Rapper,Death Cab for Cutie,1,"67xBtV07CC73eFw7z5oCvU"
-Bad Bunny,Residente,1,"1kMUGCt7XLDc5Q64Vl0H8S"
-RAF Camora,Ufo361,1,"7HCTUZPqclRvsiefXWwyFz"
-Anderson .Paak,Cordae,1,"5lw8Mgb4LyhriPIC86gV6e"
-Chance the Rapper,Smino,1,"5LeStoyvjAHpM52IYogOq0"
-Khalid,Majid Jordan,1,"1opARDDYaOeE1QUdwXmBGu"
-Charli xcx,Pabllo Vittar,1,"5GsJcnO3rgpZFOrzL2EISO"
-Chance the Rapper,Megan Thee Stallion,1,"1xsP6AITcWNigBYBYVnVZw"
-Chance the Rapper,Shawn Mendes,1,"4pnIUqhf1AQMFrJPd4BbrT"
-Chance the Rapper,Lil Durk,1,"0QBRshHeQLEThdj2TqxM9n"
-Chance the Rapper,Nicki Minaj,1,"0QBRshHeQLEThdj2TqxM9n"
-Lil Durk,Nicki Minaj,1,"0QBRshHeQLEThdj2TqxM9n"
-Chance the Rapper,En Vogue,1,"333OkWOgbV6C8I5wRLfuSx"
-Ari Lennox,Chance the Rapper,1,"333OkWOgbV6C8I5wRLfuSx"
-Chance the Rapper,Kierra Sheard,1,"333OkWOgbV6C8I5wRLfuSx"
-Ari Lennox,En Vogue,1,"333OkWOgbV6C8I5wRLfuSx"
-En Vogue,Kierra Sheard,1,"333OkWOgbV6C8I5wRLfuSx"
-Ari Lennox,Kierra Sheard,1,"333OkWOgbV6C8I5wRLfuSx"
-Lunay,Mau y Ricky,1,"2EEmzqzM70CybVspgM7YRT"
-Camilo,Lunay,1,"2EEmzqzM70CybVspgM7YRT"
-Chance the Rapper,Taylor Bennett,1,"5LWprrbySabBAMm0aE447a"
-Chance the Rapper,CocoRosie,1,"5LWprrbySabBAMm0aE447a"
-CocoRosie,Taylor Bennett,1,"5LWprrbySabBAMm0aE447a"
-Ariana Grande,Social House,1,"0Ryd8975WihbObpp5cPW1t"
-Anne-Marie,Lauv,1,"3Hig6FDiszzWDPIKSP9swE"
-Drake,J. Cole,1,"2xUHiyGeGrWmmfv7NbDTWC"
-Drake,James Fauntleroy,1,"56NDFbD0tCUawnqeU2wcvv"
-A Boogie Wit da Hoodie,Khalid,1,"6PYnUsNEpYC7A4BS2sjw3L"
-Carly Rae Jepsen,Gryffin,1,"2j9YmQRxtjuVwb4XN95oT8"
-Arcángel,Myke Towers,1,"6K5BsR04ijf3FHNzjbaagD"
-Myke Towers,Sech,1,"6K5BsR04ijf3FHNzjbaagD"
-Myke Towers,Zion,1,"6K5BsR04ijf3FHNzjbaagD"
-Arcángel,Farruko,1,"6K5BsR04ijf3FHNzjbaagD"
-Farruko,Zion,3,"6K5BsR04ijf3FHNzjbaagD, 684EjRHwNsZQ9hCQxL4NYL, 1ndyl3wJCFs872XZ3ztPk6"
-Arcángel,Sech,2,"6K5BsR04ijf3FHNzjbaagD, 7sQKy5vlPQllr0k9IjYJv3"
-Arcángel,Zion,1,"6K5BsR04ijf3FHNzjbaagD"
-Sech,Zion,4,"6K5BsR04ijf3FHNzjbaagD, 684EjRHwNsZQ9hCQxL4NYL, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Labrinth,Zendaya,1,"10hMM5nsZQf66ldBlgWBfG"
-Megan Thee Stallion,Ty Dolla $ign,1,"5N1o6d8zGcSZSeMFkOUQOk"
-Megan Thee Stallion,Nicki Minaj,1,"5N1o6d8zGcSZSeMFkOUQOk"
-Nicki Minaj,Ty Dolla $ign,1,"5N1o6d8zGcSZSeMFkOUQOk"
-Playboi Carti,Trippie Redd,1,"5CMUThHlepHR8c1xD0QYzs"
-Lil Baby,Trippie Redd,1,"4NbHIhW0P5skMNvtOMPDUL"
-Lil Duke,Trippie Redd,1,"4NbHIhW0P5skMNvtOMPDUL"
-Lil Baby,Lil Duke,1,"4NbHIhW0P5skMNvtOMPDUL"
-Camilo,Pedro Capó,1,"1Ol5LmdNDNpFu1oNwfgkux"
-Kendrick Lamar,SiR,1,"6sq5mqtS3jwJjvBHALknJH"
-The Game,Trippie Redd,1,"3Ht9qyE5RZZVkBSV8kcf6v"
-Blueface,Rich The Kid,1,"4hanO6Du5J7QEguNHYZHmw"
-Juice WRLD,Lil Tecca,1,"2WsuSYJNXGKXVYkHPnq2yp"
-Ozuna,ROSALÍA,1,"7BlBVFwvbWvcwNcUarQmjk"
-Lil Baby,Young Thug,1,"1GeNui6m825V8jP4uKiIaH"
-Drake,Swae Lee,1,"2sqsNXfN0HtgDEgaHXiUTa"
-Lil Uzi Vert,Young Thug,1,"3pTScODwk9tggZzmuH6xDY"
-Burna Boy,Jorja Smith,1,"3IWs9dAwTqN0EFhOIcBDfs"
-Young Thug,mgk,1,"1yBbxDXEfr8boXM1ubvBHi"
-Bizarrap,Nicki Nicole,1,"2S93hylQBYLndMnaJuso8S"
-ILLENIUM,X Ambassadors,1,"70YPzqSEwJvAIQ6nMs1cjY"
-Diplo,Morgan Wallen,1,"0rFQ5cKYJ9WtHSKp9sxVYt"
-Barloe Team,Ozuna,1,"7lR4UmEDJ1ngczVX2NiNi4"
-Taylor Swift,The Chicks,1,"4AYtqFyFbX0Xkc2wtcygTr"
-Anuel AA,Tainy,1,"3jbT1Y5MoPwEIpZndDDwVq"
-Ozuna,Tainy,1,"3jbT1Y5MoPwEIpZndDDwVq"
-Rico Nasty,XXXTENTACION,1,"5dkZ2DrcPJrqwlRQe6Q35e"
-Big Sean,Hit-Boy,1,"2B9wgj9XzbJZLty03PRbVo"
-A$AP Ferg,Big Sean,1,"2B9wgj9XzbJZLty03PRbVo"
-A$AP Ferg,Hit-Boy,1,"2B9wgj9XzbJZLty03PRbVo"
-Lil Baby,Luciano,1,"1e9QSdX5uLUw6vbrkZJyXi"
-Lil Baby,Ufo361,1,"1e9QSdX5uLUw6vbrkZJyXi"
-Dímelo Flow,Nicky Jam,1,"684EjRHwNsZQ9hCQxL4NYL"
-Dímelo Flow,Sech,3,"684EjRHwNsZQ9hCQxL4NYL, 4AjWbAwRpxk2worpjNH5CS, 7sQKy5vlPQllr0k9IjYJv3"
-Dímelo Flow,Farruko,1,"684EjRHwNsZQ9hCQxL4NYL"
-Dímelo Flow,Zion,2,"684EjRHwNsZQ9hCQxL4NYL, 4AjWbAwRpxk2worpjNH5CS"
-Dímelo Flow,Lunay,1,"684EjRHwNsZQ9hCQxL4NYL"
-Nicky Jam,Zion,1,"684EjRHwNsZQ9hCQxL4NYL"
-Lunay,Nicky Jam,1,"684EjRHwNsZQ9hCQxL4NYL"
-Lunay,Sech,1,"684EjRHwNsZQ9hCQxL4NYL"
-Farruko,Lunay,1,"684EjRHwNsZQ9hCQxL4NYL"
-Lunay,Zion,1,"684EjRHwNsZQ9hCQxL4NYL"
-DaBaby,Post Malone,1,"0Xek5rqai2jcOWCYWJfVCF"
-Ozzy Osbourne,Post Malone,1,"7CZyCXKG6d5ALeq41sLzbw"
-Ozzy Osbourne,Travis Scott,1,"7CZyCXKG6d5ALeq41sLzbw"
-Future,Post Malone,2,"59PYPDxTbqJpiGfyogPb5h, 2C6WXnmZ66tHhHlnvwePiK"
-Halsey,Post Malone,2,"59PYPDxTbqJpiGfyogPb5h, 2C6WXnmZ66tHhHlnvwePiK"
-Future,Halsey,2,"59PYPDxTbqJpiGfyogPb5h, 2C6WXnmZ66tHhHlnvwePiK"
-Meek Mill,Post Malone,1,"12Fkyg9lpmaz2zmKOfw2Y2"
-Lil Baby,Post Malone,1,"12Fkyg9lpmaz2zmKOfw2Y2"
-Post Malone,SZA,1,"5KE9b4x7Zj2A8XtbkqhqTe"
-Loredana,MERO,1,"2d3WpbJFBND2vwMJyULdfU"
-Kamufle,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Yeis Sensura,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sehabe,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ozbi,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sokrat St,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Tahribad-ı İsyan,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Server Uraz,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Şanışer,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Kamufle,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Kamufle,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mert Şenel,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Mert Şenel,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Mirac,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Mirac,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Defkhan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Aspova,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Deniz Tekin,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Beta,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Aga B,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aga B,Fuat,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Defkhan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Deniz Tekin,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Defkhan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Defkhan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Defkhan,Fuat,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Deniz Tekin,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Beta,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Aspova,1,"1aHKVxoYHAWvedbVUTP9SF"
-Aspova,Fuat,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sehabe,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ozbi,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sokrat St,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Tahribad-ı İsyan,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Server Uraz,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Yeis Sensura,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ozbi,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sehabe,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sehabe,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sehabe,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Sehabe,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Deniz Tekin,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Deniz Tekin,1,"1aHKVxoYHAWvedbVUTP9SF"
-Deniz Tekin,Fuat,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ozbi,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ozbi,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ozbi,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Ozbi,1,"1aHKVxoYHAWvedbVUTP9SF"
-Sokrat St,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Server Uraz,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Sokrat St,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Server Uraz,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Tahribad-ı İsyan,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Beta,1,"1aHKVxoYHAWvedbVUTP9SF"
-Beta,Fuat,1,"1aHKVxoYHAWvedbVUTP9SF"
-Hayki,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Server Uraz,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Fuat,Hayki,1,"1aHKVxoYHAWvedbVUTP9SF"
-Ados,Fuat,1,"1aHKVxoYHAWvedbVUTP9SF"
-J Balvin,Reik,1,"59s0s39NFWScuHDbHytI14"
-Lalo Ebratt,Reik,1,"59s0s39NFWScuHDbHytI14"
-J Balvin,Lalo Ebratt,1,"59s0s39NFWScuHDbHytI14"
-Anuel AA,Manuel Turizo,1,"4fj7e6Tc48Bmomwyz2Z2XC"
-9lokknine,YNW Melly,1,"29ZXwWOOLz9t5fa3eT3i7T"
-Ariana Grande,Miley Cyrus,1,"6zegtH6XXd2PDPLvy1Y0n2"
-Ariana Grande,Lana Del Rey,1,"6zegtH6XXd2PDPLvy1Y0n2"
-Lana Del Rey,Miley Cyrus,1,"6zegtH6XXd2PDPLvy1Y0n2"
-J Balvin,Major Lazer,1,"1G2CAJeP7rCwOZjlSJ0Zw3"
-El Alfa,Major Lazer,1,"1G2CAJeP7rCwOZjlSJ0Zw3"
-Diplo,Major Lazer,2,"1G2CAJeP7rCwOZjlSJ0Zw3, 0Z26mbSHJ1dkUu7g9DDgif"
-El Alfa,J Balvin,1,"1G2CAJeP7rCwOZjlSJ0Zw3"
-Diplo,J Balvin,1,"1G2CAJeP7rCwOZjlSJ0Zw3"
-Diplo,El Alfa,1,"1G2CAJeP7rCwOZjlSJ0Zw3"
-DaBaby,Lil Nas X,1,"4SDgTLDYrJ2UrHbkRkg7MD"
-Justin Quiles,NATTI NATASHA,2,"1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-Justin Quiles,Zion,3,"1ndyl3wJCFs872XZ3ztPk6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Farruko,NATTI NATASHA,2,"1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-Lenny Tavárez,NATTI NATASHA,2,"1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-Dalex,NATTI NATASHA,2,"1ndyl3wJCFs872XZ3ztPk6, 1Xnn1TPyr5h0hpRAT4B4EA"
-NATTI NATASHA,Zion,1,"1ndyl3wJCFs872XZ3ztPk6"
-Lenny Tavárez,Zion,3,"1ndyl3wJCFs872XZ3ztPk6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Dalex,Zion,3,"1ndyl3wJCFs872XZ3ztPk6, 4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-MC JottaPê,MC M10,1,"6V43u5SCjkfMpxMAXRPifr"
-DJ RD,MC JottaPê,1,"6V43u5SCjkfMpxMAXRPifr"
-DJ RD,MC M10,1,"6V43u5SCjkfMpxMAXRPifr"
-Capital Bra,LEA,1,"67ojvEGRPAUCOohuMPqoRC"
-LEA,Samra,1,"67ojvEGRPAUCOohuMPqoRC"
-Animus,Bushido,1,"2l2UsmkfgmRC6fIDwwsiNM"
-Luciano,Summer Cem,1,"3QIrkRSTz3yPd44HzN6qJr"
-Gemitaiz,thasup,1,"34UHhwlly3SHryWuVfMOJm"
-MadMan,thasup,1,"34UHhwlly3SHryWuVfMOJm"
-Mabel,Tiësto,1,"6fenHIxXuuzKB55wY4WCHP"
-MadMan,Salmo,1,"0Rsfm3UqHkNzKsb6L0Yz3Y"
-C. Tangana,Paloma Mami,1,"1KdwnsWOvhM53vezy5ROuf"
-Shirin David,Xavier Naidoo,1,"6hh1ikcv3CPsq3a7e9ItNR"
-Dalex,Rich Music LTD,3,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Rich Music LTD,Sech,3,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Justin Quiles,Rich Music LTD,3,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Rich Music LTD,Wisin,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Rich Music LTD,Zion,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Dímelo Flow,Rich Music LTD,1,"4AjWbAwRpxk2worpjNH5CS"
-Lenny Tavárez,Rich Music LTD,3,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Feid,Rich Music LTD,3,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe, 0RDgqtvOHLwcI6yz9bjsZV"
-Dalex,Wisin,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Dalex,Dímelo Flow,2,"4AjWbAwRpxk2worpjNH5CS, 5stPVcRqb4qixbafP9e8lt"
-Sech,Wisin,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Justin Quiles,Wisin,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Dímelo Flow,Justin Quiles,1,"4AjWbAwRpxk2worpjNH5CS"
-Wisin,Zion,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Dímelo Flow,Wisin,1,"4AjWbAwRpxk2worpjNH5CS"
-Lenny Tavárez,Wisin,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Feid,Wisin,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Feid,Zion,2,"4AjWbAwRpxk2worpjNH5CS, 5Id5B3dxJZhPcV9GzgYZZe"
-Dímelo Flow,Lenny Tavárez,2,"4AjWbAwRpxk2worpjNH5CS, 5stPVcRqb4qixbafP9e8lt"
-Dímelo Flow,Feid,1,"4AjWbAwRpxk2worpjNH5CS"
-Felipe Original,MC Kevin o Chris,1,"5dKesZwp6deuhEeW8F1UEi"
-Felipe Original,Sodré,1,"5dKesZwp6deuhEeW8F1UEi"
-Felipe Original,JS o Mão de Ouro,2,"5dKesZwp6deuhEeW8F1UEi, 4lKuzrdZrJuCAedbIslF3A"
-JS o Mão de Ouro,MC Kevin o Chris,1,"5dKesZwp6deuhEeW8F1UEi"
-JS o Mão de Ouro,Sodré,1,"5dKesZwp6deuhEeW8F1UEi"
-Myke Towers,Noriel,1,"2B94bbI1a4LyBpK1439oP7"
-Noriel,Rauw Alejandro,1,"2B94bbI1a4LyBpK1439oP7"
-Almighty,Noriel,1,"2B94bbI1a4LyBpK1439oP7"
-Myke Towers,Rauw Alejandro,1,"2B94bbI1a4LyBpK1439oP7"
-Almighty,Myke Towers,1,"2B94bbI1a4LyBpK1439oP7"
-Almighty,Rauw Alejandro,1,"2B94bbI1a4LyBpK1439oP7"
-Farruko,Rauw Alejandro,1,"6mAN61JH0dzyZpWslS11jy"
-French Montana,Rvssian,2,"7x9nXsowok1JszkVztI5NI, 7ntUbTIwmwOD6ygCMRZT6e"
-French Montana,Post Malone,2,"7x9nXsowok1JszkVztI5NI, 7ntUbTIwmwOD6ygCMRZT6e"
-Cardi B,French Montana,2,"7x9nXsowok1JszkVztI5NI, 7ntUbTIwmwOD6ygCMRZT6e"
-Post Malone,Rvssian,2,"7x9nXsowok1JszkVztI5NI, 7ntUbTIwmwOD6ygCMRZT6e"
-Cardi B,Rvssian,2,"7x9nXsowok1JszkVztI5NI, 7ntUbTIwmwOD6ygCMRZT6e"
-Cardi B,Post Malone,2,"7x9nXsowok1JszkVztI5NI, 7ntUbTIwmwOD6ygCMRZT6e"
-DaBaby,Migos,1,"1CCDIow4pPYyJYzhtTUYz2"
-DaBaby,Moneybagg Yo,1,"2FvD20Z8aoWIePi7PoN8sG"
-Lil Baby,Moneybagg Yo,1,"2FvD20Z8aoWIePi7PoN8sG"
-DaBaby,Gucci Mane,1,"0WoAkdHmgPmEXfiBox1flk"
-DaBaby,YK Osiris,1,"0WoAkdHmgPmEXfiBox1flk"
-Chance the Rapper,Gucci Mane,1,"0WoAkdHmgPmEXfiBox1flk"
-Chance the Rapper,YK Osiris,1,"0WoAkdHmgPmEXfiBox1flk"
-Gucci Mane,YK Osiris,1,"0WoAkdHmgPmEXfiBox1flk"
-DaBaby,Kevin Gates,1,"2TsD9kSbgYx5fSNRsoNURE"
-Bonez MC,The Cratez,1,"0WFgtxiLNr99YaoSdYR3Ud"
-Diplo,Jonas Brothers,1,"4fwo6czG5nvOQMzhOto1ya"
-J Balvin,Maluma,1,"5099x34vBakWpGkHourFxP"
-DaBaby,Nicki Minaj,1,"3GX2hFAekmSduZzcS52OnR"
-DaBaby,Stunna 4 Vegas,1,"7vxGCUPJhe0fXfBkwVPFcP"
-Becky G,j-hope,1,"6wyr4ReB05D9sJB1Rsmcqo"
-Kehlani,Zedd,1,"5aUSEPNd3m5xliFK4pn5mU"
-Apache 207,Sido,1,"2u8AXJyk8pICzj2wyPBL0b"
-SHAED,ZAYN,1,"2ez6qvOTHKeI3ss80NGqnI"
-DJ 2F,MC Du Black,1,"3Uq45ipGutypFPmETfaoaH"
-Gunna,Lil Mosey,1,"7iHHxY2NLlJRAmlAmC4ahQ"
-Ezhel,Murda,1,"4IJEw3fDvS6XF4sDc3bvjK"
-Dan + Shay,Justin Bieber,1,"2wrJq5XKLnmhRXHIAf9xBa"
-Juice WRLD,YoungBoy Never Broke Again,1,"6Gg1gjgKi2AK4e0qzsR7sd"
-Bryson Tiller,Summer Walker,1,"2xyx0o4xNOLLjBSbOOdcbA"
-Summer Walker,USHER,1,"3TTMUI5dFcbeNSDTTDY9M8"
-Lazza,Sfera Ebbasta,1,"4KilYheWwxakB1L43ECTeP"
-Capo Plaza,Lazza,1,"4KilYheWwxakB1L43ECTeP"
-Capo Plaza,Sfera Ebbasta,1,"4KilYheWwxakB1L43ECTeP"
-Mustard,Roddy Ricch,1,"3QzAOrNlsabgbMwlZt7TAY"
-Dan Reynolds,YUNGBLUD,1,"4KzOYxD4qIkUtZV9ZYakGu"
-Ezhel,Ufo361,1,"44Fc0oSgRn1MFwu18TcY8S"
-French Montana,Juicy J,1,"5xEWiG0ug0rOymOjlzSGzx"
-French Montana,Logic,1,"5xEWiG0ug0rOymOjlzSGzx"
-A$AP Rocky,French Montana,1,"5xEWiG0ug0rOymOjlzSGzx"
-Juicy J,Logic,1,"5xEWiG0ug0rOymOjlzSGzx"
-A$AP Rocky,Juicy J,1,"5xEWiG0ug0rOymOjlzSGzx"
-A$AP Rocky,Logic,1,"5xEWiG0ug0rOymOjlzSGzx"
-Sebastian Yatra,TINI,1,"09nSCeCs6eYfAIJVfye1CE"
-Black Eyed Peas,J Balvin,1,"4NCsrTzgVfsDo8nWyP8PPc"
-BTS,Lauv,1,"314ZkcV7oLWG8yWE7LABvH"
-G-Eazy,Gunna,1,"5bzaS5tAni5oUpW7bWVdtY"
-Bausa,RIN,1,"41wZE5FpxbPaZqXtlmBhPG"
-Becky Hill,MEDUZA,1,"7CHi4DtfK4heMlQaudCuHK"
-Becky Hill,Goodboys,1,"7CHi4DtfK4heMlQaudCuHK"
-Dadá Boladão,Tati Zaqui,1,"5F8ffc8KWKNawllr5WsW0r"
-Dadá Boladão,OIK,1,"5F8ffc8KWKNawllr5WsW0r"
-OIK,Tati Zaqui,1,"5F8ffc8KWKNawllr5WsW0r"
-Internet Money,Lil Tecca,1,"735RSTb2xbtWbDtKD9XDYi"
-A Boogie Wit da Hoodie,Internet Money,1,"735RSTb2xbtWbDtKD9XDYi"
-A Boogie Wit da Hoodie,Lil Tecca,1,"735RSTb2xbtWbDtKD9XDYi"
-BIA,Russ,1,"2Xo3rLHjXfdb4avN68aQyi"
-Kanye West,Sunday Service Choir,1,"1WnqWQcWcuQbVzgE7ecfCY"
-Kanye West,Ty Dolla $ign,1,"24bnCCysWnbNRNUT4LpHcP"
-Ant Clemons,Kanye West,2,"24bnCCysWnbNRNUT4LpHcP, 454Epa1vrCGFddHXKyC1kb"
-Ant Clemons,Ty Dolla $ign,1,"24bnCCysWnbNRNUT4LpHcP"
-Clipse,Kanye West,1,"0oPOuDmmkVp3h6puekhs6P"
-Kanye West,Kenny G,1,"0oPOuDmmkVp3h6puekhs6P"
-Clipse,Kenny G,1,"0oPOuDmmkVp3h6puekhs6P"
-Fred Hammond,Kanye West,1,"7r6aR2f57resC5r93LwMfK"
-Khalid,Major Lazer,1,"0Z26mbSHJ1dkUu7g9DDgif"
-Death Stranding: Timefall,Major Lazer,1,"0Z26mbSHJ1dkUu7g9DDgif"
-Death Stranding: Timefall,Khalid,1,"0Z26mbSHJ1dkUu7g9DDgif"
-Diplo,Khalid,1,"0Z26mbSHJ1dkUu7g9DDgif"
-Death Stranding: Timefall,Diplo,1,"0Z26mbSHJ1dkUu7g9DDgif"
-Ariana Grande,Lizzo,1,"07Oz5StQ7GRoygNLaXs2pd"
-Carlos Santana,Tyga,1,"51wFQM8W0YfXTmHusXUr5i"
-Carlos Santana,YG,1,"51wFQM8W0YfXTmHusXUr5i"
-Anuel AA,Lunay,1,"37zdqI4r1gswIzczSBkRon"
-Lunay,Ozuna,1,"37zdqI4r1gswIzczSBkRon"
-Big Freedia,Kesha,1,"3Ex5RFJRUdpHcDOLXJOVLy"
-Bad Gyal,Omar Montes,1,"6RyuoOJXNzlVWpfC5xQyeI"
-Bobby (Boris) Pickett,The Crypt-Kickers,1,"0xxZY5C9xxij3D1HkzbnfC"
-Marracash,thasup,2,"020wG4EHTwBy5h2rbpxqvK, 7gRPkCEa3YMaxET5ZYT7Ni"
-Marracash,Sfera Ebbasta,1,"020wG4EHTwBy5h2rbpxqvK"
-Sfera Ebbasta,thasup,1,"020wG4EHTwBy5h2rbpxqvK"
-Marracash,Massimo Pericolo,1,"2tpfOljBdskx8G331TjRps"
-Guè,Marracash,1,"39hRcGieqFaKfZ7LN91Vy5"
-Coez,Marracash,1,"6l1Jnqfu7GAOV4MDgA2bNP"
-Luchè,Marracash,1,"3HVm4g9bZHo0aMsjzGS7Ro"
-Ariana Grande,Normani,1,"7vJS1DPc3FzBtqBs8n3mW5"
-Nicki Minaj,Normani,1,"7vJS1DPc3FzBtqBs8n3mW5"
-Gunna,Travis Scott,1,"4ea9w8c4ROqiZpJVhfBA3m"
-Dean Lewis,Martin Garrix,1,"7pWK1kMgHy5lNNiIfuRbkP"
-Anitta,Marília Mendonça,1,"2qD7VoDYcrAPY0cVEfpsR5"
-Lexa,PEDRO SAMPAIO,1,"14kRWkCWBYfQqILflEcpSJ"
-Christian Nodal,Piso 21,1,"1cVlW9WQiGlFdWUXFdFZGh"
-T-Pain,Tory Lanez,1,"6JsHgIkMYHcbNtKfsal2Mg"
-KAROL G,Nicki Minaj,1,"0dKg2vGC1hFqcK5LGTaKzX"
-Oliver Heldens,Riton,1,"0qaWEvPkts34WF68r8Dzx9"
-Riton,Vula,1,"0qaWEvPkts34WF68r8Dzx9"
-Oliver Heldens,Vula,1,"0qaWEvPkts34WF68r8Dzx9"
-Adriana Proenza,Kina,1,"58wyJLv6yH1La9NIZPl3ne"
-JP Saxe,Julia Michaels,1,"2kJwzbxV2ppxnQoYw4GLBZ"
-Doja Cat,Tyga,1,"7f5trao56t7sB7f14QDTmp"
-Becky G,True Damage,1,"5C0ivQMxes2lWuOANhvVAm"
-Keke Palmer,True Damage,1,"5C0ivQMxes2lWuOANhvVAm"
-JEON SOYEON,True Damage,1,"5C0ivQMxes2lWuOANhvVAm"
-Duckwrth,True Damage,1,"5C0ivQMxes2lWuOANhvVAm"
-Thutmose,True Damage,1,"5C0ivQMxes2lWuOANhvVAm"
-League of Legends,True Damage,1,"5C0ivQMxes2lWuOANhvVAm"
-Becky G,Keke Palmer,1,"5C0ivQMxes2lWuOANhvVAm"
-Becky G,JEON SOYEON,1,"5C0ivQMxes2lWuOANhvVAm"
-Becky G,Duckwrth,1,"5C0ivQMxes2lWuOANhvVAm"
-Becky G,Thutmose,1,"5C0ivQMxes2lWuOANhvVAm"
-Becky G,League of Legends,1,"5C0ivQMxes2lWuOANhvVAm"
-JEON SOYEON,Keke Palmer,1,"5C0ivQMxes2lWuOANhvVAm"
-Duckwrth,Keke Palmer,1,"5C0ivQMxes2lWuOANhvVAm"
-Keke Palmer,Thutmose,1,"5C0ivQMxes2lWuOANhvVAm"
-Keke Palmer,League of Legends,1,"5C0ivQMxes2lWuOANhvVAm"
-Duckwrth,JEON SOYEON,1,"5C0ivQMxes2lWuOANhvVAm"
-JEON SOYEON,Thutmose,1,"5C0ivQMxes2lWuOANhvVAm"
-JEON SOYEON,League of Legends,1,"5C0ivQMxes2lWuOANhvVAm"
-Duckwrth,Thutmose,1,"5C0ivQMxes2lWuOANhvVAm"
-Duckwrth,League of Legends,1,"5C0ivQMxes2lWuOANhvVAm"
-League of Legends,Thutmose,1,"5C0ivQMxes2lWuOANhvVAm"
-KSI,S-X,1,"4etKC4ngPKsQDHUMnYgV3A"
-KSI,Lil Baby,1,"4etKC4ngPKsQDHUMnYgV3A"
-KSI,Rick Ross,1,"4etKC4ngPKsQDHUMnYgV3A"
-Lil Baby,S-X,1,"4etKC4ngPKsQDHUMnYgV3A"
-Rick Ross,S-X,1,"4etKC4ngPKsQDHUMnYgV3A"
-Lil Baby,Rick Ross,1,"4etKC4ngPKsQDHUMnYgV3A"
-Shawn Mendes,Taylor Swift,1,"3i9UVldZOE0aD0JnyfAZZ0"
-Chencho Corleone,Dalex,1,"5stPVcRqb4qixbafP9e8lt"
-Dalex,Juhn,1,"5stPVcRqb4qixbafP9e8lt"
-Chencho Corleone,Lenny Tavárez,1,"5stPVcRqb4qixbafP9e8lt"
-Juhn,Lenny Tavárez,1,"5stPVcRqb4qixbafP9e8lt"
-Chencho Corleone,Juhn,1,"5stPVcRqb4qixbafP9e8lt"
-Chencho Corleone,Dímelo Flow,1,"5stPVcRqb4qixbafP9e8lt"
-Dímelo Flow,Juhn,1,"5stPVcRqb4qixbafP9e8lt"
-LANY,Lauv,1,"4z1rk9qlsqhp5LJm5qvXZF"
-Marshmello,YUNGBLUD,1,"7jzldCBnJjpJM3epzJ85KE"
-Marshmello,blackbear,1,"7jzldCBnJjpJM3epzJ85KE"
-YUNGBLUD,blackbear,1,"7jzldCBnJjpJM3epzJ85KE"
-A Boogie Wit da Hoodie,Lil Uzi Vert,1,"364spZLB5bhNlnPrzvUB41"
-Snoop Dogg,Tory Lanez,1,"0BpYTh0O2ut5wvt0QtDGt4"
-R3HAB,ZAYN,1,"2DcZd7oFgctIJZG5pFncyD"
-Jungleboi,R3HAB,1,"2DcZd7oFgctIJZG5pFncyD"
-Jungleboi,ZAYN,1,"2DcZd7oFgctIJZG5pFncyD"
-Salmo,thasup,1,"0I26eEAwEoii0wHuFqwhYO"
-Chris Brown,Tory Lanez,1,"0Odu228D0yGcFySGuxU4rY"
-Mara Sattei,thasup,1,"0LfMuWu6FKNSDHEoxHu9iK"
-DaBaby,Trippie Redd,1,"3Kd6Wp3lG5HXMB2dlvuy7y"
-Anuel AA,Bryant Myers,1,"27qRmG3zOWPvMYUkpPdQ1g"
-Big Sean,Jhené Aiko,1,"1nal3Tf1OCV53KigMZXsZ7"
-Drake,PARTYNEXTDOOR,1,"3LnJM1B5Mjgx5LfT9plXUU"
-Burna Boy,Stormzy,1,"4QPEwDdOMhY7rNS05mTyMR"
-Burna Boy,Ed Sheeran,1,"4QPEwDdOMhY7rNS05mTyMR"
-Juice WRLD,Trippie Redd,2,"7tgjDlQsMR8RvkdlNCJA58, 75lcPkAkUsKWHGBlGM476R"
-Trippie Redd,YNW Melly,1,"7tgjDlQsMR8RvkdlNCJA58"
-Juice WRLD,YNW Melly,1,"7tgjDlQsMR8RvkdlNCJA58"
-PnB Rock,XXXTENTACION,2,"69dXVFCMiz3SL1L7M24NdX, 03eJ2DclFWXYU8GWgANdmZ"
-PnB Rock,Trippie Redd,2,"69dXVFCMiz3SL1L7M24NdX, 03eJ2DclFWXYU8GWgANdmZ"
-Lil Mosey,Trippie Redd,1,"07NMFSwppnky8JyIQIxAQZ"
-Trippie Redd,YoungBoy Never Broke Again,1,"1FxTz4x5X7ewAICkKhB3kA"
-London On Da Track,Summer Walker,1,"4otQJBpb8okSeykALR3eCH"
-Chris Brown,Summer Walker,1,"4otQJBpb8okSeykALR3eCH"
-Chris Brown,London On Da Track,1,"4otQJBpb8okSeykALR3eCH"
-David Guetta,MORTEN,1,"5dS2dvXVPe7AR6UwBpnomW"
-MORTEN,RAYE,1,"5dS2dvXVPe7AR6UwBpnomW"
-Bausa,The Cratez,1,"1E1YyZjbteIz2XQyLvtRxD"
-Maxwell,The Cratez,1,"1E1YyZjbteIz2XQyLvtRxD"
-Joshi Mizu,The Cratez,1,"1E1YyZjbteIz2XQyLvtRxD"
-Bausa,Maxwell,1,"1E1YyZjbteIz2XQyLvtRxD"
-Bausa,Joshi Mizu,1,"1E1YyZjbteIz2XQyLvtRxD"
-Joshi Mizu,Maxwell,1,"1E1YyZjbteIz2XQyLvtRxD"
-Anitta,Lexa,1,"2bPtwnrpFNEe8N7Q85kLHw"
-Anitta,Luísa Sonza,1,"2bPtwnrpFNEe8N7Q85kLHw"
-Anitta,Rebecca,1,"2bPtwnrpFNEe8N7Q85kLHw"
-Lexa,Luísa Sonza,1,"2bPtwnrpFNEe8N7Q85kLHw"
-Lexa,Rebecca,1,"2bPtwnrpFNEe8N7Q85kLHw"
-Luísa Sonza,Rebecca,1,"2bPtwnrpFNEe8N7Q85kLHw"
-Chris King,Trippie Redd,1,"4hQ6o8ECY5MyHyodnyOHEw"
-Quan'ta,Trippie Redd,1,"4hQ6o8ECY5MyHyodnyOHEw"
-Chris King,Quan'ta,1,"4hQ6o8ECY5MyHyodnyOHEw"
-Smokepurpp,Trippie Redd,1,"01kOu8BA8yzAHx9LUidTi9"
-AURORA,Idina Menzel,1,"3Z0oQ8r78OUaHvGPiDBR3W"
-B. Swanson Quartet,Frank Sinatra,1,"0SUKNXEqZnRw7g0NO139FM"
-Evan Rachel Wood,Idina Menzel,1,"50WeOnXhM1H7AZEeIDoWfZ"
-Anitta,Dalex,1,"1Xnn1TPyr5h0hpRAT4B4EA"
-Anitta,Lenny Tavárez,1,"1Xnn1TPyr5h0hpRAT4B4EA"
-Anitta,NATTI NATASHA,1,"1Xnn1TPyr5h0hpRAT4B4EA"
-Anitta,Farruko,1,"1Xnn1TPyr5h0hpRAT4B4EA"
-Anitta,Justin Quiles,1,"1Xnn1TPyr5h0hpRAT4B4EA"
-Daft Punk,The Weeknd,1,"7MXVkk9YMctZqd1Srtv4MB"
-Sfera Ebbasta,Shiva,1,"1Xm2e1vDwOMeJJioWuG1s7"
-John Lennon,The Harlem Community Choir,1,"3zJw3rugfpVrmBeDDnUYzy"
-John Lennon,The Plastic Ono Band,1,"3zJw3rugfpVrmBeDDnUYzy"
-John Lennon,Yoko Ono,1,"3zJw3rugfpVrmBeDDnUYzy"
-The Harlem Community Choir,The Plastic Ono Band,1,"3zJw3rugfpVrmBeDDnUYzy"
-The Harlem Community Choir,Yoko Ono,1,"3zJw3rugfpVrmBeDDnUYzy"
-The Plastic Ono Band,Yoko Ono,1,"3zJw3rugfpVrmBeDDnUYzy"
-Gradur,Heuss L'enfoiré,1,"4TnFANpjVwVKWzkxNzIyFH"
-A Boogie Wit da Hoodie,Roddy Ricch,1,"6ztvsy3C6hPjVg9j4x1XKJ"
-Bing Crosby,Ken Darby Singers,1,"3XsaSIPWvM61RIFfeb0BBR"
-Bing Crosby,John Scott Trotter & His Orchestra,1,"3XsaSIPWvM61RIFfeb0BBR"
-John Scott Trotter & His Orchestra,Ken Darby Singers,1,"3XsaSIPWvM61RIFfeb0BBR"
-Perry Como,The Fontane Sisters,1,"6IeK3Ap5m3HabwJxgI6eSE"
-Mitchell Ayres & His Orchestra,Perry Como,1,"6IeK3Ap5m3HabwJxgI6eSE"
-Mitchell Ayres & His Orchestra,The Fontane Sisters,1,"6IeK3Ap5m3HabwJxgI6eSE"
-Kirsty MacColl,The Pogues,1,"3VTNVsTTu05dmTsVFrmGpK"
-Ariana Grande,Liz Gillies,1,"6YJdPrH3i2POzu7hdHIRrb"
-Eartha Kitt,Henri René and His Orchestra,1,"1foCxQtxBweJtZmdxhEHVO"
-Michael Bublé,Shania Twain,1,"2gbCG4Rt9984UZ7Tc0dIFd"
-Camila Cabello,DaBaby,1,"3yOlyBJuViE2YSGn3nVE1K"
-Halsey,SUGA,1,"1ZoQVu9XBssJBdeKMgF2eV"
-BTS,SUGA,1,"1ZoQVu9XBssJBdeKMgF2eV"
-Kygo,The Chainsmokers,1,"3TKpJrY9q49Mj1JOsM9zGL"
-Hava,Nimo,1,"6416zJN0FGPmh1Ph4BH2h3"
-Meek Mill,Roddy Ricch,1,"4bl1HBZliBuYpFZjWgefE4"
-Gunna,Roddy Ricch,1,"7A20WnLkjtZU2d7hIB6Ziu"
-Juice WRLD,Lil Uzi Vert,1,"1a7WZZZH7LzyvorhpOJFTe"
-Juice WRLD,Seezyn,1,"6rz0dTA0PdhXImFV5EjM0w"
-Headie One,Stormzy,1,"6Oq4fiDzKaFMU89dTvM24u"
-Imanbek,SAINt JHN,1,"0zLCBJZSiELJf02ucPP9wb"
-Felipe Original,PEDRO SAMPAIO,1,"4lKuzrdZrJuCAedbIslF3A"
-JS o Mão de Ouro,PEDRO SAMPAIO,1,"4lKuzrdZrJuCAedbIslF3A"
-Arcángel,Dímelo Flow,1,"7sQKy5vlPQllr0k9IjYJv3"
-Blake Shelton,Gwen Stefani,1,"2OQ6a4CfUeYskpTTgyawyJ"
-Brett Eldredge,Meghan Trainor,1,"5Q2P43CJra0uRAogjHyJDK"
-Michael Bublé,The Puppini Sisters,1,"3nfxV3jfRcRWISwek49LTg"
-Bing Crosby,The Andrews Sisters,1,"04vLj9QUXoKdRlsp3gkURo"
-Idina Menzel,Michael Bublé,1,"0Ie5uiv54KgCr7P4sYDTHl"
-Kacey Musgraves,Troye Sivan,1,"4dFtIGQBrYjiskk7fN5Wmx"
-Justin Bieber,USHER,1,"3eYnKe0LhQA1B5HEkQaRTP"
-John Legend,Kelly Clarkson,1,"54q6WgqyTXjwOSrevVR8z9"
-Michael Bublé,Thalia,1,"0kmrXYtFI8cgxsShrJpThx"
-ROSALÍA,Travis Scott,1,"7h0d2h0fUmzbs7zeFigJPn"
-Lil Baby,Travis Scott,1,"7h0d2h0fUmzbs7zeFigJPn"
-Lil Baby,ROSALÍA,1,"7h0d2h0fUmzbs7zeFigJPn"
-JACKBOYS,Sheck Wes,1,"6uJONCdr2rC65BNmCnTBWK"
-JACKBOYS,Travis Scott,3,"6gi6y1xwmVszDWkUqab1qw, 4AO1XhrgJczQ9bNVxdfKQe, 40mjsnRjCpycdUw3xhS20g"
-JACKBOYS,Young Thug,1,"6gi6y1xwmVszDWkUqab1qw"
-Don Toliver,Offset,1,"2jrAaawDRCn1JjeouxAyDN"
-Don Toliver,Quavo,1,"2jrAaawDRCn1JjeouxAyDN"
-Offset,Quavo,1,"2jrAaawDRCn1JjeouxAyDN"
-Don Toliver,JACKBOYS,1,"4AO1XhrgJczQ9bNVxdfKQe"
-Don Toliver,Travis Scott,1,"4AO1XhrgJczQ9bNVxdfKQe"
-JACKBOYS,Pop Smoke,1,"40mjsnRjCpycdUw3xhS20g"
-Pop Smoke,Travis Scott,1,"40mjsnRjCpycdUw3xhS20g"
-Alan Walker,Ava Max,1,"0bMbDctzMmTyK2j74j3nF3"
-Bruno Mars,Mark Ronson,1,"32OlwWuMpZ6b0aN2RZOeMS"
+Dalex,Lenny Tavárez,11,"['224EVTFiLsdQignUFLvDeH', '7fODjB7BrQTGqh0hogW6XD', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6', '1ndyl3wJCFs872XZ3ztPk6', '4AjWbAwRpxk2worpjNH5CS', '1tpbAGsGpZee5jDHMcLrUJ', '5Id5B3dxJZhPcV9GzgYZZe', '5stPVcRqb4qixbafP9e8lt', '1Xnn1TPyr5h0hpRAT4B4EA', '0RDgqtvOHLwcI6yz9bjsZV']"
+Bad Bunny,J Balvin,10,"['58q2HKrzhC3ozto2nDdN4z', '4R8BJggjosTswLxtkw8V7P', '25ZAibhr3bdlMCLmubZDVt', '0fea68AdmYNygeTGI4RC18', '71pEiUWwfDFiRO6RmFpnBf', '0uIfrUwwg0Z7KTitul7E3T', '7hynhxDoDpgMIV12JuVtNa', '6SYSu569pfYdkDT9A5lZqi', '7alOsNr36sJ8CyOEP4aILq', '7knLcYCOSaURD0d7HUULFM']"
+Capital Bra,Samra,9,"['1mdJ39D1lrR3aWIOhgeNaE', '2kkcJ8tSDV42LdWcPjy6We', '4Rif4wqdvzy84dhP1apC4Y', '1VEMUkGFio5uURvN8x1DZJ', '6fDC5DIa4bt6NbPZWR1yxM', '3drwaFqLSEjqzjNRbjap0R', '6AFIVhbJLR7YVvW9fLFMu1', '67ojvEGRPAUCOohuMPqoRC', '2pfio0uHpT4USTPBNeTIWo']"
+Justin Quiles,Lenny Tavárez,7,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6', '1ndyl3wJCFs872XZ3ztPk6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '1Xnn1TPyr5h0hpRAT4B4EA', '0RDgqtvOHLwcI6yz9bjsZV']"
+Dalex,Justin Quiles,7,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6', '1ndyl3wJCFs872XZ3ztPk6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '1Xnn1TPyr5h0hpRAT4B4EA', '0RDgqtvOHLwcI6yz9bjsZV']"
+Lenny Tavárez,Sech,7,"['224EVTFiLsdQignUFLvDeH', '7fODjB7BrQTGqh0hogW6XD', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Anuel AA,Ozuna,7,"['59PYgzOiOjGDzjDT5N5oOX', '7mWFF4gPADjTQjC97CgFVt', '3cg9A9GVyZAT2CPevqWr65', '2ksOAxtIxY8yElEWw8RhgK', '4bTZeO72FwMa6wKOiqoynL', '3jbT1Y5MoPwEIpZndDDwVq', '37zdqI4r1gswIzczSBkRon']"
+Dalex,Sech,7,"['224EVTFiLsdQignUFLvDeH', '7fODjB7BrQTGqh0hogW6XD', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+MACHETE,Salmo,6,"['0nFCpnM7nistUWXRZpzOWM', '28fRkU3vhqAJdl9i9458pQ', '5nFX29WZIulql4m4ic0KRw', '46HYFOcfvg2W8a8FccaRvO', '2zVawCwOXmkr5pFw5O6MoB', '1ZCzbEj3F8SqqtKSupWaBo']"
+Feid,Lenny Tavárez,6,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Dalex,Feid,6,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Nicky Jam,Sech,6,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6', '3dWpRjCmaHbroNahuSeX11', '4bTZeO72FwMa6wKOiqoynL', '26Qhn2T88XqVinXQpmSarj', '684EjRHwNsZQ9hCQxL4NYL']"
+Feid,Sech,6,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Gunna,Young Thug,5,"['2U3LJfQB0ALLxC7Yy0QW7l', '4bi9YrkOvmg4Eb7h00AW2c', '5Z8HZM6iQMhhqyPcCGY5g9', '6igOR5QCn09zAVF2ikZjsV', '4ea9w8c4ROqiZpJVhfBA3m']"
+Justin Quiles,Sech,5,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Dreamville,J. Cole,4,"['36J0iaPDGbYGsHvYpaYs3k', '6MF4tRr5lU8qok8IKaFOBE', '7wxDKfgFtRTbupcG4xDhtj', '3pZO6GoVPeSYDxxsH6vCdj']"
+Travis Scott,Young Thug,4,"['3s4mrPrEFFPF0LmAfutW0n', '4ea9w8c4ROqiZpJVhfBA3m', '3RZftiuTcLOqpsd8ZlwNhr', '6gi6y1xwmVszDWkUqab1qw']"
+Sech,Zion,4,"['6K5BsR04ijf3FHNzjbaagD', '684EjRHwNsZQ9hCQxL4NYL', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Anuel AA,Daddy Yankee,4,"['6MJUCumnQsQEKbCy28tbCP', '59PYgzOiOjGDzjDT5N5oOX', '7mWFF4gPADjTQjC97CgFVt', '2ksOAxtIxY8yElEWw8RhgK']"
+Anuel AA,KAROL G,4,"['6q8Lb50EtqNeeJXXe8mMAH', '5W83ErFkO3aKAIS1WMi6u0', '5J64qSSq0VZuh0CiI9o9Nq', '2ksOAxtIxY8yElEWw8RhgK']"
+Farruko,Sech,4,"['7fODjB7BrQTGqh0hogW6XD', '3dWpRjCmaHbroNahuSeX11', '6K5BsR04ijf3FHNzjbaagD', '684EjRHwNsZQ9hCQxL4NYL']"
+Avicii,Vargas & Lagola,4,"['1yfyIdEw5U2bD5I6gxQCxW', '0uxDHazXSSu9bSZ28LsnAN', '6ZEYvUSgON3J5Qe1RYi3Jo', '5dVUSdsePmEKkq4ryfrobU']"
+Feid,Justin Quiles,4,"['7anSoGdgtmJTAPZBzcPhO6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Farruko,Nicky Jam,4,"['2IA8cFA46DkjgbsRG7kKbp', '7fODjB7BrQTGqh0hogW6XD', '3dWpRjCmaHbroNahuSeX11', '684EjRHwNsZQ9hCQxL4NYL']"
+Lil Baby,Meek Mill,3,"['6xVhqLT40s5sVhepe9Mckc', '4U6ubKsTd8RBDP5tPPhh7I', '12Fkyg9lpmaz2zmKOfw2Y2']"
+Feid,Rafa Pabön,3,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6']"
+Anuel AA,Nicky Jam,3,"['4lzxJ4jCuFDXXGkE1LmpKR', '4bTZeO72FwMa6wKOiqoynL', '2pWOMNQJW3g2zmGjP0Vkb0']"
+Dímelo Flow,Sech,3,"['684EjRHwNsZQ9hCQxL4NYL', '4AjWbAwRpxk2worpjNH5CS', '7sQKy5vlPQllr0k9IjYJv3']"
+Nicky Jam,Ozuna,3,"['3V8UKqhEK5zBkBb6d6ub8i', '4PJ3umtW1aWdfh5EITHc6T', '4bTZeO72FwMa6wKOiqoynL']"
+Darell,Nicky Jam,3,"['3V8UKqhEK5zBkBb6d6ub8i', '4lzxJ4jCuFDXXGkE1LmpKR', '4bTZeO72FwMa6wKOiqoynL']"
+Dalex,Farruko,3,"['7fODjB7BrQTGqh0hogW6XD', '1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+DaBaby,Lil Baby,3,"['2nKYHpmwjLaEOXS3o7QMiz', '5MPPttjfGap2C6j6eKcO6J', '2FvD20Z8aoWIePi7PoN8sG']"
+DJ Luian,Mambo Kingz,3,"['7dNwJbsT0sg1le5kVugGJb', '4lzxJ4jCuFDXXGkE1LmpKR', '5J64qSSq0VZuh0CiI9o9Nq']"
+Anuel AA,DJ Luian,3,"['7dNwJbsT0sg1le5kVugGJb', '4lzxJ4jCuFDXXGkE1LmpKR', '5J64qSSq0VZuh0CiI9o9Nq']"
+Anuel AA,Mambo Kingz,3,"['7dNwJbsT0sg1le5kVugGJb', '4lzxJ4jCuFDXXGkE1LmpKR', '5J64qSSq0VZuh0CiI9o9Nq']"
+Diplo,Labrinth,3,"['4lJNen4SMTIJMahALc3DcB', '6Dma0t0hOe6Bd6u5YRKF3n', '2VDTgXwf3F6kcpX4HI0BKy']"
+Capital Bra,Summer Cem,3,"['4BD9yUEFI07WaDJ381DDMq', '38lQ7lYhN3eSWepnZHaiBF', '2QpxC2yag7Ec7Ut1dovXKb']"
+Anuel AA,Darell,3,"['59PYgzOiOjGDzjDT5N5oOX', '4lzxJ4jCuFDXXGkE1LmpKR', '4bTZeO72FwMa6wKOiqoynL']"
+Daddy Yankee,Ozuna,3,"['59PYgzOiOjGDzjDT5N5oOX', '7mWFF4gPADjTQjC97CgFVt', '2ksOAxtIxY8yElEWw8RhgK']"
+Azet,Zuna,3,"['23N0z3XkwS2ErcNKsgCWAb', '3aYAAXlB1yvUs5MJ0FI3bh', '26pr9oLIVAc1L62F2exIRT']"
+Diplo,LSD,3,"['4lJNen4SMTIJMahALc3DcB', '6Dma0t0hOe6Bd6u5YRKF3n', '2VDTgXwf3F6kcpX4HI0BKy']"
+LSD,Sia,3,"['4lJNen4SMTIJMahALc3DcB', '6Dma0t0hOe6Bd6u5YRKF3n', '2VDTgXwf3F6kcpX4HI0BKy']"
+LSD,Labrinth,3,"['4lJNen4SMTIJMahALc3DcB', '6Dma0t0hOe6Bd6u5YRKF3n', '2VDTgXwf3F6kcpX4HI0BKy']"
+Rafa Pabön,Sech,3,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6']"
+Lenny Tavárez,Rafa Pabön,3,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6']"
+Dalex,Rafa Pabön,3,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz', '7anSoGdgtmJTAPZBzcPhO6']"
+Brytiago,Darell,3,"['59PYgzOiOjGDzjDT5N5oOX', '7kuRvjpeUcn6qNV9IBXC2C', '4lzxJ4jCuFDXXGkE1LmpKR']"
+Drake,Rick Ross,3,"['5ry2OE6R2zPQFDO85XkgRb', '1rX5L6pyl3rVWb55D8Cprr', '18t8ypY0HYaQuGBxg2KdT2']"
+Dreamville,JID,3,"['36J0iaPDGbYGsHvYpaYs3k', '5WnfnSpuNEGXyEt78PBA6d', '2gtFMLjQpCTGekMi4oXZxN']"
+Trippie Redd,XXXTENTACION,3,"['7AQim7LbvFVZJE3O8TYgf2', '69dXVFCMiz3SL1L7M24NdX', '03eJ2DclFWXYU8GWgANdmZ']"
+Dreamville,EARTHGANG,3,"['36J0iaPDGbYGsHvYpaYs3k', '2gtFMLjQpCTGekMi4oXZxN', '03XfngWwNfhEjrnEga73Rg']"
+Gemitaiz,MadMan,3,"['3fV9z98dnQLSIPIMMJXCm7', '34UHhwlly3SHryWuVfMOJm', '0Rsfm3UqHkNzKsb6L0Yz3Y']"
+Farruko,Justin Quiles,3,"['7fODjB7BrQTGqh0hogW6XD', '1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+Farruko,Lenny Tavárez,3,"['7fODjB7BrQTGqh0hogW6XD', '1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+Farruko,Zion,3,"['6K5BsR04ijf3FHNzjbaagD', '684EjRHwNsZQ9hCQxL4NYL', '1ndyl3wJCFs872XZ3ztPk6']"
+Rich Music LTD,Sech,3,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Darell,Ozuna,3,"['3V8UKqhEK5zBkBb6d6ub8i', '59PYgzOiOjGDzjDT5N5oOX', '4bTZeO72FwMa6wKOiqoynL']"
+Dalex,Rich Music LTD,3,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Justin Quiles,Rich Music LTD,3,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Feid,Rich Music LTD,3,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Lenny Tavárez,Rich Music LTD,3,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe', '0RDgqtvOHLwcI6yz9bjsZV']"
+Lenny Tavárez,Zion,3,"['1ndyl3wJCFs872XZ3ztPk6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Camilo,Mau y Ricky,3,"['56f5qnyAlZdlz8wrUDA50h', '0UQwlF2pRkr1lMN6kNNUj3', '2EEmzqzM70CybVspgM7YRT']"
+Justin Quiles,Zion,3,"['1ndyl3wJCFs872XZ3ztPk6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Labrinth,Sia,3,"['4lJNen4SMTIJMahALc3DcB', '6Dma0t0hOe6Bd6u5YRKF3n', '2VDTgXwf3F6kcpX4HI0BKy']"
+Diplo,Sia,3,"['4lJNen4SMTIJMahALc3DcB', '6Dma0t0hOe6Bd6u5YRKF3n', '2VDTgXwf3F6kcpX4HI0BKy']"
+Bass Santana,XXXTENTACION,3,"['15Y949TGjUppdT78h0S49P', '44nlOJLjLqwNgYcT277V25', '2WOxBv9WElDqB0opEAbCC4']"
+JACKBOYS,Travis Scott,3,"['6gi6y1xwmVszDWkUqab1qw', '4AO1XhrgJczQ9bNVxdfKQe', '40mjsnRjCpycdUw3xhS20g']"
+Dalex,Zion,3,"['1ndyl3wJCFs872XZ3ztPk6', '4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Cardi B,French Montana,2,"['7x9nXsowok1JszkVztI5NI', '7ntUbTIwmwOD6ygCMRZT6e']"
+French Montana,Rvssian,2,"['7x9nXsowok1JszkVztI5NI', '7ntUbTIwmwOD6ygCMRZT6e']"
+Juice WRLD,Trippie Redd,2,"['7tgjDlQsMR8RvkdlNCJA58', '75lcPkAkUsKWHGBlGM476R']"
+PnB Rock,Trippie Redd,2,"['69dXVFCMiz3SL1L7M24NdX', '03eJ2DclFWXYU8GWgANdmZ']"
+PnB Rock,XXXTENTACION,2,"['69dXVFCMiz3SL1L7M24NdX', '03eJ2DclFWXYU8GWgANdmZ']"
+Gunna,Lil Baby,2,"['78QR3Wp35dqAhFEc2qAGjE', '6wWaVoUOzLQJHd3bWAUpdZ']"
+Bradley Cooper,Lady Gaga,2,"['2VxeLyX666F8uXCJ0dZF8B', '3DKpA54hrFIdPN6AtL9HXa']"
+Post Malone,Rvssian,2,"['7x9nXsowok1JszkVztI5NI', '7ntUbTIwmwOD6ygCMRZT6e']"
+Ant Clemons,Kanye West,2,"['24bnCCysWnbNRNUT4LpHcP', '454Epa1vrCGFddHXKyC1kb']"
+Marracash,thasup,2,"['020wG4EHTwBy5h2rbpxqvK', '7gRPkCEa3YMaxET5ZYT7Ni']"
+Buddy,Dreamville,2,"['5WnfnSpuNEGXyEt78PBA6d', '2gtFMLjQpCTGekMi4oXZxN']"
+Buddy,Guapdad 4000,2,"['5WnfnSpuNEGXyEt78PBA6d', '2gtFMLjQpCTGekMi4oXZxN']"
+Buddy,JID,2,"['5WnfnSpuNEGXyEt78PBA6d', '2gtFMLjQpCTGekMi4oXZxN']"
+Dreamville,Guapdad 4000,2,"['5WnfnSpuNEGXyEt78PBA6d', '2gtFMLjQpCTGekMi4oXZxN']"
+Guapdad 4000,JID,2,"['5WnfnSpuNEGXyEt78PBA6d', '2gtFMLjQpCTGekMi4oXZxN']"
+Fabri Fibra,MACHETE,2,"['3Hh0ZcGIqIkSiJVZGLcVLx', '2umL0eO9N7iNxDay6i2rVi']"
+MACHETE,thasup,2,"['3Hh0ZcGIqIkSiJVZGLcVLx', '2gUn6S1SuuXK0BvypPKnir']"
+MACHETE,Nitro,2,"['28fRkU3vhqAJdl9i9458pQ', '2gUn6S1SuuXK0BvypPKnir']"
+Gemitaiz,Salmo,2,"['5nFX29WZIulql4m4ic0KRw', '0Rsfm3UqHkNzKsb6L0Yz3Y']"
+Ed Sheeran,Stormzy,2,"['1AI7UPw3fgwAFkvAlZWhE0', '4QPEwDdOMhY7rNS05mTyMR']"
+Beyoncé,Childish Gambino,2,"['1zSKtBze2IReYU44W0lDzd', '7oqftogUN82Q7VNy2TmTJW']"
+6ix9ine,Nicki Minaj,2,"['2l8nEO0vsTRCRnGqQty6qx', '1oJ8EDr2pv94IvSd6ZmDgo']"
+Chance the Rapper,DaBaby,2,"['00ko9WaS4jOX1kEk3gvHjf', '0WoAkdHmgPmEXfiBox1flk']"
+Ozuna,Sech,2,"['4bTZeO72FwMa6wKOiqoynL', '6Y4PDQv4XjYjHLeLmvyOt0']"
+Lil Baby,Quality Control,2,"['2nKYHpmwjLaEOXS3o7QMiz', '5MPPttjfGap2C6j6eKcO6J']"
+DaBaby,Quality Control,2,"['2nKYHpmwjLaEOXS3o7QMiz', '5MPPttjfGap2C6j6eKcO6J']"
+Future,Post Malone,2,"['59PYPDxTbqJpiGfyogPb5h', '2C6WXnmZ66tHhHlnvwePiK']"
+Future,Halsey,2,"['59PYPDxTbqJpiGfyogPb5h', '2C6WXnmZ66tHhHlnvwePiK']"
+Halsey,Post Malone,2,"['59PYPDxTbqJpiGfyogPb5h', '2C6WXnmZ66tHhHlnvwePiK']"
+Dímelo Flow,Zion,2,"['684EjRHwNsZQ9hCQxL4NYL', '4AjWbAwRpxk2worpjNH5CS']"
+Arcángel,Sech,2,"['6K5BsR04ijf3FHNzjbaagD', '7sQKy5vlPQllr0k9IjYJv3']"
+A Boogie Wit da Hoodie,Tyga,2,"['0jAfdqv18goRTUxm3ilRjb', '0Zl4G9qcdXV5hVhdOirNHG']"
+Billie Eilish,Khalid,2,"['1NJcg626wLln4pGHpiV7mf', '0u2P5u6lvoDfwTYjAADbn4']"
+Grey,Zedd,2,"['09IStsImFySgyp0pIQdqAc', '6875MeXyCW0wLyT72Eetmo']"
+Dalex,Dímelo Flow,2,"['4AjWbAwRpxk2worpjNH5CS', '5stPVcRqb4qixbafP9e8lt']"
+6ix9ine,Anuel AA,2,"['4KkUjFkcQvGvWekl8RATDn', '0LQ1J0BCzA2qnAgp9MkkNE']"
+Dalex,Wisin,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Lenny Tavárez,NATTI NATASHA,2,"['1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+Justin Quiles,NATTI NATASHA,2,"['1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+Farruko,NATTI NATASHA,2,"['1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+Dalex,NATTI NATASHA,2,"['1ndyl3wJCFs872XZ3ztPk6', '1Xnn1TPyr5h0hpRAT4B4EA']"
+Diplo,Major Lazer,2,"['1G2CAJeP7rCwOZjlSJ0Zw3', '0Z26mbSHJ1dkUu7g9DDgif']"
+Wisin,Zion,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Sech,Wisin,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Felipe Original,JS o Mão de Ouro,2,"['5dKesZwp6deuhEeW8F1UEi', '4lKuzrdZrJuCAedbIslF3A']"
+Rich Music LTD,Wisin,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Justin Quiles,Wisin,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Lenny Tavárez,Wisin,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Feid,Zion,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Feid,Wisin,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Dímelo Flow,Lenny Tavárez,2,"['4AjWbAwRpxk2worpjNH5CS', '5stPVcRqb4qixbafP9e8lt']"
+Rich Music LTD,Zion,2,"['4AjWbAwRpxk2worpjNH5CS', '5Id5B3dxJZhPcV9GzgYZZe']"
+Manuel Turizo,Ozuna,2,"['48zFZh27QU5qsrBjn4C2FA', '3g4UyIcQwutiG0TfW32GnX']"
+Offset,Tyga,2,"['2toVe5hfuIi97ytDPDbQFt', '0jAfdqv18goRTUxm3ilRjb']"
+French Montana,Post Malone,2,"['7x9nXsowok1JszkVztI5NI', '7ntUbTIwmwOD6ygCMRZT6e']"
+Cardi B,Rvssian,2,"['7x9nXsowok1JszkVztI5NI', '7ntUbTIwmwOD6ygCMRZT6e']"
+Cardi B,Post Malone,2,"['7x9nXsowok1JszkVztI5NI', '7ntUbTIwmwOD6ygCMRZT6e']"
+Post Malone,Travis Scott,2,"['0b6UoVjUzFyZNpHI0aAhKt', '7CZyCXKG6d5ALeq41sLzbw']"
+Tyga,YG,2,"['1kK6DwzyXJSp58u5HYWwuD', '51wFQM8W0YfXTmHusXUr5i']"
+Agnes,Avicii,2,"['1yfyIdEw5U2bD5I6gxQCxW', '0uxDHazXSSu9bSZ28LsnAN']"
+Agnes,Vargas & Lagola,2,"['1yfyIdEw5U2bD5I6gxQCxW', '0uxDHazXSSu9bSZ28LsnAN']"
+David Guetta,RAYE,2,"['4YhN72dRYL2Z3MsaKyT7rS', '5dS2dvXVPe7AR6UwBpnomW']"
+Luciano,Ufo361,2,"['7MqL7uh6zGd8x0B9srz3r0', '1e9QSdX5uLUw6vbrkZJyXi']"
+Dreamville,Young Nudy,2,"['36J0iaPDGbYGsHvYpaYs3k', '3pZO6GoVPeSYDxxsH6vCdj']"
+J. Cole,Young Nudy,2,"['36J0iaPDGbYGsHvYpaYs3k', '3pZO6GoVPeSYDxxsH6vCdj']"
+Daddy Yankee,NATTI NATASHA,2,"['7BuSE9uTIw931wtZYzvZcQ', '0U6bQIAh6MCGo1xjbIIx2S']"
+Avicii,Joe Janiak,2,"['0HZgYFimoJG9Ijy8InUWcV', '7zGEU6BXl2c4TxpzIAr7BI']"
+Avicii,Bonn,2,"['6NVjujGb9fnl25fjzm5dTy', '3MhNgzZwFtUF6jSr6pRSkW']"
+Bas,Dreamville,2,"['36J0iaPDGbYGsHvYpaYs3k', '5WnfnSpuNEGXyEt78PBA6d']"
+Bas,JID,2,"['36J0iaPDGbYGsHvYpaYs3k', '5WnfnSpuNEGXyEt78PBA6d']"
+EARTHGANG,JID,2,"['36J0iaPDGbYGsHvYpaYs3k', '2gtFMLjQpCTGekMi4oXZxN']"
+MC Kevin o Chris,Sodré,2,"['0WhDotK0QXigmsrlw0DxKK', '5dKesZwp6deuhEeW8F1UEi']"
+Lazza,MACHETE,2,"['0nFCpnM7nistUWXRZpzOWM', '46HYFOcfvg2W8a8FccaRvO']"
+Lazza,Salmo,2,"['0nFCpnM7nistUWXRZpzOWM', '46HYFOcfvg2W8a8FccaRvO']"
+Billy Ray Cyrus,Lil Nas X,2,"['2YpeDb67231RjR0MgVLzsG', '6jmZlyf9DxcIoRrjw02YXm']"
+Chance the Rapper,Quavo,2,"['5WvAo7DNuPRmk4APhdPzi8', '03nPEoQOYMuDe7KmGljpmd']"
+DJ Khaled,Justin Bieber,2,"['5WvAo7DNuPRmk4APhdPzi8', '03nPEoQOYMuDe7KmGljpmd']"
+DJ Khaled,Quavo,2,"['5WvAo7DNuPRmk4APhdPzi8', '03nPEoQOYMuDe7KmGljpmd']"
+Juice WRLD,benny blanco,2,"['1KVczjazCcCCgM3gXXUl47', '6cjSh516BbrNUs213jDAGm']"
+Justin Bieber,Quavo,2,"['5WvAo7DNuPRmk4APhdPzi8', '03nPEoQOYMuDe7KmGljpmd']"
+Aloe Blacc,Avicii,2,"['2x0RZdkZcD8QRI53XT4GI5', '0n2nEtLP3OzDdi12ziIekx']"
+BTS,Halsey,2,"['4a9tbd947vo9K8Vti9JwcI', '1ZoQVu9XBssJBdeKMgF2eV']"
+Dalex,Nicky Jam,2,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6']"
+Capital Bra,Nimo,2,"['60yqRJXgkrPEvP977ZIOWb', '4Rif4wqdvzy84dhP1apC4Y']"
+Chance the Rapper,DJ Khaled,2,"['5WvAo7DNuPRmk4APhdPzi8', '03nPEoQOYMuDe7KmGljpmd']"
+Brendon Urie,Taylor Swift,2,"['4Sib57MmYGJzSvkW84jTwh', '2Rk4JlNc2TPmZe2af99d45']"
+Goodboys,MEDUZA,2,"['1DFD5Fotzgn6yYXkYsKiGs', '7CHi4DtfK4heMlQaudCuHK']"
+Darell,Sech,2,"['1Ej96GIBCTvgH7tNX1r3qr', '4bTZeO72FwMa6wKOiqoynL']"
+Lenny Tavárez,Nicky Jam,2,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6']"
+Justin Quiles,Nicky Jam,2,"['7fODjB7BrQTGqh0hogW6XD', '7anSoGdgtmJTAPZBzcPhO6']"
+Anuel AA,J Balvin,2,"['7mWFF4gPADjTQjC97CgFVt', '2ksOAxtIxY8yElEWw8RhgK']"
+Daddy Yankee,J Balvin,2,"['7mWFF4gPADjTQjC97CgFVt', '2ksOAxtIxY8yElEWw8RhgK']"
+J Balvin,Ozuna,2,"['7mWFF4gPADjTQjC97CgFVt', '2ksOAxtIxY8yElEWw8RhgK']"
+Chance the Rapper,Justin Bieber,2,"['5WvAo7DNuPRmk4APhdPzi8', '03nPEoQOYMuDe7KmGljpmd']"
+Eminem,Logic,2,"['0Lw6aQcBFWTQ9m4MSwwwes', '7M2tXmeS15NAzEn7ABFeBg']"
+Chris Brown,Tyga,2,"['4Q8aDd3H6LF8t4eY7So9O8', '1jlnBQGP2DtSEhMgQaz7a7']"
+Drake,Lil Baby,2,"['6vN77lE9LK6HP2DewaN6HZ', '6wWaVoUOzLQJHd3bWAUpdZ']"
+J Balvin,Tyga,2,"['1jlnBQGP2DtSEhMgQaz7a7', '6osaMSJh9NguagEDQcZaKx']"
+DJ Khaled,Lil Baby,2,"['6xVhqLT40s5sVhepe9Mckc', '4U6ubKsTd8RBDP5tPPhh7I']"
+DJ Khaled,Meek Mill,2,"['6xVhqLT40s5sVhepe9Mckc', '4U6ubKsTd8RBDP5tPPhh7I']"
+KHEA,Rafa Pabön,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Juice WRLD,Young Thug,2,"['572BChNcXOIvtfn2TGmTKc', '5TnLXSd4h6G06Fbt2ApOpa']"
+Luciano,Samra,2,"['0EDSU9JYeKABA14OcOuM7b', '4Rif4wqdvzy84dhP1apC4Y']"
+Ninho,Niska,2,"['5c2HadbVTsMKjja4gohEFI', '75bVc27bDSOAhMAL38cXpV']"
+Anuel AA,Brytiago,2,"['59PYgzOiOjGDzjDT5N5oOX', '4lzxJ4jCuFDXXGkE1LmpKR']"
+BRADO,MERO,2,"['2GxHx0bbc0BK7Z0ChMJUtO', '1BEo3epznRQuYhuQH8bZu9']"
+Cazzu,Sech,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Dalex,KHEA,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Bruno Mars,Cardi B,2,"['3Vo4wInECJQuz9BIBMOu8i', '0PG9fbaaHFHfre2gUVo7AN']"
+Feid,KHEA,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+KHEA,Lenny Tavárez,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Farruko,Myke Towers,2,"['5KbBGUpIZd6gVFUU8tqYiQ', '6K5BsR04ijf3FHNzjbaagD']"
+KHEA,Sech,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Cazzu,KHEA,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Bonn,Martin Garrix,2,"['1ahVFh0ViDZr8LvkEVlq3B', '4aTtHoSBB0CuQGA6vXBNyp']"
+Cazzu,Dalex,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+21 Savage,Offset,2,"['7pMRoGLEJuFM2wl5pt0R99', '6mCqxnyOhr4tHMbRbQL4Yn']"
+KC Rebell,Summer Cem,2,"['4BD9yUEFI07WaDJ381DDMq', '38lQ7lYhN3eSWepnZHaiBF']"
+Capital Bra,KC Rebell,2,"['4BD9yUEFI07WaDJ381DDMq', '38lQ7lYhN3eSWepnZHaiBF']"
+Cazzu,Feid,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Cazzu,Rafa Pabön,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Cazzu,Lenny Tavárez,2,"['224EVTFiLsdQignUFLvDeH', '7g8YaUQABMal0zWe7a2ijz']"
+Disclosure,Khalid,2,"['0rTV5WefWd1J3OwIheTzxM', '6TqXcAFInzjp0bODyvrWEq']"
+Ariana Grande,Nicki Minaj,2,"['44ONERBHALxftQNWq6dmyd', '7vJS1DPc3FzBtqBs8n3mW5']"
+Travis Barker,YUNGBLUD,2,"['4mGdjNMo0RonTlOEb7cYg4', '2gTdDMpNxIRFSiu7HutMCg']"
+Loredana,Mozzik,2,"['3uB8KqnEoQq5bTQ1JFHJ7Y', '52UVKsw31NTOCTNPTpwbFJ']"
+Kin$oul,XXXTENTACION,2,"['15Y949TGjUppdT78h0S49P', '2WOxBv9WElDqB0opEAbCC4']"
+Daddy Yankee,Snow,2,"['5w9c2J52mkdntKOmRLeM2m', '4au7FRcgZzChASRYu279xH']"
+2 Chainz,Ariana Grande,2,"['6AyI8UGx8Y4peb7pLOy2pf', '1R6VwZ8TuHRzxZUxe88n4I']"
+Bass Santana,Kin$oul,2,"['15Y949TGjUppdT78h0S49P', '2WOxBv9WElDqB0opEAbCC4']"
+Future,Young Thug,2,"['2U3LJfQB0ALLxC7Yy0QW7l', '0zNHMc1cGKe4MO5rtGtKRh']"
+Offset,Travis Scott,2,"['0FZ4Dmg8jJJAPJnvBIzD9z', '7pMRoGLEJuFM2wl5pt0R99']"
+Ozuna,Selena Gomez,2,"['4w8niZpiMy6qz1mntFA5uM', '0KoiMHhqKLoL4xM54rcWYY']"
+DJ Snake,Selena Gomez,2,"['4w8niZpiMy6qz1mntFA5uM', '0KoiMHhqKLoL4xM54rcWYY']"
+DJ Snake,Ozuna,2,"['4w8niZpiMy6qz1mntFA5uM', '0KoiMHhqKLoL4xM54rcWYY']"
+Cardi B,Selena Gomez,2,"['4w8niZpiMy6qz1mntFA5uM', '0KoiMHhqKLoL4xM54rcWYY']"
+Cardi B,Ozuna,2,"['4w8niZpiMy6qz1mntFA5uM', '0KoiMHhqKLoL4xM54rcWYY']"
+Cardi B,DJ Snake,2,"['4w8niZpiMy6qz1mntFA5uM', '0KoiMHhqKLoL4xM54rcWYY']"
+Bruno Mars,Mark Ronson,1,['32OlwWuMpZ6b0aN2RZOeMS']
+Alan Walker,Ava Max,1,['0bMbDctzMmTyK2j74j3nF3']
+Pop Smoke,Travis Scott,1,['40mjsnRjCpycdUw3xhS20g']
+JACKBOYS,Pop Smoke,1,['40mjsnRjCpycdUw3xhS20g']
+Don Toliver,Travis Scott,1,['4AO1XhrgJczQ9bNVxdfKQe']
+Don Toliver,JACKBOYS,1,['4AO1XhrgJczQ9bNVxdfKQe']
+Fedez,Tedua,1,['7GeC7Nb58zsPnlFSfF0HZU']
+Miguel,benny blanco,1,['3eVuglKxN2sjoIGHAsFAge']
+Calvin Harris,benny blanco,1,['3eVuglKxN2sjoIGHAsFAge']
+Calvin Harris,Miguel,1,['3eVuglKxN2sjoIGHAsFAge']
+21 Savage,Metro Boomin,1,['0AluA5RNsa4Cx6XRhf2hWZ']
+Maxwell,Sa4,1,['0kLA41xkWzzYzMIEGFuDkP']
+LX,Sa4,1,['0kLA41xkWzzYzMIEGFuDkP']
+Offset,Quavo,1,['2jrAaawDRCn1JjeouxAyDN']
+Don Toliver,Quavo,1,['2jrAaawDRCn1JjeouxAyDN']
+Don Toliver,Offset,1,['2jrAaawDRCn1JjeouxAyDN']
+JACKBOYS,Young Thug,1,['6gi6y1xwmVszDWkUqab1qw']
+JACKBOYS,Sheck Wes,1,['6uJONCdr2rC65BNmCnTBWK']
+ROSALÍA,Travis Scott,1,['7h0d2h0fUmzbs7zeFigJPn']
+Lil Baby,Travis Scott,1,['7h0d2h0fUmzbs7zeFigJPn']
+Lil Baby,ROSALÍA,1,['7h0d2h0fUmzbs7zeFigJPn']
+Michael Bublé,Thalia,1,['0kmrXYtFI8cgxsShrJpThx']
+John Legend,Kelly Clarkson,1,['54q6WgqyTXjwOSrevVR8z9']
+Justin Bieber,USHER,1,['3eYnKe0LhQA1B5HEkQaRTP']
+Kacey Musgraves,Troye Sivan,1,['4dFtIGQBrYjiskk7fN5Wmx']
+Idina Menzel,Michael Bublé,1,['0Ie5uiv54KgCr7P4sYDTHl']
+Bing Crosby,The Andrews Sisters,1,['04vLj9QUXoKdRlsp3gkURo']
+Anuel AA,Romeo Santos,1,['3f5lA8nnc4YYF1qf78WpHw']
+Dynoro,Gigi D'Agostino,1,['0E9ZjEAyAwOXZ7wJC0PD33']
+Georgia Ku,NOTD,1,['7FjZU7XFs7P9jHI9Z0yRhK']
+Felix Jaehn,NOTD,1,['7FjZU7XFs7P9jHI9Z0yRhK']
+Felix Jaehn,Georgia Ku,1,['7FjZU7XFs7P9jHI9Z0yRhK']
+Captain Cuts,NOTD,1,['7FjZU7XFs7P9jHI9Z0yRhK']
+Captain Cuts,Georgia Ku,1,['7FjZU7XFs7P9jHI9Z0yRhK']
+Captain Cuts,Felix Jaehn,1,['7FjZU7XFs7P9jHI9Z0yRhK']
+Micro TDH,Piso 21,1,['059bcIhyc2SBwm6sw2AZzd']
+Halsey,Juice WRLD,1,['6Zc5f20q7sOe1IC1c1jQvZ']
+Kehlani,Ty Dolla $ign,1,['6ZRuF2n1CQxyxxAAWsKJOy']
+Calvin Harris,Rag'n'Bone Man,1,['5itOtNx0WxtJmi1TQ3RuRd']
+Gesaffelstein,The Weeknd,1,['2vXKRlJBXyOcvZYTdNeckS']
+Normani,Sam Smith,1,['3xgT3xIlFGqZjYW9QlhJWp']
+French Montana,Swae Lee,1,['3B54sVLJ402zGa6Xm4YGNe']
+The Chainsmokers,Winona Oak,1,['4BiiOzZCrXEzHRLYcYFiD5']
+Tedua,Trippie Redd,1,['7GeC7Nb58zsPnlFSfF0HZU']
+Fedez,Trippie Redd,1,['7GeC7Nb58zsPnlFSfF0HZU']
+Kid Trunks,XXXTENTACION,1,['15Y949TGjUppdT78h0S49P']
+Kid Trunks,Kin$oul,1,['15Y949TGjUppdT78h0S49P']
+Flyboy Tarantino,XXXTENTACION,1,['15Y949TGjUppdT78h0S49P']
+Flyboy Tarantino,Kin$oul,1,['15Y949TGjUppdT78h0S49P']
+Flyboy Tarantino,Kid Trunks,1,['15Y949TGjUppdT78h0S49P']
+Bass Santana,Kid Trunks,1,['15Y949TGjUppdT78h0S49P']
+Bass Santana,Flyboy Tarantino,1,['15Y949TGjUppdT78h0S49P']
+Bastille,Seeb,1,['3gicyfiEVMGONgzygpWjNT']
+5 Seconds of Summer,Julia Michaels,1,['6GzApXoBQiiAjak3tOQfV3']
+Future,Gunna,1,['2U3LJfQB0ALLxC7Yy0QW7l']
+Migos,Mustard,1,['3j84U36KvLeXNDPv4t5pI8']
+Luchè,Sfera Ebbasta,1,['7hHf4gz7kGmkuwa6XMc88W']
+Metro Boomin,Travis Scott,1,['64ydkbrt0xhdJXRaam06Mc']
+James Blake,Travis Scott,1,['64ydkbrt0xhdJXRaam06Mc']
+James Blake,Metro Boomin,1,['64ydkbrt0xhdJXRaam06Mc']
+Future,Travis Scott,1,['3WRIaWsws011vHMd9uzPjG']
+Gzuz,LX,1,['0kLA41xkWzzYzMIEGFuDkP']
+Bonez MC,Sa4,1,['0kLA41xkWzzYzMIEGFuDkP']
+Bonez MC,Maxwell,1,['0kLA41xkWzzYzMIEGFuDkP']
+Bonez MC,LX,1,['0kLA41xkWzzYzMIEGFuDkP']
+Bonez MC,Gzuz,1,['0kLA41xkWzzYzMIEGFuDkP']
+A Boogie Wit da Hoodie,Juice WRLD,1,['3L19besdNQzd342qL78xqm']
+Khalid,Marshmello,1,['7vGuf3Y35N4wmASOKLUVVU']
+Imagine Dragons,Kygo,1,['4M3FO0ji6Lc8vwD1sgf1nc']
+Elley Duhé,Zedd,1,['4keoy2fqgwGnbWlm3ZVZFa']
+Keala Settle,The Greatest Showman Ensemble,1,['2xGjteMU3E1tkEPVFBO08U']
+Coldplay,The Chainsmokers,1,['6RUKPb4LETWmmr3iAEQktW']
+Khalid,Martin Garrix,1,['3nc420PXjTdBV5TN0gCFkS']
+6ix9ine,A Boogie Wit da Hoodie,1,['1wJRveJZLSb1rjhnUHQiv6']
+Bass Santana,Reddz,1,['2WOxBv9WElDqB0opEAbCC4']
+Ski Mask The Slump God,XXXTENTACION,1,['44nlOJLjLqwNgYcT277V25']
+Bass Santana,Ski Mask The Slump God,1,['44nlOJLjLqwNgYcT277V25']
+Fall Out Boy,Lil Peep,1,['2v5JTeM6hSmi5wWy7jiwrI']
+Fall Out Boy,ILOVEMAKONNEN,1,['2v5JTeM6hSmi5wWy7jiwrI']
+Galantis,OneRepublic,1,['1pfgsjmxVZhoZpeDx6POKv']
+Anitta,MC Kevinho,1,['7G2XZhDNHo7SSDWSVxC0UT']
+Reik,Sebastian Yatra,1,['2vrpcQNg6itmgVZWsNjWe0']
+Rich The Kid,Tyga,1,['1NHlyKgtR4roNylOhidKSv']
+G-Eazy,Tyga,1,['1NHlyKgtR4roNylOhidKSv']
+G-Eazy,Rich The Kid,1,['1NHlyKgtR4roNylOhidKSv']
+Julia Michaels,Selena Gomez,1,['1XJ93XskwJf7PCyIVLbNBt']
+Lauv,Troye Sivan,1,['4vjpLMyL3ZO6aphdYr8XYw']
+Erika Sirola,Robin Schulz,1,['1rCcsYnmqbMYdkG7kS9GC5']
+Reddz,XXXTENTACION,1,['2WOxBv9WElDqB0opEAbCC4']
+Kin$oul,Reddz,1,['2WOxBv9WElDqB0opEAbCC4']
+LX,Maxwell,1,['0kLA41xkWzzYzMIEGFuDkP']
+Gzuz,Sa4,1,['0kLA41xkWzzYzMIEGFuDkP']
+Gzuz,Maxwell,1,['0kLA41xkWzzYzMIEGFuDkP']
+ChocQuibTown,Farruko,1,['2ktoFujjJtantyMoVdBJlX']
+Avril Lavigne,Nicki Minaj,1,['1Spmq0UazGU6ovMIlGldZX']
+Halsey,YUNGBLUD,1,['4mGdjNMo0RonTlOEb7cYg4']
+Halsey,Travis Barker,1,['4mGdjNMo0RonTlOEb7cYg4']
+Kygo,Valerie Broussard,1,['3Kuu5vASpXK8oRsxOvau6P']
+Katy Perry,Zedd,1,['2XWjPtKdi5sucFYtVav07d']
+David Guetta,Loote,1,['4Tvw0lweq9l2JPQKFbpbBQ']
+Brooks,Loote,1,['4Tvw0lweq9l2JPQKFbpbBQ']
+Brooks,David Guetta,1,['4Tvw0lweq9l2JPQKFbpbBQ']
+Eno,MERO,1,['4AgK0CwpwcekXVdAoYB2VO']
+5 Seconds of Summer,The Chainsmokers,1,['5rAtoPMDrOFN5wLdM6YmRx']
+Logic,Marshmello,1,['4EAV2cKiqKP5UPZmY6dejk']
+Manuel Turizo,The Rudeboyz,1,['6qP73DRFGojLuIk1siIhNE']
+Jowell & Randy,The Rudeboyz,1,['6qP73DRFGojLuIk1siIhNE']
+Jowell & Randy,Manuel Turizo,1,['6qP73DRFGojLuIk1siIhNE']
+ILOVEMAKONNEN,Lil Peep,1,['2v5JTeM6hSmi5wWy7jiwrI']
+Chencho Corleone,Rafa Pabön,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Chencho Corleone,Darell,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Chencho Corleone,Cosculluela,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Cauty,Rafa Pabön,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Cauty,Darell,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Cauty,Cosculluela,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Cauty,Chencho Corleone,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Brytiago,Rafa Pabön,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Brytiago,Cosculluela,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Brytiago,Chencho Corleone,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Brytiago,Cauty,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Manuel Turizo,Zion & Lennox,1,['2ktoFujjJtantyMoVdBJlX']
+Farruko,Zion & Lennox,1,['2ktoFujjJtantyMoVdBJlX']
+Farruko,Manuel Turizo,1,['2ktoFujjJtantyMoVdBJlX']
+ChocQuibTown,Zion & Lennox,1,['2ktoFujjJtantyMoVdBJlX']
+ChocQuibTown,Manuel Turizo,1,['2ktoFujjJtantyMoVdBJlX']
+Gunna,Offset,1,['0SQ8yalm13UIJuebuZkQlH']
+J. Cole,Offset,1,['32iPykTXUNZ9oGyACGUybq']
+Lil Pump,Lil Wayne,1,['6flur5o18COKeafnjLHRiJ']
+21 Savage,Travis Scott,1,['7pMRoGLEJuFM2wl5pt0R99']
+Tropkillaz,ZAAC,1,['1OUPXna2MCgAt3VNmXJBtg']
+J Balvin,ZAAC,1,['1OUPXna2MCgAt3VNmXJBtg']
+J Balvin,Tropkillaz,1,['1OUPXna2MCgAt3VNmXJBtg']
+Anitta,ZAAC,1,['1OUPXna2MCgAt3VNmXJBtg']
+Anitta,Tropkillaz,1,['1OUPXna2MCgAt3VNmXJBtg']
+Anitta,J Balvin,1,['1OUPXna2MCgAt3VNmXJBtg']
+Kanye West,YNW Melly,1,['6vWEAOUSxohKxhp0K1BsxL']
+Amenazzy,Nicky Jam,1,['2IA8cFA46DkjgbsRG7kKbp']
+Amenazzy,Farruko,1,['2IA8cFA46DkjgbsRG7kKbp']
+Darell,Rafa Pabön,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Cosculluela,Rafa Pabön,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Cosculluela,Darell,1,['7kuRvjpeUcn6qNV9IBXC2C']
+Landon Cube,Lil Skies,1,['0Goo25lbtpwor5vb0K2r21']
+2 Chainz,Kendrick Lamar,1,['7jKUnzzOGhAlPjr7LkIUlE']
+Gucci Mane,Lil Skies,1,['0hCHNYL8ApQCGNwJrYN1FY']
+2 Chainz,Travis Scott,1,['6Z4rmc0uujCpl8yXe3yjgI']
+Tainy,benny blanco,1,['1WSGTYKLEpKfNQYYW5Oymt']
+Selena Gomez,benny blanco,1,['1WSGTYKLEpKfNQYYW5Oymt']
+Selena Gomez,Tainy,1,['1WSGTYKLEpKfNQYYW5Oymt']
+J Balvin,benny blanco,1,['1WSGTYKLEpKfNQYYW5Oymt']
+J Balvin,Tainy,1,['1WSGTYKLEpKfNQYYW5Oymt']
+J Balvin,Selena Gomez,1,['1WSGTYKLEpKfNQYYW5Oymt']
+Julia Michaels,Niall Horan,1,['5WtfUKzXircvW8l5aaVZWT']
+Drake,Summer Walker,1,['14SaZBTjxlorHJQxXh01Hu']
+FP do Trem Bala,MC Kevin o Chris,1,['7FiIQXpIeLo3ITfGGpb8PB']
+Big Rube,Offset,1,['57QievAWQ13DWl20Obiz8E']
+James Bay,Julia Michaels,1,['4JWQC6gyYoPRnxRxk0ta2M']
+Cardi B,Offset,1,['59ywHNwwchG4nZJMLyxSzd']
+Hailee Steinfeld,WATT,1,['5Gu0PDLN4YJeW75PpBSg9p']
+Florida Georgia Line,WATT,1,['5Gu0PDLN4YJeW75PpBSg9p']
+Florida Georgia Line,Hailee Steinfeld,1,['5Gu0PDLN4YJeW75PpBSg9p']
+Alesso,WATT,1,['5Gu0PDLN4YJeW75PpBSg9p']
+Alesso,Hailee Steinfeld,1,['5Gu0PDLN4YJeW75PpBSg9p']
+Alesso,Florida Georgia Line,1,['5Gu0PDLN4YJeW75PpBSg9p']
+DENNIS,MC Kevin o Chris,1,['7rLegaz7zKB6EtDNzcslKE']
+Marshmello,Roddy Ricch,1,['0PowxVSTY2uh1CPc8EPKyX']
+KAROL G,Maluma,1,['4EKZsrsCKyqr64FBHLc0DU']
+Kanye West,Nicki Minaj,1,['1oJ8EDr2pv94IvSd6ZmDgo']
+6ix9ine,Kanye West,1,['1oJ8EDr2pv94IvSd6ZmDgo']
+Humberto & Ronaldo,Jerry Smith,1,['0PaAB17axL9hn88mHiw8g0']
+Ozuna,Romeo Santos,1,['1h9P5WJwyvK8OB7O2YiXgp']
+Metro Boomin,Offset,1,['7sO5G9EABYOXQKNPNiE9NR']
+Romeo Santos,Wisin & Yandel,1,['7BuHdm4lQqcyG3qTwdkxus']
+James Arthur,Martin Jensen,1,['2qfEcCkEo5NscA9GL7ER72']
+Blueface,Cardi B,1,['1JkrD47SDpAbyvqKtolcea']
+Krono,Luvli,1,['6WkJ2OK163XXS2oARUC9JM']
+Aaron Smith,Luvli,1,['6WkJ2OK163XXS2oARUC9JM']
+Aaron Smith,Krono,1,['6WkJ2OK163XXS2oARUC9JM']
+Mc Livinho,Rennan da Penha,1,['0IQCOAw9ZAI6WnXIrl481F']
+Gunna,Metro Boomin,1,['1fewSx2d5KIZ04wsooEBOz']
+Justin Bieber,Luis Fonsi,1,['1vnnXMrBeEWiRg3YCMCjQq']
+Daddy Yankee,Luis Fonsi,1,['1vnnXMrBeEWiRg3YCMCjQq']
+Daddy Yankee,Justin Bieber,1,['1vnnXMrBeEWiRg3YCMCjQq']
+A$AP Rocky,Skepta,1,['7ycWLEP1GsNjVvcjawXz3z']
+Future,Juice WRLD,1,['5274I4mUMnYczyeXkGDWZN']
+Daniel Caesar,H.E.R.,1,['1RMJOxR6GRPsBHL8qeC2ux']
+Eminem,Joyner Lucas,1,['60SdxE8apGAxMiRrpbmLY0']
+Drake,Gunna,1,['6wWaVoUOzLQJHd3bWAUpdZ']
+Marshmello,Selena Gomez,1,['0tBbt8CrmxbjRP0pueQkyU']
+Zac Efron,Zendaya,1,['630sXRhIcfwr2e4RdNtjKN']
+Rich The Kid,Tory Lanez,1,['7cWmR9RLLMY6bj28q4bhvz']
+J Balvin,Sean Paul,1,['37eGbhE1xVFSvcKkqGb6i1']
+Rita Ora,Sofía Reyes,1,['6JqpFboOH2bq9pzaYbkKBn']
+Anitta,Sofía Reyes,1,['6JqpFboOH2bq9pzaYbkKBn']
+Anitta,Rita Ora,1,['6JqpFboOH2bq9pzaYbkKBn']
+Cruz Cafuné,Don Patricio,1,['6Cs7b9bu3fy5XhMwBA9Tz4']
+Gaby Music,Lunay,1,['4T4CZ3Q4z3GG7lU720YYhM']
+Chris Jedi,Lunay,1,['4T4CZ3Q4z3GG7lU720YYhM']
+Chris Jedi,Gaby Music,1,['4T4CZ3Q4z3GG7lU720YYhM']
+Juice WRLD,Rvssian,1,['4zxpssj8DyrfZcEUSUiNxG']
+Clever,Rvssian,1,['4zxpssj8DyrfZcEUSUiNxG']
+Clever,Juice WRLD,1,['4zxpssj8DyrfZcEUSUiNxG']
+Brent Faiyaz,Juice WRLD,1,['5ZOEulH7fvK4ZkMLTOyKL0']
+CHVRCHES,Marshmello,1,['5icOoE6VgqFKohjWWNp0Ac']
+Cardi B,YG,1,['1JkrD47SDpAbyvqKtolcea']
+Blueface,YG,1,['1JkrD47SDpAbyvqKtolcea']
+Brytiago,Daddy Yankee,1,['59PYgzOiOjGDzjDT5N5oOX']
+NATTI NATASHA,Thalia,1,['1G586ld1gbaECg4Bc6w40O']
+Khalid,Normani,1,['45Egmo7icyopuzJN0oMEdk']
+Macklemore,Rudimental,1,['20ZP3Om9DvDazXrNUC7WM2']
+Jess Glynne,Rudimental,1,['20ZP3Om9DvDazXrNUC7WM2']
+Jess Glynne,Macklemore,1,['20ZP3Om9DvDazXrNUC7WM2']
+Dan Caplen,Rudimental,1,['20ZP3Om9DvDazXrNUC7WM2']
+Dan Caplen,Macklemore,1,['20ZP3Om9DvDazXrNUC7WM2']
+Dan Caplen,Jess Glynne,1,['20ZP3Om9DvDazXrNUC7WM2']
+Alan Walker,Sabrina Carpenter,1,['7KhHA3mzt7A3LFlOJEAKpI']
+Alan Walker,Farruko,1,['7KhHA3mzt7A3LFlOJEAKpI']
+NAV,The Weeknd,1,['4hqOmrCCJKyiuwDexd8c2t']
+Nicky Jam,Rauw Alejandro,1,['08aYFNUTIOMGq93e2VSArQ']
+Roddy Ricch,Tyga,1,['0fcq51a3gOI6gPvzc0YLsk']
+Post Malone,Tyga,1,['0fcq51a3gOI6gPvzc0YLsk']
+Post Malone,Roddy Ricch,1,['0fcq51a3gOI6gPvzc0YLsk']
+Brytiago,Mambo Kingz,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+Brytiago,DJ Luian,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+J Balvin,ROSALÍA,1,['2qG5sZ7Si6sdK74qLxedYM']
+El Guincho,ROSALÍA,1,['2qG5sZ7Si6sdK74qLxedYM']
+El Guincho,J Balvin,1,['2qG5sZ7Si6sdK74qLxedYM']
+Jonas Blue,Theresa Rex,1,['4NSW0Km5ZG60L8FthUebPJ']
+Jul,Ninho,1,['4DwppHaJ76CJ0GYOFwrQoJ']
+Meek Mill,NAV,1,['5rU6kDNXZLXIinFezpbWbO']
+Koba LaD,Ninho,1,['4waeGjPW1ovLjhbScVibAH']
+Rich The Kid,Young Thug,1,['4bi9YrkOvmg4Eb7h00AW2c']
+Gunna,Rich The Kid,1,['4bi9YrkOvmg4Eb7h00AW2c']
+Macklemore,Why Don't We,1,['45ZGEdLxCZvdMX9jWlsAAx']
+Shindy,Shirin David,1,['1L8LtC2s161XwY6YrtnQjw']
+Farruko,Sabrina Carpenter,1,['7KhHA3mzt7A3LFlOJEAKpI']
+Daddy Yankee,Darell,1,['59PYgzOiOjGDzjDT5N5oOX']
+Brytiago,Ozuna,1,['59PYgzOiOjGDzjDT5N5oOX']
+Little Mix,Nicki Minaj,1,['222B3aljXx6fFwKmFjuBED']
+Bebe Rexha,Florida Georgia Line,1,['4e4fqjx0Izh4svvTef1z7e']
+Ariana Grande,Victoria Monét,1,['6tsOcBnaKgzK22yEiqRh8P']
+Dom Kennedy,Nipsey Hussle,1,['4iVD0fTHGxV9JWloujsL3s']
+Belly,Nipsey Hussle,1,['4iVD0fTHGxV9JWloujsL3s']
+Belly,Dom Kennedy,1,['4iVD0fTHGxV9JWloujsL3s']
+Nipsey Hussle,YG,1,['39xWBHPM4E9MwzEy5gbM7p']
+Kendrick Lamar,Nipsey Hussle,1,['6fIjnWrv46njJHLDAY2JdC']
+Nipsey Hussle,Roddy Ricch,1,['6ya8ejoKgw906Y8LWclqrp']
+Hit-Boy,Roddy Ricch,1,['6ya8ejoKgw906Y8LWclqrp']
+Hit-Boy,Nipsey Hussle,1,['6ya8ejoKgw906Y8LWclqrp']
+Mambo Kingz,Nicky Jam,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+Darell,Mambo Kingz,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+DJ Luian,Nicky Jam,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+DJ Luian,Darell,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+Brytiago,Nicky Jam,1,['4lzxJ4jCuFDXXGkE1LmpKR']
+Lenny Tavárez,Maluma,1,['7fODjB7BrQTGqh0hogW6XD']
+Justin Quiles,Maluma,1,['7fODjB7BrQTGqh0hogW6XD']
+Farruko,Maluma,1,['7fODjB7BrQTGqh0hogW6XD']
+Dalex,Maluma,1,['7fODjB7BrQTGqh0hogW6XD']
+ScHoolboy Q,Travis Scott,1,['2EGtBS7Ws3ajiSkJLviFJ4']
+Anitta,Swae Lee,1,['5qm2otRZaeZaqdLVVohUjq']
+Khalid,SAFE,1,['1E6DEDWDKHoOW0fcFuDghV']
+6ix9ine,Lil Baby,1,['4m5Cd9kAbIxg6t9sMrQWtk']
+Kyla,Wizkid,1,['1zi7xx7UVEFkmKfv06H8x0']
+Drake,Wizkid,1,['1zi7xx7UVEFkmKfv06H8x0']
+Drake,Kyla,1,['1zi7xx7UVEFkmKfv06H8x0']
+J Balvin,Nicky Jam,1,['39N9RPD9MRb5WmoLzNzPeA']
+Juice WRLD,Ski Mask The Slump God,1,['74lnM5V6ecvoTPV0fvptx9']
+DENNIS,MC Kevinho,1,['5yH8pYxNckOU1cxfPsMIaz']
+Brendon Urie,benny blanco,1,['1KVczjazCcCCgM3gXXUl47']
+Brendon Urie,Juice WRLD,1,['1KVczjazCcCCgM3gXXUl47']
+Blueface,Lil Tjay,1,['40Zb4FZ6nS1Hj8RVfaLkCV']
+Blueface,French Montana,1,['40Zb4FZ6nS1Hj8RVfaLkCV']
+Katy Perry,Snow,1,['4au7FRcgZzChASRYu279xH']
+Daddy Yankee,Katy Perry,1,['4au7FRcgZzChASRYu279xH']
+Madonna,Maluma,1,['3tTV4DYlhkiXRNiiXwIAPf']
+Kygo,Rita Ora,1,['3y3brCCecHC3Db18aIOnny']
+The Weeknd,Travis Scott,1,['4cbdPT6uaBOgOQe3fLMofl']
+SZA,Travis Scott,1,['4cbdPT6uaBOgOQe3fLMofl']
+SZA,The Weeknd,1,['4cbdPT6uaBOgOQe3fLMofl']
+Game of Thrones,Travis Scott,1,['4cbdPT6uaBOgOQe3fLMofl']
+Game of Thrones,The Weeknd,1,['4cbdPT6uaBOgOQe3fLMofl']
+Game of Thrones,SZA,1,['4cbdPT6uaBOgOQe3fLMofl']
+Lil Tjay,Polo G,1,['6uFn47ACjqYkc0jADwEdj1']
+Cash Cash,P!nk,1,['3O0e0LHTpza0rYVDbZfQ4r']
+Maluma,Sech,1,['7fODjB7BrQTGqh0hogW6XD']
+Maluma,Nicky Jam,1,['7fODjB7BrQTGqh0hogW6XD']
+RIN,Ufo361,1,['1x4MJYA9mJRph3fygU51K4']
+Ty Dolla $ign,bülow,1,['5MvLsT03RBp67RLoeISCdl']
+The Chainsmokers,bülow,1,['5MvLsT03RBp67RLoeISCdl']
+The Chainsmokers,Ty Dolla $ign,1,['5MvLsT03RBp67RLoeISCdl']
+Khalid,P!nk,1,['2BM7nF0pMIpLQOT04o691Z']
+Macklemore,Martin Garrix,1,['40OMBMYRk5IQL6xCzGM0JA']
+Fall Out Boy,Martin Garrix,1,['40OMBMYRk5IQL6xCzGM0JA']
+Fall Out Boy,Macklemore,1,['40OMBMYRk5IQL6xCzGM0JA']
+21 Savage,ScHoolboy Q,1,['4NN6N5TxBO5k9uqu0W4gfQ']
+Marshmello,Tyga,1,['4Q8aDd3H6LF8t4eY7So9O8']
+Chris Brown,Marshmello,1,['4Q8aDd3H6LF8t4eY7So9O8']
+Beyoncé,James Blake,1,['2bOWJIYSbhwg2NMQq1QMYH']
+Beyoncé,Kendrick Lamar,1,['7aBxcRw77817BrkdPChAGY']
+Beyoncé,Jack White,1,['78eouBKVRyhbSzJwChr6QM']
+Beyoncé,The Weeknd,1,['0pxNyJJiL2zZZ5GgJ4JhsQ']
+French Montana,Lil Tjay,1,['40Zb4FZ6nS1Hj8RVfaLkCV']
+Kelsea Ballerini,The Chainsmokers,1,['4NBTZtAt1F13VvlSKe6KTl']
+David Guetta,J Balvin,1,['0YammaEkYSeo9vQYZ1OwS6']
+Bebe Rexha,J Balvin,1,['0YammaEkYSeo9vQYZ1OwS6']
+Bebe Rexha,David Guetta,1,['0YammaEkYSeo9vQYZ1OwS6']
+Jerry Smith,Márcia Fellipe,1,['2lAyctg5FocS67eksHoyIg']
+Ray Dalton,Ryan Lewis,1,['22skzmqfdWrjJylampe0kt']
+Macklemore & Ryan Lewis,Ryan Lewis,1,['22skzmqfdWrjJylampe0kt']
+Macklemore & Ryan Lewis,Ray Dalton,1,['22skzmqfdWrjJylampe0kt']
+Macklemore,Ryan Lewis,1,['22skzmqfdWrjJylampe0kt']
+Gucci Mane,Offset,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+DJ Snake,Sheck Wes,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+DJ Snake,Offset,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+DJ Snake,Gucci Mane,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+21 Savage,Sheck Wes,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+21 Savage,Gucci Mane,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+21 Savage,DJ Snake,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+Fabri Fibra,Sfera Ebbasta,1,['45zJRuzK9e6AO527NOW7Fy']
+Fabri Fibra,Mahmood,1,['45zJRuzK9e6AO527NOW7Fy']
+Charlie Charles,Sfera Ebbasta,1,['45zJRuzK9e6AO527NOW7Fy']
+Charlie Charles,Mahmood,1,['45zJRuzK9e6AO527NOW7Fy']
+Charlie Charles,Fabri Fibra,1,['45zJRuzK9e6AO527NOW7Fy']
+Kid Cudi,ScHoolboy Q,1,['0IH3D0P8OrQFs6ajcqbm0R']
+Farruko,Ozuna,1,['7mWFF4gPADjTQjC97CgFVt']
+Farruko,J Balvin,1,['7mWFF4gPADjTQjC97CgFVt']
+Daddy Yankee,Farruko,1,['7mWFF4gPADjTQjC97CgFVt']
+Anuel AA,Farruko,1,['7mWFF4gPADjTQjC97CgFVt']
+Offset,Sheck Wes,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+Gucci Mane,Sheck Wes,1,['6mCqxnyOhr4tHMbRbQL4Yn']
+Post Malone,Quavo,1,['3a1lNhkSLSkpJE4MSHpDu9']
+Bantu,Nicki Minaj,1,['4Uy3kNxW2kB8AEoXljEcth']
+Anuel AA,Nicki Minaj,1,['4Uy3kNxW2kB8AEoXljEcth']
+Anuel AA,Bantu,1,['4Uy3kNxW2kB8AEoXljEcth']
+Bad Bunny,Daddy Yankee,1,['4t9a07PAghtQMRAIP9FQ7Z']
+Ed Sheeran,Justin Bieber,1,['0hVXuCcriWRGvwMV1r5Yn9']
+KYLE,Lil Yachty,1,['1jkEorRvoRQNo1WZfD1X5q']
+Nicky Jam,Sebastian Yatra,1,['5lwVd35Zg6DJ4qibVMq99H']
+Luis Fonsi,Sebastian Yatra,1,['5lwVd35Zg6DJ4qibVMq99H']
+Luis Fonsi,Nicky Jam,1,['5lwVd35Zg6DJ4qibVMq99H']
+Jon Z,YG,1,['1kK6DwzyXJSp58u5HYWwuD']
+Jon Z,Tyga,1,['1kK6DwzyXJSp58u5HYWwuD']
+Henning May,Juju,1,['07f2b3CTdgKKlhv0mqUksz']
+Kina,Snøw,1,['4ZLzoOkj0MPWrTLvooIuaa']
+Julia Michaels,LANY,1,['1a0Mg4XPdt4EKsUz5beRZY']
+Ty Dolla $ign,YG,1,['7gPHxxAq4YjK7GoLT3Vch3']
+ScHoolboy Q,YG,1,['7gPHxxAq4YjK7GoLT3Vch3']
+ScHoolboy Q,Ty Dolla $ign,1,['7gPHxxAq4YjK7GoLT3Vch3']
+6LACK,ScHoolboy Q,1,['06Y14QBRyzmPRqrswAfF4J']
+Mahmood,Sfera Ebbasta,1,['45zJRuzK9e6AO527NOW7Fy']
+Europa,Madison Beer,1,['5naYe7rLMZcLfO1DKg48MK']
+Europa,Jax Jones,1,['5naYe7rLMZcLfO1DKg48MK']
+Quavo,YG,1,['5duCElafuovM4ZSmkQL4hn']
+Mustard,YG,1,['5duCElafuovM4ZSmkQL4hn']
+Mustard,Quavo,1,['5duCElafuovM4ZSmkQL4hn']
+Meek Mill,YG,1,['5duCElafuovM4ZSmkQL4hn']
+Meek Mill,Quavo,1,['5duCElafuovM4ZSmkQL4hn']
+Meek Mill,Mustard,1,['5duCElafuovM4ZSmkQL4hn']
+Major Lazer,Skip Marley,1,['1MBtNXoT6cXrrSstG07Lf7']
+Logic,Wiz Khalifa,1,['0ZN72tCEgbwPXEtj6TPMxK']
+Cordae,Logic,1,['43IfdE75ficQgsI8QGBvwb']
+ZAYN,Zhavia,1,['1iWHabUgUuuKLBa0TzTHfk']
+G-Eazy,Logic,1,['2SDFznsHkeFXiPFwN0npVM']
+Gucci Mane,Logic,1,['5sCwso3aURYAdieWEFI1nE']
+Daddy Yankee,Lunay,1,['4t9a07PAghtQMRAIP9FQ7Z']
+Bad Bunny,Lunay,1,['4t9a07PAghtQMRAIP9FQ7Z']
+DJ Khaled,Travis Scott,1,['0b6UoVjUzFyZNpHI0aAhKt']
+DJ Khaled,Post Malone,1,['0b6UoVjUzFyZNpHI0aAhKt']
+John Legend,Nipsey Hussle,1,['6O10oTtZIZ4DkkUqyfCbrR']
+DJ Khaled,Nipsey Hussle,1,['6O10oTtZIZ4DkkUqyfCbrR']
+DJ Khaled,John Legend,1,['6O10oTtZIZ4DkkUqyfCbrR']
+Nicky Jam,Rafa Pabön,1,['7anSoGdgtmJTAPZBzcPhO6']
+Justin Quiles,Rafa Pabön,1,['7anSoGdgtmJTAPZBzcPhO6']
+Feid,Nicky Jam,1,['7anSoGdgtmJTAPZBzcPhO6']
+Justin Quiles,Paulo Londra,1,['3H9GDhVVTlmFQSmpt51qiP']
+De La Ghetto,Paulo Londra,1,['3H9GDhVVTlmFQSmpt51qiP']
+De La Ghetto,Justin Quiles,1,['3H9GDhVVTlmFQSmpt51qiP']
+MAX,Quinn XCII,1,['2tOOcDDYkh0PSjr6GwPEAJ']
+Madison Beer,Martin Solveig,1,['5naYe7rLMZcLfO1DKg48MK']
+Jax Jones,Martin Solveig,1,['5naYe7rLMZcLfO1DKg48MK']
+Jax Jones,Madison Beer,1,['5naYe7rLMZcLfO1DKg48MK']
+Europa,Martin Solveig,1,['5naYe7rLMZcLfO1DKg48MK']
+DJ Khaled,Jeremih,1,['4U6ubKsTd8RBDP5tPPhh7I']
+DJ Khaled,J Balvin,1,['4U6ubKsTd8RBDP5tPPhh7I']
+Charli xcx,Lizzo,1,['1MfuskV4ODUp14C2dnyPgW']
+DJ Khaled,Lil Wayne,1,['6Dq8FZrvx9S28iyaKSwn9x']
+Chris Brown,Lil Wayne,1,['6Dq8FZrvx9S28iyaKSwn9x']
+Chris Brown,DJ Khaled,1,['6Dq8FZrvx9S28iyaKSwn9x']
+Big Sean,Lil Wayne,1,['6Dq8FZrvx9S28iyaKSwn9x']
+Big Sean,DJ Khaled,1,['6Dq8FZrvx9S28iyaKSwn9x']
+Big Sean,Chris Brown,1,['6Dq8FZrvx9S28iyaKSwn9x']
+Murda Beatz,TisaKorean,1,['0yFvWTLs3iIwDbc91noXGT']
+Chance the Rapper,TisaKorean,1,['0yFvWTLs3iIwDbc91noXGT']
+Chance the Rapper,Murda Beatz,1,['0yFvWTLs3iIwDbc91noXGT']
+Cardi B,DJ Khaled,1,['1Hd2XLitkt1PYCWSbfF5qV']
+21 Savage,DJ Khaled,1,['1Hd2XLitkt1PYCWSbfF5qV']
+21 Savage,Cardi B,1,['1Hd2XLitkt1PYCWSbfF5qV']
+DJ Khaled,SZA,1,['0BnTBAGmr9FtYwkZrwKhwS']
+Joyner Lucas,Logic,1,['36TO60sxDduIsO3xH8IcUh']
+Chelsea Cutler,Kygo,1,['6aoGtdWXBkYQ2O2wnyIz2x']
+Ed Sheeran,PnB Rock,1,['4wuCQX7JvAZLlrcmH4AeZF']
+Chance the Rapper,PnB Rock,1,['4wuCQX7JvAZLlrcmH4AeZF']
+Chance the Rapper,Ed Sheeran,1,['4wuCQX7JvAZLlrcmH4AeZF']
+J. Cole,Young Thug,1,['3s4mrPrEFFPF0LmAfutW0n']
+J. Cole,Travis Scott,1,['3s4mrPrEFFPF0LmAfutW0n']
+J Balvin,JHAYCO,1,['4R8BJggjosTswLxtkw8V7P']
+Bad Bunny,JHAYCO,1,['4R8BJggjosTswLxtkw8V7P']
+Panic! At The Disco,Taylor Swift,1,['2Rk4JlNc2TPmZe2af99d45']
+Brendon Urie,Panic! At The Disco,1,['2Rk4JlNc2TPmZe2af99d45']
+Jeremih,Meek Mill,1,['4U6ubKsTd8RBDP5tPPhh7I']
+Jeremih,Lil Baby,1,['4U6ubKsTd8RBDP5tPPhh7I']
+J Balvin,Meek Mill,1,['4U6ubKsTd8RBDP5tPPhh7I']
+J Balvin,Lil Baby,1,['4U6ubKsTd8RBDP5tPPhh7I']
+J Balvin,Jeremih,1,['4U6ubKsTd8RBDP5tPPhh7I']
+Mike WiLL Made-It,Swae Lee,1,['3DB14jHq2qNoByUN5W2gz1']
+Mike WiLL Made-It,Miley Cyrus,1,['3DB14jHq2qNoByUN5W2gz1']
+Tory Lanez,Tyga,1,['5CKtlUULFD5aPVX4PL02H6']
+Quavo,Tyga,1,['5CKtlUULFD5aPVX4PL02H6']
+Quavo,Tory Lanez,1,['5CKtlUULFD5aPVX4PL02H6']
+Miley Cyrus,RuPaul,1,['0uZd8cKaTyNogTREourFY5']
+Gucci Mane,Justin Bieber,1,['1VsqQEYObJsOPaeZwEXRPg']
+Ghostface Killah,Miley Cyrus,1,['42zePe03Iq8tvFcJAIKkp8']
+Bad Bunny,Tainy,1,['71wFwRo8xGc4lrcyKwsvba']
+Rita Ora,Tiësto,1,['3M9Apu4OZfylLTFKvgEtKa']
+Jonas Blue,Tiësto,1,['3M9Apu4OZfylLTFKvgEtKa']
+Jonas Blue,Rita Ora,1,['3M9Apu4OZfylLTFKvgEtKa']
+Bebe Rexha,The Chainsmokers,1,['6IJTc8xo6XasOU8fpxMU57']
+Camila Cabello,Mark Ronson,1,['5Uw7Dut2lZfexn3Y09swpf']
+Jax Jones,Jess Glynne,1,['3eS1VMcEmq2IUgpaeDysCb']
+J. Cole,Ty Dolla $ign,1,['3OJ4LEE50iFELaHiZ09zif']
+Preme,Tiësto,1,['4kWO6O1BUXcZmaxitpVUwp']
+Post Malone,Tiësto,1,['4kWO6O1BUXcZmaxitpVUwp']
+Post Malone,Preme,1,['4kWO6O1BUXcZmaxitpVUwp']
+Dzeko,Tiësto,1,['4kWO6O1BUXcZmaxitpVUwp']
+Dzeko,Preme,1,['4kWO6O1BUXcZmaxitpVUwp']
+Dzeko,Post Malone,1,['4kWO6O1BUXcZmaxitpVUwp']
+J Balvin,Zion & Lennox,1,['5qFeMRz4TvetPmzjre9Dq7']
+Mark Ronson,Silk City,1,['5N4erncE7kuUccm7zEmwzk']
+Dua Lipa,Silk City,1,['5N4erncE7kuUccm7zEmwzk']
+Dua Lipa,Mark Ronson,1,['5N4erncE7kuUccm7zEmwzk']
+Diplo,Silk City,1,['5N4erncE7kuUccm7zEmwzk']
+Diplo,Mark Ronson,1,['5N4erncE7kuUccm7zEmwzk']
+Diplo,Herve Pagez,1,['7hzjWGFi2HKUGOXp1LiQ3V']
+Charli xcx,Herve Pagez,1,['7hzjWGFi2HKUGOXp1LiQ3V']
+Charli xcx,Diplo,1,['7hzjWGFi2HKUGOXp1LiQ3V']
+Miley Cyrus,Swae Lee,1,['3DB14jHq2qNoByUN5W2gz1']
+Chris Brown,Drake,1,['6XHVuErjQ4XNm6nDPVCxVX']
+Nekfeu,Nemir,1,['31ljIjVJOgopnyNposqPhm']
+Nekfeu,Vanessa Paradis,1,['3OmMEncU5Z8hZJVKwAMZpk']
+YUNGBLUD,mgk,1,['2gTdDMpNxIRFSiu7HutMCg']
+Travis Barker,mgk,1,['2gTdDMpNxIRFSiu7HutMCg']
+A Touch Of Class,R3HAB,1,['02itaCXOdC54J0ISjqqFAp']
+Avicii,Noonie Bao,1,['6aPDvttLmezuUlv60ExTH9']
+Avicii,Imagine Dragons,1,['6kXNnS7JJz0nAv4XEwEmQJ']
+A R I Z O N A,Avicii,1,['6EBlOYNcZ8MrdEov9lEdV6']
+Damso,Nekfeu,1,['5ZwRTJD1bTACtIuW5Iibnu']
+Chris Brown,J Balvin,1,['1jlnBQGP2DtSEhMgQaz7a7']
+BTS,Charli xcx,1,['4c1WgUnHXq2LEncGHKgj1I']
+Hailee Steinfeld,Zedd,1,['6875MeXyCW0wLyT72Eetmo']
+Grey,Hailee Steinfeld,1,['6875MeXyCW0wLyT72Eetmo']
+Macklemore,Ray Dalton,1,['22skzmqfdWrjJylampe0kt']
+Macklemore,Macklemore & Ryan Lewis,1,['22skzmqfdWrjJylampe0kt']
+Kalazh44,Luciano,1,['4Rif4wqdvzy84dhP1apC4Y']
+Capital Bra,Luciano,1,['4Rif4wqdvzy84dhP1apC4Y']
+Capital Bra,Kalazh44,1,['4Rif4wqdvzy84dhP1apC4Y']
+BTS,Zara Larsson,1,['5XkyZyKMdFungjDb9cUKc3']
+DJ Snake,Tyga,1,['6osaMSJh9NguagEDQcZaKx']
+DJ Snake,J Balvin,1,['6osaMSJh9NguagEDQcZaKx']
+JID,Young Nudy,1,['36J0iaPDGbYGsHvYpaYs3k']
+J. Cole,JID,1,['36J0iaPDGbYGsHvYpaYs3k']
+EARTHGANG,Young Nudy,1,['36J0iaPDGbYGsHvYpaYs3k']
+EARTHGANG,J. Cole,1,['36J0iaPDGbYGsHvYpaYs3k']
+Bas,Young Nudy,1,['36J0iaPDGbYGsHvYpaYs3k']
+Bas,J. Cole,1,['36J0iaPDGbYGsHvYpaYs3k']
+Bas,EARTHGANG,1,['36J0iaPDGbYGsHvYpaYs3k']
+French Montana,Khaled,1,['1IBUPdwV9TvaipSODdt8QY']
+Farid Bang,Khaled,1,['1IBUPdwV9TvaipSODdt8QY']
+Farid Bang,French Montana,1,['1IBUPdwV9TvaipSODdt8QY']
+Daddy Yankee,Jonas Brothers,1,['7BuSE9uTIw931wtZYzvZcQ']
+Mac Miller,Sia,1,['5h0Jgt873QtgL6nJRBGfT6']
+88-Keys,Sia,1,['5h0Jgt873QtgL6nJRBGfT6']
+88-Keys,Mac Miller,1,['5h0Jgt873QtgL6nJRBGfT6']
+Cardi B,Lil Nas X,1,['4ak7xjvBeBOcJGWFDX9w5n']
+Kane Brown,Marshmello,1,['4hPpVbbakQNv8YTHYaOJP4']
+Camila Cabello,Shawn Mendes,1,['6v3KW9xbzN5yKLt9YKDYA2']
+Bad Bunny,Myke Towers,1,['0bCPJsVGDxPYwQMDZMi4NW']
+Flume,London Grammar,1,['7p0tz5SeCrSxTLSvwR8W3D']
+Anitta,Madonna,1,['2SC14LGDbRWRlyLg9Wupa0']
+Alesso,TINI,1,['2JoIjuzRplpYGvvLpSW2on']
+21 Savage,Bazzi,1,['12iDo4Kdw9vA2X1lN3UTVu']
+Nimo,Samra,1,['4Rif4wqdvzy84dhP1apC4Y']
+Luciano,Nimo,1,['4Rif4wqdvzy84dhP1apC4Y']
+Kalazh44,Samra,1,['4Rif4wqdvzy84dhP1apC4Y']
+Kalazh44,Nimo,1,['4Rif4wqdvzy84dhP1apC4Y']
+Anitta,Major Lazer,1,['0QopfywHKJZH8bnt8Cj9qr']
+Future,Lil Baby,1,['2wZjsbwmWfNVslgV5afl1L']
+KAROL G,Mambo Kingz,1,['5J64qSSq0VZuh0CiI9o9Nq']
+DJ Luian,KAROL G,1,['5J64qSSq0VZuh0CiI9o9Nq']
+Arcángel,Mambo Kingz,1,['5J64qSSq0VZuh0CiI9o9Nq']
+Arcángel,KAROL G,1,['5J64qSSq0VZuh0CiI9o9Nq']
+Arcángel,DJ Luian,1,['5J64qSSq0VZuh0CiI9o9Nq']
+Anuel AA,Arcángel,1,['5J64qSSq0VZuh0CiI9o9Nq']
+Y2K,bbno$,1,['51Fjme0JiitpyXKuyQiCDo']
+Lil Nas X,Travis Barker,1,['1ABQT5SxlUTNapSbSzblGx']
+Dardan,Eno,1,['2nvmHDiEWXRzS6FUDzUhVL']
+BTS,Juice WRLD,1,['70sKIAQgaVN2zWEEyOpyMZ']
+NATTI NATASHA,Sebastian Yatra,1,['7BuSE9uTIw931wtZYzvZcQ']
+Jonas Brothers,Sebastian Yatra,1,['7BuSE9uTIw931wtZYzvZcQ']
+Jonas Brothers,NATTI NATASHA,1,['7BuSE9uTIw931wtZYzvZcQ']
+Daddy Yankee,Sebastian Yatra,1,['7BuSE9uTIw931wtZYzvZcQ']
+Daddy Yankee,Wisin & Yandel,1,['7MRU4vOkywuhZ9kbFiPuiu']
+Daniel Caesar,John Mayer,1,['45PxuJqJBnPXZKLxoo9Apj']
+Brandy,Daniel Caesar,1,['2fhePAlCSsJplwkjqMYpVm']
+Data Luv,Ufo361,1,['7yosVOH7pRWrKANBDbsBqI']
+GIMS,Shirin David,1,['554Ip3S1rbeES9TNWXGoK1']
+J Balvin,Mr Eazi,1,['7knLcYCOSaURD0d7HUULFM']
+Bad Bunny,Mr Eazi,1,['7knLcYCOSaURD0d7HUULFM']
+Ellie Goulding,Juice WRLD,1,['6kls8cSlUyHW2BUOkDJIZE']
+J Balvin,Marciano Cantero,1,['7hynhxDoDpgMIV12JuVtNa']
+Bad Bunny,Marciano Cantero,1,['7hynhxDoDpgMIV12JuVtNa']
+Kygo,Whitney Houston,1,['1kKYjjfNYxE0YYgLa7vgVY']
+Ed Sheeran,Khalid,1,['70eFcWOvlMObDhURTqT4Fv']
+Ink,Justin Bieber,1,['7ILEWkpfdK6AjH2D7jppWk']
+Chris Brown,Justin Bieber,1,['7ILEWkpfdK6AjH2D7jppWk']
+Chris Brown,Ink,1,['7ILEWkpfdK6AjH2D7jppWk']
+RANI,Sam Feldt,1,['36orMWv2PgvnzXsd5CJ0yL']
+MC Gury,MC L da Vinte,1,['3Hb9kUdm4yf839Fle4RIdT']
+Kendrick Lamar,SZA,1,['3GCdLUSnKSMJhs4Tj6CV3s']
+Lil Peep,XXXTENTACION,1,['4jvjzW7Hm0yK4LvvE0Paz9']
+Kygo,Sandro Cavazza,1,['14sOS5L36385FJ3OL8hew4']
+Jack & Jack,Jonas Blue,1,['3KLygy1YWhmrQx0GRs7IOx']
+Maluma,Reik,1,['2zDj4WjbNDmrRL6Z4YjjCA']
+Drake,French Montana,1,['04MLEeAMuV9IlHEsD8vF6A']
+Maroon 5,SZA,1,['0WdGQhoAP2LBsqr5Jhit2g']
+David Bowie,Queen,1,['2fuCquhmrzHpu5xcA1ci9x']
+Halsey,The Chainsmokers,1,['7BKLCZ1jbUBVqRi2FVlTVw']
+Kanye West,Lil Pump,1,['4S8d14HvHb70ImctNgVzQQ']
+Anne-Marie,Marshmello,1,['08bNPGLD8AhKpnnERrAc6G']
+Mustard,NAV,1,['2zjGJ0dChMR0KxBZS15aqo']
+A Boogie Wit da Hoodie,Playboi Carti,1,['2zjGJ0dChMR0KxBZS15aqo']
+A Boogie Wit da Hoodie,NAV,1,['2zjGJ0dChMR0KxBZS15aqo']
+A Boogie Wit da Hoodie,Mustard,1,['2zjGJ0dChMR0KxBZS15aqo']
+Bruno Mars,Ed Sheeran,1,['7hvO2qCwJVZxiyoA7c9i5d']
+Bruno Mars,Chris Stapleton,1,['7hvO2qCwJVZxiyoA7c9i5d']
+J. Cole,Lute,1,['6MF4tRr5lU8qok8IKaFOBE']
+Dreamville,Lute,1,['6MF4tRr5lU8qok8IKaFOBE']
+DaBaby,Lute,1,['6MF4tRr5lU8qok8IKaFOBE']
+DaBaby,J. Cole,1,['6MF4tRr5lU8qok8IKaFOBE']
+DaBaby,Dreamville,1,['6MF4tRr5lU8qok8IKaFOBE']
+Ed Sheeran,Yebba,1,['0VsGaRXR5WAzpu51unJTis']
+Post Malone,Young Thug,1,['0t3ZvGKlmYmVsDzBJAXK8C']
+Analaga,João Gustavo e Murilo,1,['5pRGXCDY0eT6R1QicAn7Uk']
+NAV,Playboi Carti,1,['2zjGJ0dChMR0KxBZS15aqo']
+Mustard,Playboi Carti,1,['2zjGJ0dChMR0KxBZS15aqo']
+Diplo,Dua Lipa,1,['5N4erncE7kuUccm7zEmwzk']
+BlocBoy JB,Drake,1,['4qKcDkK6siZ7Jp1Jb4m0aL']
+Anne-Marie,James Arthur,1,['6mQLN3zRtAp6ovjusyYKrV']
+Becky G,NATTI NATASHA,1,['2ijef6ni2amuunRoKTlgww']
+Dreamville,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+Dreamville,Mez,1,['5WnfnSpuNEGXyEt78PBA6d']
+Dreamville,Jace,1,['5WnfnSpuNEGXyEt78PBA6d']
+Buddy,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Buddy,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Buddy,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+Buddy,Mez,1,['5WnfnSpuNEGXyEt78PBA6d']
+Buddy,Jace,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Mez,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Jace,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Guapdad 4000,1,['5WnfnSpuNEGXyEt78PBA6d']
+Bas,Buddy,1,['5WnfnSpuNEGXyEt78PBA6d']
+Chris Stapleton,Ed Sheeran,1,['7hvO2qCwJVZxiyoA7c9i5d']
+Jace,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Jace,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Jace,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+Jace,Mez,1,['5WnfnSpuNEGXyEt78PBA6d']
+JID,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+JID,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+JID,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+JID,Mez,1,['5WnfnSpuNEGXyEt78PBA6d']
+JID,Jace,1,['5WnfnSpuNEGXyEt78PBA6d']
+Guapdad 4000,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Guapdad 4000,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Guapdad 4000,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+Guapdad 4000,Mez,1,['5WnfnSpuNEGXyEt78PBA6d']
+Guapdad 4000,Jace,1,['5WnfnSpuNEGXyEt78PBA6d']
+Dreamville,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Dreamville,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Afro Bros,NATTI NATASHA,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Afro Bros,Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Afro Bros,Dimitri Vegas & Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Afro Bros,Dimitri Vegas,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Afro Bros,David Guetta,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Afro Bros,Daddy Yankee,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Fabri Fibra,thasup,1,['3Hh0ZcGIqIkSiJVZGLcVLx']
+Dani Faiv,thasup,1,['3Hh0ZcGIqIkSiJVZGLcVLx']
+Dani Faiv,MACHETE,1,['3Hh0ZcGIqIkSiJVZGLcVLx']
+Dani Faiv,Fabri Fibra,1,['3Hh0ZcGIqIkSiJVZGLcVLx']
+Ski Mask The Slump God,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Reese LAFLARE,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Reese LAFLARE,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Mez,Smokepurpp,1,['5WnfnSpuNEGXyEt78PBA6d']
+Mez,Ski Mask The Slump God,1,['5WnfnSpuNEGXyEt78PBA6d']
+Mez,Reese LAFLARE,1,['5WnfnSpuNEGXyEt78PBA6d']
+MACHETE,Massimo Pericolo,1,['2umL0eO9N7iNxDay6i2rVi']
+Fabri Fibra,Massimo Pericolo,1,['2umL0eO9N7iNxDay6i2rVi']
+Like Mike,NATTI NATASHA,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Dimitri Vegas & Like Mike,NATTI NATASHA,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Dimitri Vegas & Like Mike,Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Dimitri Vegas,NATTI NATASHA,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Dimitri Vegas,Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Dimitri Vegas,Dimitri Vegas & Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+David Guetta,NATTI NATASHA,1,['0U6bQIAh6MCGo1xjbIIx2S']
+David Guetta,Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+David Guetta,Dimitri Vegas & Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+David Guetta,Dimitri Vegas,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Daddy Yankee,Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Daddy Yankee,Dimitri Vegas & Like Mike,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Daddy Yankee,Dimitri Vegas,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Daddy Yankee,David Guetta,1,['0U6bQIAh6MCGo1xjbIIx2S']
+Nitro,Tedua,1,['2gUn6S1SuuXK0BvypPKnir']
+MACHETE,Tedua,1,['2gUn6S1SuuXK0BvypPKnir']
+Dreamville,REASON,1,['1OS9fNE87zO4Z696lBXriv']
+Cozz,REASON,1,['1OS9fNE87zO4Z696lBXriv']
+Cozz,Dreamville,1,['1OS9fNE87zO4Z696lBXriv']
+Childish Major,REASON,1,['1OS9fNE87zO4Z696lBXriv']
+Childish Major,Dreamville,1,['1OS9fNE87zO4Z696lBXriv']
+Childish Major,Cozz,1,['1OS9fNE87zO4Z696lBXriv']
+Izi,Salmo,1,['5nFX29WZIulql4m4ic0KRw']
+Izi,MACHETE,1,['5nFX29WZIulql4m4ic0KRw']
+Gemitaiz,MACHETE,1,['5nFX29WZIulql4m4ic0KRw']
+Gemitaiz,Izi,1,['5nFX29WZIulql4m4ic0KRw']
+Nitro,Salmo,1,['28fRkU3vhqAJdl9i9458pQ']
+Marracash,Salmo,1,['28fRkU3vhqAJdl9i9458pQ']
+Marracash,Nitro,1,['28fRkU3vhqAJdl9i9458pQ']
+MACHETE,Marracash,1,['28fRkU3vhqAJdl9i9458pQ']
+KEY!,Maxo Kream,1,['7wxDKfgFtRTbupcG4xDhtj']
+J. Cole,Zoink Gang,1,['7wxDKfgFtRTbupcG4xDhtj']
+J. Cole,Maxo Kream,1,['7wxDKfgFtRTbupcG4xDhtj']
+J. Cole,KEY!,1,['7wxDKfgFtRTbupcG4xDhtj']
+Dreamville,Zoink Gang,1,['7wxDKfgFtRTbupcG4xDhtj']
+Dreamville,Maxo Kream,1,['7wxDKfgFtRTbupcG4xDhtj']
+Dreamville,KEY!,1,['7wxDKfgFtRTbupcG4xDhtj']
+Jack The Smoker,Salmo,1,['2zVawCwOXmkr5pFw5O6MoB']
+Jack The Smoker,MACHETE,1,['2zVawCwOXmkr5pFw5O6MoB']
+Beba,Salmo,1,['2zVawCwOXmkr5pFw5O6MoB']
+Beba,MACHETE,1,['2zVawCwOXmkr5pFw5O6MoB']
+Beba,Jack The Smoker,1,['2zVawCwOXmkr5pFw5O6MoB']
+EARTHGANG,Guapdad 4000,1,['2gtFMLjQpCTGekMi4oXZxN']
+Buddy,EARTHGANG,1,['2gtFMLjQpCTGekMi4oXZxN']
+Tedua,thasup,1,['2gUn6S1SuuXK0BvypPKnir']
+Nitro,thasup,1,['2gUn6S1SuuXK0BvypPKnir']
+Ed Sheeran,Paulo Londra,1,['2qRN7PWiHRLprw4FpDeI9N']
+Dave,Paulo Londra,1,['2qRN7PWiHRLprw4FpDeI9N']
+Dave,Ed Sheeran,1,['2qRN7PWiHRLprw4FpDeI9N']
+Ed Sheeran,Eminem,1,['0AtP8EkGPn6SwxKDaUuXec']
+50 Cent,Eminem,1,['0AtP8EkGPn6SwxKDaUuXec']
+50 Cent,Ed Sheeran,1,['0AtP8EkGPn6SwxKDaUuXec']
+Cardi B,Ed Sheeran,1,['4vUmTMuQqjdnvlZmAH61Qk']
+Camila Cabello,Ed Sheeran,1,['4vUmTMuQqjdnvlZmAH61Qk']
+Camila Cabello,Cardi B,1,['4vUmTMuQqjdnvlZmAH61Qk']
+Ed Sheeran,Travis Scott,1,['1DhRbox3xkceP64k3JeYfW']
+Billie Eilish,Justin Bieber,1,['3yNZ5r3LKfdmjoS3gkhUCT']
+Hell Raton,Salmo,1,['1ZCzbEj3F8SqqtKSupWaBo']
+Hell Raton,MACHETE,1,['1ZCzbEj3F8SqqtKSupWaBo']
+GRiNGO,Summer Cem,1,['70zRDnEkOhVb51fZA13khd']
+Maxo Kream,Zoink Gang,1,['7wxDKfgFtRTbupcG4xDhtj']
+KEY!,Zoink Gang,1,['7wxDKfgFtRTbupcG4xDhtj']
+6ix9ine,Murda Beatz,1,['2l8nEO0vsTRCRnGqQty6qx']
+Bazzi,Camila Cabello,1,['4VUwkH455At9kENOfzTqmF']
+Mambo Kingz,Prince Royce,1,['7dNwJbsT0sg1le5kVugGJb']
+DJ Luian,Prince Royce,1,['7dNwJbsT0sg1le5kVugGJb']
+Becky G,Prince Royce,1,['7dNwJbsT0sg1le5kVugGJb']
+Becky G,Mambo Kingz,1,['7dNwJbsT0sg1le5kVugGJb']
+Becky G,DJ Luian,1,['7dNwJbsT0sg1le5kVugGJb']
+Anuel AA,Prince Royce,1,['7dNwJbsT0sg1le5kVugGJb']
+Anuel AA,Becky G,1,['7dNwJbsT0sg1le5kVugGJb']
+Felipe Araújo,Ferrugem,1,['5EKHbW7mXcAR4hCyS3YXjb']
+A Boogie Wit da Hoodie,Meek Mill,1,['4vIKzWqtn44umal5jXq4wE']
+A Boogie Wit da Hoodie,Ed Sheeran,1,['4vIKzWqtn44umal5jXq4wE']
+Ed Sheeran,Ella Mai,1,['5T03itPFOPGGkvVPvPiyla']
+J Hus,Young Thug,1,['1Bdptrvb7nQkq8kCw3siE9']
+Ed Sheeran,Young Thug,1,['1Bdptrvb7nQkq8kCw3siE9']
+Ed Sheeran,J Hus,1,['1Bdptrvb7nQkq8kCw3siE9']
+Childish Gambino,Seth Rogen,1,['1zSKtBze2IReYU44W0lDzd']
+Billy Eichner,Seth Rogen,1,['1zSKtBze2IReYU44W0lDzd']
+Billy Eichner,Childish Gambino,1,['1zSKtBze2IReYU44W0lDzd']
+Beyoncé,Seth Rogen,1,['1zSKtBze2IReYU44W0lDzd']
+Beyoncé,Billy Eichner,1,['1zSKtBze2IReYU44W0lDzd']
+David Guetta,Martin Solveig,1,['0IhTEIjFaRt3B2NQYf9azQ']
+Mason Ramsey,Young Thug,1,['6jmZlyf9DxcIoRrjw02YXm']
+Lil Nas X,Young Thug,1,['6jmZlyf9DxcIoRrjw02YXm']
+Lil Nas X,Mason Ramsey,1,['6jmZlyf9DxcIoRrjw02YXm']
+Billy Ray Cyrus,Young Thug,1,['6jmZlyf9DxcIoRrjw02YXm']
+Billy Ray Cyrus,Mason Ramsey,1,['6jmZlyf9DxcIoRrjw02YXm']
+Ed Sheeran,H.E.R.,1,['3FHXUqaUer9o231Je1zxIN']
+Ed Sheeran,Skrillex,1,['5d1rmWWF1725tnYjq6rMDB']
+Ed Sheeran,Meek Mill,1,['4vIKzWqtn44umal5jXq4wE']
+Anuel AA,Haze,1,['1LiN0Z98FkR1t0m8KmLcAH']
+Murda Beatz,Nicki Minaj,1,['2l8nEO0vsTRCRnGqQty6qx']
+Childish Gambino,JAY-Z,1,['7oqftogUN82Q7VNy2TmTJW']
+Beyoncé,Oumou Sangaré,1,['7oqftogUN82Q7VNy2TmTJW']
+Beyoncé,JAY-Z,1,['7oqftogUN82Q7VNy2TmTJW']
+Kelly Ruíz,Victor Cardenas,1,['4Clmg1g8n2yBYG13Z1oSdG']
+Dayvi,Victor Cardenas,1,['4Clmg1g8n2yBYG13Z1oSdG']
+Dayvi,Kelly Ruíz,1,['4Clmg1g8n2yBYG13Z1oSdG']
+Blueface,NLE Choppa,1,['67XyC1GdSkKb9sbRRkUDXS']
+Guaynaa,Sech,1,['3dWpRjCmaHbroNahuSeX11']
+Guaynaa,Nicky Jam,1,['3dWpRjCmaHbroNahuSeX11']
+Farruko,Guaynaa,1,['3dWpRjCmaHbroNahuSeX11']
+Becky G,Sech,1,['3dWpRjCmaHbroNahuSeX11']
+Becky G,Nicky Jam,1,['3dWpRjCmaHbroNahuSeX11']
+Becky G,Guaynaa,1,['3dWpRjCmaHbroNahuSeX11']
+Becky G,Farruko,1,['3dWpRjCmaHbroNahuSeX11']
+City Girls,French Montana,1,['4vfsh1GHqHZtTlkusq9j5E']
+Bebe Rexha,Jax Jones,1,['5RgBnDtHKFHgtVdqabjGE3']
+Stefflon Don,XXXTENTACION,1,['0OTBOHjEaoqroFlfut1ZsH']
+Stefflon Don,Vybz Kartel,1,['0OTBOHjEaoqroFlfut1ZsH']
+Ky-Mani Marley,XXXTENTACION,1,['0OTBOHjEaoqroFlfut1ZsH']
+Ky-Mani Marley,Vybz Kartel,1,['0OTBOHjEaoqroFlfut1ZsH']
+Ky-Mani Marley,Stefflon Don,1,['0OTBOHjEaoqroFlfut1ZsH']
+SAINt JHN,Wizkid,1,['0B3FovCVaGKS5w1FTidEUP']
+Blue Ivy,Wizkid,1,['0B3FovCVaGKS5w1FTidEUP']
+Blue Ivy,SAINt JHN,1,['0B3FovCVaGKS5w1FTidEUP']
+Beyoncé,Wizkid,1,['0B3FovCVaGKS5w1FTidEUP']
+Beyoncé,SAINt JHN,1,['0B3FovCVaGKS5w1FTidEUP']
+Beyoncé,Blue Ivy,1,['0B3FovCVaGKS5w1FTidEUP']
+KAROL G,Ozuna,1,['2ksOAxtIxY8yElEWw8RhgK']
+J Balvin,KAROL G,1,['2ksOAxtIxY8yElEWw8RhgK']
+Daddy Yankee,KAROL G,1,['2ksOAxtIxY8yElEWw8RhgK']
+JAY-Z,Oumou Sangaré,1,['7oqftogUN82Q7VNy2TmTJW']
+Childish Gambino,Oumou Sangaré,1,['7oqftogUN82Q7VNy2TmTJW']
+DJ Snake,Sean Paul,1,['660eekzsNZ7sdATvfIsAkR']
+Anitta,Tainy,1,['660eekzsNZ7sdATvfIsAkR']
+Anitta,Sean Paul,1,['660eekzsNZ7sdATvfIsAkR']
+Anitta,DJ Snake,1,['660eekzsNZ7sdATvfIsAkR']
+Chance the Rapper,John Legend,1,['1g3ErLqysBJ5EIGdYYMWFZ']
+Lennon Stella,The Chainsmokers,1,['3g0mEQx3NTanacLseoP0Gw']
+ILLENIUM,The Chainsmokers,1,['3g0mEQx3NTanacLseoP0Gw']
+ILLENIUM,Lennon Stella,1,['3g0mEQx3NTanacLseoP0Gw']
+Anuel AA,Sech,1,['4bTZeO72FwMa6wKOiqoynL']
+Lil Nas X,RM,1,['6woeVu3fVMflqen1t4N6pg']
+BTS,RM,1,['6woeVu3fVMflqen1t4N6pg']
+BTS,Lil Nas X,1,['6woeVu3fVMflqen1t4N6pg']
+Charli xcx,Christine and the Queens,1,['4UQeq4HUvC5uPEA9pWTgPW']
+Gunna,Ufo361,1,['4e3VIoNlhRV6seqSAerKtG']
+KC Rebell,RAF Camora,1,['3GmfHF5RUe6r5C9UbvIXQp']
+Vybz Kartel,XXXTENTACION,1,['0OTBOHjEaoqroFlfut1ZsH']
+Lil Durk,Nicki Minaj,1,['0QBRshHeQLEThdj2TqxM9n']
+Chance the Rapper,Nicki Minaj,1,['0QBRshHeQLEThdj2TqxM9n']
+Chance the Rapper,Lil Durk,1,['0QBRshHeQLEThdj2TqxM9n']
+Chance the Rapper,Shawn Mendes,1,['4pnIUqhf1AQMFrJPd4BbrT']
+Chance the Rapper,Megan Thee Stallion,1,['1xsP6AITcWNigBYBYVnVZw']
+Charli xcx,Pabllo Vittar,1,['5GsJcnO3rgpZFOrzL2EISO']
+Khalid,Majid Jordan,1,['1opARDDYaOeE1QUdwXmBGu']
+Chance the Rapper,Smino,1,['5LeStoyvjAHpM52IYogOq0']
+Anderson .Paak,Cordae,1,['5lw8Mgb4LyhriPIC86gV6e']
+RAF Camora,Ufo361,1,['7HCTUZPqclRvsiefXWwyFz']
+Bad Bunny,Residente,1,['1kMUGCt7XLDc5Q64Vl0H8S']
+Chance the Rapper,Death Cab for Cutie,1,['67xBtV07CC73eFw7z5oCvU']
+DaBaby,MadeinTYO,1,['00ko9WaS4jOX1kEk3gvHjf']
+Chance the Rapper,MadeinTYO,1,['00ko9WaS4jOX1kEk3gvHjf']
+Sean Paul,Tainy,1,['660eekzsNZ7sdATvfIsAkR']
+DJ Snake,Tainy,1,['660eekzsNZ7sdATvfIsAkR']
+A Boogie Wit da Hoodie,Khalid,1,['6PYnUsNEpYC7A4BS2sjw3L']
+Drake,James Fauntleroy,1,['56NDFbD0tCUawnqeU2wcvv']
+Drake,J. Cole,1,['2xUHiyGeGrWmmfv7NbDTWC']
+Anne-Marie,Lauv,1,['3Hig6FDiszzWDPIKSP9swE']
+Ariana Grande,Social House,1,['0Ryd8975WihbObpp5cPW1t']
+CocoRosie,Taylor Bennett,1,['5LWprrbySabBAMm0aE447a']
+Chance the Rapper,Taylor Bennett,1,['5LWprrbySabBAMm0aE447a']
+Chance the Rapper,CocoRosie,1,['5LWprrbySabBAMm0aE447a']
+Lunay,Mau y Ricky,1,['2EEmzqzM70CybVspgM7YRT']
+Camilo,Lunay,1,['2EEmzqzM70CybVspgM7YRT']
+En Vogue,Kierra Sheard,1,['333OkWOgbV6C8I5wRLfuSx']
+Chance the Rapper,Kierra Sheard,1,['333OkWOgbV6C8I5wRLfuSx']
+Chance the Rapper,En Vogue,1,['333OkWOgbV6C8I5wRLfuSx']
+Ari Lennox,Kierra Sheard,1,['333OkWOgbV6C8I5wRLfuSx']
+Ari Lennox,En Vogue,1,['333OkWOgbV6C8I5wRLfuSx']
+Ari Lennox,Chance the Rapper,1,['333OkWOgbV6C8I5wRLfuSx']
+Kendrick Lamar,SiR,1,['6sq5mqtS3jwJjvBHALknJH']
+Camilo,Pedro Capó,1,['1Ol5LmdNDNpFu1oNwfgkux']
+Lil Duke,Trippie Redd,1,['4NbHIhW0P5skMNvtOMPDUL']
+Lil Baby,Trippie Redd,1,['4NbHIhW0P5skMNvtOMPDUL']
+Lil Baby,Lil Duke,1,['4NbHIhW0P5skMNvtOMPDUL']
+Playboi Carti,Trippie Redd,1,['5CMUThHlepHR8c1xD0QYzs']
+Nicki Minaj,Ty Dolla $ign,1,['5N1o6d8zGcSZSeMFkOUQOk']
+Megan Thee Stallion,Ty Dolla $ign,1,['5N1o6d8zGcSZSeMFkOUQOk']
+Megan Thee Stallion,Nicki Minaj,1,['5N1o6d8zGcSZSeMFkOUQOk']
+Labrinth,Zendaya,1,['10hMM5nsZQf66ldBlgWBfG']
+Myke Towers,Zion,1,['6K5BsR04ijf3FHNzjbaagD']
+Myke Towers,Sech,1,['6K5BsR04ijf3FHNzjbaagD']
+Arcángel,Zion,1,['6K5BsR04ijf3FHNzjbaagD']
+Arcángel,Myke Towers,1,['6K5BsR04ijf3FHNzjbaagD']
+Arcángel,Farruko,1,['6K5BsR04ijf3FHNzjbaagD']
+Carly Rae Jepsen,Gryffin,1,['2j9YmQRxtjuVwb4XN95oT8']
+Ozuna,Tainy,1,['3jbT1Y5MoPwEIpZndDDwVq']
+Anuel AA,Tainy,1,['3jbT1Y5MoPwEIpZndDDwVq']
+Taylor Swift,The Chicks,1,['4AYtqFyFbX0Xkc2wtcygTr']
+Barloe Team,Ozuna,1,['7lR4UmEDJ1ngczVX2NiNi4']
+Diplo,Morgan Wallen,1,['0rFQ5cKYJ9WtHSKp9sxVYt']
+ILLENIUM,X Ambassadors,1,['70YPzqSEwJvAIQ6nMs1cjY']
+Bizarrap,Nicki Nicole,1,['2S93hylQBYLndMnaJuso8S']
+Young Thug,mgk,1,['1yBbxDXEfr8boXM1ubvBHi']
+Burna Boy,Jorja Smith,1,['3IWs9dAwTqN0EFhOIcBDfs']
+Lil Uzi Vert,Young Thug,1,['3pTScODwk9tggZzmuH6xDY']
+Drake,Swae Lee,1,['2sqsNXfN0HtgDEgaHXiUTa']
+Lil Baby,Young Thug,1,['1GeNui6m825V8jP4uKiIaH']
+Ozuna,ROSALÍA,1,['7BlBVFwvbWvcwNcUarQmjk']
+Juice WRLD,Lil Tecca,1,['2WsuSYJNXGKXVYkHPnq2yp']
+Blueface,Rich The Kid,1,['4hanO6Du5J7QEguNHYZHmw']
+The Game,Trippie Redd,1,['3Ht9qyE5RZZVkBSV8kcf6v']
+6ix9ine,Tory Lanez,1,['6Gy7rXB6Ku5vIWC7WGWsl3']
+BLACKPINK,Dua Lipa,1,['13hvHEstJ4sNbzdroPrPI3']
+Brando,Loud Luxury,1,['7K7MUBCnzgBAvMVW2RTWNs']
+Post Malone,Ty Dolla $ign,1,['3swc6WTsr7rl9DqQKQA55C']
+Clean Bandit,Demi Lovato,1,['3NuK5xMlSlB6K2Qp16zf3h']
+Nio Garcia,Ozuna,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Nicky Jam,Nio Garcia,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Dímelo Flow,Nicky Jam,1,['684EjRHwNsZQ9hCQxL4NYL']
+Dímelo Flow,Lunay,1,['684EjRHwNsZQ9hCQxL4NYL']
+Dímelo Flow,Farruko,1,['684EjRHwNsZQ9hCQxL4NYL']
+Lil Baby,Ufo361,1,['1e9QSdX5uLUw6vbrkZJyXi']
+Lil Baby,Luciano,1,['1e9QSdX5uLUw6vbrkZJyXi']
+Big Sean,Hit-Boy,1,['2B9wgj9XzbJZLty03PRbVo']
+A$AP Ferg,Hit-Boy,1,['2B9wgj9XzbJZLty03PRbVo']
+A$AP Ferg,Big Sean,1,['2B9wgj9XzbJZLty03PRbVo']
+Rico Nasty,XXXTENTACION,1,['5dkZ2DrcPJrqwlRQe6Q35e']
+Post Malone,SZA,1,['5KE9b4x7Zj2A8XtbkqhqTe']
+Meek Mill,Post Malone,1,['12Fkyg9lpmaz2zmKOfw2Y2']
+Lil Baby,Post Malone,1,['12Fkyg9lpmaz2zmKOfw2Y2']
+Ozzy Osbourne,Travis Scott,1,['7CZyCXKG6d5ALeq41sLzbw']
+Ozzy Osbourne,Post Malone,1,['7CZyCXKG6d5ALeq41sLzbw']
+DaBaby,Post Malone,1,['0Xek5rqai2jcOWCYWJfVCF']
+Nicky Jam,Zion,1,['684EjRHwNsZQ9hCQxL4NYL']
+Lunay,Zion,1,['684EjRHwNsZQ9hCQxL4NYL']
+Lunay,Sech,1,['684EjRHwNsZQ9hCQxL4NYL']
+Lunay,Nicky Jam,1,['684EjRHwNsZQ9hCQxL4NYL']
+Farruko,Lunay,1,['684EjRHwNsZQ9hCQxL4NYL']
+A Boogie Wit da Hoodie,Offset,1,['0jAfdqv18goRTUxm3ilRjb']
+Mau y Ricky,Sebastian Yatra,1,['7uQmJ1jgNzBpATSoWKSPFu']
+Luis Fonsi,Ozuna,1,['4cuGZb0iFyHtwaSKdKrJkF']
+Maren Morris,Zedd,1,['09IStsImFySgyp0pIQdqAc']
+Grey,Maren Morris,1,['09IStsImFySgyp0pIQdqAc']
+Ados,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Fuat,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Deniz Tekin,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Defkhan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Beta,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Aspova,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Aga B,1,['1aHKVxoYHAWvedbVUTP9SF']
+Loredana,MERO,1,['2d3WpbJFBND2vwMJyULdfU']
+Aga B,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Fuat,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Deniz Tekin,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Defkhan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Beta,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Aspova,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ados,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Fuat,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Deniz Tekin,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Defkhan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Beta,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aga B,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Deniz Tekin,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Fuat,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Deniz Tekin,1,['1aHKVxoYHAWvedbVUTP9SF']
+Beta,Defkhan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Aspova,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Fuat,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Defkhan,Fuat,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Hayki,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Deniz Tekin,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Mert Şenel,1,['1aHKVxoYHAWvedbVUTP9SF']
+Hayki,Kamufle,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Fuat,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Ozbi,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mert Şenel,Mirac,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Kamufle,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sehabe,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sehabe,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sehabe,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sehabe,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sehabe,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ozbi,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ozbi,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ozbi,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ozbi,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ozbi,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ozbi,Sehabe,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Mirac,Server Uraz,1,['1aHKVxoYHAWvedbVUTP9SF']
+Ariana Grande,Lana Del Rey,1,['6zegtH6XXd2PDPLvy1Y0n2']
+9lokknine,YNW Melly,1,['29ZXwWOOLz9t5fa3eT3i7T']
+Anuel AA,Manuel Turizo,1,['4fj7e6Tc48Bmomwyz2Z2XC']
+Lalo Ebratt,Reik,1,['59s0s39NFWScuHDbHytI14']
+J Balvin,Reik,1,['59s0s39NFWScuHDbHytI14']
+J Balvin,Lalo Ebratt,1,['59s0s39NFWScuHDbHytI14']
+Yeis Sensura,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Tahribad-ı İsyan,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Tahribad-ı İsyan,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sokrat St,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sokrat St,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Sokrat St,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Server Uraz,Şanışer,1,['1aHKVxoYHAWvedbVUTP9SF']
+Server Uraz,Yeis Sensura,1,['1aHKVxoYHAWvedbVUTP9SF']
+Server Uraz,Tahribad-ı İsyan,1,['1aHKVxoYHAWvedbVUTP9SF']
+Server Uraz,Sokrat St,1,['1aHKVxoYHAWvedbVUTP9SF']
+Luciano,Summer Cem,1,['3QIrkRSTz3yPd44HzN6qJr']
+Animus,Bushido,1,['2l2UsmkfgmRC6fIDwwsiNM']
+LEA,Samra,1,['67ojvEGRPAUCOohuMPqoRC']
+Capital Bra,LEA,1,['67ojvEGRPAUCOohuMPqoRC']
+MC JottaPê,MC M10,1,['6V43u5SCjkfMpxMAXRPifr']
+DJ RD,MC M10,1,['6V43u5SCjkfMpxMAXRPifr']
+DJ RD,MC JottaPê,1,['6V43u5SCjkfMpxMAXRPifr']
+NATTI NATASHA,Zion,1,['1ndyl3wJCFs872XZ3ztPk6']
+DaBaby,Lil Nas X,1,['4SDgTLDYrJ2UrHbkRkg7MD']
+J Balvin,Major Lazer,1,['1G2CAJeP7rCwOZjlSJ0Zw3']
+El Alfa,Major Lazer,1,['1G2CAJeP7rCwOZjlSJ0Zw3']
+El Alfa,J Balvin,1,['1G2CAJeP7rCwOZjlSJ0Zw3']
+Diplo,J Balvin,1,['1G2CAJeP7rCwOZjlSJ0Zw3']
+Diplo,El Alfa,1,['1G2CAJeP7rCwOZjlSJ0Zw3']
+Lana Del Rey,Miley Cyrus,1,['6zegtH6XXd2PDPLvy1Y0n2']
+Ariana Grande,Miley Cyrus,1,['6zegtH6XXd2PDPLvy1Y0n2']
+Casper Magico,Nio Garcia,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Casper Magico,Nicky Jam,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Casper Magico,Darell,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Bad Bunny,Ozuna,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Bad Bunny,Nio Garcia,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Bad Bunny,Nicky Jam,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Bad Bunny,Darell,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Bad Bunny,Casper Magico,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Becky G,Paulo Londra,1,['2XXMDz7SPZ4mSFN1PXfHUy']
+Manuel Turizo,Mau y Ricky,1,['56f5qnyAlZdlz8wrUDA50h']
+Shirin David,Xavier Naidoo,1,['6hh1ikcv3CPsq3a7e9ItNR']
+C. Tangana,Paloma Mami,1,['1KdwnsWOvhM53vezy5ROuf']
+MadMan,Salmo,1,['0Rsfm3UqHkNzKsb6L0Yz3Y']
+Mabel,Tiësto,1,['6fenHIxXuuzKB55wY4WCHP']
+MadMan,thasup,1,['34UHhwlly3SHryWuVfMOJm']
+Gemitaiz,thasup,1,['34UHhwlly3SHryWuVfMOJm']
+Bruno Mars,Kodak Black,1,['2G1tXoGBaEMJ7FKGnkf6ud']
+Bruno Mars,Gucci Mane,1,['2G1tXoGBaEMJ7FKGnkf6ud']
+Ellie Goulding,Swae Lee,1,['5JEx7HbmvHQQswJCsoo9rA']
+Diplo,Swae Lee,1,['5JEx7HbmvHQQswJCsoo9rA']
+Diplo,Ellie Goulding,1,['5JEx7HbmvHQQswJCsoo9rA']
+Mark Ronson,Miley Cyrus,1,['02dRkCEc8Q5ch4TTcnLxOn']
+Calvin Harris,Dua Lipa,1,['76dIZzTdrNO15mGBrU3MHi']
+Jessie Reyez,Sam Smith,1,['5N5k9nd479b1xpDZ4usjrg']
+Calvin Harris,Sam Smith,1,['5N5k9nd479b1xpDZ4usjrg']
+Calvin Harris,Jessie Reyez,1,['5N5k9nd479b1xpDZ4usjrg']
+Dímelo Flow,Wisin,1,['4AjWbAwRpxk2worpjNH5CS']
+Dímelo Flow,Rich Music LTD,1,['4AjWbAwRpxk2worpjNH5CS']
+Dímelo Flow,Justin Quiles,1,['4AjWbAwRpxk2worpjNH5CS']
+Dímelo Flow,Feid,1,['4AjWbAwRpxk2worpjNH5CS']
+Darell,Nio Garcia,1,['3V8UKqhEK5zBkBb6d6ub8i']
+Casper Magico,Ozuna,1,['3V8UKqhEK5zBkBb6d6ub8i']
+DaBaby,Moneybagg Yo,1,['2FvD20Z8aoWIePi7PoN8sG']
+DaBaby,Migos,1,['1CCDIow4pPYyJYzhtTUYz2']
+Farruko,Rauw Alejandro,1,['6mAN61JH0dzyZpWslS11jy']
+Noriel,Rauw Alejandro,1,['2B94bbI1a4LyBpK1439oP7']
+Myke Towers,Rauw Alejandro,1,['2B94bbI1a4LyBpK1439oP7']
+Myke Towers,Noriel,1,['2B94bbI1a4LyBpK1439oP7']
+Almighty,Rauw Alejandro,1,['2B94bbI1a4LyBpK1439oP7']
+Almighty,Noriel,1,['2B94bbI1a4LyBpK1439oP7']
+Almighty,Myke Towers,1,['2B94bbI1a4LyBpK1439oP7']
+JS o Mão de Ouro,Sodré,1,['5dKesZwp6deuhEeW8F1UEi']
+JS o Mão de Ouro,MC Kevin o Chris,1,['5dKesZwp6deuhEeW8F1UEi']
+Felipe Original,Sodré,1,['5dKesZwp6deuhEeW8F1UEi']
+Felipe Original,MC Kevin o Chris,1,['5dKesZwp6deuhEeW8F1UEi']
+Camilo,Manuel Turizo,1,['56f5qnyAlZdlz8wrUDA50h']
+Camila Cabello,Young Thug,1,['1rfofaqEpACxVEHIZBJe6W']
+Gucci Mane,Kodak Black,1,['2G1tXoGBaEMJ7FKGnkf6ud']
+SHAED,ZAYN,1,['2ez6qvOTHKeI3ss80NGqnI']
+Apache 207,Sido,1,['2u8AXJyk8pICzj2wyPBL0b']
+Kehlani,Zedd,1,['5aUSEPNd3m5xliFK4pn5mU']
+Becky G,j-hope,1,['6wyr4ReB05D9sJB1Rsmcqo']
+DaBaby,Stunna 4 Vegas,1,['7vxGCUPJhe0fXfBkwVPFcP']
+DaBaby,Nicki Minaj,1,['3GX2hFAekmSduZzcS52OnR']
+J Balvin,Maluma,1,['5099x34vBakWpGkHourFxP']
+Diplo,Jonas Brothers,1,['4fwo6czG5nvOQMzhOto1ya']
+Bonez MC,The Cratez,1,['0WFgtxiLNr99YaoSdYR3Ud']
+DaBaby,Kevin Gates,1,['2TsD9kSbgYx5fSNRsoNURE']
+Gucci Mane,YK Osiris,1,['0WoAkdHmgPmEXfiBox1flk']
+DaBaby,YK Osiris,1,['0WoAkdHmgPmEXfiBox1flk']
+DaBaby,Gucci Mane,1,['0WoAkdHmgPmEXfiBox1flk']
+Chance the Rapper,YK Osiris,1,['0WoAkdHmgPmEXfiBox1flk']
+Chance the Rapper,Gucci Mane,1,['0WoAkdHmgPmEXfiBox1flk']
+Lil Baby,Moneybagg Yo,1,['2FvD20Z8aoWIePi7PoN8sG']
+A$AP Rocky,Logic,1,['5xEWiG0ug0rOymOjlzSGzx']
+A$AP Rocky,Juicy J,1,['5xEWiG0ug0rOymOjlzSGzx']
+A$AP Rocky,French Montana,1,['5xEWiG0ug0rOymOjlzSGzx']
+Ezhel,Ufo361,1,['44Fc0oSgRn1MFwu18TcY8S']
+Dan Reynolds,YUNGBLUD,1,['4KzOYxD4qIkUtZV9ZYakGu']
+Mustard,Roddy Ricch,1,['3QzAOrNlsabgbMwlZt7TAY']
+Lazza,Sfera Ebbasta,1,['4KilYheWwxakB1L43ECTeP']
+Capo Plaza,Sfera Ebbasta,1,['4KilYheWwxakB1L43ECTeP']
+Capo Plaza,Lazza,1,['4KilYheWwxakB1L43ECTeP']
+Summer Walker,USHER,1,['3TTMUI5dFcbeNSDTTDY9M8']
+Bryson Tiller,Summer Walker,1,['2xyx0o4xNOLLjBSbOOdcbA']
+Juice WRLD,YoungBoy Never Broke Again,1,['6Gg1gjgKi2AK4e0qzsR7sd']
+Dan + Shay,Justin Bieber,1,['2wrJq5XKLnmhRXHIAf9xBa']
+Ezhel,Murda,1,['4IJEw3fDvS6XF4sDc3bvjK']
+Gunna,Lil Mosey,1,['7iHHxY2NLlJRAmlAmC4ahQ']
+DJ 2F,MC Du Black,1,['3Uq45ipGutypFPmETfaoaH']
+Internet Money,Lil Tecca,1,['735RSTb2xbtWbDtKD9XDYi']
+A Boogie Wit da Hoodie,Lil Tecca,1,['735RSTb2xbtWbDtKD9XDYi']
+A Boogie Wit da Hoodie,Internet Money,1,['735RSTb2xbtWbDtKD9XDYi']
+OIK,Tati Zaqui,1,['5F8ffc8KWKNawllr5WsW0r']
+Dadá Boladão,Tati Zaqui,1,['5F8ffc8KWKNawllr5WsW0r']
+Dadá Boladão,OIK,1,['5F8ffc8KWKNawllr5WsW0r']
+Becky Hill,MEDUZA,1,['7CHi4DtfK4heMlQaudCuHK']
+Becky Hill,Goodboys,1,['7CHi4DtfK4heMlQaudCuHK']
+Bausa,RIN,1,['41wZE5FpxbPaZqXtlmBhPG']
+G-Eazy,Gunna,1,['5bzaS5tAni5oUpW7bWVdtY']
+BTS,Lauv,1,['314ZkcV7oLWG8yWE7LABvH']
+Black Eyed Peas,J Balvin,1,['4NCsrTzgVfsDo8nWyP8PPc']
+Sebastian Yatra,TINI,1,['09nSCeCs6eYfAIJVfye1CE']
+Juicy J,Logic,1,['5xEWiG0ug0rOymOjlzSGzx']
+French Montana,Logic,1,['5xEWiG0ug0rOymOjlzSGzx']
+French Montana,Juicy J,1,['5xEWiG0ug0rOymOjlzSGzx']
+Carlos Santana,YG,1,['51wFQM8W0YfXTmHusXUr5i']
+Carlos Santana,Tyga,1,['51wFQM8W0YfXTmHusXUr5i']
+Ariana Grande,Lizzo,1,['07Oz5StQ7GRoygNLaXs2pd']
+Khalid,Major Lazer,1,['0Z26mbSHJ1dkUu7g9DDgif']
+Diplo,Khalid,1,['0Z26mbSHJ1dkUu7g9DDgif']
+Death Stranding: Timefall,Major Lazer,1,['0Z26mbSHJ1dkUu7g9DDgif']
+Death Stranding: Timefall,Khalid,1,['0Z26mbSHJ1dkUu7g9DDgif']
+Death Stranding: Timefall,Diplo,1,['0Z26mbSHJ1dkUu7g9DDgif']
+Fred Hammond,Kanye West,1,['7r6aR2f57resC5r93LwMfK']
+Kanye West,Kenny G,1,['0oPOuDmmkVp3h6puekhs6P']
+Clipse,Kenny G,1,['0oPOuDmmkVp3h6puekhs6P']
+Clipse,Kanye West,1,['0oPOuDmmkVp3h6puekhs6P']
+Kanye West,Ty Dolla $ign,1,['24bnCCysWnbNRNUT4LpHcP']
+Ant Clemons,Ty Dolla $ign,1,['24bnCCysWnbNRNUT4LpHcP']
+Kanye West,Sunday Service Choir,1,['1WnqWQcWcuQbVzgE7ecfCY']
+BIA,Russ,1,['2Xo3rLHjXfdb4avN68aQyi']
+Anitta,Marília Mendonça,1,['2qD7VoDYcrAPY0cVEfpsR5']
+Dean Lewis,Martin Garrix,1,['7pWK1kMgHy5lNNiIfuRbkP']
+Gunna,Travis Scott,1,['4ea9w8c4ROqiZpJVhfBA3m']
+Nicki Minaj,Normani,1,['7vJS1DPc3FzBtqBs8n3mW5']
+Ariana Grande,Normani,1,['7vJS1DPc3FzBtqBs8n3mW5']
+Luchè,Marracash,1,['3HVm4g9bZHo0aMsjzGS7Ro']
+Coez,Marracash,1,['6l1Jnqfu7GAOV4MDgA2bNP']
+Guè,Marracash,1,['39hRcGieqFaKfZ7LN91Vy5']
+Marracash,Massimo Pericolo,1,['2tpfOljBdskx8G331TjRps']
+Sfera Ebbasta,thasup,1,['020wG4EHTwBy5h2rbpxqvK']
+Marracash,Sfera Ebbasta,1,['020wG4EHTwBy5h2rbpxqvK']
+Bobby (Boris) Pickett,The Crypt-Kickers,1,['0xxZY5C9xxij3D1HkzbnfC']
+Bad Gyal,Omar Montes,1,['6RyuoOJXNzlVWpfC5xQyeI']
+Big Freedia,Kesha,1,['3Ex5RFJRUdpHcDOLXJOVLy']
+Lunay,Ozuna,1,['37zdqI4r1gswIzczSBkRon']
+Anuel AA,Lunay,1,['37zdqI4r1gswIzczSBkRon']
+Becky G,True Damage,1,['5C0ivQMxes2lWuOANhvVAm']
+Becky G,Thutmose,1,['5C0ivQMxes2lWuOANhvVAm']
+Becky G,League of Legends,1,['5C0ivQMxes2lWuOANhvVAm']
+Becky G,Keke Palmer,1,['5C0ivQMxes2lWuOANhvVAm']
+Becky G,JEON SOYEON,1,['5C0ivQMxes2lWuOANhvVAm']
+Becky G,Duckwrth,1,['5C0ivQMxes2lWuOANhvVAm']
+Doja Cat,Tyga,1,['7f5trao56t7sB7f14QDTmp']
+JP Saxe,Julia Michaels,1,['2kJwzbxV2ppxnQoYw4GLBZ']
+Adriana Proenza,Kina,1,['58wyJLv6yH1La9NIZPl3ne']
+Riton,Vula,1,['0qaWEvPkts34WF68r8Dzx9']
+Oliver Heldens,Vula,1,['0qaWEvPkts34WF68r8Dzx9']
+Oliver Heldens,Riton,1,['0qaWEvPkts34WF68r8Dzx9']
+KAROL G,Nicki Minaj,1,['0dKg2vGC1hFqcK5LGTaKzX']
+T-Pain,Tory Lanez,1,['6JsHgIkMYHcbNtKfsal2Mg']
+Christian Nodal,Piso 21,1,['1cVlW9WQiGlFdWUXFdFZGh']
+Lexa,PEDRO SAMPAIO,1,['14kRWkCWBYfQqILflEcpSJ']
+KSI,Lil Baby,1,['4etKC4ngPKsQDHUMnYgV3A']
+Thutmose,True Damage,1,['5C0ivQMxes2lWuOANhvVAm']
+League of Legends,True Damage,1,['5C0ivQMxes2lWuOANhvVAm']
+League of Legends,Thutmose,1,['5C0ivQMxes2lWuOANhvVAm']
+Keke Palmer,True Damage,1,['5C0ivQMxes2lWuOANhvVAm']
+Keke Palmer,Thutmose,1,['5C0ivQMxes2lWuOANhvVAm']
+Keke Palmer,League of Legends,1,['5C0ivQMxes2lWuOANhvVAm']
+JEON SOYEON,True Damage,1,['5C0ivQMxes2lWuOANhvVAm']
+JEON SOYEON,Thutmose,1,['5C0ivQMxes2lWuOANhvVAm']
+JEON SOYEON,League of Legends,1,['5C0ivQMxes2lWuOANhvVAm']
+JEON SOYEON,Keke Palmer,1,['5C0ivQMxes2lWuOANhvVAm']
+Duckwrth,True Damage,1,['5C0ivQMxes2lWuOANhvVAm']
+Duckwrth,Thutmose,1,['5C0ivQMxes2lWuOANhvVAm']
+Duckwrth,League of Legends,1,['5C0ivQMxes2lWuOANhvVAm']
+Duckwrth,Keke Palmer,1,['5C0ivQMxes2lWuOANhvVAm']
+Duckwrth,JEON SOYEON,1,['5C0ivQMxes2lWuOANhvVAm']
+Marshmello,blackbear,1,['7jzldCBnJjpJM3epzJ85KE']
+Marshmello,YUNGBLUD,1,['7jzldCBnJjpJM3epzJ85KE']
+LANY,Lauv,1,['4z1rk9qlsqhp5LJm5qvXZF']
+Juhn,Lenny Tavárez,1,['5stPVcRqb4qixbafP9e8lt']
+Dímelo Flow,Juhn,1,['5stPVcRqb4qixbafP9e8lt']
+Dalex,Juhn,1,['5stPVcRqb4qixbafP9e8lt']
+Chencho Corleone,Lenny Tavárez,1,['5stPVcRqb4qixbafP9e8lt']
+Chencho Corleone,Juhn,1,['5stPVcRqb4qixbafP9e8lt']
+Chencho Corleone,Dímelo Flow,1,['5stPVcRqb4qixbafP9e8lt']
+Chencho Corleone,Dalex,1,['5stPVcRqb4qixbafP9e8lt']
+Shawn Mendes,Taylor Swift,1,['3i9UVldZOE0aD0JnyfAZZ0']
+Rick Ross,S-X,1,['4etKC4ngPKsQDHUMnYgV3A']
+Lil Baby,S-X,1,['4etKC4ngPKsQDHUMnYgV3A']
+Lil Baby,Rick Ross,1,['4etKC4ngPKsQDHUMnYgV3A']
+KSI,S-X,1,['4etKC4ngPKsQDHUMnYgV3A']
+KSI,Rick Ross,1,['4etKC4ngPKsQDHUMnYgV3A']
+Juice WRLD,YNW Melly,1,['7tgjDlQsMR8RvkdlNCJA58']
+Burna Boy,Stormzy,1,['4QPEwDdOMhY7rNS05mTyMR']
+Burna Boy,Ed Sheeran,1,['4QPEwDdOMhY7rNS05mTyMR']
+Drake,PARTYNEXTDOOR,1,['3LnJM1B5Mjgx5LfT9plXUU']
+Big Sean,Jhené Aiko,1,['1nal3Tf1OCV53KigMZXsZ7']
+Anuel AA,Bryant Myers,1,['27qRmG3zOWPvMYUkpPdQ1g']
+DaBaby,Trippie Redd,1,['3Kd6Wp3lG5HXMB2dlvuy7y']
+Mara Sattei,thasup,1,['0LfMuWu6FKNSDHEoxHu9iK']
+Chris Brown,Tory Lanez,1,['0Odu228D0yGcFySGuxU4rY']
+Salmo,thasup,1,['0I26eEAwEoii0wHuFqwhYO']
+R3HAB,ZAYN,1,['2DcZd7oFgctIJZG5pFncyD']
+Jungleboi,ZAYN,1,['2DcZd7oFgctIJZG5pFncyD']
+Jungleboi,R3HAB,1,['2DcZd7oFgctIJZG5pFncyD']
+Snoop Dogg,Tory Lanez,1,['0BpYTh0O2ut5wvt0QtDGt4']
+A Boogie Wit da Hoodie,Lil Uzi Vert,1,['364spZLB5bhNlnPrzvUB41']
+YUNGBLUD,blackbear,1,['7jzldCBnJjpJM3epzJ85KE']
+Anitta,Luísa Sonza,1,['2bPtwnrpFNEe8N7Q85kLHw']
+Anitta,Lexa,1,['2bPtwnrpFNEe8N7Q85kLHw']
+Maxwell,The Cratez,1,['1E1YyZjbteIz2XQyLvtRxD']
+Joshi Mizu,The Cratez,1,['1E1YyZjbteIz2XQyLvtRxD']
+Joshi Mizu,Maxwell,1,['1E1YyZjbteIz2XQyLvtRxD']
+Bausa,The Cratez,1,['1E1YyZjbteIz2XQyLvtRxD']
+Bausa,Maxwell,1,['1E1YyZjbteIz2XQyLvtRxD']
+Bausa,Joshi Mizu,1,['1E1YyZjbteIz2XQyLvtRxD']
+MORTEN,RAYE,1,['5dS2dvXVPe7AR6UwBpnomW']
+David Guetta,MORTEN,1,['5dS2dvXVPe7AR6UwBpnomW']
+London On Da Track,Summer Walker,1,['4otQJBpb8okSeykALR3eCH']
+Chris Brown,Summer Walker,1,['4otQJBpb8okSeykALR3eCH']
+Chris Brown,London On Da Track,1,['4otQJBpb8okSeykALR3eCH']
+Trippie Redd,YoungBoy Never Broke Again,1,['1FxTz4x5X7ewAICkKhB3kA']
+Lil Mosey,Trippie Redd,1,['07NMFSwppnky8JyIQIxAQZ']
+Trippie Redd,YNW Melly,1,['7tgjDlQsMR8RvkdlNCJA58']
+Anitta,NATTI NATASHA,1,['1Xnn1TPyr5h0hpRAT4B4EA']
+Anitta,Lenny Tavárez,1,['1Xnn1TPyr5h0hpRAT4B4EA']
+Anitta,Justin Quiles,1,['1Xnn1TPyr5h0hpRAT4B4EA']
+Anitta,Farruko,1,['1Xnn1TPyr5h0hpRAT4B4EA']
+Anitta,Dalex,1,['1Xnn1TPyr5h0hpRAT4B4EA']
+Evan Rachel Wood,Idina Menzel,1,['50WeOnXhM1H7AZEeIDoWfZ']
+B. Swanson Quartet,Frank Sinatra,1,['0SUKNXEqZnRw7g0NO139FM']
+AURORA,Idina Menzel,1,['3Z0oQ8r78OUaHvGPiDBR3W']
+Smokepurpp,Trippie Redd,1,['01kOu8BA8yzAHx9LUidTi9']
+Quan'ta,Trippie Redd,1,['4hQ6o8ECY5MyHyodnyOHEw']
+Chris King,Trippie Redd,1,['4hQ6o8ECY5MyHyodnyOHEw']
+Chris King,Quan'ta,1,['4hQ6o8ECY5MyHyodnyOHEw']
+Luísa Sonza,Rebecca,1,['2bPtwnrpFNEe8N7Q85kLHw']
+Lexa,Rebecca,1,['2bPtwnrpFNEe8N7Q85kLHw']
+Lexa,Luísa Sonza,1,['2bPtwnrpFNEe8N7Q85kLHw']
+Anitta,Rebecca,1,['2bPtwnrpFNEe8N7Q85kLHw']
+Perry Como,The Fontane Sisters,1,['6IeK3Ap5m3HabwJxgI6eSE']
+Mitchell Ayres & His Orchestra,The Fontane Sisters,1,['6IeK3Ap5m3HabwJxgI6eSE']
+Mitchell Ayres & His Orchestra,Perry Como,1,['6IeK3Ap5m3HabwJxgI6eSE']
+John Scott Trotter & His Orchestra,Ken Darby Singers,1,['3XsaSIPWvM61RIFfeb0BBR']
+Bing Crosby,Ken Darby Singers,1,['3XsaSIPWvM61RIFfeb0BBR']
+Bing Crosby,John Scott Trotter & His Orchestra,1,['3XsaSIPWvM61RIFfeb0BBR']
+A Boogie Wit da Hoodie,Roddy Ricch,1,['6ztvsy3C6hPjVg9j4x1XKJ']
+Gradur,Heuss L'enfoiré,1,['4TnFANpjVwVKWzkxNzIyFH']
+The Plastic Ono Band,Yoko Ono,1,['3zJw3rugfpVrmBeDDnUYzy']
+The Harlem Community Choir,Yoko Ono,1,['3zJw3rugfpVrmBeDDnUYzy']
+The Harlem Community Choir,The Plastic Ono Band,1,['3zJw3rugfpVrmBeDDnUYzy']
+John Lennon,Yoko Ono,1,['3zJw3rugfpVrmBeDDnUYzy']
+John Lennon,The Plastic Ono Band,1,['3zJw3rugfpVrmBeDDnUYzy']
+John Lennon,The Harlem Community Choir,1,['3zJw3rugfpVrmBeDDnUYzy']
+Sfera Ebbasta,Shiva,1,['1Xm2e1vDwOMeJJioWuG1s7']
+Daft Punk,The Weeknd,1,['7MXVkk9YMctZqd1Srtv4MB']
+Felipe Original,PEDRO SAMPAIO,1,['4lKuzrdZrJuCAedbIslF3A']
+Imanbek,SAINt JHN,1,['0zLCBJZSiELJf02ucPP9wb']
+Headie One,Stormzy,1,['6Oq4fiDzKaFMU89dTvM24u']
+Juice WRLD,Seezyn,1,['6rz0dTA0PdhXImFV5EjM0w']
+Juice WRLD,Lil Uzi Vert,1,['1a7WZZZH7LzyvorhpOJFTe']
+Gunna,Roddy Ricch,1,['7A20WnLkjtZU2d7hIB6Ziu']
+Meek Mill,Roddy Ricch,1,['4bl1HBZliBuYpFZjWgefE4']
+Hava,Nimo,1,['6416zJN0FGPmh1Ph4BH2h3']
+Kygo,The Chainsmokers,1,['3TKpJrY9q49Mj1JOsM9zGL']
+Halsey,SUGA,1,['1ZoQVu9XBssJBdeKMgF2eV']
+BTS,SUGA,1,['1ZoQVu9XBssJBdeKMgF2eV']
+Camila Cabello,DaBaby,1,['3yOlyBJuViE2YSGn3nVE1K']
+Michael Bublé,Shania Twain,1,['2gbCG4Rt9984UZ7Tc0dIFd']
+Eartha Kitt,Henri René and His Orchestra,1,['1foCxQtxBweJtZmdxhEHVO']
+Ariana Grande,Liz Gillies,1,['6YJdPrH3i2POzu7hdHIRrb']
+Kirsty MacColl,The Pogues,1,['3VTNVsTTu05dmTsVFrmGpK']
+Swae Lee,XXXTENTACION,1,['2LskIZrCeLxRvCiGP8gxlh']
+Maluma,XXXTENTACION,1,['2LskIZrCeLxRvCiGP8gxlh']
+Maluma,Swae Lee,1,['2LskIZrCeLxRvCiGP8gxlh']
+Lil Pump,XXXTENTACION,1,['2LskIZrCeLxRvCiGP8gxlh']
+Lil Pump,Swae Lee,1,['2LskIZrCeLxRvCiGP8gxlh']
+Lil Pump,Maluma,1,['2LskIZrCeLxRvCiGP8gxlh']
+21 Savage,Post Malone,1,['0e7ipj03S05BNilyu5bRzt']
+Cardi B,J Balvin,1,['58q2HKrzhC3ozto2nDdN4z']
+Bad Bunny,Cardi B,1,['58q2HKrzhC3ozto2nDdN4z']
+Cardi B,Maroon 5,1,['7fa9MBXhVfQ8P8Df9OEbD8']
+Khalid,benny blanco,1,['7FGq80cy8juXBCD2nrqdWU']
+Michael Bublé,The Puppini Sisters,1,['3nfxV3jfRcRWISwek49LTg']
+Brett Eldredge,Meghan Trainor,1,['5Q2P43CJra0uRAogjHyJDK']
+Blake Shelton,Gwen Stefani,1,['2OQ6a4CfUeYskpTTgyawyJ']
+Arcángel,Dímelo Flow,1,['7sQKy5vlPQllr0k9IjYJv3']
+JS o Mão de Ouro,PEDRO SAMPAIO,1,['4lKuzrdZrJuCAedbIslF3A']
+Halsey,benny blanco,1,['7FGq80cy8juXBCD2nrqdWU']
+Halsey,Khalid,1,['7FGq80cy8juXBCD2nrqdWU']
+Drake,Meek Mill,1,['2IRZnDFmlqMuOrYOLnZZyc']
+Kodak Black,Travis Scott,1,['0FZ4Dmg8jJJAPJnvBIzD9z']
+Kodak Black,Offset,1,['0FZ4Dmg8jJJAPJnvBIzD9z']
+Bastille,Marshmello,1,['2dpaYNEQHiRxtZbfNsse99']
+Farruko,Pedro Capó,1,['5iwz1NiezX7WWjnCgY5TH4']
+Bad Bunny,Drake,1,['116H0KvKr2Zl4RPuVBruDO']
+Post Malone,Swae Lee,1,['0RiRZpuVRbi7oqRdSMwhQY']
+Christina Aguilera,,0,[]
+Gene Autry,,0,[]
+Backstreet Boys,,0,[]
+Judy Garland,,0,[]
+Destiny's Child,,0,[]
+Eagles,,0,[]
+Mel & Kim,,0,[]
+Kylie Minogue,,0,[]
+The Jackson 5,,0,[]
+Leona Lewis,,0,[]
+Darlene Love,,0,[]
+*NSYNC,,0,[]
+John Williams,,0,[]
+Red Velvet,,0,[]
+Liam Payne,,0,[]
+Train,,0,[]
+Ella Fitzgerald,,0,[]
+Donny Hathaway,,0,[]
+Boney M.,,0,[]
+Céline Dion,,0,[]
+Bryan Adams,,0,[]
+Melanie Thornton,,0,[]
+Slade,,0,[]
+Jessie J,,0,[]
+Nina Nesbitt,,0,[]
+Hannah Kerr,,0,[]
+Vince Guaraldi Trio,,0,[]
+Carpenters,,0,[]
+Thurl Ravenscroft,,0,[]
+Pretenders,,0,[]
+Wizzard,,0,[]
+Nat King Cole Trio,,0,[]
+Flipp Dinero,,0,[]
+Michael Jackson,,0,[]
+Lukas Graham,,0,[]
+George Ezra,,0,[]
+JENNIE,,0,[]
+TOTO,,0,[]
+Zé Neto & Cristiano,,0,[]
+Portugal. The Man,,0,[]
+Wesley Safadão,,0,[]
+KEVIN ROLDAN,,0,[]
+Earth Wind & Fire,,0,[]
+Gabriel Diniz,,0,[]
+Outkast,,0,[]
+The Killers,,0,[]
+a-ha,,0,[]
+Oasis,,0,[]
+Bee Gees,,0,[]
+Journey,,0,[]
+Henrique & Juliano,,0,[]
+Jason Mraz,,0,[]
+Peter Manos,,0,[]
+Bring Me The Horizon,,0,[]
+Lewis Capaldi,,0,[]
+Lauren Jauregui,,0,[]
+Alec Benjamin,,0,[]
+Hozier,,0,[]
+Vampire Weekend,,0,[]
+Reynmen,,0,[]
+Dominic Fike,,0,[]
+Ultimo,,0,[]
+Irama,,0,[]
+Adele,,0,[]
+The Police,,0,[]
+Christina Perri,,0,[]
+Alicia Keys,,0,[]
+Lord Huron,,0,[]
+Dennis Lloyd,,0,[]
+Dermot Kennedy,,0,[]
+Calboy,,0,[]
+Solange,,0,[]
+Kenny Man,,0,[]
+Tom Walker,,0,[]
+TOMORROW X TOGETHER,,0,[]
+Louis Tomlinson,,0,[]
+The Black Keys,,0,[]
+John Lundvik,,0,[]
+FLETCHER,,0,[]
+Tame Impala,,0,[]
+Fero47,,0,[]
+PNL,,0,[]
+Gaullin,,0,[]
+Rammstein,,0,[]
+Daya,,0,[]
+Aventura,,0,[]
+Twenty One Pilots,,0,[]
+Danny Ocean,,0,[]
+Lil Dicky,,0,[]
+TWICE,,0,[]
+Florence + The Machine,,0,[]
+Alessia Cara,,0,[]
+Luke Combs,,0,[]
+Andy Grammer,,0,[]
+Tyler The Creator,,0,[]
+Slipknot,,0,[]
+Kontra K,,0,[]
+Duncan Laurence,,0,[]
+Luca Hänni,,0,[]
+KEiiNO,,0,[]
+NF,,0,[]
+Tove Lo,,0,[]
+Elton John,,0,[]
+Guayna,,0,[]
+Naomi Scott,,0,[]
+Joji,,0,[]
+Ali Gatie,,0,[]
+Blanco Brown,,0,[]
+Ashley O,,0,[]
+Lynyrd Skynyrd,,0,[]
+Jeremy Zucker,,0,[]
+Stephanie Poetri,,0,[]
+Tones And I,,0,[]
+Norm Ender,,0,[]
+Jorge & Mateus,,0,[]
+TOOL,,0,[]
+Bon Iver,,0,[]
+Saweetie,,0,[]
+Duki,,0,[]
+WOS,,0,[]
+BROCKHAMPTON,,0,[]
+Charlie Puth,,0,[]
+The 1975,,0,[]
+Miami Yacine,,0,[]
+Luan Santana,,0,[]
+Regard,,0,[]
+Melanie Martinez,,0,[]
+blink-182,,0,[]
+SSIO,,0,[]
+José José,,0,[]
+24kGoldn,,0,[]
+Gambi,,0,[]
+SuperM,,0,[]
+Harry Styles,,0,[]
+Frank Ocean,,0,[]
+Noah Cyrus,,0,[]
+Rex Orange County,,0,[]
+Arizona Zervas,,0,[]
+Ray Parker Jr.,,0,[]
+AC/DC,,0,[]
+The Citizens of Halloween,,0,[]
+Rihanna,,0,[]
+Rockwell,,0,[]
+Stevie Wonder,,0,[]
+The Cranberries,,0,[]
+Mariah Carey,,0,[]
+Ant Saunders,,0,[]
+Wham!,,0,[]
+Trevor Daniel,,0,[]
+Bobby Helms,,0,[]
+Brenda Lee,,0,[]
+Maggie Rogers,,0,[]
+Andy Williams,,0,[]
+Band Aid,,0,[]
+EXO,,0,[]
+José Feliciano,,0,[]
+Paul McCartney,,0,[]
+Nat King Cole,,0,[]
+Chris Rea,,0,[]
+Burl Ives,,0,[]
+Dean Martin,,0,[]
+The Ronettes,,0,[]
+Shakin' Stevens,,0,[]
+Daryl Hall & John Oates,,0,[]
+Elvis Presley,,0,[]
+Britney Spears,,0,[]
+Pentatonix,,0,[]
+Chuck Berry,,0,[]
+Bruce Springsteen,,0,[]
+Tony Bennett,,0,[]
+The Beach Boys,,0,[]
+Jona Lewie,,0,[]
+Conan Gray,,0,[]
+Foster The People,,0,[]
