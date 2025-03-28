@@ -21,5 +21,5 @@ Promise.all(promises)
 // initMainPage
 function initMainPage(data) {
     // log data
-    const controller = new TimeController(data[0]);
+    window.timeControllerInstance = new TimeController(data[0]);
 }

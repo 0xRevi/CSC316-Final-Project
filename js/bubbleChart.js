@@ -388,8 +388,8 @@ class BubbleChart {
             .forceSimulation(vis.data)
             .alpha(1)
             .alphaMin(0.001)
-            .alphaDecay(0.1)
-            .velocityDecay(0.23)
+            .alphaDecay(0.15)
+            .velocityDecay(0.3)
             .force(
                 "xBoundary",
                 xBoundaryForce(0, vis.effectiveWidth, vis.radiusScale)
@@ -486,12 +486,12 @@ class BubbleChart {
         simulation.on("tick", () => {
             tickCounter++;
             // update positions less frequently during high-energy phase
-            if (simulation.alpha() > 0.3 && tickCounter % 3 !== 0) return;
+            if (simulation.alpha() > 0.3 && tickCounter % 10 !== 0) return;
 
             circles.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
         });
 
-        chartGroup.transition().duration(1200).style("opacity", 1);
+        chartGroup.transition().duration(2000).style("opacity", 1);
 
         return chartGroup;
     }

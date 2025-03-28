@@ -128,8 +128,8 @@ section h2 {
 }
 
 #bar-chart-race-container .date-label {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 100;
+  font-size: 40px;
 }
 
 #bar-chart-race-container .song-label {
@@ -197,6 +197,17 @@ section h2 {
   font-size: 14px;
 }
 
+#bar-chart-race-container .x-axis text {
+  fill: white;
+  font-size: 13px;
+}
+
+#bar-chart-race-container .x-axis path,
+#bar-chart-race-container .x-axis line {
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 1px;
+}
+
 /*! Timeline in Bar Chart Race */
 #timeline-controls-container {
   width: 100%;
@@ -245,6 +256,17 @@ section h2 {
   stroke-width: 2;
 }
 
+#timeline-container .axis text {
+  fill: white;
+  font-size: 13px;
+}
+
+#timeline-container .axis path,
+#timeline-container .axis line {
+  stroke: rgba(255, 255, 255, 0.15);
+  stroke-width: 1px;
+}
+
 /*! Play/Pause button in Bar Chart Race */
 #control-container {
   position: absolute;
@@ -271,7 +293,7 @@ section h2 {
   justify-content: center;
   z-index: 10;
   cursor: pointer;
-  transition: all 0.1s ease;
+  /* transition: none; */
 }
 
 .play-pause-btn.breathing {
@@ -326,7 +348,7 @@ section h2 {
 }
 
 #visualization-container .grid-line {
-stroke: rgba(255, 255, 255, 0.1);
+stroke: rgba(255, 255, 255, 0.15);
 stroke-width: 1;
 }
 

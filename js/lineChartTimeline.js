@@ -232,9 +232,12 @@ class LineChartTimeline {
         }
     }
 
-    hideDragTooltip() {
+    hideDragTooltip(persist = true) {
         let vis = this;
-        vis.hasBeenDragged = true;
+
+        if (persist) {
+            vis.hasBeenDragged = true;
+        }
 
         if (vis.tooltipTimeout) {
             clearTimeout(vis.tooltipTimeout);
