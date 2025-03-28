@@ -237,12 +237,7 @@ class ArtistNetworkGraph {
     sortedByStreams.forEach((node, index) => {
       node.rank = index + 1;
     });
-    console.log("Artist Rankings by Stream Count:");
-    sortedByStreams.forEach(node => {
-      console.log(`Rank #${node.rank}: ${node.id} with ${node.totalStreams} streams`);
-    });
-    
-  
+
     // Clear previous graph and create new graph.
     this.state.graphGroup.selectAll("*").remove();
     this.createGraph(nodes, links, radiusScale, colorScale);

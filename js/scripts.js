@@ -64,9 +64,15 @@ document.addEventListener("DOMContentLoaded", () => {
             // Remove the graph when leaving the "network-graph" section
             if (origin.item.id === "network-graph") {
                 console.log("Removing existing graph...");
-                d3.select("#artist-network-container").select("svg").remove();
-                d3.select("body").select("div.tooltip").remove();
-            }
+                //! New fix for clearing and loading data on page visits.
+                const comp = document.getElementById("artist-network");
+                if (comp) {
+                  // Clear the inner HTML and reset the loaded flag.
+                  comp.innerHTML = "";
+                  comp.dataset.loaded = "false";
+                }
+
+              }
 
             // if (origin.item.id === "bubble-chart") {
             //     console.log("Cleaning up bubble chart...");
