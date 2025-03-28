@@ -21,13 +21,15 @@
         <div id="fullpage">
             <!-- Intro Section -->
             <section class="section" id="intro">
+                <!-- Floating Images Container -->
+                <div id="floating-images"></div>
+
                 <h1>Spotify Global 200 Analysis</h1>
                 <p>
-                    An exploration of solo versus collaborative artists. <br />
-                    <i
-                        >: Does teamwork make the dream work, or is there really
-                        an "i" in team?</i
-                    >
+                    An exploration of <span class="solo-tag">solo</span> vs.
+                    <span class="collab-tag">collaborative</span> artists. <br />
+                    <i>: Does teamwork make the dream work, or is there really
+                        an "i" in team?</i>
                 </p>
             </section>
 
@@ -92,7 +94,7 @@
             </section>
 
             <!-- Storyboarding 3 -->
-            <section class="section" id="vis3">
+            <!-- <section class="section" id="vis3">
                 <p>
                     Ever thought about how connected your favorite artists are?
                     Let’s take a look at which ones collaborate the most—and who
@@ -103,7 +105,7 @@
                     collaborators—it also raises the question: Does working with
                     others lead to more hits?
                 </p>
-            </section>
+            </section> -->
 
             <!-- Network Graph Section -->
             <section class="section" id="network-graph">
@@ -111,7 +113,7 @@
             </section>
 
             <!-- Storyboarding 4 -->
-            <section class="section" id="vis4">
+            <!--<section class="section" id="vis4">
                 <p>
                     Does the genre of music influence the likelihood of artists
                     collaborating as well? By analyzing data across 60+ markets,
@@ -124,11 +126,27 @@
                     cultural and creative norms within different musical styles.
                 </p>
             </section>
-
+            -->
             <!-- Bar Chart Section -->
             <section class="section" id="bar-chart">
-                <h2>Genre Bar Chart</h2>
-                <div id="barChart"></div>
+                <!-- Top text above the filters and chart -->
+                <div class="top-text">
+                    <p>
+                        In which genres do collab songs dominate over solo tracks?
+                        The bar chart below shows the <strong>proportion</strong> of collab songs in each genre, along with the <strong>total number</strong> of songs.
+                        Use the filters below👇 to select a year and explore how genres have shifted over time; both in the number and proportion of songs that are collaborations!
+                    </p>
+
+
+
+
+
+
+                </div>
+                <!-- Container using the racing bar chart styling -->
+                <div id="bar-chart-custom-container">
+                    <div id="barChart"></div>
+                </div>
             </section>
 
             <!-- Conclusion -->

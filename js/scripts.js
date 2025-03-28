@@ -79,6 +79,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
             //! INCLUDE REFERENCES TO YOUR PAGES HERE AND CALL LOAD WITH THE APPROPRIATE FORMATTING YOU WROTE
             //  TODO: Work in progress. Unsure if this generalizes well enough.
+
+            if (destination.item.id === "intro") {
+                loadScript("js/introAnimation.js")
+                    .then(() => {
+                        if (typeof initIntroAnimation === "function") {
+                            initIntroAnimation();
+                        } else {
+                        }
+                    });
+            }
+
             if (destination.item.id === "network-graph") {
                 loadComponent(
                     "artist-network",
@@ -140,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const barChart = new BarChart({
                             dataPath: "data/intro_genre/vis2.csv",
                             container: "#barChart",
-                            width: 1000,
+                            width: 1300,
                             height: 600,
                         });
                         barChart.render();
