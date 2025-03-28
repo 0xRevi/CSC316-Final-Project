@@ -331,7 +331,6 @@ stroke-width: 1;
 }
 
 
-
 /*! Artist Network */
 circle:hover {
   stroke: #ff4500;
@@ -339,10 +338,13 @@ circle:hover {
 }
 
 /*! Top Panel */
+/* Top Panel Container */
 #top-panel {
   background: var(--spotify-gray-dark);
   padding: 20px;
 }
+
+/* Optional Title (if you bring it back) */
 #top-panel-title {
   text-align: center;
   padding-top: 20px;
@@ -353,54 +355,83 @@ circle:hover {
   margin: 0;
   font-size: 24px;
 }
+
+/* Main Controls Row */
 #top-panel-controls {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  padding-bottom: 10px;
+  padding: 15px 30px;
+  column-gap: 20px;
 }
-#top-panel-left,
-#top-panel-center,
-#top-panel-right,
-#year-container,
-#search-container {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
+
+/* Left Column */
 #top-panel-left {
+  justify-self: start;
   position: relative;
 }
-#top-panel-left,
-#top-panel-right {
-  padding: 0 20px;
-}
+
+/* Center Column */
 #top-panel-center {
-  justify-content: center;
+  justify-self: center;
 }
+
+/* Right Column */
+#top-panel-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-self: end;
+}
+
+#top-panel-left label,
+#top-panel-right label {
+  font-size: 15px; /* or 14px, depending on your preference */
+}
+
+
+/* Shared Container Styling for Search & Year Buttons */
 #year-container,
 #search-container {
+  display: flex;
+  align-items: center;
   gap: 0.5em;
 }
+
+/* Active Suggestion Style */
 .suggestion-item.active-suggestion {
   background-color: var(--spotify-green);
-  color: white;
+  color: #fff;
 }
+
+/* Labels */
 #year-container label,
 #search-container label {
   color: var(--spotify-gray-light);
   font-weight: 500;
   margin-right: 0.25em;
 }
+
+/* Year Buttons */
 .year-button {
   font-size: 14px;
   border-radius: 4px;
-  border: 1px solid var(--spotify-gray-mid, var(--spotify-gray-mid));
-  background-color: var(--spotify-gray-dark, var(--spotify-gray-black));
-  color: var(--spotify-gray-light, var(--spotify-gray-light));
+  border: 1px solid var(--spotify-gray-mid);
+  background-color: var(--spotify-gray-dark);
+  color: var(--spotify-gray-light);
   padding: 6px 8px;
   transition: background-color 0.2s ease;
 }
+.year-button:hover {
+  background-color: var(--spotify-gray-mid);
+}
+.year-button.active {
+  background-color: var(--spotify-green);
+  color: #fff;
+  border-color: var(--spotify-green);
+}
+
+/* Search Input */
 #search-input {
   background-color: var(--spotify-black);
   color: var(--spotify-gray-light);
@@ -413,18 +444,12 @@ circle:hover {
   outline: none;
   border-color: var(--spotify-green);
 }
-.year-button:hover {
-background-color: var(--spotify-gray-mid, var(--spotify-gray-mid));
-}
-.year-button.active {
-  background-color: var(--spotify-green);
-  color: #fff;
-  border-color: var(--spotify-green);
-}
+
 /*! Top K Filter */
 .slider-wrapper {
   display: flex;
   align-items: center;
+  gap: 6px;
 }
 #topk-input {
   width: 180px;
