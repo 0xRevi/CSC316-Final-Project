@@ -119,6 +119,20 @@ section h2 {
 }
 
 /*! Bar Chart Race */
+.chart-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100%);
+  background-color: var(--spotify-black);
+  z-index: 5;
+  pointer-events: none;
+  transition: opacity 0.8s ease;
+}
+
+
+
 #bar-chart-race-container {
   width: 100%;
   height: min(600px, 70vh);

@@ -116,23 +116,26 @@ class TimeController {
         }
 
         if (this.isPlaying) {
-            // fade out the large button
-            this.playButton
-                .transition()
-                .duration(300)
-                .style("opacity", 0)
-                .on("end", () => {
-                    // after fade out, pop in the small button
-                    this.playButton
-                        .classed("breathing", false)
-                        .style("top", "30px")
-                        .style("left", "calc(100% - 60px)")
-                        .style("transform", "scale(0)")
-                        .style("opacity", 1)
-                        .transition()
-                        .duration(400)
-                        .style("transform", "scale(1)");
-                });
+            if (this.playButton.classed("breathing")) {
+                // fade out the large button
+                this.playButton
+                    .transition()
+                    .duration(300)
+                    .style("opacity", 0)
+                    .on("end", () => {
+                        // after fade out, pop in the small button
+                        // check if play button has class "breathing"
+                        this.playButton
+                            .classed("breathing", false)
+                            .style("top", "30px")
+                            .style("left", "calc(100% - 60px)")
+                            .style("transform", "scale(0)")
+                            .style("opacity", 1)
+                            .transition()
+                            .duration(400)
+                            .style("transform", "scale(1)");
+                    });
+            }
 
             this.overlay
                 .transition()
