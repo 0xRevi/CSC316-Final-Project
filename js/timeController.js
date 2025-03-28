@@ -3,7 +3,11 @@ class TimeController {
         this.data = data;
         this.currentIndex = 0;
         this.isPlaying = false;
-        this.duration = 120; // ms per frame
+        this.duration = 140; // ms per frame
+
+        this.currentAudio = null;
+        this.currentTopTrackID = null;
+        this.audioPositions = {}; // keep track of playback positions
 
         this.init();
     }
@@ -57,6 +61,52 @@ class TimeController {
     updateVisualizations() {
         this.barChart.wrangleData(this.currentIndex);
         this.timeline.wrangleData(this.currentIndex);
+        this.updateTopSong();
+    }
+
+    updateTopSong() {
+        const topTrackID = this.data[this.currentIndex].songs[0].id;
+        if (this.currentTopTrackID == topTrackID) return;
+
+        // save current position before switching
+        if (this.currentAudio && this.currentTopTrackID) {
+            this.audioPositions[this.currentTopTrackID] =
+                this.currentAudio.currentTime;
+        }
+
+        this.currentTopTrackID = topTrackID;
+
+        // stop current audio if playing
+        if (this.currentAudio) {
+            this.currentAudio.pause();
+            this.currentAudio = null;
+        }
+
+        const audioPath = `../data/song_preview/${topTrackID}.m4a`;
+
+        this.currentAudio = new Audio(audioPath);
+        this.currentAudio.volume = 0.3;
+        this.currentAudio.loop = true;
+
+        // set the current time to the saved position if available
+        if (this.audioPositions[topTrackID] !== undefined) {
+            this.currentAudio.currentTime = this.audioPositions[topTrackID];
+        }
+
+        // add error handling for the audio element
+        this.currentAudio.onerror = (e) => {
+            console.error("Audio error:", e);
+        };
+
+        if (this.isPlaying) {
+            const playPromise = this.currentAudio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.catch((error) => {
+                    // Don't throw additional errors
+                });
+            }
+        }
     }
 
     togglePlayPause() {
@@ -97,6 +147,16 @@ class TimeController {
         // show tooltip after play is pressed
         this.timeline.showDragTooltip();
 
+        if (this.currentAudio) {
+            const playPromise = this.currentAudio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.catch((error) => {
+                    console.log("Playback error handled:", error);
+                });
+            }
+        }
+
         this.interval = setInterval(() => {
             if (this.currentIndex < this.data.length - 1) {
                 this.currentIndex += 1;
@@ -111,6 +171,10 @@ class TimeController {
     }
 
     pause() {
+        if (this.currentAudio) {
+            this.currentAudio.pause();
+        }
+
         clearInterval(this.interval);
         this.playButton
             .html('<i class="bi bi-play-fill"></i>')
