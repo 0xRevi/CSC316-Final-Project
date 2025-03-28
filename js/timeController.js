@@ -3,7 +3,7 @@ class TimeController {
         this.data = data;
         this.currentIndex = 0;
         this.isPlaying = false;
-        this.duration = 140; // ms per frame
+        this.duration = 160; // ms per frame
 
         this.currentAudio = null;
         this.currentTopTrackID = null;
@@ -119,10 +119,10 @@ class TimeController {
             this.playButton
                 .classed("breathing", false)
                 .style("transform", "none")
-                .transition()
-                .duration(400)
                 .style("top", "30px")
                 .style("left", "calc(100% - 60px)");
+            // .transition()
+            // .duration(400)
 
             this.overlay
                 .transition()

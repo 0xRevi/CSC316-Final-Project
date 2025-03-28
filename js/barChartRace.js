@@ -3,7 +3,7 @@ class BarChartRace {
         this.parentElement = parentElement;
         this.data = data;
         this.topN = 15;
-        this.duration = 140;
+        this.duration = 160;
         this.initVis();
     }
 
@@ -53,12 +53,22 @@ class BarChartRace {
 
         vis.chartArea = vis.svg.append("g").attr("clip-path", "url(#clip)");
 
+        vis.textArea = vis.svg.append("g");
+
         vis.svg
             .append("defs")
             .append("clipPath")
             .attr("id", "clip")
             .append("rect")
             .attr("width", vis.effectiveWidth)
+            .attr("height", vis.effectiveHeight);
+
+        // clip area for song labels
+        vis.svg
+            .select("defs")
+            .append("clipPath")
+            .attr("id", "textClip")
+            .append("rect")
             .attr("height", vis.effectiveHeight);
 
         vis.xScale = d3.scaleLinear().range([0, vis.effectiveWidth]);
@@ -188,12 +198,34 @@ class BarChartRace {
                     .axisTop(vis.xScale)
                     .tickFormat((d) => `${(d / 1000000).toFixed(1)}M`)
             );
-        //     .selectAll("text")
-        //     .attr("fill", "white")
-        //     .attr("font-size", "12px");
 
-        // vis.xAxis.selectAll("path").attr("stroke", "rgba(255, 255, 255, 0.2)");
-        // vis.xAxis.selectAll("line").attr("stroke", "rgba(255, 255, 255, 0.2)");
+        let albumCovers = vis.chartArea
+            .selectAll(".album-cover")
+            .data(songsData, (d) => d.track);
+
+        const imageSize = vis.yScale.bandwidth();
+
+        albumCovers
+            .enter()
+            .append("image")
+            .attr("class", "album-cover")
+            .attr("xlink:href", (d) => `../data/album_cover/${d.id}.jpg`)
+            .attr("height", imageSize)
+            .attr("width", imageSize)
+            .attr("y", vis.effectiveHeight)
+            .attr("x", 0)
+            .merge(albumCovers)
+            .transition()
+            .duration(vis.duration)
+            .attr(
+                "y",
+                (d) =>
+                    vis.yScale(d.track) +
+                    (vis.yScale.bandwidth() - imageSize) / 2
+            )
+            .attr("x", 0);
+
+        albumCovers.exit().remove();
 
         let bars = vis.chartArea
             .selectAll(".bar")
@@ -203,7 +235,7 @@ class BarChartRace {
             .append("rect")
             .attr("class", "bar")
             .attr("height", vis.yScale.bandwidth())
-            .attr("x", 0)
+            .attr("x", imageSize + 0.1 * vis.yScale.bandwidth())
             .attr("y", vis.effectiveHeight)
             .attr("width", 0)
             .attr("fill", (d) => vis.colorScale(d.is_solo))
@@ -212,11 +244,30 @@ class BarChartRace {
             .transition()
             .duration(vis.duration)
             .attr("y", (d) => vis.yScale(d.track))
-            .attr("width", (d) => vis.xScale(d.streams));
+            .attr("x", imageSize + 0.1 * vis.yScale.bandwidth())
+            .attr("width", (d) => vis.xScale(d.streams) - imageSize);
 
         bars.exit().remove();
 
-        let songlabels = vis.chartArea
+        vis.svg.selectAll(".text-clip-rect").remove();
+
+        songsData.forEach((d) => {
+            vis.svg
+                .select("#textClip")
+                .append("rect")
+                .attr("class", "text-clip-rect")
+                .attr("x", imageSize + 0.1 * vis.yScale.bandwidth())
+                .attr("y", vis.yScale(d.track))
+                .attr(
+                    "width",
+                    vis.xScale(d.streams) -
+                        imageSize -
+                        0.1 * vis.yScale.bandwidth()
+                )
+                .attr("height", vis.yScale.bandwidth());
+        });
+
+        let songlabels = vis.textArea
             .selectAll(".song-label")
             .data(songsData, (d) => d.track);
 
@@ -227,6 +278,7 @@ class BarChartRace {
             .attr("fill", "white")
             .attr("text-anchor", "end")
             .attr("alignment-baseline", "middle")
+            .attr("clip-path", "url(#textClip)")
             .attr("y", (d) => vis.effectiveHeight + vis.yScale.bandwidth() / 2)
             .merge(songlabels)
             .transition()
@@ -239,7 +291,7 @@ class BarChartRace {
 
         vis.dateLabel.text(vis.displayData.date);
 
-        let streamLabels = vis.chartArea
+        let streamLabels = vis.textArea
             .selectAll(".stream-label")
             .data(songsData);
 

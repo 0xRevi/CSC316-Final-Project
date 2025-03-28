@@ -268,7 +268,7 @@ section h2 {
   justify-content: center;
   z-index: 10;
   cursor: pointer;
-  transition: all 0.1s ease;
+  /* transition: none; */
 }
 
 .play-pause-btn.breathing {
