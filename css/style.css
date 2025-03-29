@@ -91,6 +91,11 @@ body {
   padding: 0 15px;
 }
 
+#chart .grid-line-upper, #chart .grid-line-lower {
+  stroke: rgba(255, 255, 255, 0.35);
+  stroke-width: 1;
+}
+
 @media screen and (max-width: 1800px) {
   #chart {
       max-width: 95%;

@@ -372,7 +372,12 @@ class BubbleChart {
                 tooltip
                     .style("opacity", 1)
                     .html(
-                        `<strong>${d.song_name}</strong><br/>${d.Artist} [${d.release_year}]<br/>#${d.chart_days} days in Top 200`
+                        `<strong>${d.song_name}</strong><br/>${d.Artist} [${
+                            d.release_year
+                        }]<br/>${(d.total_streams / 1000000).toLocaleString(
+                            undefined,
+                            { maximumFractionDigits: 0 }
+                        )}M streams`
                     );
             })
             .on("mousemove", (event) => {
@@ -493,7 +498,92 @@ class BubbleChart {
 
         chartGroup.transition().duration(2000).style("opacity", 1);
 
+        simulation.on("end", () => {
+            // find top 3 solo and top 3 collab songs
+            const topSolos = vis.data
+                .filter((d) => d.song_type === "Solo")
+                .sort((a, b) => b.total_streams - a.total_streams)
+                .slice(0, 3);
+
+            const topCollabs = vis.data
+                .filter((d) => d.song_type === "Collaboration")
+                .sort((a, b) => b.total_streams - a.total_streams)
+                .slice(0, 3);
+
+            // Highlight the top bubbles
+            topSolos.forEach((song) => {
+                vis.highlightBubble(chartGroup, song, "top");
+            });
+
+            topCollabs.forEach((song) => {
+                vis.highlightBubble(chartGroup, song, "bottom");
+            });
+        });
+
         return chartGroup;
+    }
+
+    highlightBubble(chartGroup, bubble, position = "top") {
+        let vis = this;
+
+        const textOffset = 10;
+        const textY =
+            position === "top"
+                ? bubble.y - vis.radiusScale(bubble.total_streams) - textOffset
+                : bubble.y + vis.radiusScale(bubble.total_streams) + textOffset;
+
+        const highlightGroup = chartGroup
+            .append("g")
+            .attr("class", "highlight-group")
+            .style("opacity", 0);
+
+        // highlight the border
+        highlightGroup
+            .append("circle")
+            .attr("cx", bubble.x)
+            .attr("cy", bubble.y)
+            .attr("r", vis.radiusScale(bubble.total_streams))
+            .attr("fill", "none")
+            .attr("stroke", "#ffffff")
+            .attr("stroke-width", 3)
+            .attr("opacity", 1);
+
+        // song name text
+        highlightGroup
+            .append("text")
+            .attr("x", bubble.x)
+            .attr("y", textY)
+            .attr("text-anchor", "middle")
+            .attr("dominant-baseline", position === "top" ? "auto" : "hanging")
+            .attr("fill", "#fff")
+            .attr("font-size", "14px")
+            .attr("font-weight", "bold")
+            .style("paint-order", "stroke")
+            .style("stroke", "#000")
+            .style("stroke-width", "7px")
+            .style("stroke-linecap", "round")
+            .style("stroke-linejoin", "round")
+            .text(bubble.song_name);
+
+        // artist name text
+        const artistY = position === "top" ? textY - 20 : textY + 20;
+        highlightGroup
+            .append("text")
+            .attr("x", bubble.x)
+            .attr("y", artistY)
+            .attr("text-anchor", "middle")
+            .attr("dominant-baseline", position === "top" ? "auto" : "hanging")
+            .attr("fill", "#fff")
+            .attr("font-size", "12px")
+            .style("paint-order", "stroke")
+            .style("stroke", "#000")
+            .style("stroke-width", "7px")
+            .style("stroke-linecap", "round")
+            .style("stroke-linejoin", "round")
+            .text(bubble.Artist);
+
+        // animate the highlight
+        highlightGroup.transition().duration(1000).style("opacity", 1);
     }
 }
 
