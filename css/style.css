@@ -57,12 +57,16 @@ body {
   max-width: none;
 }
 
+.top-text p strong {
+  font-weight: 800;
+}
+
 .solo-tag, .collab-tag {
   display: inline-block;
   padding: 2px 5px 4px 5px;
   border-radius: 3px;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   line-height: 1;
   /* color: white !important; */
