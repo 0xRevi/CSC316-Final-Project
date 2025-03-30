@@ -3,7 +3,7 @@ class BarChartRace {
         this.parentElement = parentElement;
         this.data = data;
         this.topN = 15;
-        this.duration = 160;
+        this.duration = 180;
         this.initVis();
     }
 

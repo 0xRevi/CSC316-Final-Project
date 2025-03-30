@@ -3,7 +3,7 @@ class TimeController {
         this.data = data;
         this.currentIndex = 0;
         this.isPlaying = false;
-        this.duration = 160; // ms per frame
+        this.duration = 180; // ms per frame
 
         this.currentAudio = null;
         this.currentTopTrackID = null;
