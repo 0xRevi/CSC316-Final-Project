@@ -406,6 +406,9 @@ circle:hover {
 #top-panel {
   background: var(--spotify-gray-dark);
   padding: 20px;
+  /* Optionally, set a max-width to match the network container’s max width */
+  max-width: 1500px; /* adjust as needed */
+  margin: 0 auto;
 }
 
 /* Optional Title (if you bring it back) */
@@ -423,21 +426,35 @@ circle:hover {
 /* Main Controls Row */
 #top-panel-controls {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr auto 1fr; /* left and right take equal remaining space */
   align-items: center;
+  /* Remove or adjust padding if necessary – you can also set padding on individual sections */
   padding: 15px 30px;
   column-gap: 20px;
 }
 
+#top-panel-left,
+#top-panel-center,
+#top-panel-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Left Column */
 #top-panel-left {
-  justify-self: start;
-  position: relative;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+#top-panel-right {
+  justify-content: flex-end;
+  font-size: 16px;
 }
 
 /* Center Column */
 #top-panel-center {
-  justify-self: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* Right Column */
@@ -450,9 +467,8 @@ circle:hover {
 
 #top-panel-left label,
 #top-panel-right label {
-  font-size: 15px; /* or 14px, depending on your preference */
+  padding: 0;
 }
-
 
 /* Shared Container Styling for Search & Year Buttons */
 #year-container,
@@ -479,6 +495,8 @@ circle:hover {
 /* Year Buttons */
 .year-button {
   font-size: 14px;
+  line-height: 1.2;           /* Ensure consistent line-height */
+  vertical-align: middle;     /* Helps baseline alignment */
   border-radius: 4px;
   border: 1px solid var(--spotify-gray-mid);
   background-color: var(--spotify-gray-dark);
@@ -500,6 +518,9 @@ circle:hover {
   background-color: var(--spotify-black);
   color: var(--spotify-gray-light);
   border: 1px solid var(--spotify-gray-mid);
+  font-size: 14px;
+  line-height: 1.2;           /* Matches button line-height */
+  vertical-align: middle;     /* Aligns on same baseline as buttons/labels */
   padding: 5px 8px;
   border-radius: 4px;
   margin-left: 5px;
@@ -523,6 +544,7 @@ circle:hover {
   -webkit-appearance: none;
   background: none;
   cursor: pointer;
+  vertical-align: middle; /* Keep slider aligned */
 }
 #topk-input::-webkit-slider-runnable-track {
   width: 100%;
@@ -548,7 +570,11 @@ circle:hover {
   margin-left: 4px;
   font-family: monospace;
   flex-shrink: 0;
+  font-size: 14px;
+  line-height: 1.2; 
+  vertical-align: middle;
 }
+
 /*! Search Suggestions */
 #search-content {
   position: relative;
@@ -578,6 +604,7 @@ circle:hover {
 .suggestion-item:hover {
   background-color: var(--spotify-gray-mid);
 }
+
 /*! Artist Network Graph Region */
 #graph-container {
   width: 100%;
