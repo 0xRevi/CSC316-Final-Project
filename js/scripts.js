@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
     // global color variables
     window.SOLO_COLOR = "#FF6961";
-    // window.COLLAB_COLOR = "#77DD77";
-    // window.SOLO_COLOR = "#ff5e7c";
-    window.COLLAB_COLOR = "#4cc764";
+    // window.COLLAB_COLOR = "#4cc764";
+
+    window.COLLAB_COLOR = "#58d17c";
+    window.SOLO_COLOR = "#ff5e7c";
 
     async function loadComponent(id, file, scriptFiles = [], callback = null) {
         const container = document.getElementById(id);
@@ -67,12 +68,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 //! New fix for clearing and loading data on page visits.
                 const comp = document.getElementById("artist-network");
                 if (comp) {
-                  // Clear the inner HTML and reset the loaded flag.
-                  comp.innerHTML = "";
-                  comp.dataset.loaded = "false";
+                    // Clear the inner HTML and reset the loaded flag.
+                    comp.innerHTML = "";
+                    comp.dataset.loaded = "false";
                 }
-
-              }
+            }
 
             // if (origin.item.id === "bubble-chart") {
             //     console.log("Cleaning up bubble chart...");
@@ -93,13 +93,12 @@ document.addEventListener("DOMContentLoaded", () => {
             //  TODO: Work in progress. Unsure if this generalizes well enough.
 
             if (destination.item.id === "intro") {
-                loadScript("js/introAnimation.js")
-                    .then(() => {
-                        if (typeof initIntroAnimation === "function") {
-                            initIntroAnimation();
-                        } else {
-                        }
-                    });
+                loadScript("js/introAnimation.js").then(() => {
+                    if (typeof initIntroAnimation === "function") {
+                        initIntroAnimation();
+                    } else {
+                    }
+                });
             }
 
             if (destination.item.id === "network-graph") {

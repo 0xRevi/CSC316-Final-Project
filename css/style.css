@@ -5,10 +5,12 @@
   --spotify-gray-dark: #212121;
   --spotify-gray-mid: #535353;
   --spotify-gray-light: #b3b3b3;
-  --SOLO_COLOR: #FF6961;
-  --SOLO_COLOR-rgb: 255, 105, 97;
-  --COLLAB_COLOR: #4cc764;
-  --COLLAB_COLOR-rgb: 76, 199, 100;
+  /* --SOLO_COLOR: #FF6961; */
+  --SOLO_COLOR: #ff5e7c;
+  --SOLO_COLOR-rgb: 255, 94, 124;
+  /* --COLLAB_COLOR: #4cc764; */
+  --COLLAB_COLOR: #58d17c;
+  --COLLAB_COLOR-rgb: 88, 209, 124;
 }
 
 /*! Fullpage.js Navigation Colour Change */

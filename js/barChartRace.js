@@ -239,13 +239,14 @@ class BarChartRace {
             .attr("y", vis.effectiveHeight)
             .attr("width", 0)
             .attr("fill", (d) => vis.colorScale(d.is_solo))
-            .attr("opacity", 1)
+            .attr("opacity", (d, i) => (i === 0 ? 0.9 : 0.5))
             .merge(bars)
             .transition()
             .duration(vis.duration)
             .attr("y", (d) => vis.yScale(d.track))
             .attr("x", imageSize + 0.1 * vis.yScale.bandwidth())
-            .attr("width", (d) => vis.xScale(d.streams) - imageSize);
+            .attr("width", (d) => vis.xScale(d.streams) - imageSize)
+            .attr("opacity", (d, i) => (i === 0 ? 0.9 : 0.5));
 
         bars.exit().remove();
 
@@ -280,6 +281,12 @@ class BarChartRace {
             .attr("alignment-baseline", "middle")
             .attr("clip-path", "url(#textClip)")
             .attr("y", (d) => vis.effectiveHeight + vis.yScale.bandwidth() / 2)
+            .style("paint-order", "stroke")
+            .style("stroke", "#000")
+            .style("stroke-width", "2px")
+            .style("stroke-linecap", "round")
+            .style("stroke-linejoin", "round")
+            .style("stroke-opacity", "0.25")
             .merge(songlabels)
             .transition()
             .duration(vis.duration)
