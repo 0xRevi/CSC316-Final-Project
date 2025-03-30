@@ -1,4 +1,5 @@
-const SELECTED_NODE_COLOR = "#FFFF00";
+//TODO: Fix the positioning of the default image in the pfp
+const SELECTED_NODE_COLOR = "#FF8800";
 
 const rootStyles = getComputedStyle(document.documentElement);
 const SOLO_COLOR = rootStyles.getPropertyValue('--SOLO_COLOR').trim();
@@ -69,6 +70,7 @@ class ArtistNetworkGraph {
 
     const initialYear = this.options.initialYear || "2024";
     this.loadData(initialYear);
+    
 
   }
 
@@ -99,11 +101,12 @@ class ArtistNetworkGraph {
     
     const svg = d3.select(networkContainer)
       .append("svg")
+      .attr("id", "main-network-svg") // Add a unique ID here
       .attr("viewBox", `0 0 ${containerWidth} ${containerHeight}`)
       .attr("preserveAspectRatio", "xMidYMid meet")
       .style("width", "100%")
       .style("height", "100%")
-      .style("background-color", "transparent");
+      .style("background-color", "transparent")
 
     svg.node().addEventListener("wheel", event => event.preventDefault(), { passive: false });
     svg.append("rect")
@@ -120,12 +123,17 @@ class ArtistNetworkGraph {
       .scaleExtent([0.1, 3])
       .translateExtent([[-Infinity, -Infinity], [Infinity, Infinity]])
       .constrain(transform => transform)
-      .on("zoom", event => graphGroup.attr("transform", event.transform));
+      .on("zoom", event => {
+        graphGroup.attr("transform", event.transform);
+        this.state.currentZoomScale = event.transform.k; // Save the current zoom scale
+      });
+      
     svg.call(zoom);
     zoom.on("start", () => { this.state.userInteracted = true; });
     return zoom;
   }
 
+  
   createTooltip() {
     // Check if a tooltip already exists in the body
     // Resolves creating multiple tooltips after page revisit events.
@@ -238,6 +246,14 @@ class ArtistNetworkGraph {
       node.rank = index + 1;
     });
 
+    //! OPTION 1: Total stream encoded size for bubbles (adjusted by sqrt)
+    // Create a scale based on total streams:
+    const totalStreamExtent = d3.extent(this.state.globalNodes, d => d.totalStreams);
+    this.state.totalStreamRadiusScale = d3.scaleSqrt()
+      .domain(totalStreamExtent)
+      .range([8, 30]);  // Adjust the range as needed
+
+
     // Clear previous graph and create new graph.
     this.state.graphGroup.selectAll("*").remove();
     this.createGraph(nodes, links, radiusScale, colorScale);
@@ -337,10 +353,7 @@ class ArtistNetworkGraph {
     const greenPalette = ["#cccccc", "#b2ccb2", "#95cb98", "#75c97f", "#4cc764"];
     const radiusScale = d3.scaleLinear().domain(degreeExtent).range([8, 20]);
     const colorScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", COLLAB_COLOR)(t)).domain(degreeExtent);
-    
-    // const radiusScale = d3.scaleLinear().domain(degreeExtent).range([8, 20]);
-    // const colorScale = d3.scaleSequential(d3.interpolateViridis).domain(degreeExtent);
-  
+
     return { nodes, links: validLinks, radiusScale, colorScale };
   }
 
@@ -368,6 +381,7 @@ class ArtistNetworkGraph {
 
     // Compute node positions via force simulation if not precomputed
     if (!nodes[0].x) {
+      // Positions nodes such that there is no overlap and yields a static network
       const simulation = d3.forceSimulation(nodes)
         .force("link", d3.forceLink(links).id(d => d.id).strength(d => d.linkValue * 0.1))
         .force("radial", d3.forceRadial(Math.min(width, this.state.height) / 4, width / 2, this.state.height / 2).strength(0.3))
@@ -375,11 +389,14 @@ class ArtistNetworkGraph {
         .force("center", d3.forceCenter(width / 2, this.state.height / 2))
         .force("x", d3.forceX(width / 2).strength(0.05))
         .force("y", d3.forceY(this.state.height / 2).strength(0.05))
+        .force("collide", d3.forceCollide(d => this.state.totalStreamRadiusScale(d.totalStreams) + 10).iterations(2))
         .alphaDecay(0.08)
-        .alphaMin(0.02);
+        .alphaMin(0.02)
+        .on("end", () => {
+          this.labelSpecialArtists();
+        });
       simulation.stop();
       for (let i = 0; i < 100; i++) simulation.tick();
-      console.log("Simulation ticks ran to compute positions.");
     }
 
     this.state.linkElements = graphGroup.append("g")
@@ -398,20 +415,41 @@ class ArtistNetworkGraph {
       .selectAll("circle")
       .data(nodes)
       .enter().append("circle")
-      .attr("r", d => radiusScale(d.degree))
+      .attr("r", d => this.state.totalStreamRadiusScale(d.totalStreams))
       .style("fill", d => d.isSoloOnly ? SOLO_COLOR : colorScale(d.degree))
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
       .style("opacity", 0)
       .on("mouseover", (event, d) => {
-        tooltip.transition().duration(200).style("opacity", 0.9);
-        tooltip.html(`<strong>${d.id}</strong><br/>Rank: #${d.rank}<br/>Collaborators: ${d.degree}<br/>Songs: ${d.song_ids.length}`)
-          .style("left", (event.pageX + 10) + "px")
-          .style("top", (event.pageY - 28) + "px");
+        tooltip.transition().duration(200)
+               .style("opacity", 0.9);
+        tooltip.html(`
+          <div class="tooltip-header">
+            ${d.id} <span class="tooltip-rank">#${d.rank}</span>
+          </div>
+          <div class="tooltip-row">
+            <span class="tooltip-label">Charting Songs:</span> ${d.song_ids.length}
+          </div>
+          <div class="tooltip-row">
+            <span class="tooltip-label">Unique Artist Collabs:</span> ${d.degree}
+          </div>
+        `)
+               .style("left", (event.pageX + 10) + "px")
+               .style("top", (event.pageY - 28) + "px");
+        
+        // Set fixed font sizes independent of zoom:
+        tooltip.select(".tooltip-header")
+               .style("font-size", "16px"); // header is larger
+        tooltip.selectAll(".tooltip-row")
+               .style("font-size", "14px"); // content text is a bit smaller
       })
+      
+      
+      
       .on("mouseout", () => tooltip.transition().duration(200).style("opacity", 0))
       .on("click", (event, d) => {
         event.stopPropagation();
+        this.state.graphGroup.select(".special-highlights").style("display", "none");
         this.state.userInteracted = true;
         this.highlightNeighbors(d);
       });
@@ -422,7 +460,7 @@ class ArtistNetworkGraph {
       .data(nodes)
       .enter().append("circle")
       .attr("class", "overlay")
-      .attr("r", d => radiusScale(d.degree) + 4)
+      .attr("r", d => this.state.totalStreamRadiusScale(d.totalStreams) + 4)
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
       // TODO: See why this is needed to display nodes
@@ -436,6 +474,7 @@ class ArtistNetworkGraph {
 
     this.fitGraphToSVG(true);
     this.updateZoomExtentWithNetworkBounds(500);
+    this.labelSpecialArtists();
   }
 
   highlightNeighbors(selected) {
@@ -464,7 +503,8 @@ class ArtistNetworkGraph {
         const sourceID = typeof d.source === "object" ? d.source.id : d.source;
         const targetID = typeof d.target === "object" ? d.target.id : d.target;
         return (connectedNodes.has(sourceID) && connectedNodes.has(targetID))
-          ? "#fff"
+          // Color the nodes in a grey-ish shade to not contrast the white
+          ? "#555"
           : "#aaa";
       });
 
@@ -488,22 +528,15 @@ class ArtistNetworkGraph {
         .data(this.state.globalNodes.filter(d => connectedNodes.has(d.id)))
         .enter().append("text")
         .attr("class", "artist-label")
-        .attr("dx", d => this.state.radiusScale(d.degree) + 4)
-        .attr("dy", 4)
-        .text(d => d.id)
-        .style("font-size", "10px")
         .attr("x", d => d.x)
         .attr("y", d => d.y)
+        .attr("dx", d => this.state.totalStreamRadiusScale(d.totalStreams) + 4)
+        .attr("dy", "0.35em")
+        .text(d => d.id)
+        .style("font-size", "24px")
         .style("fill", "#fff")
-        .style("opacity", 1)
         .style("pointer-events", "auto")
-        .on("mouseover", function() {
-          d3.select(this).style("fill", "#ff4500");
-        })
-        .on("mouseout", function() {
-          d3.select(this).style("fill", "#fff");
-        });
-    
+
     this.updateInfoPanel(selected, [...connectedNodes].filter(id => id !== selected.id));
     this.zoomToNodeAndNeighbors(selected, connectedNodes);
   }
@@ -511,26 +544,30 @@ class ArtistNetworkGraph {
   resetVisualization() {
     this.state.selectedNode = null;
     this.currentArtist = null;
-  
+    
     this.state.nodeElements
       .style("opacity", 1)
       .style("fill", d => d.isSoloOnly ? SOLO_COLOR : this.state.globalColorScale(d.degree));
-  
+    
     this.state.linkElements
       .style("opacity", 0)
       .style("pointer-events", "none")
       .attr("stroke", "#aaa");
-  
+    
     this.state.graphGroup.select(".dynamic-labels").remove();
     this.clearInfoPanel();
-  
+    
     // Reset the toggle icon to show instructions mode.
     this.isInstructionView = false;
     this.showInstructionToggleIcon();
     
     // Force the zoom reset to default view.
     this.fitGraphToSVG(true, true);
+    
+    this.labelSpecialArtists();
+    
   }
+  
 
   
   createInstructionLegend(container) {
@@ -574,7 +611,7 @@ class ArtistNetworkGraph {
     // translated so that the legend is horizontally centered in the SVG.
     const legendGroup = legendSvg.append("g")
       // Move the group so it’s centered horizontally & vertically in our 300×60 SVG.
-      .attr("transform", `translate(${(svgWidth - legendWidth) / 2}, ${(svgHeight - legendHeight) / 2})`);
+      .attr("transform", `translate(${(svgWidth - legendWidth) / 2}, ${(svgHeight - legendHeight) / 2 + 20})`);
   
     // Draw the gradient rectangle.
     legendGroup.append("rect")
@@ -628,9 +665,19 @@ class ArtistNetworkGraph {
     instructionContent.append("h2")
       .text("Welcome to the Artist Network")
 
-    instructionContent.append("p")
-      .html("Click on a node to see artist details or search artists by name.<br>" +
-            "To minimize this pane, click the button in the corner.");
+      instructionContent
+      .append("div")
+      .html(`
+        <p>
+          <strong>How to explore:</strong><br>
+          Click on a bubble to view that artist’s details, or use the search bar above to find an artist by name.
+        </p>
+        <p>
+          <strong>Hide this panel:</strong><br>
+          Click the minimize button in the top‑right corner if you’d like more space.
+        </p>
+      `);
+    
 
     const legendContainer = instructionContent.append("div")
       .attr("class", "instruction-legend")
@@ -775,13 +822,6 @@ class ArtistNetworkGraph {
     // Card Container
     const card = panel.append("div")
       .attr("class", "artist-card")
-      .style("background-color", "#212121")
-      .style("border", "1px solid #333")
-      .style("border-radius", "8px")
-      .style("padding", "16px")
-      .style("margin-top", "36px")
-      .style("margin-bottom", "20px")
-      .style("font-family", "'Montserrat', sans-serif");
   
     // Header
     const header = card.append("div")
@@ -804,9 +844,8 @@ class ArtistNetworkGraph {
       .style("height", "80px")
       .style("border-radius", "50%")
       .style("object-fit", "cover")
-      .style("object-position", "center")
       .style("margin-right", "16px")
-      .style("border", "2px solid #fff");
+      .style("border", "2px solid #fff")
   
     const textContainer = leftSection.append("div");
     textContainer.append("h2")
@@ -847,7 +886,7 @@ class ArtistNetworkGraph {
         .text(`Years on Chart: ${uniqueSorted.join(", ")}`)
         .style("margin", "4px 0 0 0")
         .style("color", "#ccc")
-        .style("font-size", "11px"); // 11px makes it so that 2017-2024 fits on a line
+        .style("font-size", "10px"); // 11px makes it so that 2017-2024 fits on a line
     }
     
   
@@ -900,26 +939,17 @@ class ArtistNetworkGraph {
       const artistNames = songData.artist_names.split(",").map(a => a.trim().toLowerCase());
       return artistNames.includes(artist.id.toLowerCase());
     }).map(songData => {
-      if (this.currentYear === "all") {
-        return {
-          songName: songData.song_name,
-          artist: songData.artist_names,
-          releaseDate: songData.release_date,
-          //yearsOnChart: this.formatYearsOnChart(songData.years_on_chart)
-        };
-      } else {
-        return {
-          songName: songData.song_name,
-          artist: songData.artist_names,
-          releaseDate: songData.release_date
-        };
-      }
+      return {
+        songName: songData.song_name,
+        artist: songData.artist_names,
+        releaseDate: songData.release_date,
+      };
     });
     
     // Clear any existing details and create a new details container.
     d3.select("#info-panel").select(".artist-details").remove();
     const detailsDiv = d3.select("#info-panel").append("div").attr("class", "artist-details");
-    detailsDiv.append("h4").text("Songs in the Top 200");
+    detailsDiv.append("h3").text("Songs in the Spotify Global Top 200");
     
     // Build the table.
     const table = detailsDiv.append("table").attr("class", "artist-details-table");
@@ -1030,41 +1060,431 @@ class ArtistNetworkGraph {
     renderRows(songs);
   }
 
-  formatYearsOnChart(years) {
-    if (!years) return "";
-    if (Array.isArray(years)) return years.join(", ");
-    try {
-      const arr = JSON.parse(years);
-      if (Array.isArray(arr)) return arr.join(", ");
-    } catch (e) {}
-    return years.trim();
-  }
-
   bindSVGBackgroundClick() {
     d3.select("#overlay").on("click", () => this.hideInfo());
   }
 
+  computeSpecialNodes(nodes) {
+    let maxCollabNode = null, maxDegree = -Infinity;
+    let topCollabNode = null, maxCollabStreams = -Infinity;
+    let topSoloNode = null, maxSoloStreams = -Infinity;
+    
+    nodes.forEach(d => {
+      if (d.degree > maxDegree) {
+        maxDegree = d.degree;
+        maxCollabNode = d;
+      }
+      if (!d.isSoloOnly && d.totalStreams > maxCollabStreams) {
+        maxCollabStreams = d.totalStreams;
+        topCollabNode = d;
+      }
+      if (d.isSoloOnly && d.totalStreams > maxSoloStreams) {
+        maxSoloStreams = d.totalStreams;
+        topSoloNode = d;
+      }
+    });
+    
+    return { topSoloNode, topCollabNode, maxCollabNode };
+  }
+  
+
+  labelSpecialArtists() {
+    // Reuse cached special labels if available and if not in focused view.
+
+    // Otherwise, remove any existing special highlights.
+    this.state.graphGroup.select(".special-highlights").remove();
+    
+    const nodes = this.state.globalNodes;
+    if (!nodes || nodes.length === 0) return;
+    
+    // Use the helper to compute special nodes.
+    const { topSoloNode, topCollabNode, maxCollabNode } = this.computeSpecialNodes(nodes);
+    
+    // Build an array of special nodes, avoiding duplicates.
+    let specialNodes = [];
+    if (topCollabNode) specialNodes.push(topCollabNode);
+    if (maxCollabNode && maxCollabNode !== topCollabNode) specialNodes.push(maxCollabNode);
+    if (topSoloNode) specialNodes.push(topSoloNode);
+    if (specialNodes.length === 0) return;
+    
+    // Create a group for all special highlights and tooltips.
+    const highlightGroup = this.state.graphGroup.append("g")
+      .attr("class", "special-highlights")
+      .style("opacity", 0);
+    // Array to store bounding boxes for collision detection.
+    const placedTooltips = [];
+    
+    // Helper: check if two bounding boxes overlap.
+    function boxesOverlap(a, b) {
+      return !(a.x2 < b.x1 || a.x1 > b.x2 || a.y2 < b.y1 || a.y1 > b.y2);
+    }
+    
+    // Set font sizes based on whether "all years" is active.
+    const isAllYears = (this.currentYear === "all");
+    const headerFontSize = isAllYears ? 144 : 56;
+    const artistFontSize = isAllYears ? 132 : 48;
+    
+    // Helper function: Render tooltip for a given node in either "top" or "bottom" configuration.
+    // Returns a Promise that resolves with an object containing the tooltipGroup and its bounding box.
+    const renderTooltip = (node, position) => {
+      const tooltipGroup = highlightGroup.append("g")
+        .attr("class", "special-tooltip")
+        .style("pointer-events", "none")
+        .attr("opacity", 0.6);
+      
+      const textGroup = tooltipGroup.append("g")
+        .attr("class", "text-group");
+      
+      // Determine header title based on node type.
+      let headerTitle = "";
+      if (node === topSoloNode) {
+        headerTitle = "Most Streamed Solo Artist";
+      } else if (node === topCollabNode && node === maxCollabNode) {
+        headerTitle = "Most Streamed Collab Artist & Most Artist Collabs";
+      } else if (node === topCollabNode) {
+        headerTitle = "Most Streamed Collab Artist";
+      } else if (node === maxCollabNode) {
+        headerTitle = "Most Artist Collabs";
+      }
+      
+      const headerText = textGroup.append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .style("fill", "#fff")
+        .style("font-size", headerFontSize + "px")
+        .style("font-weight", "bold")
+        .style("opacity", 0.6)
+        .text(headerTitle);
+      
+      const artistText = textGroup.append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("text-anchor", "middle")
+        .style("fill", "#fff")
+        .style("font-size", artistFontSize + "px")
+        .style("font-weight", "bold")
+        .style("opacity", 0.6)
+        .text(node.id);
+      
+      return new Promise(resolve => {
+        setTimeout(() => {
+          const headerBBox = headerText.node().getBBox();
+          headerText.attr("y", headerBBox.height);
+          const lineSpacing = 10;
+          const artistY = headerBBox.height + lineSpacing + artistText.node().getBBox().height;
+          artistText.attr("y", artistY);
+          
+          const textBBox = textGroup.node().getBBox();
+          // Use proportional margins (applied uniformly for all years)
+          const marginTop = textBBox.height * 0.05;
+          const marginBottom = textBBox.height * 0.2;
+          const marginX = textBBox.width * 0.1;
+          
+          const rectWidth = textBBox.width + marginX * 2;
+          const rectHeight = textBBox.height + marginTop + marginBottom;
+          
+          const bgRect = tooltipGroup.insert("rect", ".text-group")
+            .attr("x", -rectWidth / 2)
+            .attr("y", 0)
+            .attr("width", rectWidth)
+            .attr("height", rectHeight)
+            .attr("rx", 8)
+            .attr("ry", 8)
+            .style("fill", "rgba(0,0,0,0.7)")
+            .style("stroke", "#fff")
+            .style("stroke-width", 2);
+          
+          textGroup.attr("transform", `translate(0, ${marginTop})`);
+          
+          const arrowHeight = 12;
+          let arrowPath = "";
+          let totalHeight = rectHeight + arrowHeight;
+          if (position === "top") {
+            arrowPath = `M-10,${rectHeight} L0,${rectHeight + arrowHeight} L10,${rectHeight} Z`;
+          } else {
+            arrowPath = `M-10,0 L0,${-arrowHeight} L10,0 Z`;
+          }
+          tooltipGroup.append("path")
+            .attr("d", arrowPath)
+            .style("fill", "rgba(0,0,0,0.7)")
+            .style("stroke-width", 2);
+          
+          const nodeRadius = this.state.totalStreamRadiusScale(node.totalStreams);
+          const gap = 10;
+          let groupFinalY;
+          if (position === "top") {
+            const bottomY = node.y - nodeRadius - gap;
+            groupFinalY = bottomY - totalHeight;
+          } else {
+            const topY = node.y + nodeRadius + gap;
+            groupFinalY = topY + arrowHeight;
+          }
+          tooltipGroup.attr("transform", `translate(${node.x}, ${groupFinalY})`);
+          
+          const bbox = {
+            x1: node.x - rectWidth / 2,
+            x2: node.x + rectWidth / 2,
+            y1: (position === "bottom") ? groupFinalY - arrowHeight : groupFinalY,
+            y2: (position === "top") ? (groupFinalY + totalHeight + arrowHeight) : (groupFinalY + rectHeight)
+          };
+          resolve({ tooltipGroup, bbox });
+        }, 0);
+      });
+    };
+    
+    // Helper function: Place tooltip for a node; if collision detected, flip configuration.
+    const placeTooltipForNode = async (node) => {
+      // Draw a white ring around the node and allow pointer events.
+      const ring = highlightGroup.append("circle")
+        .attr("cx", node.x)
+        .attr("cy", node.y)
+        .attr("r", this.state.totalStreamRadiusScale(node.totalStreams) + 6)
+        .style("fill", "none")
+        .style("stroke", "#fff")
+        .style("stroke-width", 20)
+        .style("pointer-events", "none")
+        .classed("special-ring", true);
+      
+      let result = await renderTooltip.call(this, node, "top");
+      let collided = false;
+      for (const box of placedTooltips) {
+        if (boxesOverlap(result.bbox, box)) {
+          collided = true;
+          break;
+        }
+      }
+      if (collided) {
+        result.tooltipGroup.remove();
+        result = await renderTooltip.call(this, node, "bottom");
+      }
+      placedTooltips.push(result.bbox);
+      
+      // Attach hover events to the ring.
+      ring.on("mouseover", () => {
+        result.tooltipGroup.transition().duration(200).attr("opacity", 1);
+        result.tooltipGroup.select("rect").transition().duration(200).style("stroke-opacity", 1);
+      }).on("mouseout", () => {
+        result.tooltipGroup.transition().duration(200).attr("opacity", 0.6);
+        result.tooltipGroup.select("rect").transition().duration(200).style("stroke-opacity", 0.6);
+      });
+      
+      // Also attach hover events to the node itself.
+      const nodeSel = this.state.nodeElements.filter(d => d.id === node.id);
+      if (!nodeSel.empty()) {
+        nodeSel.on("mouseover", (event, d) => {
+          const tooltip = this.state.tooltip;
+          
+          // Show/hide the tooltip as usual
+          tooltip.transition().duration(200).style("opacity", 0.9);
+          tooltip.html(`
+            <div class="tooltip-header">
+              ${d.id} <span class="tooltip-rank">#${d.rank}</span>
+            </div>
+            <div class="tooltip-row">
+              <span class="tooltip-label">Charting Songs:</span> ${d.song_ids.length}
+            </div>
+            <div class="tooltip-row">
+              <span class="tooltip-label">Unique Artist Collabs:</span> ${d.degree}
+            </div>
+          `)
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY - 28) + "px");
+          
+          // IMPORTANT: Enforce the same font sizes you use for regular nodes
+          tooltip.select(".tooltip-header").style("font-size", "16px");
+          tooltip.selectAll(".tooltip-row").style("font-size", "14px");
+        
+          // If you also have a specialized SVG label or ring, you can still show it here,
+          // but keep it separate from the HTML tooltip.
+          result.tooltipGroup.transition().duration(200).attr("opacity", 1);
+          result.tooltipGroup.select("rect")
+            .transition().duration(200)
+            .style("stroke-opacity", 1);
+        })
+        .on("mouseout", () => {
+          // Hide the HTML tooltip
+          this.state.tooltip.transition().duration(200).style("opacity", 0);
+        
+          // Also hide/fade the specialized annotation
+          result.tooltipGroup.transition().duration(200).attr("opacity", 0.6);
+          result.tooltipGroup.select("rect")
+            .transition().duration(200)
+            .style("stroke-opacity", 0.6);
+        });
+        
+
+      }
+    };
+    
+    // Sort special nodes by their y coordinate (ascending).
+    specialNodes.sort((a, b) => a.y - b.y);
+    
+    (async () => {
+      for (const node of specialNodes) {
+        await placeTooltipForNode.call(this, node);
+      }
+      // Cache the rendered labels along with the current year.
+      this.state.cachedSpecialLabels = this.state.graphGroup.select(".special-highlights").node();
+      this.state.cachedSpecialLabelsYear = this.currentYear;
+    })();
+    // Fixes issue with jumbled special highlighting text on display
+    highlightGroup.transition().duration(500).style("opacity", 0.6);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
   applyTopKFilter() {
     const topK = +d3.select("#topk-input").property("value");
+    const networkSvg = d3.select("#main-network-svg");
     d3.select("#topk-value").text(topK);
-
+  
+    // If topK is 0, remove top‑K labels, proportions, and top artist highlights, then exit
     if (topK === 0) {
       this.state.overlayElements.style("opacity", 0);
+      this.state.graphGroup.select('.topk-labels').remove();
+      networkSvg.select(".topk-proportions").remove();
+      this.state.graphGroup.select(".top-artists").remove();
       return;
     }
-
+  
+    // Sort nodes by total streams and select the topK set
     const sorted = this.state.globalNodes.slice().sort((a, b) => b.totalStreams - a.totalStreams);
     const topKSet = new Set(sorted.slice(0, topK).map(n => n.id));
-
+  
+    // Update the overlay (halo) elements' opacity for the top‑K nodes
     this.state.overlayElements.style("opacity", d =>
       topKSet.has(d.id) ? 1 : 0
     );
-
-    // Only re‑highlight neighbors if an artist is selected AND the info‑panel is already visible
+  
+    // Remove any previously created top‑K labels
+    this.state.graphGroup.select('.topk-labels').remove();
+  
+    // Append text labels for each top‑K node.
+    this.state.graphGroup.append("g")
+      .attr("class", "topk-labels")
+      .selectAll("text")
+      .data(this.state.globalNodes.filter(d => topKSet.has(d.id)))
+      .enter().append("text")
+        .attr("class", "artist-label")
+        .attr("x", d => d.x)
+        .attr("y", d => d.y)
+        .attr("dx", d => this.state.radiusScale(d.totalStreams) + 4)
+        .attr("dy", "0.35em")
+        .text(d => d.id)
+        .style("font-size", d => this.state.fontScale ? this.state.fontScale(d.totalStreams) + "px" : "10px")
+        .style("fill", "#fff")
+        .style("pointer-events", "auto");
+  
+    // Calculate proportions of solo vs. collaborative artists
+    const topKNodes = this.state.globalNodes.filter(d => topKSet.has(d.id));
+    const soloCount = topKNodes.filter(d => d.isSoloOnly).length;
+    const collabCount = topKNodes.length - soloCount;
+    const soloPercent = Math.round((soloCount / topKNodes.length) * 100);
+    const collabPercent = Math.round((collabCount / topKNodes.length) * 100);
+  
+    // Remove any previous proportions group
+    networkSvg.select(".topk-proportions").remove();
+  
+    // Get actual pixel dimensions from your main network SVG
+    const svgNode = networkSvg.node();
+    const { width: svgWidth, height: svgHeight } = svgNode.getBoundingClientRect();
+  
+    // Append a <g> container for your proportions, positioned in the bottom left.
+    const proportionGroup = networkSvg.append("g")
+      .attr("class", "topk-proportions")
+      .attr("transform", `translate(10, ${svgHeight - 50})`);
+  
+    // Collab row (top line)
+    proportionGroup.append("rect")
+      .attr("width", 12)
+      .attr("height", 12)
+      .attr("x", 0)
+      .attr("y", 0)
+      .style("fill", "#4cc764");  // Collab color
+  
+    proportionGroup.append("text")
+      .attr("x", 16)
+      .attr("y", 10) // slight offset to vertically center text
+      .style("fill", "#fff")
+      .style("font-size", "12px")
+      .text(`Collab: ${collabPercent}%`);
+  
+    // Solo row (below collab)
+    proportionGroup.append("rect")
+      .attr("width", 12)
+      .attr("height", 12)
+      .attr("x", 0)
+      .attr("y", 20)
+      .style("fill", "#FF6961");  // Solo color
+  
+    proportionGroup.append("text")
+      .attr("x", 16)
+      .attr("y", 30)
+      .style("fill", "#fff")
+      .style("font-size", "12px")
+      .text(`Solo: ${soloPercent}%`);
+  
+    // ===== STEP 2: Identify Top Solo & Collab Artists =====
+    const collabNodes = topKNodes.filter(d => !d.isSoloOnly);
+    const soloNodes = topKNodes.filter(d => d.isSoloOnly);
+  
+    // Sort each list by total streams descending
+    collabNodes.sort((a, b) => b.totalStreams - a.totalStreams);
+    soloNodes.sort((a, b) => b.totalStreams - a.totalStreams);
+  
+    // Take the top 3 from each list
+    const topCollab = collabNodes.slice(0, 3);
+    const topSolo = soloNodes.slice(0, 3);
+  
+    // ===== STEP 3: Remove old highlights & create a new group for top artists =====
+    this.state.graphGroup.select(".top-artists").remove();
+    const highlightGroup = this.state.graphGroup.append("g")
+      .attr("class", "top-artists");
+  
+    // ===== STEP 4: Append labels for top collab & top solo artists =====
+  
+    // Append labels for top collaborative artists
+    highlightGroup.selectAll("text.collab-label")
+      .data(topCollab)
+      .enter().append("text")
+        .attr("class", "collab-label")
+        .attr("x", d => d.x)
+        .attr("y", d => d.y)
+        .attr("dx", d => this.state.radiusScale(d.totalStreams) + 4)
+        .attr("dy", "0.35em")
+        .text(d => `Top Collab: ${d.id}`)
+        .style("fill", "#4cc764")
+        .style("font-size", "12px")
+        .style("font-weight", "bold");
+  
+    // Append labels for top solo artists
+    highlightGroup.selectAll("text.solo-label")
+      .data(topSolo)
+      .enter().append("text")
+        .attr("class", "solo-label")
+        .attr("x", d => d.x)
+        .attr("y", d => d.y)
+        .attr("dx", d => this.state.radiusScale(d.totalStreams) + 4)
+        .attr("dy", "0.35em")
+        .text(d => `Top Solo: ${d.id}`)
+        .style("fill", "#FF6961")
+        .style("font-size", "12px")
+        .style("font-weight", "bold");
+  
+    // Optionally update neighbor highlighting if needed
     if (this.state.selectedNode && d3.select("#info-panel").style("display") === "block") {
       this.highlightNeighbors(this.state.selectedNode);
     }
   }
+  
+
 
   // Removed reference to the old "minWeight" filter per updated requirements.
   applyFilterState() {
@@ -1091,92 +1511,86 @@ class ArtistNetworkGraph {
   Zooms and adjusts the SVG network display corresponding to the selected
   node and its first-degree related nodes (direct collaborators to the artist)
   */
-zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
-  const { svg, nodeElements, graphGroup, zoom } = this.state;
+  zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
+    const { svg, nodeElements, graphGroup, zoom } = this.state;
 
-  const bbox   = this.computeBoundingBoxWithExtremes(nodeElements, d => connectedNodes.has(d.id));
-  const MARGIN = 50;
-  const boxW   = bbox.xMax - bbox.xMin + MARGIN * 2;
-  const boxH   = bbox.yMax - bbox.yMin + MARGIN * 2;
-  const centerX = (bbox.xMin + bbox.xMax) / 2;
-  const centerY = (bbox.yMin + bbox.yMax) / 2;
+    const bbox   = this.computeBoundingBoxWithExtremes(nodeElements, d => connectedNodes.has(d.id));
+    const MARGIN = 50;
+    const boxW   = bbox.xMax - bbox.xMin + MARGIN * 2;
+    const boxH   = bbox.yMax - bbox.yMin + MARGIN * 2;
+    const centerX = (bbox.xMin + bbox.xMax) / 2;
+    const centerY = (bbox.yMin + bbox.yMax) / 2;
 
-  const panelRect = document.getElementById("info-panel").getBoundingClientRect();
-  const usableWidth = panelRect.left;
-  const usableHeight = document.getElementById("artist-network-container").clientHeight;
+    const panelRect = document.getElementById("info-panel").getBoundingClientRect();
+    const usableWidth = panelRect.left;
+    const usableHeight = document.getElementById("artist-network-container").clientHeight;
 
-  const scale = Math.min(usableWidth / boxW, usableHeight / boxH, 5);
+    const scale = Math.min(usableWidth / boxW, usableHeight / boxH, 5);
 
-  const transform = d3.zoomIdentity
-    .translate(usableWidth / 2, usableHeight / 2)
-    .scale(scale)
-    .translate(-centerX, -centerY);
+    const transform = d3.zoomIdentity
+      .translate(usableWidth / 2, usableHeight / 2)
+      .scale(scale)
+      .translate(-centerX, -centerY);
 
-  graphGroup.selectAll(".bounding-box").remove();
-  graphGroup.append("rect")
-    .attr("class", "bounding-box")
-    .attr("x", bbox.xMin - MARGIN)
-    .attr("y", bbox.yMin - MARGIN)
-    .attr("width",  boxW)
-    .attr("height", boxH)
-    .attr("fill", "none")
-    .attr("stroke", "orange")
-    .attr("stroke-dasharray", "5,5");
+    graphGroup.selectAll(".bounding-box").remove();
+    graphGroup.append("rect")
+      .attr("class", "bounding-box")
+      .attr("x", bbox.xMin - MARGIN)
+      .attr("y", bbox.yMin - MARGIN)
+      .attr("width",  boxW)
+      .attr("height", boxH)
+      .attr("fill", "none")
+      .attr("stroke", "orange")
+      .attr("stroke-dasharray", "5,5");
 
-  svg.transition().duration(750).call(zoom.transform, transform);
-}
+    svg.transition().duration(750).call(zoom.transform, transform);
+  }
 
   computeBoundingBoxWithExtremes(nodeSelection, filterFn = () => true) {
     let xMin = Infinity, xMax = -Infinity;
     let yMin = Infinity, yMax = -Infinity;
-    
+
     let leftmostNode = null;
     let rightmostNode = null;
     let topmostNode = null;
     let bottommostNode = null;
 
+    // Compute basic extremes from node positions.
     nodeSelection.each(d => {
-      // Only consider nodes that pass the filterFn
       if (!filterFn(d)) return;
-
-      // Update xMin and xMax
-      if (d.x < xMin) {
-        xMin = d.x;
-        leftmostNode = d;
-      }
-      if (d.x > xMax) {
-        xMax = d.x;
-        rightmostNode = d;
-      }
-
-      // Update yMin and yMax
-      if (d.y < yMin) {
-        yMin = d.y;
-        topmostNode = d;
-      }
-      if (d.y > yMax) {
-        yMax = d.y;
-        bottommostNode = d;
-      }
+      if (d.x < xMin) { xMin = d.x; leftmostNode = d; }
+      if (d.x > xMax) { xMax = d.x; rightmostNode = d; }
+      if (d.y < yMin) { yMin = d.y; topmostNode = d; }
+      if (d.y > yMax) { yMax = d.y; bottommostNode = d; }
     });
-
-    return {
-      xMin, xMax, yMin, yMax,
-      leftmostNode,
-      rightmostNode,
-      topmostNode,
-      bottommostNode
-    };
-  }
-
-  minimizeInfo() {
-    // Hide the panel but don’t clear the selection
-    d3.select("#info-panel").style("display", "none");
   
-    // Update the instruction-toggle-icon to show the artist‑pane icon
-    this.showInstructionToggleIcon();
+    // Only consider labels that are not within the Top K labels container.
+    d3.selectAll(".artist-label")
+      .filter(function() {
+        // Exclude labels if their closest ancestor has the "topk-labels" class.
+        return !this.closest('.topk-labels');
+      })
+      .each(function(d) {
+        if (!filterFn(d)) return;
+        const bbox = this.getBBox();
+        const dx = parseFloat(d3.select(this).attr("dx")) || 0;
+        const dy = parseFloat(d3.select(this).attr("dy")) || 0;
+        const labelRight = d.x + dx + bbox.width;
+        // Assuming the label’s baseline is at d.y, subtract bbox.height to approximate the top edge.
+        const labelTop = d.y + dy - bbox.height;
+        
+        if (labelRight > xMax) {
+          xMax = labelRight;
+          rightmostNode = d;
+        }
+        if (labelTop < yMin) {
+          yMin = labelTop;
+          topmostNode = d;
+        }
+      });
+  
+    return { xMin, xMax, yMin, yMax, leftmostNode, rightmostNode, topmostNode, bottommostNode };
   }
-
 
   computeBoundingBox(selection, filterFn = () => true) {
     let xMin = Infinity, xMax = -Infinity, yMin = Infinity, yMax = -Infinity;
@@ -1189,6 +1603,13 @@ zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
       }
     });
     return { xMin, xMax, yMin, yMax };
+  }
+
+  minimizeInfo() {
+    // Hide the panel but don’t clear the selection
+    d3.select("#info-panel").style("display", "none");
+    // Update the instruction-toggle-icon to show the artist‑pane icon
+    this.showInstructionToggleIcon();
   }
 
   /* Fits the initial graph view for when datasets are rendere for the first time */
@@ -1254,9 +1675,7 @@ zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
       currentHistory.index--;
       const artistNode = currentHistory.history[currentHistory.index];
       this.highlightNeighbors(artistNode);
-      this.highlightNeighbors(artistNode);
       this.updateBackForwardButtons();
-      
     }
   }
 
@@ -1266,14 +1685,13 @@ zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
       currentHistory.index++;
       const artistNode = currentHistory.history[currentHistory.index];
       this.highlightNeighbors(artistNode);
-      this.highlightNeighbors(artistNode);
       this.updateBackForwardButtons();
     }
   }
 
   updateBackForwardButtons() {
     const history = this.state.historyByYear[this.currentYear]?.history || [];
-    const index   = this.state.historyByYear[this.currentYear]?.index ?? -1;
+    const index = this.state.historyByYear[this.currentYear]?.index ?? -1;
   
     d3.select("#back-button")
       .property("disabled", index <= 0);
@@ -1345,6 +1763,7 @@ zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
               suggestionsDiv.html("");
               currentSuggestionIndex = -1;
               this.state.userInteracted = true;
+              this.state.graphGroup.select(".special-highlights").style("display", "none");
               this.highlightNeighbors(suggestion);
             });
         });
@@ -1381,10 +1800,12 @@ zoomToNodeAndNeighbors(selectedNode, connectedNodes) {
               const matchingNode = this.state && this.state.globalNodes
                 ? this.state.globalNodes.find(n => n.id.toLowerCase() === searchTerm.toLowerCase())
                 : null;
-              if (matchingNode) {
-                this.highlightNeighbors(matchingNode);
-                searchHandled = true;
-              }
+                if (matchingNode) {
+                  // Hide specialized annotations before highlighting the matching artist.
+                  this.state.graphGroup.select(".special-highlights").style("display", "none");
+                  this.highlightNeighbors(matchingNode);
+                  searchHandled = true;
+                }
             }
           }
           currentSuggestionIndex = -1;
