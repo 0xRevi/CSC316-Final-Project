@@ -57,7 +57,6 @@ class BarChart {
     }
 
     render() {
-
         // Update filter UI if it already exists.
         const container = document.querySelector(this.container);
         const controlsDiv = container.querySelector(".chart-controls");
@@ -176,7 +175,7 @@ class BarChart {
                 .transition().duration(750)
                 .attr("transform", d => `translate(0, ${yScale(d.parent_genres)})`);
 
-            // For each bar group, update the collaboration rectangle.
+            // Collaboration rectangle
             const collabRect = chartArea.selectAll(".bar-group").selectAll(".collabRect")
                 .data(d => [d]);
             collabRect.enter()
@@ -187,10 +186,12 @@ class BarChart {
                 .attr("height", yScale.bandwidth())
                 .attr("width", 0)
                 .attr("fill", d => colorScale(d.parent_genres))
+                // Use the same stroke as the solo part
+                .attr("stroke", d => colorScale(d.parent_genres))
+                .attr("stroke-width", 2)
                 .style("pointer-events", "all")
                 .merge(collabRect)
                 .on("mouseover", (event, d) => {
-                    console.log("collabRect mouseover", d);
                     const pct = (d.collabProp * 100).toFixed(1);
                     let tooltipText = `<strong>Year: ${d.year}</strong><br/>Genre: ${d.parent_genres}<br/>Collaboration: ${pct}%`;
                     if (this.valueType === "raw") {
@@ -212,7 +213,7 @@ class BarChart {
                 .attr("width", d => xScale(this.valueType === "raw" ? d.collabCount : d.collabProp));
             collabRect.exit().remove();
 
-            // Update the solo rectangle.
+            // Solo rectangle
             const soloRect = chartArea.selectAll(".bar-group").selectAll(".soloRect")
                 .data(d => [d]);
             soloRect.enter()
@@ -222,11 +223,13 @@ class BarChart {
                 .attr("y", 0)
                 .attr("height", yScale.bandwidth())
                 .attr("width", 0)
-                .attr("fill", d => d3.color(colorScale(d.parent_genres)).darker(2))
+                // Set fill to black and use the same stroke as collabRect
+                .attr("fill", "black")
+                .attr("stroke", d => colorScale(d.parent_genres))
+                .attr("stroke-width", 2)
                 .style("pointer-events", "all")
                 .merge(soloRect)
                 .on("mouseover", (event, d) => {
-                    console.log("soloRect mouseover", d);
                     const pct = (d.soloProp * 100).toFixed(1);
                     let tooltipText = `<strong>Year: ${d.year}</strong><br/>Genre: ${d.parent_genres}<br/>Solo: ${pct}%`;
                     if (this.valueType === "raw") {
@@ -335,9 +338,9 @@ class BarChart {
         const valueSelector = document.createElement("select");
         valueSelector.classList.add("view-selector");
         valueSelector.innerHTML = `
-    <option value="proportion">Proportion</option>
-    <option value="raw">Number of Songs</option>
-  `;
+            <option value="proportion">Proportion</option>
+            <option value="raw">Number of Songs</option>
+        `;
         viewGroup.appendChild(valueSelector);
 
         valueSelector.addEventListener("change", (e) => {
@@ -352,9 +355,6 @@ class BarChart {
 
         container.prepend(controlsDiv);
     }
-
-
-
 }
 
 window.BarChart = BarChart;

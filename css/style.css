@@ -380,7 +380,7 @@ stroke-width: 1;
 
 /*! Artist Network */
 circle:hover {
-  stroke: #002aff;
+  stroke: #4a90e2;
   stroke-width: 3px;
 }
 /*! Special Artist Highlighting */
@@ -1118,6 +1118,28 @@ circle:hover {
   background-color: #d62728;
   color: #fff;
   text-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+@media (max-height: 700px) {
+  #bar-chart .top-text {
+    position: relative;
+    height: auto;
+  }
+  #bar-chart-custom-container {
+    padding-top: 0;
+    height: auto;
+  }
+}
+
+
+#ending h1 {
+  font-size: 2.5em;
+}
+
+.tooltip {
+  font-size: 12px;
+  padding: 4px 6px;
+  max-width: 150px;
 }
 
 .electronic-tag {
