@@ -1,10 +1,3 @@
-//TODO: Fix the positioning of the default image in the pfp
-const SELECTED_NODE_COLOR = "#FF8800";
-
-const rootStyles = getComputedStyle(document.documentElement);
-const SOLO_COLOR = rootStyles.getPropertyValue('--SOLO_COLOR').trim();
-const COLLAB_COLOR = rootStyles.getPropertyValue('--COLLAB_COLOR').trim();
-
 class ArtistNetworkGraph {
   constructor(container, options = {}) {
     this.container = container;
@@ -82,7 +75,7 @@ class ArtistNetworkGraph {
     });
   }
   createSVGContainer() {
-    // Use user-based dimensions to auto-configure display dimensions
+    // Use user screen dimensions to auto-configure display dimensions
     // Get the title element and the network container
     const titleEl = document.getElementById("top-panel-wrapper");
     const networkContainer = document.getElementById("artist-network-container");
@@ -352,7 +345,7 @@ class ArtistNetworkGraph {
     const degreeExtent = d3.extent(nodes, d => d.degree);
     const greenPalette = ["#cccccc", "#b2ccb2", "#95cb98", "#75c97f", "#4cc764"];
     const radiusScale = d3.scaleLinear().domain(degreeExtent).range([8, 20]);
-    const colorScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", COLLAB_COLOR)(t)).domain(degreeExtent);
+    const colorScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", window.COLLAB_COLOR)(t)).domain(degreeExtent);
 
     return { nodes, links: validLinks, radiusScale, colorScale };
   }
@@ -416,7 +409,7 @@ class ArtistNetworkGraph {
       .data(nodes)
       .enter().append("circle")
       .attr("r", d => this.state.totalStreamRadiusScale(d.totalStreams))
-      .style("fill", d => d.isSoloOnly ? SOLO_COLOR : colorScale(d.degree))
+      .style("fill", d => d.isSoloOnly ? window.SOLO_COLOR : colorScale(d.degree))
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
       .style("opacity", 0)
@@ -513,9 +506,9 @@ class ArtistNetworkGraph {
       .style("opacity", d => connectedNodes.has(d.id) ? 1 : 0.1)
       .style("fill", d => {
         if (d.id === selected.id) {
-          return SELECTED_NODE_COLOR;
+          return window.SELECTED_NODE_COLOR;
         } else {
-          return d.isSoloOnly ? SOLO_COLOR : this.state.globalColorScale(d.degree);
+          return d.isSoloOnly ? window.SOLO_COLOR : this.state.globalColorScale(d.degree);
         }
       });
       
@@ -547,7 +540,7 @@ class ArtistNetworkGraph {
     
     this.state.nodeElements
       .style("opacity", 1)
-      .style("fill", d => d.isSoloOnly ? SOLO_COLOR : this.state.globalColorScale(d.degree));
+      .style("fill", d => d.isSoloOnly ? window.SOLO_COLOR : this.state.globalColorScale(d.degree));
     
     this.state.linkElements
       .style("opacity", 0)
@@ -596,7 +589,7 @@ class ArtistNetworkGraph {
       .attr("y2", "0%");
   
     // Example "reverse green" scale from darker to lighter. Adjust if needed.
-    const reverseGreenScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", COLLAB_COLOR)(t))
+    const reverseGreenScale = d3.scaleSequential(t => d3.interpolateRgb("#1a2e1a", window.COLLAB_COLOR)(t))
       .domain([0, 1]);
   
     legendGradient.append("stop")
@@ -1154,7 +1147,6 @@ class ArtistNetworkGraph {
         .style("fill", "#fff")
         .style("font-size", headerFontSize + "px")
         .style("font-weight", "bold")
-        .style("opacity", 0.6)
         .text(headerTitle);
       
       const artistText = textGroup.append("text")
@@ -1164,7 +1156,6 @@ class ArtistNetworkGraph {
         .style("fill", "#fff")
         .style("font-size", artistFontSize + "px")
         .style("font-weight", "bold")
-        .style("opacity", 0.6)
         .text(node.id);
       
       return new Promise(resolve => {
@@ -1191,7 +1182,6 @@ class ArtistNetworkGraph {
             .attr("height", rectHeight)
             .attr("rx", 8)
             .attr("ry", 8)
-            .style("fill", "rgba(0,0,0,0.7)")
             .style("stroke", "#fff")
             .style("stroke-width", 2);
           
@@ -1207,7 +1197,6 @@ class ArtistNetworkGraph {
           }
           tooltipGroup.append("path")
             .attr("d", arrowPath)
-            .style("fill", "rgba(0,0,0,0.7)")
             .style("stroke-width", 2);
           
           const nodeRadius = this.state.totalStreamRadiusScale(node.totalStreams);

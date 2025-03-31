@@ -11,6 +11,7 @@
   /* --COLLAB_COLOR: #4cc764; */
   --COLLAB_COLOR: #58d17c;
   --COLLAB_COLOR-rgb: 88, 209, 124;
+  --SELECTED_NODE_COLOR: #ff8800;
 }
 
 /*! Fullpage.js Navigation Colour Change */
@@ -825,7 +826,7 @@ circle:hover {
   display: none;
 }
 #instruction-toggle-icon.artist-mode {
-  border-color: #ff4500;
+  border-color: #fff;
   background: var(--toggle-img) center/cover no-repeat;
 }
 
@@ -835,10 +836,6 @@ circle:hover {
 #instruction-toggle-icon.instruction-toggle-icon i {
   color: var(--spotify-green);
 }
-#instruction-toggle-icon.artist-mode i {
-  color: #ff4500;
-}
-
 
 /* Minimize button */
 #info-panel .info-header {

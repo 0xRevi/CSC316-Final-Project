@@ -1,35 +1,43 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // global color variables
-    window.SOLO_COLOR = "#FF6961";
-    // window.COLLAB_COLOR = "#4cc764";
+    // Global Color configruations
+    //! Required for color references in the beeswarm and bar chart race
+    const rootStyles = getComputedStyle(document.documentElement);
+    window.SOLO_COLOR = rootStyles.getPropertyValue('--SOLO_COLOR').trim();
+    window.COLLAB_COLOR = rootStyles.getPropertyValue('--COLLAB_COLOR').trim();
+    window.SELECTED_NODE_COLOR = rootStyles.getPropertyValue('--SELECTED_NODE_COLOR').trim();
 
-    window.COLLAB_COLOR = "#58d17c";
-    window.SOLO_COLOR = "#ff5e7c";
-
-    async function loadComponent(id, file, scriptFiles = [], callback = null) {
+    /**
+     * This function fetches the HTML content from the provided file path and injects it into
+     * the container identified by the given id. It prevents reloading if the component is already loaded.
+     * If additional script files are specified, they are loaded sequentially.
+     *
+     * @async
+     * @param {string} id - The id of the DOM element that will host the HTML content.
+     * @param {string} file - The path of the HTML file to fetch and inject.
+     * @param {Array<string>} [scriptFiles=[]] - Array of script file paths to load after the HTML content.
+     * @param {Function|null} [callback=null] - Optional callback function to execute after all content and scripts are loaded.
+     * @returns {Promise<void>} A promise that resolves when the component and scripts are loaded.
+     */
+    async function loadComponent(id, file, scriptFiles=[], callback=null) {
         const container = document.getElementById(id);
-
         // Prevent reloading if already loaded
         if (container.dataset.loaded === "true") {
             console.log(`Component ${id} already loaded, skipping...`);
             if (callback && typeof callback === "function") callback();
             return;
         }
-
         try {
             // Fetch and inject the HTML content
             const response = await fetch(file);
             const content = await response.text();
             container.innerHTML = content;
             container.dataset.loaded = "true";
-
             // Load scripts sequentially
             for (let scriptFile of scriptFiles) {
                 if (!document.querySelector(`script[src="${scriptFile}"]`)) {
                     await loadScript(scriptFile);
                 }
             }
-
             // Execute the callback if provided
             if (callback && typeof callback === "function") {
                 callback();
@@ -39,6 +47,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    /**
+     * Asynchronously loads a JavaScript file by creating and appending a script element
+     * to the document. If the script fails to load, the promise rejects with the error.
+     *
+     * @param {string} src - The URL or path of the JavaScript file to load.
+     * @returns {Promise<void>} A promise that resolves when the script is loaded successfully.
+     */
     function loadScript(src) {
         return new Promise((resolve, reject) => {
             let script = document.createElement("script");
@@ -55,13 +70,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initialize fullPage.js with `onLeave` and `afterLoad` to handle graph state
     new fullpage("#fullpage", {
+        // Parameterize fullpage interactions
         autoScrolling: true,
         navigation: true,
         scrollHorizontally: true,
         // Handles cleanup when leaving a section
-        onLeave: function (origin, destination, direction) {
+        onLeave: function (origin) {
             console.log(`Leaving section: ${origin.index}, ${origin.item.id}`);
-
             // Remove the graph when leaving the "network-graph" section
             if (origin.item.id === "network-graph") {
                 console.log("Removing existing graph...");
@@ -73,25 +88,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     comp.dataset.loaded = "false";
                 }
             }
-
-            // if (origin.item.id === "bubble-chart") {
-            //     console.log("Cleaning up bubble chart...");
-            //     d3.select("#chart").select("svg").remove();
-            // }
-            if (origin.item.id === "scrolly-chart") {
+            else if (origin.item.id === "scrolly-chart") {
                 console.log("Cleaning up bar chart race...");
-                // d3.select("#visualization-container").select("svg").remove();
                 window.timeControllerInstance.handlePageLeave();
             }
         },
 
         // Handles initialization when entering a section
-        afterLoad: function (origin, destination, direction) {
+        afterLoad: function (_origin, destination, _direction) {
             console.log(`Entering section: ${destination.index}`);
-
             //! INCLUDE REFERENCES TO YOUR PAGES HERE AND CALL LOAD WITH THE APPROPRIATE FORMATTING YOU WROTE
-            //  TODO: Work in progress. Unsure if this generalizes well enough.
-
             if (destination.item.id === "intro") {
                 loadScript("js/introAnimation.js").then(() => {
                     if (typeof initIntroAnimation === "function") {
@@ -100,8 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 });
             }
-
-            if (destination.item.id === "network-graph") {
+            else if (destination.item.id === "network-graph") {
                 loadComponent(
                     "artist-network",
                     "components/artist-network.html",
@@ -115,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 );
             }
-            if (destination.item.id === "scrolly-chart") {
+            else if (destination.item.id === "scrolly-chart") {
                 console.log("Loading bar chart race...");
                 loadComponent(
                     "visualization-container",
@@ -128,8 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     ]
                 );
             }
-
-            if (destination.item.id === "bubble-chart") {
+            else if (destination.item.id === "bubble-chart") {
                 console.log("Loading the bubble chart...");
                 loadComponent(
                     "chart",
@@ -139,7 +143,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         if (!window.bubbleChartInstance) {
                             console.log("Creating new bubble chart instance");
                             window.bubbleChartInstance = new BubbleChart({
-                                // container: "#chart",
                                 parentElement: "chart",
                                 dataPath: "data/intro_genre/vis1.csv",
                             });
@@ -149,8 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 );
             }
-
-            if (destination.item.id === "bar-chart") {
+            else if (destination.item.id === "bar-chart") {
                 console.log("Loading the bar chart...");
                 loadComponent(
                     "barChart",
