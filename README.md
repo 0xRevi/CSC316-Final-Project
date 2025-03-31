@@ -4,7 +4,7 @@
 ## Overview
 This repository creates interactive visualizations from daily collection time series of the Global Spotify Top 200 charts from January 1st, 2017 to December 31st, 2024. The visualizations include song, artist, and genre-level specifications for categories of solo vs. collaborative artists, helping users explore and understand the importance of how these factors may influence song popularity within an already popular demographic of songs (that is the Top 200).
 
-Our team collected and preprocessed data from the [external APIs and serivces](#apis-and-services) to curate our datasets and improve artist identification with songs playback, artist and album images. Most of the features in our datasets took inspiration from the works of the [MGD+ Dataset](https://zenodo.org/records/8086643). The remaining visualizaitons used [JavaScript libraries](#javascript-libraries) to format out visualizations and format its organization in the presentation.
+Our team collected and preprocessed data from the [external APIs and serivces](#apis-and-services) to curate our datasets and improve artist identification with songs playback, artist and album images. Most of the features in our datasets took inspiration from the works of the [MGD+ Dataset](https://zenodo.org/records/8086643). The remaining visualizaitons used [JavaScript libraries](#javascript-libraries) to format our visualizations and format its organization in the presentation.
 
 ## Interactive Visualizations
 *NOTE*: All data uses the same collection period as defined in the [overview](#overview). Some visualizations may rely on different ways of grouping our data (e.g. by year or by day).
