@@ -131,6 +131,8 @@ class BarChart {
             }
             const chartArea = svg.select("g.chartArea");
 
+
+
             // Update x-axis
             chartArea.select(".x-axis").remove();
             chartArea.append("g")
@@ -156,6 +158,14 @@ class BarChart {
                 .selectAll("text")
                 .attr("fill", "#fff")
                 .attr("font-size", "14px");
+
+            // Target the y-axis paths and lines.
+            chartArea.select(".y-axis").selectAll("path")
+                .attr("stroke", "#fff")
+                .attr("stroke-width", 2);
+            chartArea.select(".y-axis").selectAll("line")
+                .attr("stroke", "#fff")
+                .attr("stroke-width", 2);
 
             // Data join for bar groups (keyed by genre)
             const barGroups = chartArea.selectAll(".bar-group")
@@ -252,6 +262,7 @@ class BarChart {
                 .attr("width", d => xScale(this.valueType === "raw" ? d.soloCount : d.soloProp));
             soloRect.exit().remove();
 
+            chartArea.select(".y-axis").raise();
             // Update the legend with the per-genre colours.
             this.addLegend(svg, colorScale);
         });
