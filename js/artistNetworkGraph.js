@@ -39,16 +39,16 @@ class ArtistNetworkGraph {
     };
   }
 
-
   hideInfo() {
     d3.select("#overlay").style("display", "none");
     d3.select("#info-panel").style("display", "none");
   }
+
   showInfo() {
     d3.select("#overlay").style("display", "block");
     d3.select("#info-panel").style("display", "block");
   }
-  
+
   init() {
     const { svg, graphGroup, width, height } = this.createSVGContainer();
     Object.assign(this.state, { svg, graphGroup, width, height });
@@ -74,6 +74,7 @@ class ArtistNetworkGraph {
       if (window.fullpage_api) fullpage_api.setAllowScrolling(true);
     });
   }
+
   createSVGContainer() {
     // Use user screen dimensions to auto-configure display dimensions
     // Get the title element and the network container
@@ -126,18 +127,17 @@ class ArtistNetworkGraph {
     return zoom;
   }
 
-  
   createTooltip() {
     // Check if a tooltip already exists in the body
     // Resolves creating multiple tooltips after page revisit events.
-    let tooltip = d3.select("body").select("div.tooltip");
+    let tooltip = d3.select("body").select("div.network-tooltip");
     if (!tooltip.empty()) {
       return tooltip;
     }
     // Otherwise, create a new one
     return d3.select("body")
       .append("div")
-      .attr("class", "tooltip")
+      .attr("class", "network-tooltip")
   }
 
   loadData(year) {
@@ -253,7 +253,6 @@ class ArtistNetworkGraph {
     console.log(`Total render time for ${this.currentYear}: ${performance.now() - startOverall} ms`);
     this.applyTopKFilter();
   }
-  
 
   processData(datasets) {
     const allLinks = [];
@@ -417,23 +416,23 @@ class ArtistNetworkGraph {
         tooltip.transition().duration(200)
                .style("opacity", 0.9);
         tooltip.html(`
-          <div class="tooltip-header">
-            ${d.id} <span class="tooltip-rank">#${d.rank}</span>
+          <div class="network-tooltip-header">
+            ${d.id} <span class="network-tooltip-rank">#${d.rank}</span>
           </div>
-          <div class="tooltip-row">
-            <span class="tooltip-label">Charting Songs:</span> ${d.song_ids.length}
+          <div class="network-tooltip-row">
+            <span class="network-tooltip-label">Charting Songs:</span> ${d.song_ids.length}
           </div>
-          <div class="tooltip-row">
-            <span class="tooltip-label">Unique Artist Collabs:</span> ${d.degree}
+          <div class="network-tooltip-row">
+            <span class="network-tooltip-label">Unique Artist Collabs:</span> ${d.degree}
           </div>
         `)
                .style("left", (event.pageX + 10) + "px")
                .style("top", (event.pageY - 28) + "px");
         
         // Set fixed font sizes independent of zoom:
-        tooltip.select(".tooltip-header")
+        tooltip.select(".network-tooltip-header")
                .style("font-size", "16px"); // header is larger
-        tooltip.selectAll(".tooltip-row")
+        tooltip.selectAll(".network-tooltip-row")
                .style("font-size", "14px"); // content text is a bit smaller
       })
       
@@ -560,9 +559,7 @@ class ArtistNetworkGraph {
     this.labelSpecialArtists();
     
   }
-  
 
-  
   createInstructionLegend(container) {
     // Dimensions for the legend rectangle.
     const legendWidth = 480;
@@ -630,11 +627,6 @@ class ArtistNetworkGraph {
       .style("font-size", "14px")
       .text("More Collaborators");
   }
-  
-  
-
-
-
 
   //! Instruction Panel
   showInstructionPanel() {
@@ -914,7 +906,6 @@ class ArtistNetworkGraph {
   
     this.showInstructionToggleIcon();
   }
-  
 
   clearInfoPanel() {
     d3.select("#info-panel")
@@ -1079,7 +1070,6 @@ class ArtistNetworkGraph {
     
     return { topSoloNode, topCollabNode, maxCollabNode };
   }
-  
 
   labelSpecialArtists() {
     // Reuse cached special labels if available and if not in focused view.
@@ -1121,7 +1111,7 @@ class ArtistNetworkGraph {
     // Returns a Promise that resolves with an object containing the tooltipGroup and its bounding box.
     const renderTooltip = (node, position) => {
       const tooltipGroup = highlightGroup.append("g")
-        .attr("class", "special-tooltip")
+        .attr("class", "special-network-tooltip")
         .style("pointer-events", "none")
         .attr("opacity", 0.6);
       
@@ -1267,22 +1257,22 @@ class ArtistNetworkGraph {
           // Show/hide the tooltip as usual
           tooltip.transition().duration(200).style("opacity", 0.9);
           tooltip.html(`
-            <div class="tooltip-header">
-              ${d.id} <span class="tooltip-rank">#${d.rank}</span>
+            <div class="network-tooltip-header">
+              ${d.id} <span class="network-tooltip-rank">#${d.rank}</span>
             </div>
-            <div class="tooltip-row">
-              <span class="tooltip-label">Charting Songs:</span> ${d.song_ids.length}
+            <div class="network-tooltip-row">
+              <span class="network-tooltip-label">Charting Songs:</span> ${d.song_ids.length}
             </div>
-            <div class="tooltip-row">
-              <span class="tooltip-label">Unique Artist Collabs:</span> ${d.degree}
+            <div class="network-tooltip-row">
+              <span class="network-tooltip-label">Unique Artist Collabs:</span> ${d.degree}
             </div>
           `)
           .style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 28) + "px");
           
           // IMPORTANT: Enforce the same font sizes you use for regular nodes
-          tooltip.select(".tooltip-header").style("font-size", "16px");
-          tooltip.selectAll(".tooltip-row").style("font-size", "14px");
+          tooltip.select(".network-tooltip-header").style("font-size", "16px");
+          tooltip.selectAll(".network-tooltip-row").style("font-size", "14px");
         
           // If you also have a specialized SVG label or ring, you can still show it here,
           // but keep it separate from the HTML tooltip.
@@ -1320,14 +1310,6 @@ class ArtistNetworkGraph {
     // Fixes issue with jumbled special highlighting text on display
     highlightGroup.transition().duration(500).style("opacity", 0.6);
   }
-  
-  
-  
-  
-  
-  
-  
-  
 
   applyTopKFilter() {
     const topK = +d3.select("#topk-input").property("value");
@@ -1472,8 +1454,6 @@ class ArtistNetworkGraph {
       this.highlightNeighbors(this.state.selectedNode);
     }
   }
-  
-
 
   // Removed reference to the old "minWeight" filter per updated requirements.
   applyFilterState() {
@@ -1496,7 +1476,7 @@ class ArtistNetworkGraph {
     }
   }
 
-  /* 
+  /*
   Zooms and adjusts the SVG network display corresponding to the selected
   node and its first-degree related nodes (direct collaborators to the artist)
   */
@@ -1623,7 +1603,6 @@ class ArtistNetworkGraph {
         .translate(-centerX, -centerY)
     );
   }
-  
 
   updateZoomExtentWithNetworkBounds(margin = 0) {
     const { xMin, xMax, yMin, yMax } = this.computeBoundingBox(this.state.nodeElements);
@@ -1681,15 +1660,13 @@ class ArtistNetworkGraph {
   updateBackForwardButtons() {
     const history = this.state.historyByYear[this.currentYear]?.history || [];
     const index = this.state.historyByYear[this.currentYear]?.index ?? -1;
-  
+
     d3.select("#back-button")
       .property("disabled", index <= 0);
-  
+
     d3.select("#forward-button")
       .property("disabled", index >= history.length - 1);
   }
-  
-
 
   setupUIControls() {
     // Year buttons: attach click events for dataset switching
@@ -1803,7 +1780,7 @@ class ArtistNetworkGraph {
           }
         }
       }.bind(this)); // bind 'this' so that "this.state" and "this.highlightNeighbors" work correctly
-  
+
     // Slider logic for topK filter
     d3.select("#topk-input")
       .on("input", event => {
@@ -1812,16 +1789,14 @@ class ArtistNetworkGraph {
         this.applyTopKFilter();
       });
   }
-  
-  
 
   resetToggleIconForDatasetSwitch() {
     // Clear any selected artist.
     this.currentArtist = null;
-    
+
     // Optionally, reset other state flags.
     this.isInstructionView = false;
-  
+
     // Update the toggle button to only show instructions mode.
     const toggleIcon = d3.select("#instruction-toggle-icon");
     if (!toggleIcon.empty()) {
@@ -1830,15 +1805,13 @@ class ArtistNetworkGraph {
                 .classed("instructions-mode", true)
                 .html('<i class="fa fa-info" aria-hidden="true"></i>');
     }
-    
+
     // Also, if needed, reset or hide the info panel.
     d3.select("#info-panel").style("display", "none");
   }
-  
-
 }
 
-
+//! HELPER FUNCTIONS
 // Helper function to highlight a suggestion in the list
 function highlightSuggestion(suggestionNodes, activeIndex) {
   suggestionNodes.forEach((node, index) => {

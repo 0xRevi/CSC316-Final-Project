@@ -21,9 +21,9 @@ _NOTE_: All data uses the same collection period as defined in the [overview](#o
 
 ### JavaScript Libraries
 
--   d3.js: Used to implement the majority of interactive visualization rendering across our various visualizations.
--   fuse.js: Used to implement a suggestive search feature for the aritst network.
--   fullpage.js: Used to create a convenient and intuitive layout for webpage interactions when transitioning between our visualizations.
+-   [d3.js (V7.8.2)](https://d3js.org/): Used to implement the majority of interactive visualization rendering across our various visualizations.
+-   [fuse.js (V7.1.0)](https://www.fusejs.io/): Used to implement a suggestive search feature for the aritst network.
+-   [fullpage.js (V4.0.20)](https://alvarotrigo.com/fullPage/#page2): Used to create a convenient and intuitive layout for webpage interactions when transitioning between our visualizations.
 
 ### APIs and Services
 

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // Global Color configruations
-    //! Required for color references in the beeswarm and bar chart race
+    //! Required for color references across beeswarm, bar chart race, and artist network
     const rootStyles = getComputedStyle(document.documentElement);
     window.SOLO_COLOR = rootStyles.getPropertyValue('--SOLO_COLOR').trim();
     window.COLLAB_COLOR = rootStyles.getPropertyValue('--COLLAB_COLOR').trim();
