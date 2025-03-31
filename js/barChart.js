@@ -368,4 +368,5 @@ class BarChart {
     }
 }
 
+
 window.BarChart = BarChart;
