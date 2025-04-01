@@ -209,7 +209,7 @@ class BarChartRace {
             .enter()
             .append("image")
             .attr("class", "album-cover")
-            .attr("xlink:href", (d) => `../data/album_cover/${d.id}.jpg`)
+            .attr("xlink:href", (d) => `./data/album_cover/${d.id}.jpg`)
             .attr("height", imageSize)
             .attr("width", imageSize)
             .attr("y", vis.effectiveHeight)
