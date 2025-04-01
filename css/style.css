@@ -34,6 +34,10 @@ body {
   margin: 0;
   padding: 0;
 }
+circle:hover {
+  stroke: #4a90e2;
+  stroke-width: 3px;
+}
 
 /*! Instruction Text Styling */
 .top-text {
@@ -376,9 +380,18 @@ stroke-width: 1;
 
 
 /*! Artist Network */
-circle:hover {
-  stroke: #4a90e2;
-  stroke-width: 3px;
+#main-network-svg {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+/*! Specified Artist View*/
+.artist-label {
+  font-size: 24px;
+  fill: #fff;
+  pointer-events: auto;
+  fill-opacity: 0.7;
 }
 /*! Special Artist Highlighting */
 @keyframes pulsate {
@@ -397,6 +410,10 @@ circle:hover {
 }
 .special-ring {
   animation: pulsate 2s infinite;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 20px;
+  pointer-events: none;
 }
 /*! Top Panel */
 #top-panel {
@@ -450,15 +467,15 @@ circle:hover {
 }
 #top-panel-left label,
 #top-panel-right label {
-  padding: 0;
-  position: relative;
-  top: -2px;
+  position: static;
+  margin-right: 6px;
+  vertical-align: middle;
 }
 #year-container,
 #search-container {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 6px;
 }
 .suggestion-item.active-suggestion {
   background-color: var(--spotify-green);
@@ -510,6 +527,10 @@ circle:hover {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+.topk-label {
+  fill: #fff;
+  pointer-events: auto;
 }
 #topk-input {
   width: 180px;
@@ -639,23 +660,76 @@ circle:hover {
   overflow: visible;
   position: static;
 }
-.artist-details-table thead tr {
+.artist-details h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--spotify-green);
+  font-size: 18px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 4px;
+}
+.artist-rank {
+  margin: 0;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.artist-details-table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--spotify-black);
+}
+
+.artist-details-table .info-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid #555;
+}
+
+.artist-details-table .info-table thead tr {
   position: sticky;
-  top: -20px;
-  background-color: var(--spotify-gray-mid);
+  top: -22px;
+  background-color: #3a3a3a;
   z-index: 10;
 }
-.artist-details-table th,
-.artist-details-table td {
-  padding: 10px 14px;
-  text-align: left;
-}
-.artist-details-table th {
+.artist-details-table .info-table th {
   background-color: #3a3a3a;
+  padding-top: 14px;
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  padding: 10px 14px;
+  text-align: left;
+  border: 1px solid #555;
+}
+.sort-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 12px;
+  color: #1DB954;
+}
+.sort-arrow.asc::before {
+  content: "\25B2";
+}
+.sort-arrow.desc::before {
+  content: "\25BC";
+}
+.artist-details-table .info-table td {
+  padding: 10px 14px;
+  text-align: left;
+  border: 1px solid #555;
+}
+.artist-details-table .info-table tbody tr:nth-child(even) {
+  background-color: #1b1b1b;
+}
+.artist-details-table .info-table tbody tr:hover {
+  background-color: #2c2c2c;
 }
 .artist-details h3 {
   margin-top: 24px;
@@ -664,19 +738,19 @@ circle:hover {
   color: #fff;
   border-bottom: 1px solid #444;
   padding-bottom: 4px;
+  background-color: var(--spotify-black);
 }
-.artist-details-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: auto;
-  background-color: var(--spotify-gray-dark);
+.artist-details hr {
+  border-top: 1px solid #444;
+  margin: 16px 0;
 }
-.artist-details-table tbody tr:nth-child(even) {
-  background-color: #2a2a2a;
+
+
+.artist-details-table tbody tr:nth-child(odd) {
+  background-color: var(--spotify-black);
 }
-.artist-details-table tbody tr:hover {
-  background-color: #333333;
-}
+
+
 .card-wrapper {
   position: relative;
   width: 550px;
@@ -688,8 +762,20 @@ circle:hover {
 .forward-button {
   right: -50px;
 }
+/*! Top Streamed Artist Halo Effect */
+.overlay {
+  fill: none;
+  stroke: gold;
+  stroke-width: 2px;
+  opacity: 0;
+}
 
 /*! Artist Card */
+.artist-card .years-on-chart {
+  margin: 4px 0 0 0;
+  color: #ccc;
+  font-size: 11px;
+}
 .artist-card {
   background-color: #212121;
   border: 1px solid #333;
@@ -698,17 +784,66 @@ circle:hover {
   margin-top: 36px;
   margin-bottom: 20px;
 }
-.artist-card h2 {
-  font-size: 28px;
-  margin-bottom: 4px;
-}
-.artist-card p {
-  color: #ccc;
-  font-size: 14px;
+.artist-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+  border: 2px solid #fff;
 }
 .artist-card hr {
-  margin: 20px 0;
+  border-top: 1px solid #444;
+  margin: 16px 0;
 }
+.artist-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.artist-card-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 16px;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.artist-card-header h2 {
+  margin: 0 0 4px 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  transition: transform 0.2s ease;
+}
+.artist-card-header p {
+  margin: 0;
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.artist-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px; 
+  margin-bottom: 16px;
+}
+
+.artist-meta .meta-field {
+  background: #222;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 10px;
+}
+
 
 /*! Tooltip */
 .network-tooltip {
@@ -726,6 +861,7 @@ circle:hover {
   max-width: 250px;
 }
 .network-tooltip-header {
+  font-size: 12px;
   font-weight: bold;
   margin-bottom: 4px;
   white-space: nowrap;
@@ -733,6 +869,7 @@ circle:hover {
   text-overflow: ellipsis;
 }
 .network-tooltip-row {
+  font-size: 10px;
   margin-bottom: 2px;
   white-space: nowrap;
   overflow: hidden;
@@ -860,6 +997,12 @@ circle:hover {
 }
 #info-panel #info-panel-close-btn {
   right: 12px;
+}
+#info-panel.instruction-view {
+  display: block;
+}
+.instruction-legend {
+  margin-top: 20px;
 }
 #info-panel.instruction-view button#instruction-minimize-btn {
   right: 12px;
