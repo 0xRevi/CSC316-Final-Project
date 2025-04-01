@@ -86,6 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     // Clear the inner HTML and reset the loaded flag.
                     comp.innerHTML = "";
                     comp.dataset.loaded = "false";
+                    // Removes network tooltip for bleeding over to other pages.
+                    d3.select("body").select("div.network-tooltip").style("opacity", 0);
                 }
             }
             else if (origin.item.id === "scrolly-chart") {
