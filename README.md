@@ -17,6 +17,30 @@ _NOTE_: All data uses the same collection period as defined in the [overview](#o
 -   **[Artist-level] Artist Collaboration Network**: Displays how artists are connected through their personalized networks among various years or across all years. Users can search for artists, and annotate up to 200 artists' bubbles which have the most streams for the specified time filter.
 -   **[Genre-level] Genre Bar Charts**: Displays how solo and collaborative artists fare, in proportion or absolute terms, within the top 10 genres. Users can filter by selected years to observe genre popularity and its relationships to the two groups of artists.
 
+
+## Non-obvious Features
+
+Beyond the main interactive visualizations, our project includes several subtle design features that enhance user experience and engagement:
+
+### Title Page Head Interaction
+
+- Artist images float around the screen and react to cursor movement. Hovering scales them up slightly, while getting close causes them to move away from the mouse.
+
+### Tooltips
+
+Each visualization provides dynamic tooltips to deliver deeper insight on hover:
+
+- **Beeswarm Plot**: Displays the song name, artist (with release year), and total number of streams.
+- **Artist Collaboration Network**: Shows artist name, stream-based rank, number of charting songs, and number of unique collaborators.
+- **Genre Bar Chart**: Displays the selected year, genre, and the solo/collab percentage.
+
+### Artist Network Toggle
+
+- The Artist Collaboration Network includes a toggle switch to alternate between:
+    - **Artist View**: Shows interactive artist bubbles with ranking and collaboration info.
+    - **Instruction View**: Provides a guide on how to navigate and interact with the network.
+
+
 ## Tools
 
 ### JavaScript Libraries
