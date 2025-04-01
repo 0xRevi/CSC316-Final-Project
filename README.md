@@ -58,6 +58,11 @@ The following include a a process to our data collection pipeline
 -   [Chosic Playlist Analyzer](https://www.chosic.com/spotify-playlist-analyzer/): Using the uploaded playlists from the Spotify Web SDK, Chosic analyzed these playlists to retrieve genre data where available for each song in each year group.
 -   [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html): Used to search for song previews by track name and artist. The API returns metadata including audio preview URLs which are then downloaded and stored locally.
 
+
+## Code Attribution
+
+We wrote all files in this repository as external libraries were imported via CDN links.
+
 ## Project Website
 
 -   TODO: Insert GitHub Pages link
