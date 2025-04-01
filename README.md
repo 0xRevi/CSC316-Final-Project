@@ -61,7 +61,7 @@ The following include a a process to our data collection pipeline
 
 ## Code Attribution
 
-We wrote all files in this repository, as external libraries were imported via CDN links.
+We wrote all files in this repository as external libraries were imported via CDN links.
 
 ## Project Website
 
