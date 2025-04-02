@@ -34,12 +34,14 @@ Each visualization provides dynamic tooltips to deliver deeper insight on hover:
 - **Artist Collaboration Network**: Shows artist name, stream-based rank, number of charting songs, and number of unique collaborators.
 - **Genre Bar Chart**: Displays the selected year, genre, and the solo/collab percentage.
 
-### Artist Network Toggle
+### Artist Network
 
 - The Artist Collaboration Network includes a toggle switch to alternate between:
     - **Artist View**: Shows interactive artist bubbles with ranking and collaboration info.
     - **Instruction View**: Provides a guide on how to navigate and interact with the network.
-
+- To search artists by name, users can type in the top-left text field and navigate up and down populated suggestions from fuse.js with arrow keys. Users can also press ENTER to submit and modify the view to their liking
+- The search history for arists follows more of a log format rather than a "search history". The histories are also specific to the filters we have (e.g. 2024 has a search history, 2023 has a distinct search history, etc.)
+- The "x" button in the artist view removes the currently focused artist from the view and reverts the view to the default (with zoom-to-fit)
 
 ## Tools
 
@@ -65,8 +67,8 @@ We wrote all files in this repository as external libraries were imported via CD
 
 ## Project Website
 
--   TODO: Insert GitHub Pages link
+-   [GitHub Pages Link](https://0xrevi.github.io/CSC316-Final-Project/)
 
 ## Screencast Video
 
--   TODO: Insert Screencast video link.
+-   [Screencast video](https://drive.google.com/file/d/1BOwsgRXNHcBh9QuI2WNdeYA-m1Y9g1-k/view?usp=sharing)
