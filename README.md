@@ -22,6 +22,9 @@ _NOTE_: All data uses the same collection period as defined in the [overview](#o
 
 Beyond the main interactive visualizations, our project includes several subtle design features that enhance user experience and engagement:
 
+### General Navigation
+- fullpage.js supports scroll, arrow key movement, pressing the space bar, or clicking on the right-aligned bubbles. For the aritst network visualization, certain interactions disabled scroll it is not the most feasible to use that to go through pages.
+
 ### Title Page Head Interaction
 
 - Artist images float around the screen and react to cursor movement. Hovering scales them up slightly, while getting close causes them to move away from the mouse.
