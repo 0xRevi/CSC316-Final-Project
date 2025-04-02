@@ -34,12 +34,14 @@ Each visualization provides dynamic tooltips to deliver deeper insight on hover:
 - **Artist Collaboration Network**: Shows artist name, stream-based rank, number of charting songs, and number of unique collaborators.
 - **Genre Bar Chart**: Displays the selected year, genre, and the solo/collab percentage.
 
-### Artist Network Toggle
+### Artist Network
 
 - The Artist Collaboration Network includes a toggle switch to alternate between:
     - **Artist View**: Shows interactive artist bubbles with ranking and collaboration info.
     - **Instruction View**: Provides a guide on how to navigate and interact with the network.
-
+- To search artists by name, users can type in the top-left text field and navigate up and down populated suggestions from fuse.js with arrow keys. Users can also press ENTER to submit and modify the view to their liking
+- The search history for arists follows more of a log format rather than a "search history". The histories are also specific to the filters we have (e.g. 2024 has a search history, 2023 has a distinct search history, etc.)
+- The "x" button in the artist view removes the currently focused artist from the view and reverts the view to the default (with zoom-to-fit)
 
 ## Tools
 
@@ -50,9 +52,8 @@ Each visualization provides dynamic tooltips to deliver deeper insight on hover:
 -   [fullpage.js (V4.0.20)](https://alvarotrigo.com/fullPage/#page2): Used to create a convenient and intuitive layout for webpage interactions when transitioning between our visualizations.
 
 ### APIs and Services
-
-The following include a a process to our data collection pipeline
-
+_NOTE_: Only required files after preprocessing were kepts for the visualizations. If original sources were no longer needed, they have been deleted.
+The following include a process to our data collection pipeline.
 -   [Spotify Charts Data](https://charts.spotify.com/home): CSV downloads from the specified interval in the Global Top 200 according to Spotify Track IDs.
 -   [Spotify Web SDK](https://developer.spotify.com/documentation/web-playback-sdk): Uploading playlists to Spotify, and downloading redirect URLs to artist display photos.
 -   [Chosic Playlist Analyzer](https://www.chosic.com/spotify-playlist-analyzer/): Using the uploaded playlists from the Spotify Web SDK, Chosic analyzed these playlists to retrieve genre data where available for each song in each year group.
@@ -61,12 +62,12 @@ The following include a a process to our data collection pipeline
 
 ## Code Attribution
 
-We wrote all files in this repository, as external libraries were imported via CDN links.
+We wrote all files in this repository as external libraries were imported via CDN links.
 
 ## Project Website
 
--   TODO: Insert GitHub Pages link
+-   [GitHub Pages Link](https://0xrevi.github.io/CSC316-Final-Project/)
 
 ## Screencast Video
 
--   TODO: Insert Screencast video link.
+-   [Screencast video](https://drive.google.com/file/d/1BOwsgRXNHcBh9QuI2WNdeYA-m1Y9g1-k/view?usp=sharing)

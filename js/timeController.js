@@ -82,7 +82,7 @@ class TimeController {
             this.currentAudio = null;
         }
 
-        const audioPath = `../data/song_preview/${topTrackID}.m4a`;
+        const audioPath = `./data/song_preview/${topTrackID}.m4a`;
 
         this.currentAudio = new Audio(audioPath);
         this.currentAudio.volume = 0.3;
