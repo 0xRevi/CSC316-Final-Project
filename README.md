@@ -1,6 +1,6 @@
 # CSC316-Final-Project
 
-**Team Name: Vis Virtuosos**
+**Team Name: Viz Virtuosos**
 
 ## Overview
 
