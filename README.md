@@ -52,9 +52,8 @@ Each visualization provides dynamic tooltips to deliver deeper insight on hover:
 -   [fullpage.js (V4.0.20)](https://alvarotrigo.com/fullPage/#page2): Used to create a convenient and intuitive layout for webpage interactions when transitioning between our visualizations.
 
 ### APIs and Services
-
-The following include a a process to our data collection pipeline
-
+_NOTE_: Only required files after preprocessing were kepts for the visualizations. If original sources were no longer needed, they have been deleted.
+The following include a process to our data collection pipeline.
 -   [Spotify Charts Data](https://charts.spotify.com/home): CSV downloads from the specified interval in the Global Top 200 according to Spotify Track IDs.
 -   [Spotify Web SDK](https://developer.spotify.com/documentation/web-playback-sdk): Uploading playlists to Spotify, and downloading redirect URLs to artist display photos.
 -   [Chosic Playlist Analyzer](https://www.chosic.com/spotify-playlist-analyzer/): Using the uploaded playlists from the Spotify Web SDK, Chosic analyzed these playlists to retrieve genre data where available for each song in each year group.
