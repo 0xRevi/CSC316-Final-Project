@@ -197,13 +197,6 @@ function initIntroAnimation() {
             x += item.vx;
             y += item.vy;
 
-            // stay within the view
-            // if (x < 0 || x > maxWidth - item.el.offsetWidth) {
-            //     item.vx *= -1;
-            // }
-            // if (y < 0 || y > maxHeight - item.el.offsetHeight) {
-            //     item.vy *= -1;
-            // }
 
             // Wrap-around for horizontal movement
             if (x < -item.el.offsetWidth) {
